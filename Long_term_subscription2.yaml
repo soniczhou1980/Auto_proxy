@@ -5,153 +5,144 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港|03|广港电信隧道, server: gzdx0.170203.xyz, port: 11660, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: hkmax03.170203.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 ♡建议每天更新订阅♡, server: gonggao03.beef1917.com, port: 53004, type: trojan, password: 349d8152-a309-4599-ba3c-bb9371293ece, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本IIJ-大阪, server: jp-h1.sshub.xyz, port: 443, type: trojan, password: 61605c66-6d41-4b9d-a496-b9898f3f95d0, sni: jp-h1.sshub.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港标准 IEPL 中继 7, server: pregzdata1.anihpvhiv2333.xyz, port: 11007, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇸🇬 新加坡|04直连, server: sg04.170203.xyz, port: 43543, type: vmess, uuid: 59c8a92c-40d0-4632-899c-442adac1d012, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg04.170203.xyz}}}
-  - {name: 🇸🇬 新加坡 實驗性C/01 x1.0, server: 183.245.146.6, port: 61001, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇦🇺 github.com/freefq - 澳大利亚Kooweerup Secondary College 15, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇰🇷 韩国02, server: k-r02.beef1917.com, port: 53022, type: trojan, password: 97856218-c1c1-4965-ab1a-f1411d601651, sni: niuniucloud.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JCBB_日本03【vip1】, server: cu.kapoknode.com, port: 25931, type: vmess, uuid: 6170f290-6747-4b0c-a4d8-9e171c8c1f69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
-  - {name: 🇺🇸 美国高级 IEPL 中继 2, server: preshdata1.anihpvhiv2333.xyz, port: 12022, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇯🇵 日本标准 IEPL 中继 8, server: preshdata1.anihpvhiv2333.xyz, port: 11018, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇰🇷 韩国-grpc-1, server: kp1.sshub.xyz, port: 10333, type: vmess, uuid: 61605c66-6d41-4b9d-a496-b9898f3f95d0, alterId: 0, cipher: auto, tls: true, servername: kp1.sshub.xyz, network: grpc, grpc-opts: {grpc-service-name: kp1.sshub.xyz}}
-  - {name: 🇭🇰 香港|06奈飞AZ广港电信隧道, server: gzdx1.170203.xyz, port: 28133, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: hkmax06.170203.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 165|台湾Hinet|x3.5, server: ctgz.hffb.xyz, port: 23697, type: trojan, password: 0a6c9b63-3a98-4a80-b956-db4a227910d4, sni: tw02.lgm88.top, skip-cert-verify: true}
-  - {name: 🇯🇵 日本09, server: jp9.tejiewm.com, port: 4104, type: vmess, uuid: 71ebc8a4-0334-41e6-ade4-4794f00bb1f7, alterId: 0, cipher: auto, tls: true, servername: jp9.tejiewm.com}
-  - {name: 🇭🇰 新加坡 04 | 深港专线, server: catnet-sg.gatknqh.cn, port: 11020, type: ss, cipher: aes-128-gcm, password: f3f23113-6bfe-4474-96c7-fe16d26dab6b}
-  - {name: 🇭🇰 香港牛腩 x1.0, server: 183.245.146.6, port: 12191, type: ss, cipher: aes-256-gcm, password: 93fa3eb3-7355-4989-872c-a0535ee28166}
-  - {name: 🇳🇱 快嘴科技@来源：kkzui.com_荷兰_117, server: 172.99.188.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 香港 07 | 深港专线, server: catnet-moble.gatknqh.cn, port: 11007, type: ss, cipher: aes-128-gcm, password: f3f23113-6bfe-4474-96c7-fe16d26dab6b}
-  - {name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其, server: catnet-moble.gatknqh.cn, port: 11047, type: ss, cipher: aes-128-gcm, password: 09a40621-1c88-482c-9d2a-2cb56a12dc77}
-  - {name: 🇩🇪 德国, server: download.microsoft.com.eejsq.xyz, port: 57381, type: ss, cipher: chacha20-ietf-poly1305, password: f8cd91e8-2bea-4a31-a422-5f957654eb26}
-  - {name: 🇸🇬 JCBB_ 新加坡 06【vip1 | 移动】, server: cm.kapoknode.com, port: 25957, type: vmess, uuid: 727d1ac0-cd19-401c-8030-6e93e0bba7f8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}}
-  - {name: 🇯🇵 美国|07广日电信隧道, server: gzdx0.170203.xyz, port: 54609, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: us07.170203.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港标准 IEPL 中继 8, server: pregzdata1.anihpvhiv2333.xyz, port: 11008, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇺🇸 美国直连 01, server: web-api.fhost222.xyz, port: 17004, type: trojan, password: e198c059-18e0-4c5e-8358-b4b7850d4d86, sni: ip3884414509.mobgslb.tbcache.com}
-  - {name: 🇸🇬 新加坡04|流媒体, server: s-g04.beef1917.com, port: 53042, type: trojan, password: a43f9663-8650-4ff5-b49b-86bc51d3c128, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】, server: cm.kapoknode.com, port: 25950, type: vmess, uuid: 6170f290-6747-4b0c-a4d8-9e171c8c1f69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}}
-  - {name: 🇺🇸 美国直连 03, server: web-api.fhost222.xyz, port: 17004, type: trojan, password: e198c059-18e0-4c5e-8358-b4b7850d4d86, sni: ip3884414509.mobgslb.tbcache.com}
-  - {name: 🇯🇵 日本03, server: j-p03.beef1917.com, port: 53048, type: trojan, password: 349d8152-a309-4599-ba3c-bb9371293ece, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|01|湘日联通隧道, server: jp.gilsfe.cn, port: 26923, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: jp01.170203.xyz, skip-cert-verify: true}
-  - {name: 🇦🇷 阿根廷标准 IEPL 中继 1, server: preshdata1.anihpvhiv2333.xyz, port: 11066, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: "🇯🇵 [ v1 ] 日本 | 06", server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30055, type: trojan, password: c6ce0f20-f887-467d-9372-ba293d9d29b4, sni: v1jp02.fuqiangren.com, skip-cert-verify: true}
-  - {name: انقضاء：نامحدود, server: ir2.archnet.cyou, port: 4646, type: trojan, password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c, sni: hozix.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 138|新加坡|lt线路|x2.5, server: 71.132.3.70, port: 14428, type: vmess, uuid: 0a6c9b63-3a98-4a80-b956-db4a227910d4, alterId: 0, cipher: auto, tls: true, servername: sg1.bwh088.xyz, network: ws, ws-opts: {path: /fg45, headers: {Host: sg1.bwh088.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore-2.sharecentre.online}}}
-  - {name: 🇺🇸 洛杉矶-2, server: la.sshub.xyz, port: 10032, type: vmess, uuid: 61605c66-6d41-4b9d-a496-b9898f3f95d0, alterId: 0, cipher: auto, tls: true, servername: la.sshub.xyz, network: grpc, grpc-opts: {grpc-service-name: la.sshub.xyz}}
-  - {name: 🇺🇸 快嘴科技@来源：kkzui.com_美国_70, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}}
-  - {name: 🇸🇬 新加坡-Trojan①, server: sg02.trojanyyds.xyz, port: 443, type: trojan, password: afee60fc-f88b-4a20-b85b-8f63296e7ac0, sni: sg02.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 _null_null->🇯🇵_JP_日本, server: 104.17.185.61, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp-gcore.sharecentre.online}}}
-  - {name: 🇺🇸 美国CloudFlare节点 14, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}}
-  - {name: 🇸🇬 美国US03丨断线就更新订阅, server: tt3.mybestjj.com, port: 443, type: vmess, uuid: b1dec44c-f262-4bcc-bb3d-7f91b5bda3ea, alterId: 0, cipher: auto, tls: true, servername: us1.mybestjj.com, network: ws, ws-opts: {path: /1654431, headers: {Host: us1.mybestjj.com}}}
-  - {name: "🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]", server: azsh01.1aba.cn, port: 18254, type: vmess, uuid: de6edb3b-34d2-42d0-a561-6e901bc5161e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}}
-  - {name: "🇨🇳 [Vip1] 台湾01[1.0 | 移动 | 流媒体解锁]", server: ydgy.fosi.hk, port: 57422, type: vmess, uuid: de6edb3b-34d2-42d0-a561-6e901bc5161e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: ydgy.fosi.hk}}}
-  - {name: "🇸🇬 新加坡05{优化2|V2ray}", server: sg1.awslcn.cc, port: 25252, type: vmess, uuid: afee60fc-f88b-4a20-b85b-8f63296e7ac0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.cc}}}
-  - {name: 🇭🇰 日本 05 | 深港专线, server: catnet-unicom.gatknqh.cn, port: 11015, type: ss, cipher: aes-128-gcm, password: f3f23113-6bfe-4474-96c7-fe16d26dab6b}
-  - {name: 🇺🇸 美国标准 IEPL 中继 2, server: preshdata1.anihpvhiv2333.xyz, port: 11022, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇺🇸 美国02|流媒体, server: u-s02.beef1917.com, port: 53030, type: trojan, password: 97856218-c1c1-4965-ab1a-f1411d601651, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 美國 B/01 x1.0, server: 183.245.7.181, port: 31001, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国02, server: us2.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, port: 11218, type: vmess, uuid: 71ebc8a4-0334-41e6-ade4-4794f00bb1f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
-  - {name: 🇸🇬 133|新加坡|lt线路|x2.5, server: 71.132.3.70, port: 18820, type: trojan, password: 0a6c9b63-3a98-4a80-b956-db4a227910d4, sni: sg1.bwh088.xyz, skip-cert-verify: true}
-  - {name: "🇩🇪 德国01{移动|V2ray}", server: cm1.awslcn.cc, port: 25241, type: vmess, uuid: afee60fc-f88b-4a20-b85b-8f63296e7ac0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}}
-  - {name: 🇯🇵 日本 A/02 x1.0, server: 183.245.146.6, port: 11002, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇯🇵 JCBB_日本03【vip1】 2, server: cu.kapoknode.com, port: 25931, type: vmess, uuid: 727d1ac0-cd19-401c-8030-6e93e0bba7f8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
-  - {name: 🇭🇰 香港01|高速|流媒体解锁|免流, server: hk1.czs1000.com, port: 80, type: vmess, uuid: 71ebc8a4-0334-41e6-ade4-4794f00bb1f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
-  - {name: "🇺🇸 [ v1 ] 美国 | 02", server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30048, type: vmess, uuid: c6ce0f20-f887-467d-9372-ba293d9d29b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: sh02.fastcloud.club}}}
-  - {name: 负载均衡节点—主, server: a015.zhuan99.men, port: 10015, type: trojan, password: a2de0dbe-0c64-4d27-b5ee-65e1514bbbd2, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇭🇰 香港01 中转¹, server: gateway.hk.532ae73c-35dd-4d84-b73f-5d1dcad3edcb.site, port: 55008, type: ss, cipher: aes-256-gcm, password: b470f87c-e6be-4f0f-aca2-67732f7518d6}
-  - {name: 🇯🇵 日本C|tg频道:@ripaojiedian, server: zxcvbn@os-tr-1.cats22.net, port: 443, type: trojan, password: !<str> 18844, sni: os-tr-1.cats22.net, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾03|流媒体, server: t-wn03.beef1917.com, port: 53056, type: trojan, password: a43f9663-8650-4ff5-b49b-86bc51d3c128, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 英国|01|广港电信隧道, server: gzdx0.170203.xyz, port: 60469, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: uk01.170203.xyz, skip-cert-verify: true}
-  - {name: 🇳🇱 Netherlands 1 🇳🇱, server: ir2.archnet.cyou, port: 6393, type: trojan, password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c, sni: https%3A%2F%2Fsnappfood.ir%2F, skip-cert-verify: true}
-  - {name: 🇸🇬 136|新加坡|dx线路|x2.5, server: 114.80.36.200, port: 43123, type: vmess, uuid: 0a6c9b63-3a98-4a80-b956-db4a227910d4, alterId: 0, cipher: auto, tls: true, servername: sg1.bwh088.xyz, network: ws, ws-opts: {path: /fg45, headers: {Host: sg1.bwh088.xyz}}}
-  - {name: "🇺🇸 [ T1 ] 美国 | 01", server: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 20224, type: trojan, password: c6ce0f20-f887-467d-9372-ba293d9d29b4, sni: v2usa01.fuqiangren.com, skip-cert-verify: true}
-  - {name: 🇲🇾 马来西亚标准 IEPL 中继 1, server: pregzdata1.anihpvhiv2333.xyz, port: 11085, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇹🇷 Turkey 1 🇹🇷, server: ir2.archnet.cyou, port: 4646, type: trojan, password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c, sni: hozix.xyz, skip-cert-verify: false}
-  - {name: "🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]", server: azsh01.1aba.cn, port: 54958, type: vmess, uuid: de6edb3b-34d2-42d0-a561-6e901bc5161e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}}
-  - {name: 🇲🇴 _MO_澳门, server: 45.64.22.55, port: 443, type: trojan, password: KLF0qOU0ZZGw5Tnu, sni: swift.protocolbuffer.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 IEPL/03 x3.0, server: 183.245.7.181, port: 21003, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13, server: cacerts.digicert.com, port: 2096, type: vmess, uuid: 2ae9835e-381b-4228-95df-bce39ee1a4eb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray.wefuckgfw.tk}}}
-  - {name: 🇻🇳 越南米粉 x1.0, server: 183.245.146.6, port: 12197, type: ss, cipher: aes-256-gcm, password: 93fa3eb3-7355-4989-872c-a0535ee28166}
-  - {name: 🇯🇵 日本A—专线主, server: a002.zhuan99.men, port: 10002, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3, server: sg3.linghun3.xyz, port: 40011, type: ss, cipher: aes-128-gcm, password: 0afbb72c-9145-41ca-a819-b0b031e7b2aa}
-  - {name: 🇭🇰 香港IPLC 07, server: video.tiktokuu.xyz, port: 656, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
+  - {name: 🇮🇳 印度, server: download.microsoft.com.eejsq.xyz, port: 39207, type: ss, cipher: chacha20-ietf-poly1305, password: f8cd91e8-2bea-4a31-a422-5f957654eb26}
+  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_2, server: gddx.fastestcloud.xyz, port: 43002, type: vmess, uuid: 4e789e22-b7d6-4c49-b2a7-afd0ba4ba267, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: gddx.fastestcloud.xyz}}}
+  - {name: 🇵🇭 菲律宾1, server: gy.linghun3.xyz, port: 40075, type: ss, cipher: aes-128-gcm, password: 0afbb72c-9145-41ca-a819-b0b031e7b2aa}
+  - {name: 🇸🇬 狮城01 中转¹, server: gateway.sg.532ae73c-35dd-4d84-b73f-5d1dcad3edcb.site, port: 55005, type: ss, cipher: aes-256-gcm, password: b470f87c-e6be-4f0f-aca2-67732f7518d6}
+  - {name: 🇬🇧 _CN_中国->🇬🇧_GB_英国, server: catnet-moble.gatknqh.cn, port: 11040, type: ss, cipher: aes-128-gcm, password: 09a40621-1c88-482c-9d2a-2cb56a12dc77}
+  - {name: "🇯🇵 [ 联通 ] 日本 · F1 | 04", server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30045, type: vmess, uuid: 56a5da3b-d52b-47c6-aba1-0d22aed293a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: sh02.fastcloud.club}}}
+  - {name: "🇭🇰 [Vip1]  香港08[1.0 | 移动 | 流媒体解锁]", server: gddx.fosi.hk, port: 41173, type: vmess, uuid: 01b6e61a-cb22-4f82-8373-bae29af39767, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: gddx.fosi.hk}}}
+  - {name: 🇭🇰 新加坡|06|奈飞广港电信隧道, server: gzdx1.170203.xyz, port: 14303, type: trojan, password: 453b3e31-e0db-4c4e-9cb5-55882e64aeca, sni: sgmax06.170203.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡沙嗲 x1.0, server: 183.245.146.6, port: 12194, type: ss, cipher: aes-256-gcm, password: 93fa3eb3-7355-4989-872c-a0535ee28166}
+  - {name: 🇦🇺 澳大利亚Kooweerup Secondary College 5, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: "🇵🇭 [ v1 ] 菲律宾 | 01", server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30053, type: trojan, password: 56a5da3b-d52b-47c6-aba1-0d22aed293a8, sni: v2phl01.fuqiangren.com, skip-cert-verify: true}
+  - {name: 🇨🇦 快嘴科技@来源：kkzui.com_加拿大_178, server: 149.56.132.41, port: 80, type: trojan, password: fafb4232-9659-4867-886d-e47f4bda283e, sni: ca1.trojanvh.xyz}
+  - {name: 🇺🇸 快嘴科技@来源：kkzui.com_美国_181, server: 104.16.32.14, port: 2086, type: vmess, uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: gcorehk.cloudflare.quest}}}
   - {name: 🇨🇳 台湾02|流媒体, server: t-wn02.beef1917.com, port: 53054, type: trojan, password: a43f9663-8650-4ff5-b49b-86bc51d3c128, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港魚蛋 x1.0, server: 183.245.146.6, port: 12193, type: ss, cipher: aes-256-gcm, password: 93fa3eb3-7355-4989-872c-a0535ee28166}
-  - {name: 🇬🇧 _GB_英国_1, server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 新加坡 | 01, server: sga-zf.clm10086.xyz, port: 13881, type: ss, cipher: chacha20-ietf-poly1305, password: 68b5fd7e-b8d5-439e-b72b-cba22c3f349c}
-  - {name: 距离下次重置剩余：12 天, server: gonggao01.beef1917.com, port: 53000, type: trojan, password: 97856218-c1c1-4965-ab1a-f1411d601651, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 🇫🇷 France 3 🇫🇷, server: ir2.archnet.cyou, port: 9997, type: vmess, uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c, alterId: 0, cipher: auto, tls: true, servername: hozix.xyz, network: ws, ws-opts: {path: /, headers: {Host: ir2.archnet.cyou}}}
-  - {name: 🇨🇳 台湾|01奈飞广日电信隧道3, server: gzdx0.170203.xyz, port: 10290, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: tw01.170203.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 新加坡|01|广港电信隧道4, server: gzdx1.170203.xyz, port: 21595, type: trojan, password: 453b3e31-e0db-4c4e-9cb5-55882e64aeca, sni: sg01.170203.xyz, skip-cert-verify: true}
+  - {name: 🇩🇪 德国巴伐利亚州纽伦堡Hetzner数据中心 11, server: 94.130.184.57, port: 80, type: vmess, uuid: c5e523e7-da73-40af-a4a9-c638720c30e1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇬🇧 快嘴科技@来源：kkzui.com_英国_193, server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 198.244.232.39}}}
+  - {name: 🇸🇬 新加坡标准 IEPL 中继 8, server: pregzdata1.anihpvhiv2333.xyz, port: 11038, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
+  - {name: 🇺🇸 美国2, server: us2.linghun3.xyz, port: 40007, type: ss, cipher: aes-128-gcm, password: 0afbb72c-9145-41ca-a819-b0b031e7b2aa}
+  - {name: "🇰🇷 韩国04{联通|V2ray}", server: cu.awslcn.cc, port: 25259, type: vmess, uuid: afee60fc-f88b-4a20-b85b-8f63296e7ac0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}}
+  - {name: 🇨🇳 台湾04|流媒体, server: t-wn04.beef1917.com, port: 53058, type: trojan, password: 965dec2a-c9d2-4e8b-bef0-8da13816e2dd, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: 🇩🇪 github.com/freefq - 德国巴伐利亚州纽伦堡Hetzner数据中心 17, server: 94.130.184.57, port: 80, type: vmess, uuid: c5e523e7-da73-40af-a4a9-c638720c30e1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]", server: azsh01.1aba.cn, port: 18254, type: vmess, uuid: 01b6e61a-cb22-4f82-8373-bae29af39767, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}}
+  - {name: 🇩🇪 JCBB_德国02【vip1】, server: cu.kapoknode.com, port: 25883, type: vmess, uuid: cdeb4630-1d05-4a28-9d56-2e82b7ecf460, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
+  - {name: 🇯🇵 github.com/Pawdroid - 日本东京Choopa数据中心 1, server: wide.wideladder.top, port: 10088, type: vmess, uuid: 8297c993-2c30-4448-aa4e-6283e271e413, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wide, headers: {Host: wide.wideladder.top}}}
+  - {name: "🇸🇬 新加坡01{优化2|V2ray}", server: sg1.awslcn.cc, port: 25245, type: vmess, uuid: afee60fc-f88b-4a20-b85b-8f63296e7ac0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.cc}}}
+  - {name: 🇺🇸 美国RF Engineering 20, server: 141.193.213.20, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇯🇵 _JP_日本_2, server: 85.208.108.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "🇺🇸 [ 直连] 美国 · U1 | 02", server: zzus01.fuqiangren.com, port: 20220, type: trojan, password: 56a5da3b-d52b-47c6-aba1-0d22aed293a8, sni: zzus01.fuqiangren.com, skip-cert-verify: true}
+  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡, server: catnet-sg.gatknqh.cn, port: 11017, type: ss, cipher: aes-128-gcm, password: 09a40621-1c88-482c-9d2a-2cb56a12dc77}
+  - {name: 🇭🇰 香港|06奈飞AZ广港电信隧道, server: gzdx1.170203.xyz, port: 28133, type: trojan, password: 453b3e31-e0db-4c4e-9cb5-55882e64aeca, sni: hkmax06.170203.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 實驗性C/04 x1.0, server: 183.245.146.6, port: 21001, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港慢|tg频道:@ripaojiedian, server: 02.kccic2pa.xyz, port: 50002, type: vmess, uuid: 535d8088-72f5-472e-a552-23112c26b558, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]", server: azsh01.1aba.cn, port: 54958, type: vmess, uuid: 01b6e61a-cb22-4f82-8373-bae29af39767, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}}
+  - {name: 🇭🇰 美国 04 | 深港专线, server: catnet-unicom.gatknqh.cn, port: 11026, type: ss, cipher: aes-128-gcm, password: f3f23113-6bfe-4474-96c7-fe16d26dab6b}
+  - {name: ♡备用网站：beef1917.com♡, server: gonggao02.beef1917.com, port: 53002, type: trojan, password: 97856218-c1c1-4965-ab1a-f1411d601651, sni: niuniucloud.xyz, skip-cert-verify: true}
   - {name: 🇺🇸 快嘴科技@来源：kkzui.com_美国_99, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nl-unlimitxxx, headers: {Host: v12a.toddns.tk}}}
-  - {name: 🇯🇵 日本直连 01, server: s1-api.zlhost.xyz, port: 17003, type: trojan, password: e198c059-18e0-4c5e-8358-b4b7850d4d86, sni: lop1waeq.v1d.szbdyd.com}
-  - {name: 🇯🇵 日本A—专线主 2, server: a002.zhuan99.men, port: 10002, type: trojan, password: a2de0dbe-0c64-4d27-b5ee-65e1514bbbd2, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇺🇸 美国得克萨斯州 29, server: 34.145.145.76, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 🇸🇬 新加坡OVH 33, server: 51.79.173.222, port: 443, type: vmess, uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 新加坡标准 IEPL 中继 3, server: pregzdata1.anihpvhiv2333.xyz, port: 11033, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇦🇺 澳大利亚标准 IEPL 中继 1, server: pregzdata1.anihpvhiv2333.xyz, port: 11069, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇨🇳 台湾03|流媒体 2, server: t-wn03.beef1917.com, port: 53056, type: trojan, password: 349d8152-a309-4599-ba3c-bb9371293ece, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 | 02, server: twb-zf.clm10086.xyz, port: 31882, type: ss, cipher: chacha20-ietf-poly1305, password: 68b5fd7e-b8d5-439e-b72b-cba22c3f349c}
-  - {name: 🇭🇰 香港直连 03, server: s3.zlhost.xyz, port: 17001, type: trojan, password: e198c059-18e0-4c5e-8358-b4b7850d4d86, sni: ip3884414509.mobgslb.tbcache.com}
-  - {name: 🇸🇬 10 新加坡 续费QQ:3590753579, server: 10.yun.tips, port: 30010, type: vmess, uuid: 8ca69e97-cbc6-30bf-9f02-e13d4f6d9452, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 JCBB_美国03【vip1】, server: cu.kapoknode.com, port: 25885, type: vmess, uuid: 727d1ac0-cd19-401c-8030-6e93e0bba7f8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
-  - {name: 🇭🇰 香港高级 IEPL 中继 3, server: pregzdata1.anihpvhiv2333.xyz, port: 12003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇭🇰 日本 02 | 深港专线, server: catnet-unicom.gatknqh.cn, port: 11012, type: ss, cipher: aes-128-gcm, password: f3f23113-6bfe-4474-96c7-fe16d26dab6b}
-  - {name: 🇸🇬 新加坡OVH 31, server: sg1-v.sshmax.xyz, port: 443, type: vmess, uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg1-v.sshmax.xyz}}}
-  - {name: "🇺🇸 [Vip1] 美国05[1.0  | 流媒体解锁]", server: A005.baipiaoxd.com, port: 17383, type: vmess, uuid: 91ae2723-77f4-4d66-b7b6-6a96a7406672, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: A005.baipiaoxd.com}}}
-  - {name: 🇰🇷 韩国01|高速, server: kr1.czs1000.com, port: 11219, type: vmess, uuid: 71ebc8a4-0334-41e6-ade4-4794f00bb1f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
-  - {name: 🇰🇷 韩国01, server: k-r01.beef1917.com, port: 53020, type: trojan, password: 97856218-c1c1-4965-ab1a-f1411d601651, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 负载均衡节点—主 2, server: a015.zhuan99.men, port: 10015, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇮🇷 _IR_伊朗, server: 37.152.187.109, port: 80, type: vmess, uuid: 86336e12-ac06-4604-8389-461485a845ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ray}}
-  - {name: 🇻🇳 越南玫瑰 x1.0, server: 183.245.146.6, port: 12206, type: ss, cipher: aes-256-gcm, password: 93fa3eb3-7355-4989-872c-a0535ee28166}
-  - {name: 🇭🇰 香港标准 IEPL 中继 2, server: pregzdata1.anihpvhiv2333.xyz, port: 11002, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇭🇰 香港IPLC 15, server: video.tiktokuu.xyz, port: 664, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
-  - {name: 🇭🇰 香港公仔餅 x1.0, server: 183.245.146.6, port: 12212, type: ss, cipher: aes-256-gcm, password: 93fa3eb3-7355-4989-872c-a0535ee28166}
-  - {name: 🇭🇰 香港 IEPL/02 x3.0, server: 183.245.7.181, port: 21002, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 10, server: cacerts.digicert.com, port: 2096, type: vmess, uuid: 2ae9835e-381b-4228-95df-bce39ee1a4eb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray.wefuckgfw.tk}}}
-  - {name: 🇬🇧 _GB_英国, server: 172.99.190.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 ♡建议每天更新订阅♡ 2, server: gonggao03.beef1917.com, port: 53004, type: trojan, password: 97856218-c1c1-4965-ab1a-f1411d601651, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本13|专线|流媒体解锁, server: jp13.czs1000.com, port: 11221, type: vmess, uuid: 71ebc8a4-0334-41e6-ade4-4794f00bb1f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
-  - {name: 🇯🇵 日本|02|直连2, server: jp02.170203.xyz, port: 23245, type: vmess, uuid: 59c8a92c-40d0-4632-899c-442adac1d012, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.170203.xyz}}}
-  - {name: 负载均衡节点—备, server: a016.zhuan99.men, port: 10016, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: "🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]", server: azsh01.1aba.cn, port: 37663, type: vmess, uuid: de6edb3b-34d2-42d0-a561-6e901bc5161e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}}
-  - {name: 🇺🇸 15 美国 续费QQ:3590753579, server: 15.yun.tips, port: 30015, type: vmess, uuid: 8ca69e97-cbc6-30bf-9f02-e13d4f6d9452, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 [ 直连] 日本 · U1 | 02", server: zzjp01.fuqiangren.com, port: 20221, type: trojan, password: c6ce0f20-f887-467d-9372-ba293d9d29b4, sni: zzjp01.fuqiangren.com, skip-cert-verify: true}
-  - {name: 🇺🇸 快嘴科技@来源：kkzui.com_美国_111, server: v47a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47a.toddns.tk}}}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 18, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v143a.toddns.tk}}}
-  - {name: 台灣 B/02 x1.0, server: 183.245.7.181, port: 41001, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾标准 IEPL 中继 3, server: pregzdata1.anihpvhiv2333.xyz, port: 11043, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇸🇬 新加坡 | 02, server: sgb-zf.clm10086.xyz, port: 13882, type: ss, cipher: chacha20-ietf-poly1305, password: 68b5fd7e-b8d5-439e-b72b-cba22c3f349c}
-  - {name: 🇨🇦 加拿大标准 IEPL 中继 2, server: preshdata1.anihpvhiv2333.xyz, port: 11065, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇯🇵 日本|02|奈飞广日电信隧道2, server: gzdx0.170203.xyz, port: 18801, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: jpmax02.170203.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_1, server: 26.kccic2pa.xyz, port: 50026, type: vmess, uuid: 535d8088-72f5-472e-a552-23112c26b558, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾高级 IEPL 中继 1, server: pregzdata1.anihpvhiv2333.xyz, port: 12041, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇺🇸 _US_美国, server: 38.68.134.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 宁夏|回国, server: 68.79.45.146, port: 3358, type: vmess, uuid: 71ebc8a4-0334-41e6-ade4-4794f00bb1f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
-  - {name: 🇹🇷 土耳其标准 IEPL 中继 1, server: prebjdata1.anihpvhiv2333.xyz, port: 11055, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇭🇰 美国|04RN广港电信隧道, server: gzdx0.170203.xyz, port: 10030, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: usmax040.170203.xyz, skip-cert-verify: true}
-  - {name: 🇲🇾 马来西亚, server: mlxy-zf.clm10086.xyz, port: 14881, type: ss, cipher: chacha20-ietf-poly1305, password: 68b5fd7e-b8d5-439e-b72b-cba22c3f349c}
-  - {name: 🇸🇪 瑞典IPLC 01, server: video.tiktokuu.xyz, port: 751, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
-  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇸🇬 新加坡02|流媒体, server: s-g02.beef1917.com, port: 53038, type: trojan, password: 965dec2a-c9d2-4e8b-bef0-8da13816e2dd, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国CloudFlare节点 36, server: sun.prxpro.cc, port: 80, type: vmess, uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sun.prxpro.cc}}}
+  - {name: 🇺🇸 13 美国 续费QQ:2187606906, server: 13.yun.tips, port: 48613, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com}
+  - {name: 🇰🇷 _KR_韩国_1, server: 43.201.47.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 【直连】狮城 - 4, server: 00000000000000000000000000000000000000000000000000000000000036a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 【直连】东京 - 4, server: 00000000000000000000000000000000000000000000000000000000000034a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 04 | 深港专线, server: catnet-moble.gatknqh.cn, port: 11004, type: ss, cipher: aes-128-gcm, password: f3f23113-6bfe-4474-96c7-fe16d26dab6b}
+  - {name: 🇯🇵 日本 實驗性C/01 x1.0, server: 183.245.146.6, port: 11001, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇨🇦 _CA_加拿大, server: 196.247.59.156, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 美国标准 IEPL 中继 3, server: preshdata1.anihpvhiv2333.xyz, port: 11023, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
+  - {name: "🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁] 2", server: azsh01.1aba.cn, port: 54958, type: vmess, uuid: 718bd614-113d-452e-ae48-9e464bf930b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}}
+  - {name: "🇲🇾 马来01{移动|V2ray}", server: cm1.awslcn.cc, port: 25228, type: vmess, uuid: afee60fc-f88b-4a20-b85b-8f63296e7ac0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}}
+  - {name: 🇭🇰 JCBB_香港04【vip2】, server: A002.baipiaoxd.com, port: 59408, type: vmess, uuid: 7491f632-3b4d-408d-a1de-049ee9604b88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: A002.baipiaoxd.com}}}
+  - {name: 🇭🇰 新加坡|03|奈飞海港电信隧道3, server: gzdx0.170203.xyz, port: 43643, type: trojan, password: 453b3e31-e0db-4c4e-9cb5-55882e64aeca, sni: 0a01f3ad01.170203.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 新加坡 03 | 深港专线, server: catnet-sg.gatknqh.cn, port: 11019, type: ss, cipher: aes-128-gcm, password: f3f23113-6bfe-4474-96c7-fe16d26dab6b}
+  - {name: 🇭🇰 香港05|高速|流媒体解锁, server: hk5.czs1000.com, port: 11221, type: vmess, uuid: 55e31cfe-21f5-44f8-989a-d8b4c3ecec34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
+  - {name: 🇺🇸 美国IPLC 07, server: video.tiktokuu.xyz, port: 697, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
+  - {name: 🇺🇸 _US_美国, server: us.playstone.info, port: 23443, type: trojan, password: Gl123qwe}
+  - {name: "🇭🇰 [vip1] 香港02[1.0 | 移动 | 流媒体解锁]", server: gddx.fosi.hk, port: 35499, type: vmess, uuid: 718bd614-113d-452e-ae48-9e464bf930b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: gddx.fosi.hk}}}
+  - {name: 🇭🇰 香港IPLC 06, server: video.tiktokuu.xyz, port: 655, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
+  - {name: 🇺🇸 _US_美国 2, server: 34.145.145.76, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v143a.toddns.tk}}}
+  - {name: 🇺🇸 JCBB_美国04【vip1】, server: cu.kapoknode.com, port: 25885, type: vmess, uuid: 7491f632-3b4d-408d-a1de-049ee9604b88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
+  - {name: 🇸🇬 新加坡03|流媒体, server: s-g03.beef1917.com, port: 53040, type: trojan, password: 965dec2a-c9d2-4e8b-bef0-8da13816e2dd, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 168|台湾Hinet|x3.5, server: ctgz.hffb.xyz, port: 29185, type: vmess, uuid: 0a6c9b63-3a98-4a80-b956-db4a227910d4, alterId: 0, cipher: auto, tls: true, servername: tw02.lgm88.top, network: ws, ws-opts: {path: /jfg645, headers: {Host: tw02.lgm88.top}}}
   - {name: 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国, server: 203.30.190.191, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇬🇧 JCBB_英国02【vip1】, server: cu.kapoknode.com, port: 25884, type: vmess, uuid: 6170f290-6747-4b0c-a4d8-9e171c8c1f69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
-  - {name: 🇺🇸 美国IPLC 02, server: video.tiktokuu.xyz, port: 692, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
-  - {name: 🇭🇰 香港IPLC 05, server: video.tiktokuu.xyz, port: 654, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
-  - {name: 距离下次重置剩余：11 天, server: gonggao01.beef1917.com, port: 53000, type: trojan, password: a43f9663-8650-4ff5-b49b-86bc51d3c128, sni: niuniucloud.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 08 日本 续费QQ:3590753579, server: 08.yun.tips, port: 30008, type: vmess, uuid: 8ca69e97-cbc6-30bf-9f02-e13d4f6d9452, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡, server: download.microsoft.com.eejsq.xyz, port: 13921, type: ss, cipher: chacha20-ietf-poly1305, password: f8cd91e8-2bea-4a31-a422-5f957654eb26}
-  - {name: 🇭🇰 新加坡|03|奈飞广港电信隧道2, server: gzdx0.170203.xyz, port: 33923, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: 0a01f3ad01.170203.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港IPLC 14, server: video.tiktokuu.xyz, port: 663, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
-  - {name: 🇨🇳 150|台湾|x3.0, server: ctgz.hffb.xyz, port: 17172, type: vmess, uuid: 0a6c9b63-3a98-4a80-b956-db4a227910d4, alterId: 0, cipher: auto, tls: true, servername: stw.bwh088.xyz, network: ws, ws-opts: {path: /kmf733, headers: {Host: stw.beh088.xyz}}}
+  - {name: 🇺🇸 github.com/Pawdroid - 美国CloudFlare节点 32, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: xjp4h.mayaa.ml}}}
+  - {name: "🇬🇧 [Vip1] 英国01[1.0]", server: gddx.fastestcloud.xyz, port: 49000, type: vmess, uuid: 718bd614-113d-452e-ae48-9e464bf930b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: gddx.fastestcloud.xyz}}}
+  - {name: 🇭🇰 美国|01奈飞广港电信隧道2, server: gzdx0.170203.xyz, port: 65057, type: trojan, password: 453b3e31-e0db-4c4e-9cb5-55882e64aeca, sni: us01.170203.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港IPLC 13, server: video.tiktokuu.xyz, port: 662, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
+  - {name: 🇮🇳 github.com/freefq - 印度  35, server: 68.183.83.94, port: 59477, type: vmess, uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 68.183.83.94}}}
+  - {name: 🇺🇸 美国A专线备, server: a010.zhuan99.men, port: 10010, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: false}
+  - {name: 🇮🇪 【直连】爱尔兰 - 随机端口 - 5, server: 00000000000000000000000000000000000000000000000000000000000015a.node-for-bigairport.win, port: 15092, type: vmess, uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 10, server: 190.93.244.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
   - {name: 🇬🇧 英国-Trojan, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: afee60fc-f88b-4a20-b85b-8f63296e7ac0, sni: uk01.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇬🇧 英国标准 IEPL 中继 2, server: prebjdata1.anihpvhiv2333.xyz, port: 11059, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
-  - {name: 🇰🇷 韩国 | 01, server: kra-zf.clm10086.xyz, port: 23881, type: ss, cipher: chacha20-ietf-poly1305, password: 68b5fd7e-b8d5-439e-b72b-cba22c3f349c}
-  - {name: 台灣 A/03 x1.0, server: 183.245.146.6, port: 41001, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港|02奈飞AZ广港电信隧道, server: gzdx1.170203.xyz, port: 15612, type: trojan, password: 59c8a92c-40d0-4632-899c-442adac1d012, sni: hkmax02.170203.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 香港A, server: h-k01.niuniucloud.xyz, port: 443, type: vmess, uuid: 97856218-c1c1-4965-ab1a-f1411d601651, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /2, headers: {Host: db.cfyxdb.xyz}}}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  37, server: jp-h1.sshub.xyz, port: 443, type: trojan, password: 61605c66-6d41-4b9d-a496-b9898f3f95d0}
+  - {name: 🇯🇵 日本IPLC 05, server: video.tiktokuu.xyz, port: 675, type: ss, cipher: rc4-md5, password: BoomCloud2020, plugin: obfs, plugin-opts: {mode: http, host: 6544-5lUpS8zk54.download.microsoft.com}}
+  - {name: 🇷🇺 俄罗斯标准 IEPL 中继 1, server: prebjdata1.anihpvhiv2333.xyz, port: 11050, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
+  - {name: 🇯🇵 07 日本 续费QQ:2187606906, server: 07.yun.tips, port: 48607, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com}
+  - {name: "🇸🇬 新加坡04{优化2|V2ray}", server: sg1.awslcn.cc, port: 25246, type: vmess, uuid: afee60fc-f88b-4a20-b85b-8f63296e7ac0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.cc}}}
+  - {name: 泰國 C/01 x1.0, server: 183.245.146.6, port: 61003, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇦🇷 阿根廷1, server: gy.linghun3.xyz, port: 40063, type: ss, cipher: aes-128-gcm, password: 0afbb72c-9145-41ca-a819-b0b031e7b2aa}
+  - {name: 🇸🇬 新加坡 IEPL/02 x3.0, server: 183.245.7.181, port: 61002, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本快|tg频道:@ripaojiedian, server: zxcvbn@teradacyou.mike22.net, port: 443, type: trojan, password: !<str> 18844, sni: teradacyou.mike22.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 37, server: ads.phonepe.com, port: 80, type: vmess, uuid: 11288503-4f79-4659-a033-bf538ab14499, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wafa/, headers: {Host: lg.iwafa.tk}}}
+  - {name: 🇸🇬 JCBB_ 新加坡 06【vip1 | 联通】, server: cu.kapoknode.com, port: 25957, type: vmess, uuid: 7491f632-3b4d-408d-a1de-049ee9604b88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
+  - {name: 🇸🇬 新加坡A—专线主, server: a003.zhuan99.men, port: 10003, type: trojan, password: a2de0dbe-0c64-4d27-b5ee-65e1514bbbd2, sni: zhu.99ton.men, skip-cert-verify: false}
+  - {name: 🇺🇸 美国CloudFlare节点 24, server: 198.41.212.123, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇯🇵 JCBB_日本04【vip1】, server: cu.kapoknode.com, port: 25931, type: vmess, uuid: cdeb4630-1d05-4a28-9d56-2e82b7ecf460, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
+  - {name: 🇫🇷 法国1, server: gy.linghun3.xyz, port: 40073, type: ss, cipher: aes-128-gcm, password: 0afbb72c-9145-41ca-a819-b0b031e7b2aa}
+  - {name: 🇪🇸 西班牙标准 IEPL 中继 1, server: prebjdata1.anihpvhiv2333.xyz, port: 11054, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
+  - {name: 🇸🇬 新加坡01|流媒体, server: s-g01.beef1917.com, port: 53036, type: trojan, password: 965dec2a-c9d2-4e8b-bef0-8da13816e2dd, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 香港高级 IEPL 中继 1, server: pregzdata1.anihpvhiv2333.xyz, port: 12001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
+  - {name: 🇯🇵 _JP_日本_1, server: 85.208.108.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇸🇬 新加坡A专线备, server: a009.zhuan99.men, port: 10009, type: trojan, password: a2de0dbe-0c64-4d27-b5ee-65e1514bbbd2, sni: zhu.99ton.men, skip-cert-verify: false}
+  - {name: 🇺🇸 美国RF Engineering 4, server: 141.193.213.10, port: 443, type: vmess, uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us.awsbest.com}}}
+  - {name: "🇨🇳 本站遵循中国法律,禁政治/辱华/轮子/反动", server: b.yun.tips, port: 10086, type: ss, cipher: chacha20-ietf, password: K98a7P}
+  - {name: 🇯🇵 美国|03广日电信隧道, server: gzdx0.170203.xyz, port: 24479, type: trojan, password: 453b3e31-e0db-4c4e-9cb5-55882e64aeca, sni: us03.170203.xyz, skip-cert-verify: true}
+  - {name: 🇻🇳 越南, server: download.microsoft.com.eejsq.xyz, port: 23735, type: ss, cipher: chacha20-ietf-poly1305, password: f8cd91e8-2bea-4a31-a422-5f957654eb26}
+  - {name: "🇰🇷 韩国01{移动|V2ray}", server: cm1.awslcn.cc, port: 25218, type: vmess, uuid: afee60fc-f88b-4a20-b85b-8f63296e7ac0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}}
+  - {name: 🇸🇬 新加坡03|流媒体 2, server: s-g03.beef1917.com, port: 53040, type: trojan, password: a43f9663-8650-4ff5-b49b-86bc51d3c128, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: "🇺🇸 [ T1 ] 美国 | 01", server: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 20224, type: trojan, password: 56a5da3b-d52b-47c6-aba1-0d22aed293a8, sni: v2usa01.fuqiangren.com, skip-cert-verify: true}
+  - {name: 🇰🇷 【直连】首尔 - 2, server: 00000000000000000000000000000000000000000000000000000000000028a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡|02|奈飞广日电信隧道2, server: gzdx1.170203.xyz, port: 14733, type: trojan, password: 453b3e31-e0db-4c4e-9cb5-55882e64aeca, sni: sgmax02.170203.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 日本01, server: j-p01.beef1917.com, port: 53044, type: trojan, password: a43f9663-8650-4ff5-b49b-86bc51d3c128, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 【直连】狮城 - 3, server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡 A/02 x1.0, server: 183.245.146.6, port: 61002, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 距离下次重置剩余：12 天, server: gonggao01.beef1917.com, port: 53000, type: trojan, password: 965dec2a-c9d2-4e8b-bef0-8da13816e2dd, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 香港A 2, server: h-k01.niuniucloud.xyz, port: 443, type: vmess, uuid: 965dec2a-c9d2-4e8b-bef0-8da13816e2dd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /2, headers: {Host: db.cfyxdb.xyz}}}
+  - {name: 🇨🇳 台湾02, server: tw2.czs1000.com, port: 1001, type: vmess, uuid: 55e31cfe-21f5-44f8-989a-d8b4c3ecec34, alterId: 0, cipher: auto, tls: true, servername: tw2.czs1000.com}
+  - {name: 🇯🇵 日本|03|湘日联通隧道2, server: jp.gilsfe.cn, port: 25757, type: trojan, password: 453b3e31-e0db-4c4e-9cb5-55882e64aeca, sni: jpmax03.170203.xyz, skip-cert-verify: true}
+  - {name: "🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]", server: azsh01.1aba.cn, port: 37663, type: vmess, uuid: 72749c5d-fd01-4e1d-987d-2b6a2f994038, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}}
+  - {name: 🇭🇰 香港 IEPL/03 x3.0, server: 183.245.7.181, port: 21003, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本高级 IEPL 中继 2, server: preshdata1.anihpvhiv2333.xyz, port: 12012, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
+  - {name: 🇺🇸 美国直连 03, server: web-api.fhost222.xyz, port: 17004, type: trojan, password: e198c059-18e0-4c5e-8358-b4b7850d4d86, sni: ip3884414509.mobgslb.tbcache.com}
+  - {name: 🇷🇺 俄罗斯-Trojan, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: afee60fc-f88b-4a20-b85b-8f63296e7ac0, sni: ru01.trojanyyds.xyz, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国|01直连, server: kr01.170203.xyz, port: 45453, type: vmess, uuid: 453b3e31-e0db-4c4e-9cb5-55882e64aeca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr01.170203.xyz}}}
+  - {name: 🇨🇳 JCBB_台湾01【vip1 |  移动】, server: cm.kapoknode.com, port: 25955, type: vmess, uuid: 7491f632-3b4d-408d-a1de-049ee9604b88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}}
+  - {name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 🇬🇧 _GB_英国_1, server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 🇭🇰 香港车仔面 x1.0, server: 183.245.146.6, port: 12208, type: ss, cipher: aes-256-gcm, password: 93fa3eb3-7355-4989-872c-a0535ee28166}
+  - {name: "🇯🇵 日本05{优化1|V2ray}", server: jp1.awslcn.cc, port: 25219, type: vmess, uuid: afee60fc-f88b-4a20-b85b-8f63296e7ac0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp1.awslcn.cc}}}
+  - {name: 🇺🇸 美国03|高速|流媒体解锁, server: 54.197.188.117, port: 11219, type: vmess, uuid: 55e31cfe-21f5-44f8-989a-d8b4c3ecec34, alterId: 0, cipher: auto, tls: true, servername: tls.czs1000.com}
+  - {name: 🇨🇳 台湾A专线备, server: a012.zhuan99.men, port: 10012, type: trojan, password: a2de0dbe-0c64-4d27-b5ee-65e1514bbbd2, sni: zhu.99ton.men, skip-cert-verify: false}
+  - {name: 🇩🇪 JCBB_德国01【vip1】, server: cu.kapoknode.com, port: 25883, type: vmess, uuid: 7491f632-3b4d-408d-a1de-049ee9604b88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
+  - {name: 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】, server: cm.kapoknode.com, port: 25950, type: vmess, uuid: cdeb4630-1d05-4a28-9d56-2e82b7ecf460, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}}
+  - {name: 🇯🇵 _null_null->🇯🇵_JP_日本, server: 104.17.185.61, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp-gcore.sharecentre.online}}}
+  - {name: 🇺🇸 JCBB_美国04【vip1】 2, server: cu.kapoknode.com, port: 25885, type: vmess, uuid: cdeb4630-1d05-4a28-9d56-2e82b7ecf460, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}}
+  - {name: 🇨🇳 JCBB_台湾01【vip1 |  移动】 2, server: cm.kapoknode.com, port: 25955, type: vmess, uuid: 13b49e4e-210c-4927-8773-183ec521245e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}}
+  - {name: 🇸🇬 新加坡2|tg频道:@ripaojiedian, server: 18.142.183.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇳🇱 Netherlands 2 🇳🇱, server: ir2.archnet.cyou, port: 4650, type: ss, cipher: aes-256-gcm, password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c}
+  - {name: 距离下次重置剩余：12 天 2, server: gonggao01.beef1917.com, port: 53000, type: trojan, password: 97856218-c1c1-4965-ab1a-f1411d601651, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 香港标准 IEPL 中继 7, server: pregzdata1.anihpvhiv2333.xyz, port: 11007, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 396db8f541.douyincdn.com}}
+  - {name: 美國 B/01 x1.0, server: 183.245.7.181, port: 31001, type: trojan, password: 93fa3eb3-7355-4989-872c-a0535ee28166, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国02|流媒体, server: u-s02.beef1917.com, port: 53030, type: trojan, password: a43f9663-8650-4ff5-b49b-86bc51d3c128, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 16 美国 续费QQ:2187606906, server: 16.yun.tips, port: 48616, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com}
+  - {name: 🇸🇬 新加坡01|流媒体 2, server: s-g01.beef1917.com, port: 53036, type: trojan, password: a43f9663-8650-4ff5-b49b-86bc51d3c128, sni: niuniucloud.xyz, skip-cert-verify: true}
+  - {name: 负载均衡节点—备, server: a016.zhuan99.men, port: 10016, type: trojan, password: c08f1ece-1731-45c3-9c05-0fc47a6dc0a6, sni: zhu.99ton.men, skip-cert-verify: false}
+  - {name: 🇯🇵 _JP_日本, server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 31, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -170,459 +161,432 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇭🇰 香港|03|广港电信隧道
-      - 🇸🇬 ♡建议每天更新订阅♡
-      - 🇯🇵 日本IIJ-大阪
-      - 🇭🇰 香港标准 IEPL 中继 7
-      - 🇸🇬 新加坡|04直连
-      - 🇸🇬 新加坡 實驗性C/01 x1.0
-      - 🇦🇺 github.com/freefq - 澳大利亚Kooweerup Secondary College 15
-      - 🇰🇷 韩国02
-      - 🇯🇵 JCBB_日本03【vip1】
-      - 🇺🇸 美国高级 IEPL 中继 2
-      - 🇯🇵 日本标准 IEPL 中继 8
-      - 🇰🇷 韩国-grpc-1
-      - 🇭🇰 香港|06奈飞AZ广港电信隧道
-      - 🇨🇳 165|台湾Hinet|x3.5
-      - 🇯🇵 日本09
-      - 🇭🇰 新加坡 04 | 深港专线
-      - 🇭🇰 香港牛腩 x1.0
-      - 🇳🇱 快嘴科技@来源：kkzui.com_荷兰_117
-      - 🇭🇰 香港 07 | 深港专线
-      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-      - 🇩🇪 德国
-      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 移动】
-      - 🇯🇵 美国|07广日电信隧道
-      - 🇭🇰 香港标准 IEPL 中继 8
-      - 🇺🇸 美国直连 01
-      - 🇸🇬 新加坡04|流媒体
-      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
-      - 🇺🇸 美国直连 03
-      - 🇯🇵 日本03
-      - 🇯🇵 日本|01|湘日联通隧道
-      - 🇦🇷 阿根廷标准 IEPL 中继 1
-      - 🇯🇵 [ v1 ] 日本 | 06
-      - انقضاء：نامحدود
-      - 🇸🇬 138|新加坡|lt线路|x2.5
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇺🇸 洛杉矶-2
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_70
-      - 🇸🇬 新加坡-Trojan①
-      - 🇯🇵 _null_null->🇯🇵_JP_日本
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇸🇬 美国US03丨断线就更新订阅
-      - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
-      - 🇨🇳 [Vip1] 台湾01[1.0 | 移动 | 流媒体解锁]
-      - 🇸🇬 新加坡05{优化2|V2ray}
-      - 🇭🇰 日本 05 | 深港专线
-      - 🇺🇸 美国标准 IEPL 中继 2
-      - 🇺🇸 美国02|流媒体
-      - 美國 B/01 x1.0
-      - 🇺🇸 美国02
-      - 🇸🇬 133|新加坡|lt线路|x2.5
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇯🇵 日本 A/02 x1.0
-      - 🇯🇵 JCBB_日本03【vip1】 2
-      - 🇭🇰 香港01|高速|流媒体解锁|免流
-      - 🇺🇸 [ v1 ] 美国 | 02
-      - 负载均衡节点—主
-      - 🇭🇰 香港01 中转¹
-      - 🇯🇵 日本C|tg频道:@ripaojiedian
-      - 🇨🇳 台湾03|流媒体
-      - 🇭🇰 英国|01|广港电信隧道
-      - 🇳🇱 Netherlands 1 🇳🇱
-      - 🇸🇬 136|新加坡|dx线路|x2.5
-      - 🇺🇸 [ T1 ] 美国 | 01
-      - 🇲🇾 马来西亚标准 IEPL 中继 1
-      - 🇹🇷 Turkey 1 🇹🇷
-      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
-      - 🇲🇴 _MO_澳门
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - 🇻🇳 越南米粉 x1.0
-      - 🇯🇵 日本A—专线主
-      - 🇸🇬 新加坡3
-      - 🇭🇰 香港IPLC 07
+      - 🇮🇳 印度
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇭 菲律宾1
+      - 🇸🇬 狮城01 中转¹
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇯🇵 [ 联通 ] 日本 · F1 | 04
+      - 🇭🇰 [Vip1]  香港08[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 新加坡|06|奈飞广港电信隧道
+      - 🇸🇬 新加坡沙嗲 x1.0
+      - 🇦🇺 澳大利亚Kooweerup Secondary College 5
+      - 🇵🇭 [ v1 ] 菲律宾 | 01
+      - 🇨🇦 快嘴科技@来源：kkzui.com_加拿大_178
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_181
       - 🇨🇳 台湾02|流媒体
-      - 🇭🇰 香港魚蛋 x1.0
-      - 🇬🇧 _GB_英国_1
-      - 🇸🇬 新加坡 | 01
-      - 距离下次重置剩余：12 天
-      - 🇫🇷 France 3 🇫🇷
-      - 🇨🇳 台湾|01奈飞广日电信隧道3
+      - 🇭🇰 新加坡|01|广港电信隧道4
+      - 🇩🇪 德国巴伐利亚州纽伦堡Hetzner数据中心 11
+      - 🇬🇧 快嘴科技@来源：kkzui.com_英国_193
+      - 🇸🇬 新加坡标准 IEPL 中继 8
+      - 🇺🇸 美国2
+      - 🇰🇷 韩国04{联通|V2ray}
+      - 🇨🇳 台湾04|流媒体
+      - 🇩🇪 github.com/freefq - 德国巴伐利亚州纽伦堡Hetzner数据中心 17
+      - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇯🇵 github.com/Pawdroid - 日本东京Choopa数据中心 1
+      - 🇸🇬 新加坡01{优化2|V2ray}
+      - 🇺🇸 美国RF Engineering 20
+      - 🇯🇵 _JP_日本_2
+      - 🇺🇸 [ 直连] 美国 · U1 | 02
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+      - 🇭🇰 香港|06奈飞AZ广港电信隧道
+      - 🇭🇰 香港 實驗性C/04 x1.0
+      - 🇭🇰 香港慢|tg频道:@ripaojiedian
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
+      - 🇭🇰 美国 04 | 深港专线
+      - ♡备用网站：beef1917.com♡
       - 🇺🇸 快嘴科技@来源：kkzui.com_美国_99
-      - 🇯🇵 日本直连 01
-      - 🇯🇵 日本A—专线主 2
-      - 🇺🇸 美国得克萨斯州 29
-      - 🇸🇬 新加坡OVH 33
-      - 🇸🇬 新加坡标准 IEPL 中继 3
-      - 🇦🇺 澳大利亚标准 IEPL 中继 1
-      - 🇨🇳 台湾03|流媒体 2
-      - 🇨🇳 台湾 | 02
-      - 🇭🇰 香港直连 03
-      - 🇸🇬 10 新加坡 续费QQ:3590753579
-      - 🇺🇸 JCBB_美国03【vip1】
-      - 🇭🇰 香港高级 IEPL 中继 3
-      - 🇭🇰 日本 02 | 深港专线
-      - 🇸🇬 新加坡OVH 31
-      - 🇺🇸 [Vip1] 美国05[1.0  | 流媒体解锁]
-      - 🇰🇷 韩国01|高速
-      - 🇰🇷 韩国01
-      - 负载均衡节点—主 2
-      - 🇮🇷 _IR_伊朗
-      - 🇻🇳 越南玫瑰 x1.0
-      - 🇭🇰 香港标准 IEPL 中继 2
-      - 🇭🇰 香港IPLC 15
-      - 🇭🇰 香港公仔餅 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇺🇸 美国CloudFlare公司CDN节点 10
-      - 🇬🇧 _GB_英国
-      - 🇸🇬 ♡建议每天更新订阅♡ 2
-      - 🇯🇵 日本13|专线|流媒体解锁
-      - 🇯🇵 日本|02|直连2
-      - 负载均衡节点—备
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
-      - 🇺🇸 15 美国 续费QQ:3590753579
-      - 🇯🇵 [ 直连] 日本 · U1 | 02
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_111
-      - 🇺🇸 美国CloudFlare公司CDN节点 18
-      - 台灣 B/02 x1.0
-      - 🇨🇳 台湾标准 IEPL 中继 3
-      - 🇸🇬 新加坡 | 02
-      - 🇨🇦 加拿大标准 IEPL 中继 2
-      - 🇯🇵 日本|02|奈飞广日电信隧道2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳 台湾高级 IEPL 中继 1
+      - 🇺🇸 美国CloudFlare节点 36
+      - 🇺🇸 13 美国 续费QQ:2187606906
+      - 🇰🇷 _KR_韩国_1
+      - 🇸🇬 【直连】狮城 - 4
+      - 🇯🇵 【直连】东京 - 4
+      - 🇭🇰 香港 04 | 深港专线
+      - 🇯🇵 日本 實驗性C/01 x1.0
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 美国标准 IEPL 中继 3
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁] 2
+      - 🇲🇾 马来01{移动|V2ray}
+      - 🇭🇰 JCBB_香港04【vip2】
+      - 🇭🇰 新加坡|03|奈飞海港电信隧道3
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇭🇰 香港05|高速|流媒体解锁
+      - 🇺🇸 美国IPLC 07
       - 🇺🇸 _US_美国
-      - 🇨🇳 宁夏|回国
-      - 🇹🇷 土耳其标准 IEPL 中继 1
-      - 🇭🇰 美国|04RN广港电信隧道
-      - 🇲🇾 马来西亚
-      - 🇸🇪 瑞典IPLC 01
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇸🇬 新加坡02|流媒体
+      - 🇭🇰 [vip1] 香港02[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 香港IPLC 06
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
+      - 🇺🇸 JCBB_美国04【vip1】
+      - 🇸🇬 新加坡03|流媒体
+      - 🇨🇳 168|台湾Hinet|x3.5
       - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
-      - 🇬🇧 JCBB_英国02【vip1】
-      - 🇺🇸 美国IPLC 02
-      - 🇭🇰 香港IPLC 05
-      - 距离下次重置剩余：11 天
-      - 🇯🇵 08 日本 续费QQ:3590753579
-      - 🇸🇬 新加坡
-      - 🇭🇰 新加坡|03|奈飞广港电信隧道2
-      - 🇭🇰 香港IPLC 14
-      - 🇨🇳 150|台湾|x3.0
+      - 🇺🇸 github.com/Pawdroid - 美国CloudFlare节点 32
+      - 🇬🇧 [Vip1] 英国01[1.0]
+      - 🇭🇰 美国|01奈飞广港电信隧道2
+      - 🇭🇰 香港IPLC 13
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇺🇸 美国A专线备
+      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 10
       - 🇬🇧 英国-Trojan
-      - 🇬🇧 英国标准 IEPL 中继 2
-      - 🇰🇷 韩国 | 01
-      - 台灣 A/03 x1.0
-      - 🇭🇰 香港|02奈飞AZ广港电信隧道
+      - 🇭🇰 香港A
+      - 🇨🇦 github.com/freefq - 加拿大  37
+      - 🇯🇵 日本IPLC 05
+      - 🇷🇺 俄罗斯标准 IEPL 中继 1
+      - 🇯🇵 07 日本 续费QQ:2187606906
+      - 🇸🇬 新加坡04{优化2|V2ray}
+      - 泰國 C/01 x1.0
+      - 🇦🇷 阿根廷1
+      - 🇸🇬 新加坡 IEPL/02 x3.0
+      - 🇯🇵 日本快|tg频道:@ripaojiedian
+      - 🇺🇸 美国CloudFlare公司CDN节点 37
+      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 联通】
+      - 🇸🇬 新加坡A—专线主
+      - 🇺🇸 美国CloudFlare节点 24
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇫🇷 法国1
+      - 🇪🇸 西班牙标准 IEPL 中继 1
+      - 🇸🇬 新加坡01|流媒体
+      - 🇭🇰 香港高级 IEPL 中继 1
+      - 🇯🇵 _JP_日本_1
+      - 🇸🇬 新加坡A专线备
+      - 🇺🇸 美国RF Engineering 4
+      - 🇨🇳 本站遵循中国法律,禁政治/辱华/轮子/反动
+      - 🇯🇵 美国|03广日电信隧道
+      - 🇻🇳 越南
+      - 🇰🇷 韩国01{移动|V2ray}
+      - 🇸🇬 新加坡03|流媒体 2
+      - 🇺🇸 [ T1 ] 美国 | 01
+      - 🇰🇷 【直连】首尔 - 2
+      - 🇸🇬 新加坡|02|奈飞广日电信隧道2
+      - 🇯🇵 日本01
+      - 🇸🇬 【直连】狮城 - 3
+      - 🇸🇬 新加坡 A/02 x1.0
+      - 距离下次重置剩余：12 天
+      - 🇭🇰 香港A 2
+      - 🇨🇳 台湾02
+      - 🇯🇵 日本|03|湘日联通隧道2
+      - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 香港 IEPL/03 x3.0
+      - 🇯🇵 日本高级 IEPL 中继 2
+      - 🇺🇸 美国直连 03
+      - 🇷🇺 俄罗斯-Trojan
+      - 🇰🇷 韩国|01直连
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇬🇧 _GB_英国_1
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9
+      - 🇭🇰 香港车仔面 x1.0
+      - 🇯🇵 日本05{优化1|V2ray}
+      - 🇺🇸 美国03|高速|流媒体解锁
+      - 🇨🇳 台湾A专线备
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
+      - 🇯🇵 _null_null->🇯🇵_JP_日本
+      - 🇺🇸 JCBB_美国04【vip1】 2
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】 2
+      - 🇸🇬 新加坡2|tg频道:@ripaojiedian
+      - 🇳🇱 Netherlands 2 🇳🇱
+      - 距离下次重置剩余：12 天 2
+      - 🇭🇰 香港标准 IEPL 中继 7
+      - 美國 B/01 x1.0
+      - 🇺🇸 美国02|流媒体
+      - 🇺🇸 16 美国 续费QQ:2187606906
+      - 🇸🇬 新加坡01|流媒体 2
+      - 负载均衡节点—备
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港|03|广港电信隧道
-      - 🇸🇬 ♡建议每天更新订阅♡
-      - 🇯🇵 日本IIJ-大阪
-      - 🇭🇰 香港标准 IEPL 中继 7
-      - 🇸🇬 新加坡|04直连
-      - 🇸🇬 新加坡 實驗性C/01 x1.0
-      - 🇦🇺 github.com/freefq - 澳大利亚Kooweerup Secondary College 15
-      - 🇰🇷 韩国02
-      - 🇯🇵 JCBB_日本03【vip1】
-      - 🇺🇸 美国高级 IEPL 中继 2
-      - 🇯🇵 日本标准 IEPL 中继 8
-      - 🇰🇷 韩国-grpc-1
-      - 🇭🇰 香港|06奈飞AZ广港电信隧道
-      - 🇨🇳 165|台湾Hinet|x3.5
-      - 🇯🇵 日本09
-      - 🇭🇰 新加坡 04 | 深港专线
-      - 🇭🇰 香港牛腩 x1.0
-      - 🇳🇱 快嘴科技@来源：kkzui.com_荷兰_117
-      - 🇭🇰 香港 07 | 深港专线
-      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-      - 🇩🇪 德国
-      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 移动】
-      - 🇯🇵 美国|07广日电信隧道
-      - 🇭🇰 香港标准 IEPL 中继 8
-      - 🇺🇸 美国直连 01
-      - 🇸🇬 新加坡04|流媒体
-      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
-      - 🇺🇸 美国直连 03
-      - 🇯🇵 日本03
-      - 🇯🇵 日本|01|湘日联通隧道
-      - 🇦🇷 阿根廷标准 IEPL 中继 1
-      - 🇯🇵 [ v1 ] 日本 | 06
-      - انقضاء：نامحدود
-      - 🇸🇬 138|新加坡|lt线路|x2.5
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇺🇸 洛杉矶-2
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_70
-      - 🇸🇬 新加坡-Trojan①
-      - 🇯🇵 _null_null->🇯🇵_JP_日本
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇸🇬 美国US03丨断线就更新订阅
-      - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
-      - 🇨🇳 [Vip1] 台湾01[1.0 | 移动 | 流媒体解锁]
-      - 🇸🇬 新加坡05{优化2|V2ray}
-      - 🇭🇰 日本 05 | 深港专线
-      - 🇺🇸 美国标准 IEPL 中继 2
-      - 🇺🇸 美国02|流媒体
-      - 美國 B/01 x1.0
-      - 🇺🇸 美国02
-      - 🇸🇬 133|新加坡|lt线路|x2.5
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇯🇵 日本 A/02 x1.0
-      - 🇯🇵 JCBB_日本03【vip1】 2
-      - 🇭🇰 香港01|高速|流媒体解锁|免流
-      - 🇺🇸 [ v1 ] 美国 | 02
-      - 负载均衡节点—主
-      - 🇭🇰 香港01 中转¹
-      - 🇯🇵 日本C|tg频道:@ripaojiedian
-      - 🇨🇳 台湾03|流媒体
-      - 🇭🇰 英国|01|广港电信隧道
-      - 🇳🇱 Netherlands 1 🇳🇱
-      - 🇸🇬 136|新加坡|dx线路|x2.5
-      - 🇺🇸 [ T1 ] 美国 | 01
-      - 🇲🇾 马来西亚标准 IEPL 中继 1
-      - 🇹🇷 Turkey 1 🇹🇷
-      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
-      - 🇲🇴 _MO_澳门
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - 🇻🇳 越南米粉 x1.0
-      - 🇯🇵 日本A—专线主
-      - 🇸🇬 新加坡3
-      - 🇭🇰 香港IPLC 07
+      - 🇮🇳 印度
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇭 菲律宾1
+      - 🇸🇬 狮城01 中转¹
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇯🇵 [ 联通 ] 日本 · F1 | 04
+      - 🇭🇰 [Vip1]  香港08[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 新加坡|06|奈飞广港电信隧道
+      - 🇸🇬 新加坡沙嗲 x1.0
+      - 🇦🇺 澳大利亚Kooweerup Secondary College 5
+      - 🇵🇭 [ v1 ] 菲律宾 | 01
+      - 🇨🇦 快嘴科技@来源：kkzui.com_加拿大_178
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_181
       - 🇨🇳 台湾02|流媒体
-      - 🇭🇰 香港魚蛋 x1.0
-      - 🇬🇧 _GB_英国_1
-      - 🇸🇬 新加坡 | 01
-      - 距离下次重置剩余：12 天
-      - 🇫🇷 France 3 🇫🇷
-      - 🇨🇳 台湾|01奈飞广日电信隧道3
+      - 🇭🇰 新加坡|01|广港电信隧道4
+      - 🇩🇪 德国巴伐利亚州纽伦堡Hetzner数据中心 11
+      - 🇬🇧 快嘴科技@来源：kkzui.com_英国_193
+      - 🇸🇬 新加坡标准 IEPL 中继 8
+      - 🇺🇸 美国2
+      - 🇰🇷 韩国04{联通|V2ray}
+      - 🇨🇳 台湾04|流媒体
+      - 🇩🇪 github.com/freefq - 德国巴伐利亚州纽伦堡Hetzner数据中心 17
+      - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇯🇵 github.com/Pawdroid - 日本东京Choopa数据中心 1
+      - 🇸🇬 新加坡01{优化2|V2ray}
+      - 🇺🇸 美国RF Engineering 20
+      - 🇯🇵 _JP_日本_2
+      - 🇺🇸 [ 直连] 美国 · U1 | 02
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+      - 🇭🇰 香港|06奈飞AZ广港电信隧道
+      - 🇭🇰 香港 實驗性C/04 x1.0
+      - 🇭🇰 香港慢|tg频道:@ripaojiedian
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
+      - 🇭🇰 美国 04 | 深港专线
+      - ♡备用网站：beef1917.com♡
       - 🇺🇸 快嘴科技@来源：kkzui.com_美国_99
-      - 🇯🇵 日本直连 01
-      - 🇯🇵 日本A—专线主 2
-      - 🇺🇸 美国得克萨斯州 29
-      - 🇸🇬 新加坡OVH 33
-      - 🇸🇬 新加坡标准 IEPL 中继 3
-      - 🇦🇺 澳大利亚标准 IEPL 中继 1
-      - 🇨🇳 台湾03|流媒体 2
-      - 🇨🇳 台湾 | 02
-      - 🇭🇰 香港直连 03
-      - 🇸🇬 10 新加坡 续费QQ:3590753579
-      - 🇺🇸 JCBB_美国03【vip1】
-      - 🇭🇰 香港高级 IEPL 中继 3
-      - 🇭🇰 日本 02 | 深港专线
-      - 🇸🇬 新加坡OVH 31
-      - 🇺🇸 [Vip1] 美国05[1.0  | 流媒体解锁]
-      - 🇰🇷 韩国01|高速
-      - 🇰🇷 韩国01
-      - 负载均衡节点—主 2
-      - 🇮🇷 _IR_伊朗
-      - 🇻🇳 越南玫瑰 x1.0
-      - 🇭🇰 香港标准 IEPL 中继 2
-      - 🇭🇰 香港IPLC 15
-      - 🇭🇰 香港公仔餅 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇺🇸 美国CloudFlare公司CDN节点 10
-      - 🇬🇧 _GB_英国
-      - 🇸🇬 ♡建议每天更新订阅♡ 2
-      - 🇯🇵 日本13|专线|流媒体解锁
-      - 🇯🇵 日本|02|直连2
-      - 负载均衡节点—备
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
-      - 🇺🇸 15 美国 续费QQ:3590753579
-      - 🇯🇵 [ 直连] 日本 · U1 | 02
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_111
-      - 🇺🇸 美国CloudFlare公司CDN节点 18
-      - 台灣 B/02 x1.0
-      - 🇨🇳 台湾标准 IEPL 中继 3
-      - 🇸🇬 新加坡 | 02
-      - 🇨🇦 加拿大标准 IEPL 中继 2
-      - 🇯🇵 日本|02|奈飞广日电信隧道2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳 台湾高级 IEPL 中继 1
+      - 🇺🇸 美国CloudFlare节点 36
+      - 🇺🇸 13 美国 续费QQ:2187606906
+      - 🇰🇷 _KR_韩国_1
+      - 🇸🇬 【直连】狮城 - 4
+      - 🇯🇵 【直连】东京 - 4
+      - 🇭🇰 香港 04 | 深港专线
+      - 🇯🇵 日本 實驗性C/01 x1.0
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 美国标准 IEPL 中继 3
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁] 2
+      - 🇲🇾 马来01{移动|V2ray}
+      - 🇭🇰 JCBB_香港04【vip2】
+      - 🇭🇰 新加坡|03|奈飞海港电信隧道3
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇭🇰 香港05|高速|流媒体解锁
+      - 🇺🇸 美国IPLC 07
       - 🇺🇸 _US_美国
-      - 🇨🇳 宁夏|回国
-      - 🇹🇷 土耳其标准 IEPL 中继 1
-      - 🇭🇰 美国|04RN广港电信隧道
-      - 🇲🇾 马来西亚
-      - 🇸🇪 瑞典IPLC 01
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇸🇬 新加坡02|流媒体
+      - 🇭🇰 [vip1] 香港02[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 香港IPLC 06
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
+      - 🇺🇸 JCBB_美国04【vip1】
+      - 🇸🇬 新加坡03|流媒体
+      - 🇨🇳 168|台湾Hinet|x3.5
       - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
-      - 🇬🇧 JCBB_英国02【vip1】
-      - 🇺🇸 美国IPLC 02
-      - 🇭🇰 香港IPLC 05
-      - 距离下次重置剩余：11 天
-      - 🇯🇵 08 日本 续费QQ:3590753579
-      - 🇸🇬 新加坡
-      - 🇭🇰 新加坡|03|奈飞广港电信隧道2
-      - 🇭🇰 香港IPLC 14
-      - 🇨🇳 150|台湾|x3.0
+      - 🇺🇸 github.com/Pawdroid - 美国CloudFlare节点 32
+      - 🇬🇧 [Vip1] 英国01[1.0]
+      - 🇭🇰 美国|01奈飞广港电信隧道2
+      - 🇭🇰 香港IPLC 13
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇺🇸 美国A专线备
+      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 10
       - 🇬🇧 英国-Trojan
-      - 🇬🇧 英国标准 IEPL 中继 2
-      - 🇰🇷 韩国 | 01
-      - 台灣 A/03 x1.0
-      - 🇭🇰 香港|02奈飞AZ广港电信隧道
+      - 🇭🇰 香港A
+      - 🇨🇦 github.com/freefq - 加拿大  37
+      - 🇯🇵 日本IPLC 05
+      - 🇷🇺 俄罗斯标准 IEPL 中继 1
+      - 🇯🇵 07 日本 续费QQ:2187606906
+      - 🇸🇬 新加坡04{优化2|V2ray}
+      - 泰國 C/01 x1.0
+      - 🇦🇷 阿根廷1
+      - 🇸🇬 新加坡 IEPL/02 x3.0
+      - 🇯🇵 日本快|tg频道:@ripaojiedian
+      - 🇺🇸 美国CloudFlare公司CDN节点 37
+      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 联通】
+      - 🇸🇬 新加坡A—专线主
+      - 🇺🇸 美国CloudFlare节点 24
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇫🇷 法国1
+      - 🇪🇸 西班牙标准 IEPL 中继 1
+      - 🇸🇬 新加坡01|流媒体
+      - 🇭🇰 香港高级 IEPL 中继 1
+      - 🇯🇵 _JP_日本_1
+      - 🇸🇬 新加坡A专线备
+      - 🇺🇸 美国RF Engineering 4
+      - 🇨🇳 本站遵循中国法律,禁政治/辱华/轮子/反动
+      - 🇯🇵 美国|03广日电信隧道
+      - 🇻🇳 越南
+      - 🇰🇷 韩国01{移动|V2ray}
+      - 🇸🇬 新加坡03|流媒体 2
+      - 🇺🇸 [ T1 ] 美国 | 01
+      - 🇰🇷 【直连】首尔 - 2
+      - 🇸🇬 新加坡|02|奈飞广日电信隧道2
+      - 🇯🇵 日本01
+      - 🇸🇬 【直连】狮城 - 3
+      - 🇸🇬 新加坡 A/02 x1.0
+      - 距离下次重置剩余：12 天
+      - 🇭🇰 香港A 2
+      - 🇨🇳 台湾02
+      - 🇯🇵 日本|03|湘日联通隧道2
+      - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 香港 IEPL/03 x3.0
+      - 🇯🇵 日本高级 IEPL 中继 2
+      - 🇺🇸 美国直连 03
+      - 🇷🇺 俄罗斯-Trojan
+      - 🇰🇷 韩国|01直连
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇬🇧 _GB_英国_1
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9
+      - 🇭🇰 香港车仔面 x1.0
+      - 🇯🇵 日本05{优化1|V2ray}
+      - 🇺🇸 美国03|高速|流媒体解锁
+      - 🇨🇳 台湾A专线备
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
+      - 🇯🇵 _null_null->🇯🇵_JP_日本
+      - 🇺🇸 JCBB_美国04【vip1】 2
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】 2
+      - 🇸🇬 新加坡2|tg频道:@ripaojiedian
+      - 🇳🇱 Netherlands 2 🇳🇱
+      - 距离下次重置剩余：12 天 2
+      - 🇭🇰 香港标准 IEPL 中继 7
+      - 美國 B/01 x1.0
+      - 🇺🇸 美国02|流媒体
+      - 🇺🇸 16 美国 续费QQ:2187606906
+      - 🇸🇬 新加坡01|流媒体 2
+      - 负载均衡节点—备
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港|03|广港电信隧道
-      - 🇸🇬 ♡建议每天更新订阅♡
-      - 🇯🇵 日本IIJ-大阪
-      - 🇭🇰 香港标准 IEPL 中继 7
-      - 🇸🇬 新加坡|04直连
-      - 🇸🇬 新加坡 實驗性C/01 x1.0
-      - 🇦🇺 github.com/freefq - 澳大利亚Kooweerup Secondary College 15
-      - 🇰🇷 韩国02
-      - 🇯🇵 JCBB_日本03【vip1】
-      - 🇺🇸 美国高级 IEPL 中继 2
-      - 🇯🇵 日本标准 IEPL 中继 8
-      - 🇰🇷 韩国-grpc-1
-      - 🇭🇰 香港|06奈飞AZ广港电信隧道
-      - 🇨🇳 165|台湾Hinet|x3.5
-      - 🇯🇵 日本09
-      - 🇭🇰 新加坡 04 | 深港专线
-      - 🇭🇰 香港牛腩 x1.0
-      - 🇳🇱 快嘴科技@来源：kkzui.com_荷兰_117
-      - 🇭🇰 香港 07 | 深港专线
-      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-      - 🇩🇪 德国
-      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 移动】
-      - 🇯🇵 美国|07广日电信隧道
-      - 🇭🇰 香港标准 IEPL 中继 8
-      - 🇺🇸 美国直连 01
-      - 🇸🇬 新加坡04|流媒体
-      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
-      - 🇺🇸 美国直连 03
-      - 🇯🇵 日本03
-      - 🇯🇵 日本|01|湘日联通隧道
-      - 🇦🇷 阿根廷标准 IEPL 中继 1
-      - 🇯🇵 [ v1 ] 日本 | 06
-      - انقضاء：نامحدود
-      - 🇸🇬 138|新加坡|lt线路|x2.5
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇺🇸 洛杉矶-2
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_70
-      - 🇸🇬 新加坡-Trojan①
-      - 🇯🇵 _null_null->🇯🇵_JP_日本
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇸🇬 美国US03丨断线就更新订阅
-      - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
-      - 🇨🇳 [Vip1] 台湾01[1.0 | 移动 | 流媒体解锁]
-      - 🇸🇬 新加坡05{优化2|V2ray}
-      - 🇭🇰 日本 05 | 深港专线
-      - 🇺🇸 美国标准 IEPL 中继 2
-      - 🇺🇸 美国02|流媒体
-      - 美國 B/01 x1.0
-      - 🇺🇸 美国02
-      - 🇸🇬 133|新加坡|lt线路|x2.5
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇯🇵 日本 A/02 x1.0
-      - 🇯🇵 JCBB_日本03【vip1】 2
-      - 🇭🇰 香港01|高速|流媒体解锁|免流
-      - 🇺🇸 [ v1 ] 美国 | 02
-      - 负载均衡节点—主
-      - 🇭🇰 香港01 中转¹
-      - 🇯🇵 日本C|tg频道:@ripaojiedian
-      - 🇨🇳 台湾03|流媒体
-      - 🇭🇰 英国|01|广港电信隧道
-      - 🇳🇱 Netherlands 1 🇳🇱
-      - 🇸🇬 136|新加坡|dx线路|x2.5
-      - 🇺🇸 [ T1 ] 美国 | 01
-      - 🇲🇾 马来西亚标准 IEPL 中继 1
-      - 🇹🇷 Turkey 1 🇹🇷
-      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
-      - 🇲🇴 _MO_澳门
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - 🇻🇳 越南米粉 x1.0
-      - 🇯🇵 日本A—专线主
-      - 🇸🇬 新加坡3
-      - 🇭🇰 香港IPLC 07
+      - 🇮🇳 印度
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇭 菲律宾1
+      - 🇸🇬 狮城01 中转¹
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇯🇵 [ 联通 ] 日本 · F1 | 04
+      - 🇭🇰 [Vip1]  香港08[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 新加坡|06|奈飞广港电信隧道
+      - 🇸🇬 新加坡沙嗲 x1.0
+      - 🇦🇺 澳大利亚Kooweerup Secondary College 5
+      - 🇵🇭 [ v1 ] 菲律宾 | 01
+      - 🇨🇦 快嘴科技@来源：kkzui.com_加拿大_178
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_181
       - 🇨🇳 台湾02|流媒体
-      - 🇭🇰 香港魚蛋 x1.0
-      - 🇬🇧 _GB_英国_1
-      - 🇸🇬 新加坡 | 01
-      - 距离下次重置剩余：12 天
-      - 🇫🇷 France 3 🇫🇷
-      - 🇨🇳 台湾|01奈飞广日电信隧道3
+      - 🇭🇰 新加坡|01|广港电信隧道4
+      - 🇩🇪 德国巴伐利亚州纽伦堡Hetzner数据中心 11
+      - 🇬🇧 快嘴科技@来源：kkzui.com_英国_193
+      - 🇸🇬 新加坡标准 IEPL 中继 8
+      - 🇺🇸 美国2
+      - 🇰🇷 韩国04{联通|V2ray}
+      - 🇨🇳 台湾04|流媒体
+      - 🇩🇪 github.com/freefq - 德国巴伐利亚州纽伦堡Hetzner数据中心 17
+      - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇯🇵 github.com/Pawdroid - 日本东京Choopa数据中心 1
+      - 🇸🇬 新加坡01{优化2|V2ray}
+      - 🇺🇸 美国RF Engineering 20
+      - 🇯🇵 _JP_日本_2
+      - 🇺🇸 [ 直连] 美国 · U1 | 02
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+      - 🇭🇰 香港|06奈飞AZ广港电信隧道
+      - 🇭🇰 香港 實驗性C/04 x1.0
+      - 🇭🇰 香港慢|tg频道:@ripaojiedian
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
+      - 🇭🇰 美国 04 | 深港专线
+      - ♡备用网站：beef1917.com♡
       - 🇺🇸 快嘴科技@来源：kkzui.com_美国_99
-      - 🇯🇵 日本直连 01
-      - 🇯🇵 日本A—专线主 2
-      - 🇺🇸 美国得克萨斯州 29
-      - 🇸🇬 新加坡OVH 33
-      - 🇸🇬 新加坡标准 IEPL 中继 3
-      - 🇦🇺 澳大利亚标准 IEPL 中继 1
-      - 🇨🇳 台湾03|流媒体 2
-      - 🇨🇳 台湾 | 02
-      - 🇭🇰 香港直连 03
-      - 🇸🇬 10 新加坡 续费QQ:3590753579
-      - 🇺🇸 JCBB_美国03【vip1】
-      - 🇭🇰 香港高级 IEPL 中继 3
-      - 🇭🇰 日本 02 | 深港专线
-      - 🇸🇬 新加坡OVH 31
-      - 🇺🇸 [Vip1] 美国05[1.0  | 流媒体解锁]
-      - 🇰🇷 韩国01|高速
-      - 🇰🇷 韩国01
-      - 负载均衡节点—主 2
-      - 🇮🇷 _IR_伊朗
-      - 🇻🇳 越南玫瑰 x1.0
-      - 🇭🇰 香港标准 IEPL 中继 2
-      - 🇭🇰 香港IPLC 15
-      - 🇭🇰 香港公仔餅 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇺🇸 美国CloudFlare公司CDN节点 10
-      - 🇬🇧 _GB_英国
-      - 🇸🇬 ♡建议每天更新订阅♡ 2
-      - 🇯🇵 日本13|专线|流媒体解锁
-      - 🇯🇵 日本|02|直连2
-      - 负载均衡节点—备
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
-      - 🇺🇸 15 美国 续费QQ:3590753579
-      - 🇯🇵 [ 直连] 日本 · U1 | 02
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_111
-      - 🇺🇸 美国CloudFlare公司CDN节点 18
-      - 台灣 B/02 x1.0
-      - 🇨🇳 台湾标准 IEPL 中继 3
-      - 🇸🇬 新加坡 | 02
-      - 🇨🇦 加拿大标准 IEPL 中继 2
-      - 🇯🇵 日本|02|奈飞广日电信隧道2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳 台湾高级 IEPL 中继 1
+      - 🇺🇸 美国CloudFlare节点 36
+      - 🇺🇸 13 美国 续费QQ:2187606906
+      - 🇰🇷 _KR_韩国_1
+      - 🇸🇬 【直连】狮城 - 4
+      - 🇯🇵 【直连】东京 - 4
+      - 🇭🇰 香港 04 | 深港专线
+      - 🇯🇵 日本 實驗性C/01 x1.0
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 美国标准 IEPL 中继 3
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁] 2
+      - 🇲🇾 马来01{移动|V2ray}
+      - 🇭🇰 JCBB_香港04【vip2】
+      - 🇭🇰 新加坡|03|奈飞海港电信隧道3
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇭🇰 香港05|高速|流媒体解锁
+      - 🇺🇸 美国IPLC 07
       - 🇺🇸 _US_美国
-      - 🇨🇳 宁夏|回国
-      - 🇹🇷 土耳其标准 IEPL 中继 1
-      - 🇭🇰 美国|04RN广港电信隧道
-      - 🇲🇾 马来西亚
-      - 🇸🇪 瑞典IPLC 01
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇸🇬 新加坡02|流媒体
+      - 🇭🇰 [vip1] 香港02[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 香港IPLC 06
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
+      - 🇺🇸 JCBB_美国04【vip1】
+      - 🇸🇬 新加坡03|流媒体
+      - 🇨🇳 168|台湾Hinet|x3.5
       - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
-      - 🇬🇧 JCBB_英国02【vip1】
-      - 🇺🇸 美国IPLC 02
-      - 🇭🇰 香港IPLC 05
-      - 距离下次重置剩余：11 天
-      - 🇯🇵 08 日本 续费QQ:3590753579
-      - 🇸🇬 新加坡
-      - 🇭🇰 新加坡|03|奈飞广港电信隧道2
-      - 🇭🇰 香港IPLC 14
-      - 🇨🇳 150|台湾|x3.0
+      - 🇺🇸 github.com/Pawdroid - 美国CloudFlare节点 32
+      - 🇬🇧 [Vip1] 英国01[1.0]
+      - 🇭🇰 美国|01奈飞广港电信隧道2
+      - 🇭🇰 香港IPLC 13
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇺🇸 美国A专线备
+      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 10
       - 🇬🇧 英国-Trojan
-      - 🇬🇧 英国标准 IEPL 中继 2
-      - 🇰🇷 韩国 | 01
-      - 台灣 A/03 x1.0
-      - 🇭🇰 香港|02奈飞AZ广港电信隧道
+      - 🇭🇰 香港A
+      - 🇨🇦 github.com/freefq - 加拿大  37
+      - 🇯🇵 日本IPLC 05
+      - 🇷🇺 俄罗斯标准 IEPL 中继 1
+      - 🇯🇵 07 日本 续费QQ:2187606906
+      - 🇸🇬 新加坡04{优化2|V2ray}
+      - 泰國 C/01 x1.0
+      - 🇦🇷 阿根廷1
+      - 🇸🇬 新加坡 IEPL/02 x3.0
+      - 🇯🇵 日本快|tg频道:@ripaojiedian
+      - 🇺🇸 美国CloudFlare公司CDN节点 37
+      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 联通】
+      - 🇸🇬 新加坡A—专线主
+      - 🇺🇸 美国CloudFlare节点 24
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇫🇷 法国1
+      - 🇪🇸 西班牙标准 IEPL 中继 1
+      - 🇸🇬 新加坡01|流媒体
+      - 🇭🇰 香港高级 IEPL 中继 1
+      - 🇯🇵 _JP_日本_1
+      - 🇸🇬 新加坡A专线备
+      - 🇺🇸 美国RF Engineering 4
+      - 🇨🇳 本站遵循中国法律,禁政治/辱华/轮子/反动
+      - 🇯🇵 美国|03广日电信隧道
+      - 🇻🇳 越南
+      - 🇰🇷 韩国01{移动|V2ray}
+      - 🇸🇬 新加坡03|流媒体 2
+      - 🇺🇸 [ T1 ] 美国 | 01
+      - 🇰🇷 【直连】首尔 - 2
+      - 🇸🇬 新加坡|02|奈飞广日电信隧道2
+      - 🇯🇵 日本01
+      - 🇸🇬 【直连】狮城 - 3
+      - 🇸🇬 新加坡 A/02 x1.0
+      - 距离下次重置剩余：12 天
+      - 🇭🇰 香港A 2
+      - 🇨🇳 台湾02
+      - 🇯🇵 日本|03|湘日联通隧道2
+      - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 香港 IEPL/03 x3.0
+      - 🇯🇵 日本高级 IEPL 中继 2
+      - 🇺🇸 美国直连 03
+      - 🇷🇺 俄罗斯-Trojan
+      - 🇰🇷 韩国|01直连
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇬🇧 _GB_英国_1
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9
+      - 🇭🇰 香港车仔面 x1.0
+      - 🇯🇵 日本05{优化1|V2ray}
+      - 🇺🇸 美国03|高速|流媒体解锁
+      - 🇨🇳 台湾A专线备
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
+      - 🇯🇵 _null_null->🇯🇵_JP_日本
+      - 🇺🇸 JCBB_美国04【vip1】 2
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】 2
+      - 🇸🇬 新加坡2|tg频道:@ripaojiedian
+      - 🇳🇱 Netherlands 2 🇳🇱
+      - 距离下次重置剩余：12 天 2
+      - 🇭🇰 香港标准 IEPL 中继 7
+      - 美國 B/01 x1.0
+      - 🇺🇸 美国02|流媒体
+      - 🇺🇸 16 美国 续费QQ:2187606906
+      - 🇸🇬 新加坡01|流媒体 2
+      - 负载均衡节点—备
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -630,153 +594,144 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港|03|广港电信隧道
-      - 🇸🇬 ♡建议每天更新订阅♡
-      - 🇯🇵 日本IIJ-大阪
-      - 🇭🇰 香港标准 IEPL 中继 7
-      - 🇸🇬 新加坡|04直连
-      - 🇸🇬 新加坡 實驗性C/01 x1.0
-      - 🇦🇺 github.com/freefq - 澳大利亚Kooweerup Secondary College 15
-      - 🇰🇷 韩国02
-      - 🇯🇵 JCBB_日本03【vip1】
-      - 🇺🇸 美国高级 IEPL 中继 2
-      - 🇯🇵 日本标准 IEPL 中继 8
-      - 🇰🇷 韩国-grpc-1
-      - 🇭🇰 香港|06奈飞AZ广港电信隧道
-      - 🇨🇳 165|台湾Hinet|x3.5
-      - 🇯🇵 日本09
-      - 🇭🇰 新加坡 04 | 深港专线
-      - 🇭🇰 香港牛腩 x1.0
-      - 🇳🇱 快嘴科技@来源：kkzui.com_荷兰_117
-      - 🇭🇰 香港 07 | 深港专线
-      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-      - 🇩🇪 德国
-      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 移动】
-      - 🇯🇵 美国|07广日电信隧道
-      - 🇭🇰 香港标准 IEPL 中继 8
-      - 🇺🇸 美国直连 01
-      - 🇸🇬 新加坡04|流媒体
-      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
-      - 🇺🇸 美国直连 03
-      - 🇯🇵 日本03
-      - 🇯🇵 日本|01|湘日联通隧道
-      - 🇦🇷 阿根廷标准 IEPL 中继 1
-      - 🇯🇵 [ v1 ] 日本 | 06
-      - انقضاء：نامحدود
-      - 🇸🇬 138|新加坡|lt线路|x2.5
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇺🇸 洛杉矶-2
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_70
-      - 🇸🇬 新加坡-Trojan①
-      - 🇯🇵 _null_null->🇯🇵_JP_日本
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇸🇬 美国US03丨断线就更新订阅
-      - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
-      - 🇨🇳 [Vip1] 台湾01[1.0 | 移动 | 流媒体解锁]
-      - 🇸🇬 新加坡05{优化2|V2ray}
-      - 🇭🇰 日本 05 | 深港专线
-      - 🇺🇸 美国标准 IEPL 中继 2
-      - 🇺🇸 美国02|流媒体
-      - 美國 B/01 x1.0
-      - 🇺🇸 美国02
-      - 🇸🇬 133|新加坡|lt线路|x2.5
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇯🇵 日本 A/02 x1.0
-      - 🇯🇵 JCBB_日本03【vip1】 2
-      - 🇭🇰 香港01|高速|流媒体解锁|免流
-      - 🇺🇸 [ v1 ] 美国 | 02
-      - 负载均衡节点—主
-      - 🇭🇰 香港01 中转¹
-      - 🇯🇵 日本C|tg频道:@ripaojiedian
-      - 🇨🇳 台湾03|流媒体
-      - 🇭🇰 英国|01|广港电信隧道
-      - 🇳🇱 Netherlands 1 🇳🇱
-      - 🇸🇬 136|新加坡|dx线路|x2.5
-      - 🇺🇸 [ T1 ] 美国 | 01
-      - 🇲🇾 马来西亚标准 IEPL 中继 1
-      - 🇹🇷 Turkey 1 🇹🇷
-      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
-      - 🇲🇴 _MO_澳门
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - 🇻🇳 越南米粉 x1.0
-      - 🇯🇵 日本A—专线主
-      - 🇸🇬 新加坡3
-      - 🇭🇰 香港IPLC 07
+      - 🇮🇳 印度
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_2
+      - 🇵🇭 菲律宾1
+      - 🇸🇬 狮城01 中转¹
+      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
+      - 🇯🇵 [ 联通 ] 日本 · F1 | 04
+      - 🇭🇰 [Vip1]  香港08[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 新加坡|06|奈飞广港电信隧道
+      - 🇸🇬 新加坡沙嗲 x1.0
+      - 🇦🇺 澳大利亚Kooweerup Secondary College 5
+      - 🇵🇭 [ v1 ] 菲律宾 | 01
+      - 🇨🇦 快嘴科技@来源：kkzui.com_加拿大_178
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_181
       - 🇨🇳 台湾02|流媒体
-      - 🇭🇰 香港魚蛋 x1.0
-      - 🇬🇧 _GB_英国_1
-      - 🇸🇬 新加坡 | 01
-      - 距离下次重置剩余：12 天
-      - 🇫🇷 France 3 🇫🇷
-      - 🇨🇳 台湾|01奈飞广日电信隧道3
+      - 🇭🇰 新加坡|01|广港电信隧道4
+      - 🇩🇪 德国巴伐利亚州纽伦堡Hetzner数据中心 11
+      - 🇬🇧 快嘴科技@来源：kkzui.com_英国_193
+      - 🇸🇬 新加坡标准 IEPL 中继 8
+      - 🇺🇸 美国2
+      - 🇰🇷 韩国04{联通|V2ray}
+      - 🇨🇳 台湾04|流媒体
+      - 🇩🇪 github.com/freefq - 德国巴伐利亚州纽伦堡Hetzner数据中心 17
+      - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇯🇵 github.com/Pawdroid - 日本东京Choopa数据中心 1
+      - 🇸🇬 新加坡01{优化2|V2ray}
+      - 🇺🇸 美国RF Engineering 20
+      - 🇯🇵 _JP_日本_2
+      - 🇺🇸 [ 直连] 美国 · U1 | 02
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+      - 🇭🇰 香港|06奈飞AZ广港电信隧道
+      - 🇭🇰 香港 實驗性C/04 x1.0
+      - 🇭🇰 香港慢|tg频道:@ripaojiedian
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
+      - 🇭🇰 美国 04 | 深港专线
+      - ♡备用网站：beef1917.com♡
       - 🇺🇸 快嘴科技@来源：kkzui.com_美国_99
-      - 🇯🇵 日本直连 01
-      - 🇯🇵 日本A—专线主 2
-      - 🇺🇸 美国得克萨斯州 29
-      - 🇸🇬 新加坡OVH 33
-      - 🇸🇬 新加坡标准 IEPL 中继 3
-      - 🇦🇺 澳大利亚标准 IEPL 中继 1
-      - 🇨🇳 台湾03|流媒体 2
-      - 🇨🇳 台湾 | 02
-      - 🇭🇰 香港直连 03
-      - 🇸🇬 10 新加坡 续费QQ:3590753579
-      - 🇺🇸 JCBB_美国03【vip1】
-      - 🇭🇰 香港高级 IEPL 中继 3
-      - 🇭🇰 日本 02 | 深港专线
-      - 🇸🇬 新加坡OVH 31
-      - 🇺🇸 [Vip1] 美国05[1.0  | 流媒体解锁]
-      - 🇰🇷 韩国01|高速
-      - 🇰🇷 韩国01
-      - 负载均衡节点—主 2
-      - 🇮🇷 _IR_伊朗
-      - 🇻🇳 越南玫瑰 x1.0
-      - 🇭🇰 香港标准 IEPL 中继 2
-      - 🇭🇰 香港IPLC 15
-      - 🇭🇰 香港公仔餅 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇺🇸 美国CloudFlare公司CDN节点 10
-      - 🇬🇧 _GB_英国
-      - 🇸🇬 ♡建议每天更新订阅♡ 2
-      - 🇯🇵 日本13|专线|流媒体解锁
-      - 🇯🇵 日本|02|直连2
-      - 负载均衡节点—备
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
-      - 🇺🇸 15 美国 续费QQ:3590753579
-      - 🇯🇵 [ 直连] 日本 · U1 | 02
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_111
-      - 🇺🇸 美国CloudFlare公司CDN节点 18
-      - 台灣 B/02 x1.0
-      - 🇨🇳 台湾标准 IEPL 中继 3
-      - 🇸🇬 新加坡 | 02
-      - 🇨🇦 加拿大标准 IEPL 中继 2
-      - 🇯🇵 日本|02|奈飞广日电信隧道2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳 台湾高级 IEPL 中继 1
+      - 🇺🇸 美国CloudFlare节点 36
+      - 🇺🇸 13 美国 续费QQ:2187606906
+      - 🇰🇷 _KR_韩国_1
+      - 🇸🇬 【直连】狮城 - 4
+      - 🇯🇵 【直连】东京 - 4
+      - 🇭🇰 香港 04 | 深港专线
+      - 🇯🇵 日本 實驗性C/01 x1.0
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 美国标准 IEPL 中继 3
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁] 2
+      - 🇲🇾 马来01{移动|V2ray}
+      - 🇭🇰 JCBB_香港04【vip2】
+      - 🇭🇰 新加坡|03|奈飞海港电信隧道3
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇭🇰 香港05|高速|流媒体解锁
+      - 🇺🇸 美国IPLC 07
       - 🇺🇸 _US_美国
-      - 🇨🇳 宁夏|回国
-      - 🇹🇷 土耳其标准 IEPL 中继 1
-      - 🇭🇰 美国|04RN广港电信隧道
-      - 🇲🇾 马来西亚
-      - 🇸🇪 瑞典IPLC 01
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-      - 🇸🇬 新加坡02|流媒体
+      - 🇭🇰 [vip1] 香港02[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 香港IPLC 06
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
+      - 🇺🇸 JCBB_美国04【vip1】
+      - 🇸🇬 新加坡03|流媒体
+      - 🇨🇳 168|台湾Hinet|x3.5
       - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
-      - 🇬🇧 JCBB_英国02【vip1】
-      - 🇺🇸 美国IPLC 02
-      - 🇭🇰 香港IPLC 05
-      - 距离下次重置剩余：11 天
-      - 🇯🇵 08 日本 续费QQ:3590753579
-      - 🇸🇬 新加坡
-      - 🇭🇰 新加坡|03|奈飞广港电信隧道2
-      - 🇭🇰 香港IPLC 14
-      - 🇨🇳 150|台湾|x3.0
+      - 🇺🇸 github.com/Pawdroid - 美国CloudFlare节点 32
+      - 🇬🇧 [Vip1] 英国01[1.0]
+      - 🇭🇰 美国|01奈飞广港电信隧道2
+      - 🇭🇰 香港IPLC 13
+      - 🇮🇳 github.com/freefq - 印度  35
+      - 🇺🇸 美国A专线备
+      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 10
       - 🇬🇧 英国-Trojan
-      - 🇬🇧 英国标准 IEPL 中继 2
-      - 🇰🇷 韩国 | 01
-      - 台灣 A/03 x1.0
-      - 🇭🇰 香港|02奈飞AZ广港电信隧道
+      - 🇭🇰 香港A
+      - 🇨🇦 github.com/freefq - 加拿大  37
+      - 🇯🇵 日本IPLC 05
+      - 🇷🇺 俄罗斯标准 IEPL 中继 1
+      - 🇯🇵 07 日本 续费QQ:2187606906
+      - 🇸🇬 新加坡04{优化2|V2ray}
+      - 泰國 C/01 x1.0
+      - 🇦🇷 阿根廷1
+      - 🇸🇬 新加坡 IEPL/02 x3.0
+      - 🇯🇵 日本快|tg频道:@ripaojiedian
+      - 🇺🇸 美国CloudFlare公司CDN节点 37
+      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 联通】
+      - 🇸🇬 新加坡A—专线主
+      - 🇺🇸 美国CloudFlare节点 24
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇫🇷 法国1
+      - 🇪🇸 西班牙标准 IEPL 中继 1
+      - 🇸🇬 新加坡01|流媒体
+      - 🇭🇰 香港高级 IEPL 中继 1
+      - 🇯🇵 _JP_日本_1
+      - 🇸🇬 新加坡A专线备
+      - 🇺🇸 美国RF Engineering 4
+      - 🇨🇳 本站遵循中国法律,禁政治/辱华/轮子/反动
+      - 🇯🇵 美国|03广日电信隧道
+      - 🇻🇳 越南
+      - 🇰🇷 韩国01{移动|V2ray}
+      - 🇸🇬 新加坡03|流媒体 2
+      - 🇺🇸 [ T1 ] 美国 | 01
+      - 🇰🇷 【直连】首尔 - 2
+      - 🇸🇬 新加坡|02|奈飞广日电信隧道2
+      - 🇯🇵 日本01
+      - 🇸🇬 【直连】狮城 - 3
+      - 🇸🇬 新加坡 A/02 x1.0
+      - 距离下次重置剩余：12 天
+      - 🇭🇰 香港A 2
+      - 🇨🇳 台湾02
+      - 🇯🇵 日本|03|湘日联通隧道2
+      - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 香港 IEPL/03 x3.0
+      - 🇯🇵 日本高级 IEPL 中继 2
+      - 🇺🇸 美国直连 03
+      - 🇷🇺 俄罗斯-Trojan
+      - 🇰🇷 韩国|01直连
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇬🇧 _GB_英国_1
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 9
+      - 🇭🇰 香港车仔面 x1.0
+      - 🇯🇵 日本05{优化1|V2ray}
+      - 🇺🇸 美国03|高速|流媒体解锁
+      - 🇨🇳 台湾A专线备
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
+      - 🇯🇵 _null_null->🇯🇵_JP_日本
+      - 🇺🇸 JCBB_美国04【vip1】 2
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】 2
+      - 🇸🇬 新加坡2|tg频道:@ripaojiedian
+      - 🇳🇱 Netherlands 2 🇳🇱
+      - 距离下次重置剩余：12 天 2
+      - 🇭🇰 香港标准 IEPL 中继 7
+      - 美國 B/01 x1.0
+      - 🇺🇸 美国02|流媒体
+      - 🇺🇸 16 美国 续费QQ:2187606906
+      - 🇸🇬 新加坡01|流媒体 2
+      - 负载均衡节点—备
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
   - name: 📲 电报消息
     type: select
     proxies:
@@ -918,13 +873,14 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🇭🇰 [Vip1]  香港08[1.0 | 移动 | 流媒体解锁]
       - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
-      - 🇨🇳 [Vip1] 台湾01[1.0 | 移动 | 流媒体解锁]
-      - 🇭🇰 香港01|高速|流媒体解锁|免流
       - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
-      - 🇺🇸 [Vip1] 美国05[1.0  | 流媒体解锁]
-      - 🇯🇵 日本13|专线|流媒体解锁
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁] 2
+      - 🇭🇰 香港05|高速|流媒体解锁
+      - 🇭🇰 [vip1] 香港02[1.0 | 移动 | 流媒体解锁]
       - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
+      - 🇺🇸 美国03|高速|流媒体解锁
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -970,172 +926,165 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港|03|广港电信隧道
-      - 🇭🇰 香港标准 IEPL 中继 7
-      - 🇭🇰 香港|06奈飞AZ广港电信隧道
-      - 🇭🇰 新加坡 04 | 深港专线
-      - 🇭🇰 香港牛腩 x1.0
-      - 🇭🇰 香港 07 | 深港专线
-      - 🇭🇰 香港标准 IEPL 中继 8
+      - 🇭🇰 [Vip1]  香港08[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 新加坡|06|奈飞广港电信隧道
+      - 🇭🇰 新加坡|01|广港电信隧道4
       - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
-      - 🇭🇰 日本 05 | 深港专线
-      - 🇭🇰 香港01|高速|流媒体解锁|免流
-      - 🇭🇰 香港01 中转¹
-      - 🇭🇰 英国|01|广港电信隧道
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港IPLC 07
-      - 🇭🇰 香港魚蛋 x1.0
-      - 🇭🇰 香港直连 03
-      - 🇭🇰 香港高级 IEPL 中继 3
-      - 🇭🇰 日本 02 | 深港专线
-      - 🇭🇰 香港标准 IEPL 中继 2
-      - 🇭🇰 香港IPLC 15
-      - 🇭🇰 香港公仔餅 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
+      - 🇭🇰 香港|06奈飞AZ广港电信隧道
+      - 🇭🇰 香港 實驗性C/04 x1.0
+      - 🇭🇰 香港慢|tg频道:@ripaojiedian
+      - 🇭🇰 美国 04 | 深港专线
+      - 🇭🇰 香港 04 | 深港专线
+      - 🇭🇰 JCBB_香港04【vip2】
+      - 🇭🇰 新加坡|03|奈飞海港电信隧道3
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇭🇰 香港05|高速|流媒体解锁
+      - 🇭🇰 [vip1] 香港02[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 香港IPLC 06
+      - 🇭🇰 美国|01奈飞广港电信隧道2
+      - 🇭🇰 香港IPLC 13
+      - 🇭🇰 香港A
+      - 🇭🇰 香港高级 IEPL 中继 1
+      - 🇭🇰 香港A 2
       - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
-      - 🇭🇰 美国|04RN广港电信隧道
-      - 🇭🇰 香港IPLC 05
-      - 🇭🇰 新加坡|03|奈飞广港电信隧道2
-      - 🇭🇰 香港IPLC 14
-      - 🇭🇰 香港|02奈飞AZ广港电信隧道
+      - 🇭🇰 香港 IEPL/03 x3.0
+      - 🇭🇰 香港车仔面 x1.0
+      - 🇭🇰 香港标准 IEPL 中继 7
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本IIJ-大阪
-      - 🇯🇵 JCBB_日本03【vip1】
-      - 🇯🇵 日本标准 IEPL 中继 8
-      - 🇯🇵 日本09
-      - 🇯🇵 美国|07广日电信隧道
-      - 🇯🇵 日本03
-      - 🇯🇵 日本|01|湘日联通隧道
-      - 🇯🇵 [ v1 ] 日本 | 06
+      - 🇯🇵 [ 联通 ] 日本 · F1 | 04
+      - 🇯🇵 github.com/Pawdroid - 日本东京Choopa数据中心 1
+      - 🇯🇵 _JP_日本_2
+      - 🇯🇵 【直连】东京 - 4
+      - 🇯🇵 日本 實驗性C/01 x1.0
+      - 🇯🇵 日本IPLC 05
+      - 🇯🇵 07 日本 续费QQ:2187606906
+      - 🇯🇵 日本快|tg频道:@ripaojiedian
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇯🇵 _JP_日本_1
+      - 🇯🇵 美国|03广日电信隧道
+      - 🇸🇬 新加坡|02|奈飞广日电信隧道2
+      - 🇯🇵 日本01
+      - 🇯🇵 日本|03|湘日联通隧道2
+      - 🇯🇵 日本高级 IEPL 中继 2
+      - 🇯🇵 日本05{优化1|V2ray}
       - 🇯🇵 _null_null->🇯🇵_JP_日本
-      - 🇭🇰 日本 05 | 深港专线
-      - 🇯🇵 日本 A/02 x1.0
-      - 🇯🇵 JCBB_日本03【vip1】 2
-      - 🇯🇵 日本C|tg频道:@ripaojiedian
-      - 🇯🇵 日本A—专线主
-      - 🇨🇳 台湾|01奈飞广日电信隧道3
-      - 🇯🇵 日本直连 01
-      - 🇯🇵 日本A—专线主 2
-      - 🇭🇰 日本 02 | 深港专线
-      - 🇯🇵 日本13|专线|流媒体解锁
-      - 🇯🇵 日本|02|直连2
-      - 🇯🇵 [ 直连] 日本 · U1 | 02
-      - 🇯🇵 日本|02|奈飞广日电信隧道2
-      - 🇯🇵 08 日本 续费QQ:3590753579
+      - 🇯🇵 _JP_日本
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国高级 IEPL 中继 2
-      - 🇯🇵 美国|07广日电信隧道
-      - 🇺🇸 美国直连 01
-      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
-      - 🇺🇸 美国直连 03
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇺🇸 洛杉矶-2
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_70
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇸🇬 美国US03丨断线就更新订阅
-      - 🇺🇸 美国标准 IEPL 中继 2
-      - 🇺🇸 美国02|流媒体
-      - 美國 B/01 x1.0
-      - 🇺🇸 美国02
-      - 🇺🇸 [ v1 ] 美国 | 02
-      - 🇺🇸 [ T1 ] 美国 | 01
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_181
+      - 🇺🇸 美国2
+      - 🇺🇸 美国RF Engineering 20
+      - 🇺🇸 [ 直连] 美国 · U1 | 02
       - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - 🇭🇰 美国 04 | 深港专线
       - 🇺🇸 快嘴科技@来源：kkzui.com_美国_99
-      - 🇺🇸 美国得克萨斯州 29
-      - 🇺🇸 JCBB_美国03【vip1】
-      - 🇺🇸 [Vip1] 美国05[1.0  | 流媒体解锁]
-      - 🇺🇸 美国CloudFlare公司CDN节点 10
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸 15 美国 续费QQ:3590753579
-      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_111
-      - 🇺🇸 美国CloudFlare公司CDN节点 18
+      - 🇺🇸 美国CloudFlare节点 36
+      - 🇺🇸 13 美国 续费QQ:2187606906
+      - 🇺🇸 美国标准 IEPL 中继 3
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁] 2
+      - 🇺🇸 美国IPLC 07
       - 🇺🇸 _US_美国
-      - 🇭🇰 美国|04RN广港电信隧道
-      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 27
+      - 🇺🇸 JCBB_美国04【vip1】
       - 🇺🇸 _BZ_伯利兹->🇺🇸_US_美国
-      - 🇺🇸 美国IPLC 02
+      - 🇺🇸 github.com/Pawdroid - 美国CloudFlare节点 32
+      - 🇭🇰 美国|01奈飞广港电信隧道2
+      - 🇺🇸 美国A专线备
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 10
+      - 🇺🇸 美国CloudFlare公司CDN节点 37
+      - 🇺🇸 美国CloudFlare节点 24
+      - 🇺🇸 美国RF Engineering 4
+      - 🇯🇵 美国|03广日电信隧道
+      - 🇺🇸 [ T1 ] 美国 | 01
+      - 🇺🇸 美国直连 03
+      - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
+      - 🇺🇸 美国03|高速|流媒体解锁
+      - 🇺🇸 JCBB_ 洛杉矶 01【vip1 | 移动】
+      - 🇺🇸 JCBB_美国04【vip1】 2
+      - 美國 B/01 x1.0
+      - 🇺🇸 美国02|流媒体
+      - 🇺🇸 16 美国 续费QQ:2187606906
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 165|台湾Hinet|x3.5
-      - 🇨🇳 [Vip1] 台湾01[1.0 | 移动 | 流媒体解锁]
-      - 🇨🇳 台湾03|流媒体
       - 🇨🇳 台湾02|流媒体
-      - 🇨🇳 台湾|01奈飞广日电信隧道3
-      - 🇨🇳 台湾03|流媒体 2
-      - 🇨🇳 台湾 | 02
-      - 台灣 B/02 x1.0
-      - 🇨🇳 台湾标准 IEPL 中继 3
-      - 🇨🇳 台湾高级 IEPL 中继 1
-      - 🇨🇳 150|台湾|x3.0
-      - 台灣 A/03 x1.0
+      - 🇨🇳 台湾04|流媒体
+      - 🇨🇳 168|台湾Hinet|x3.5
+      - 🇨🇳 台湾02
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】
+      - 🇨🇳 台湾A专线备
+      - 🇨🇳 JCBB_台湾01【vip1 |  移动】 2
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡|04直连
-      - 🇸🇬 新加坡 實驗性C/01 x1.0
-      - 🇭🇰 新加坡 04 | 深港专线
-      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 移动】
-      - 🇸🇬 新加坡04|流媒体
-      - 🇸🇬 138|新加坡|lt线路|x2.5
-      - 🇸🇬 新加坡-Trojan①
-      - 🇸🇬 新加坡05{优化2|V2ray}
-      - 🇸🇬 133|新加坡|lt线路|x2.5
-      - 🇸🇬 136|新加坡|dx线路|x2.5
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡 | 01
-      - 🇸🇬 新加坡OVH 33
-      - 🇸🇬 新加坡标准 IEPL 中继 3
-      - 🇸🇬 10 新加坡 续费QQ:3590753579
-      - 🇸🇬 新加坡OVH 31
-      - 🇸🇬 新加坡 | 02
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_1
-      - 🇸🇬 新加坡02|流媒体
-      - 🇸🇬 新加坡
-      - 🇭🇰 新加坡|03|奈飞广港电信隧道2
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡_2
+      - 🇸🇬 狮城01 中转¹
+      - 🇭🇰 新加坡|06|奈飞广港电信隧道
+      - 🇸🇬 新加坡沙嗲 x1.0
+      - 🇭🇰 新加坡|01|广港电信隧道4
+      - 🇸🇬 新加坡标准 IEPL 中继 8
+      - 🇸🇬 新加坡01{优化2|V2ray}
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+      - 🇸🇬 【直连】狮城 - 4
+      - 🇭🇰 新加坡|03|奈飞海港电信隧道3
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇸🇬 新加坡03|流媒体
+      - 🇸🇬 新加坡04{优化2|V2ray}
+      - 🇸🇬 新加坡 IEPL/02 x3.0
+      - 🇸🇬 JCBB_ 新加坡 06【vip1 | 联通】
+      - 🇸🇬 新加坡A—专线主
+      - 🇸🇬 新加坡01|流媒体
+      - 🇸🇬 新加坡A专线备
+      - 🇸🇬 新加坡03|流媒体 2
+      - 🇸🇬 新加坡|02|奈飞广日电信隧道2
+      - 🇸🇬 【直连】狮城 - 3
+      - 🇸🇬 新加坡 A/02 x1.0
+      - 🇸🇬 新加坡2|tg频道:@ripaojiedian
+      - 🇸🇬 新加坡01|流媒体 2
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国-grpc-1
-      - 🇰🇷 韩国01|高速
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国 | 01
+      - 🇰🇷 韩国04{联通|V2ray}
+      - 🇰🇷 _KR_韩国_1
+      - 🇰🇷 韩国01{移动|V2ray}
+      - 🇰🇷 【直连】首尔 - 2
+      - 🇰🇷 韩国|01直连
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇭🇰 香港|06奈飞AZ广港电信隧道
+      - 🇭🇰 [Vip1]  香港08[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 新加坡|06|奈飞广港电信隧道
       - 🇭🇰 [vip1] 香港01[1.0 | 移动 | 流媒体解锁]
-      - 🇨🇳 [Vip1] 台湾01[1.0 | 移动 | 流媒体解锁]
-      - 🇭🇰 香港01|高速|流媒体解锁|免流
+      - 🇭🇰 香港|06奈飞AZ广港电信隧道
       - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁]
-      - 🇨🇳 台湾|01奈飞广日电信隧道3
-      - 🇺🇸 [Vip1] 美国05[1.0  | 流媒体解锁]
-      - 🇯🇵 日本13|专线|流媒体解锁
+      - 🇺🇸 [Vip1] 美国01[1.0 |  移动 | 流媒体解锁] 2
+      - 🇭🇰 新加坡|03|奈飞海港电信隧道3
+      - 🇭🇰 香港05|高速|流媒体解锁
+      - 🇭🇰 [vip1] 香港02[1.0 | 移动 | 流媒体解锁]
+      - 🇭🇰 美国|01奈飞广港电信隧道2
+      - 🇸🇬 新加坡|02|奈飞广日电信隧道2
       - 🇭🇰 [Vip1] 香港07[1.0 | 移动 | 流媒体解锁]
-      - 🇯🇵 日本|02|奈飞广日电信隧道2
-      - 🇭🇰 新加坡|03|奈飞广港电信隧道2
-      - 🇭🇰 香港|02奈飞AZ广港电信隧道
+      - 🇺🇸 美国03|高速|流媒体解锁
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
