@@ -21,39 +21,39 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`节点总数: 476`
+`节点总数: 449`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
-`合并节点总数: 60`
+`合并节点总数: 57`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2`
-`合并节点总数: 60`
+`合并节点总数: 57`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3`
-`合并节点总数: 60`
+`合并节点总数: 57`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4`
-`合并节点总数: 60`
+`合并节点总数: 57`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5`
-`合并节点总数: 60`
+`合并节点总数: 57`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6`
-`合并节点总数: 60`
+`合并节点总数: 57`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7`
-`合并节点总数: 60`
+`合并节点总数: 57`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`合并节点总数: 56`
+`合并节点总数: 50`
 
 - [clash订阅](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -69,7 +69,7 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 </details>
 
 ### 试用高速订阅数量: `10`
-更新时间：`2023-03-16 18:31:46`
+更新时间：`2023-03-16 20:49:59`
 
 
 <details>
@@ -10866,62 +10866,72 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://www.dgycom.com/api/v1/client/subscribe?token=8eaca17746b233d7b5a63f02d219b110`
 
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=2aff31e5596bb43ebb40e947d60b040d`
 
 
-
-
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=368923398bb30810a188d69a50503be7`
 
 
 
 
 >试用订阅：
-`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=c5a48782c0d7764c053fb9d33d0f0002`
+`https://www.dgycom.com/api/v1/client/subscribe?token=054a57390edd3db5eed8a8a1a21ec0bd`
 
 
 
 
 >试用订阅：
-`https://user.bafang.vip/api/v1/client/subscribe?token=5c0504b62d4e28ff2077adb3bb903fb7`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=c875dbb6e1a243abcb3482934c2bab8a`
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=665f476f2b713578d99b54f4909b6e18`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=f81521c09f2abd48cf68cd40a0fd761b`
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=6fcf4d0d1b862f598a1554e93d2b06e0`
+`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=ee4cc0ef500975deaed4b294e7acc1bf`
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=4168bf6cbe4aef174156fac11e9add07`
+`https://user.bafang.vip/api/v1/client/subscribe?token=24bcd734dca0a43e43208e515cb233f5`
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=4c933adf156313d166043ea7fcb1eb31`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=4f96983cc3ff5c1b72018fa69097f582`
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=a47cee4322667b96f266f5be4130ff3a`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=1411db90998e1beac464aafe67cae861`
+
+
+
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=dd69c4359a39cb7f9d86016618e14b58`
+
+
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=12676905377bcf410f1de6d199dc4370`
+
+
+
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=18f0000885f1dfc3181f5200d9862f98`
 
 
 
