@@ -21,39 +21,39 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`节点总数: 663`
+`节点总数: 727`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
-`合并节点总数: 83`
+`合并节点总数: 91`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2`
-`合并节点总数: 83`
+`合并节点总数: 91`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3`
-`合并节点总数: 83`
+`合并节点总数: 91`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4`
-`合并节点总数: 83`
+`合并节点总数: 91`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5`
-`合并节点总数: 83`
+`合并节点总数: 91`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6`
-`合并节点总数: 83`
+`合并节点总数: 91`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7`
-`合并节点总数: 83`
+`合并节点总数: 91`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`合并节点总数: 82`
+`合并节点总数: 90`
 
 - [clash订阅](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,8 +68,8 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 </details>
 
-### 试用高速订阅数量: `7`
-更新时间：`2023-04-27 22:30:38`
+### 试用高速订阅数量: `9`
+更新时间：`2023-04-28 00:33:32`
 
 
 <details>
@@ -14537,44 +14537,57 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=d2b30a1c5389e8612b917367f8587a82`
-
-
-
 
 >试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=8aceec837a22e87a5e4d5053aba905d1`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=fb5d60d1e009214f1faebd6c2f5cf656`
 
 
 
 
 >试用订阅：
-`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=147882f502e285f1fa35463d661f18f2`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=c9d7d98bf3a8af36e560fbfe7effcbf8`
 
 
 
 
 >试用订阅：
-`https://user.bafang.vip/api/v1/client/subscribe?token=8489fddca23e09c67069fcd6a179eb0b`
+`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=3d8049e4e4521de84858dbe1a24b2bae`
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=a759830faa3d8f39b85d3bfb66ad4392`
+`https://user.bafang.vip/api/v1/client/subscribe?token=f4423e4193ee865862319a5d745a87db`
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=9850a680a66cf382503855d1a0543f81`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=042b94925cb55d2238a2007bd347b133`
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=26b33620dd0d9ed4be1c04a0a434704f`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5d1895ace9e43e24733a414a371aaf1e`
+
+
+
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=2144204a9fc7d480976f04e012eaf9b0`
+
+
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=67196e370beec49c85c24394bde1675a`
+
+
+
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=3b2ea3feb0eb0b7088b69e3a17c6ef52`
 
 
 
