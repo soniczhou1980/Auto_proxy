@@ -69,7 +69,7 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 </details>
 
 ### 试用高速订阅数量: `7`
-更新时间：`2023-06-02 22:26:21`
+更新时间：`2023-06-03 00:31:28`
 
 
 <details>
@@ -15982,44 +15982,51 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=03619fd05643f44d4ebfb8d10920f9c8`
 
 
 
-
->试用订阅：
-`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=b2a5739d8e92c0a1665c457a15950ffe`
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=06c1f2c9fa84f0669a6ffd5fdaa29a6a`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=6bc1648ad394347a6a74a75b72983793`
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=28f5c2f0e82b98aab66a845f93f77c1d`
+`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=c17ec953256ab00535d1a640730cb51b`
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=cfb2c1a4d0d88f003fc5065589167d8b`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=bd0f441596a50101674d90a7911a189d`
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=a795fc0b5d31c5f0bfae5b06d635c40d`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=75ac5e20b30aeb7304d0b9f673f51a2f`
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=b93b2e3ae90d0d3c7a392d1828d1cebd`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=787fdea1613b78ef7e2a182f819a669c`
+
+
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=b54a277ca55e1aae8144279157e76d74`
+
+
+
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=e50d0bee31ef984919df490f10393f2d`
 
 
 
