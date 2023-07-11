@@ -21,7 +21,7 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`节点总数: 311`
+`节点总数: 309`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
@@ -53,7 +53,7 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`合并节点总数: 38`
+`合并节点总数: 36`
 
 - [clash订阅](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,8 +68,8 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 </details>
 
-### 试用高速订阅数量: `7`
-更新时间：`2023-07-11 09:59:24`
+### 试用高速订阅数量: `6`
+更新时间：`2023-07-11 11:16:12`
 
 
 <details>
@@ -18151,44 +18151,66 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=651c6fc650e0f20c8e0cad242c08f7b1`
 
 
 
 
->试用订阅：
-`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=5a896967ee7eb5bb11782b039b8f924c`
 
 
-
-
->试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=645d433b7d43ff63bcc712abd389060a`
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=4b2b43074403b8a0d6532cfb9894e086`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=c92ce5d1ccd6022eca38dad8286be915`
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=e1df3280ea54578ea360028d1ed05ee0`
+`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=436367028635a14cc467de263f7522fa`
+
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=c92ce5d1ccd6022eca38dad8286be915`
+
+
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=84543e4ae7ab7730dd442aea48e0319b`
+
+>试用订阅：
+`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=436367028635a14cc467de263f7522fa`
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5c50233ec440707b75ac5d77fd8bd385`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=84543e4ae7ab7730dd442aea48e0319b`
 
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=233fea0d4873117fe4ab71cbdd8c23ae`
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=1bc8e64820313f2c8c5f98246e9bdc1b`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=233fea0d4873117fe4ab71cbdd8c23ae`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=a05b5837d8f469efa9d5eff649be329a`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=a05b5837d8f469efa9d5eff649be329a`
+
+
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=961916b0659499122fac9f108d4ea814`
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=961916b0659499122fac9f108d4ea814`
 
 
 
