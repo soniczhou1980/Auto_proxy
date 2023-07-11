@@ -5,160 +5,189 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 _CN_中国_220, server: 14.215.51.211, port: 24423, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_594, server: 117.80.148.215, port: 24481, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_797, server: 14.116.207.65, port: 24406, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_409, server: 14.215.51.211, port: 24435, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_310, server: 223.113.143.200, port: 24437, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_760, server: 180.103.120.200, port: 24414, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_14, server: 101.89.165.165, port: 24475, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_617, server: 14.29.225.243, port: 24481, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_619, server: 14.29.225.243, port: 24484, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_191, server: 14.29.225.243, port: 24424, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_512, server: 123.158.253.190, port: 24442, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_132, server: 223.113.143.200, port: 24437, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_303, server: 223.113.143.200, port: 24438, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
-  - {name: 🇨🇳 _CN_中国_76, server: 101.89.165.165, port: 24466, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 火星互联 https://console.marsix.net/, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 2a16525f-5d2a-410c-b653-53e7dbce8dd7}
-  - {name: 🇨🇳 _CN_中国_588, server: 14.116.207.65, port: 24485, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_401, server: 14.215.51.211, port: 24426, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_19, server: 101.89.165.165, port: 24477, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_564, server: 223.113.141.195, port: 24483, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_149, server: 223.113.141.195, port: 24432, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_264, server: 117.80.148.215, port: 24432, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_763, server: 180.103.120.200, port: 24411, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: TG频道@kxswa | https://t.me/kxswa, server: 156.225.67.111, port: 43126, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国, server: 137.175.1.1, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_256, server: 14.116.207.65, port: 24433, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_718, server: 117.80.148.215, port: 24412, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇺🇸 TG:@hkaa0 美国 2, server: 97.64.31.80, port: 247, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
-  - {name: 🇨🇳 _CN_中国_682, server: 14.29.225.243, port: 24403, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_405, server: 14.215.51.211, port: 24430, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_117, server: 101.89.108.53, port: 24469, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 火星互联公益节点03, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 2a16525f-5d2a-410c-b653-53e7dbce8dd7}
-  - {name: 🇳🇱 TG:@hkaa0 荷兰, server: 45.153.203.83, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG频道@kxswa | https://t.me/kxswa 2, server: zendesk1.grab.com, port: 443, type: vmess, uuid: 952d7273-726a-4f3d-9676-f9c711b1ec52, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}}
-  - {name: 🇨🇳 _CN_中国_48, server: 101.89.108.53, port: 24471, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_158, server: 223.113.141.195, port: 24439, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇺🇸 TG:@hkaa0 美国 3, server: 140.99.57.22, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_357, server: 180.103.120.200, port: 24428, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_275, server: 117.80.148.215, port: 24423, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_604, server: 223.113.143.200, port: 24481, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_10, server: 101.89.165.165, port: 24480, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_160, server: 223.113.141.195, port: 24421, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 火星互联公益节点01, server: free.themars.top, port: 32101, type: ss, cipher: chacha20-ietf-poly1305, password: 2a16525f-5d2a-410c-b653-53e7dbce8dd7}
-  - {name: 🇨🇳 _CN_中国_341, server: 180.103.120.200, port: 24429, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇩🇪 _DE_德国, server: 45.14.174.152, port: 80, type: vmess, uuid: 71cecc3f-e274-43f5-81a7-af37b1e3b185, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fr.66.now.cc}}}
-  - {name: 🇨🇳 _CN_中国_201, server: 14.29.225.243, port: 24426, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_87, server: 101.89.144.3, port: 24461, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 「SCP」UK2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk2.scproxy.top}}}
-  - {name: 🇫🇷 TG:@hkaa0 法国, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: ""}
-  - {name: TG频道@kxswa | https://t.me/kxswa 3, server: ctsg2.createmofa.xyz, port: 37998, type: ss, cipher: chacha20-ietf-poly1305, password: fe98c422-7eec-4436-9cb9-c554df11d167}
-  - {name: 🇨🇳 _CN_中国_183, server: 180.103.120.200, port: 24438, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇺🇸 United States(ChatGPT) 10 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
-  - {name: TG频道@kxswa | https://t.me/kxswa 4, server: jp-direct.node002.xyz, port: 554, type: vmess, uuid: bcec639e-a656-3703-8d13-47a6dca409e0, alterId: 0, cipher: auto, tls: true}
-  - {name: TG频道@kxswa | https://t.me/kxswa 5, server: 104.24.223.248, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: 🇸🇬 SG12新加坡|广移|专, server: gd.v2y.live, port: 49005, type: ss, cipher: chacha20-ietf-poly1305, password: 68e97468-88d1-449b-a20a-35da194c283b}
-  - {name: 🇨🇳 _CN_中国_502, server: 123.158.253.190, port: 24456, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇮🇳 India(ChatGPT) 01 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}}
-  - {name: 🇨🇳 _CN_中国_307, server: 223.113.143.200, port: 24434, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_652, server: 223.113.143.200, port: 24416, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_99, server: 101.89.144.3, port: 24474, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_678, server: 14.29.225.243, port: 24410, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_387, server: 14.29.118.38, port: 24428, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇺🇸 _US_美国, server: cf4.992688.xyz, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c95, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}}
-  - {name: 🇨🇳 _CN_中国_431, server: 14.116.207.65, port: 24434, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_94, server: 101.89.144.3, port: 24466, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇰🇷 TG:@hkaa0 韩国, server: 43.201.72.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 _CN_中国_354, server: 180.103.120.200, port: 24439, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_736, server: 223.113.143.200, port: 24414, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_239, server: 14.116.207.65, port: 24423, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_408, server: 14.215.51.211, port: 24433, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_503, server: 123.158.253.190, port: 24448, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 有问题可咨询网站右下角客服, server: gzcm.v2y.live, port: 21847, type: ss, cipher: chacha20-ietf-poly1305, password: 68e97468-88d1-449b-a20a-35da194c283b}
-  - {name: 🇨🇳 _CN_中国_651, server: 223.113.143.200, port: 24411, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 47492, type: trojan, password: 93b4077b-19cc-49b6-b680-1a9146a80946, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 _CN_中国_16, server: 101.89.165.165, port: 24466, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_728, server: 117.80.144.131, port: 24415, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_311, server: 223.113.143.200, port: 24428, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇸🇬 SG11新加坡|广联|专, server: hl.v2y.live, port: 44649, type: ss, cipher: chacha20-ietf-poly1305, password: 68e97468-88d1-449b-a20a-35da194c283b}
-  - {name: 🇺🇸 TG:@hkaa0 美国 4, server: 142.4.100.44, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG频道@kxswa | https://t.me/kxswa 6, server: 190.93.244.72, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: 🇨🇳 _CN_中国_694, server: 14.29.118.38, port: 24408, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_218, server: 14.215.51.211, port: 24421, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇭🇰 HK-免费, server: hk.tengxunyx.top, port: 443, type: vmess, uuid: d6bf1760-58d4-48b1-bc42-bf89e27bd0bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hk.tengxunyx.top}}}
-  - {name: 🇨🇳 _CN_中国_710, server: 14.116.207.65, port: 24403, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_31, server: 101.89.144.3, port: 24479, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_712, server: 14.116.207.65, port: 24408, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_219, server: 14.215.51.211, port: 24422, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_50, server: 101.89.108.53, port: 24468, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_110, server: 101.89.108.53, port: 24468, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇺🇸 TG:@hkaa0 美国 5, server: 104.243.30.252, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai, server: 183.237.20.158, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_637, server: 117.80.148.215, port: 24485, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇺🇸 TG:@hkaa0 美国 6, server: 192.74.232.226, port: 52312, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_509, server: 123.158.253.190, port: 24458, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_169, server: 180.103.120.200, port: 24437, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_778, server: 14.29.118.38, port: 24405, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_379, server: 14.29.225.243, port: 24426, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_454, server: 117.80.148.215, port: 24431, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_124, server: 223.113.143.200, port: 24429, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇯🇵 TG:@hkaa0 日本, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%�, obfs-param: ""}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡, server: weo-sg-1.laowufly.cf, port: 2333, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/It'sExpensive!!!}
-  - {name: 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
-  - {name: 🇺🇸 美国高速接入点-07, server: cfcdn.sanfencdn.net, port: 2052, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us7.sanfencdn2.com}}}
-  - {name: 🇨🇳 _CN_中国_114, server: 101.89.108.53, port: 24480, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_650, server: 223.113.143.200, port: 24418, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: 173.245.59.165, port: 2095, type: vmess, uuid: f25a0058-37be-4849-90b7-806d7cc8bf38, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: sg.wyhkaa0.tk}}}
-  - {name: 🇨🇳 _CN_中国_393, server: 14.29.118.38, port: 24430, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡 2, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇨🇳 _CN_中国_810, server: 117.80.148.215, port: 24416, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: TG频道@kxswa | https://t.me/kxswa 7, server: 156.225.67.103, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_118, server: 101.89.108.53, port: 24461, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_676, server: 180.103.120.200, port: 24412, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_742, server: 223.113.143.200, port: 24415, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 19390, type: trojan, password: 93b4077b-19cc-49b6-b680-1a9146a80946, sni: jp001.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-17, server: gzdx.jcnode.top, port: 44283, type: trojan, password: 93b4077b-19cc-49b6-b680-1a9146a80946, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 _CN_中国_751, server: 223.113.141.195, port: 24412, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_52, server: 101.89.108.53, port: 24477, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_534, server: 123.158.253.248, port: 24458, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_143, server: 223.113.141.195, port: 24435, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇳🇱 TG:@hkaa0 荷兰 2, server: 45.153.203.89, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国 7, server: 199.188.105.141, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_211, server: 14.29.118.38, port: 24425, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_545, server: 123.158.253.190, port: 24446, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: 🇭🇰 2x-临时-香港-高级节点2, server: 2f36c18cfe76.sanfen004.me, port: 10775, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_235, server: 14.215.51.211, port: 24440, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_378, server: 14.29.225.243, port: 24440, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_128, server: 223.113.143.200, port: 24432, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇭🇰 Hong Kong 01 TG:@nodpai, server: wasanbi.ga, port: 443, type: vmess, uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /94448b9f-7d5d-4f7a-9c68-d4978878d401, headers: {Host: wasanbi.ga}}}
-  - {name: 🇨🇳 _CN_中国_660, server: 223.113.141.195, port: 24418, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_452, server: 117.80.148.215, port: 24427, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai, server: 43.201.254.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: TG:@hkaa0 中国, server: 14.29.124.168, port: 24000, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: 🇨🇳 _CN_中国_824, server: 117.80.144.131, port: 24413, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_465, server: 117.80.144.131, port: 24434, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: 🇨🇳 _CN_中国_447, server: 117.80.148.215, port: 24428, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_374, server: 14.29.225.243, port: 24425, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai, server: bgptw3.cnamazon.sbs, port: 443, type: trojan, password: 5f9a5d8c-a57b-4da6-baff-490fe4cf8d60, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true}
-  - {name: 🇨🇳 _CN_中国_686, server: 14.29.118.38, port: 24404, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_53, server: 101.89.108.53, port: 24474, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 China 01 TG:@nodpai, server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_486, server: 123.158.253.248, port: 24457, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_775, server: 14.29.118.38, port: 24404, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_524, server: 123.158.253.248, port: 24453, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇺🇸 _US_美国, server: digitalocean.com, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}}
+  - {name: 🇨🇳 _CN_中国_778, server: 14.29.118.38, port: 24405, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_646, server: 117.80.144.131, port: 24483, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇭🇰 香港高速接入点-01, server: hk1.c.e8bb3fc45ae9.sanfen006.xyz, port: 443, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: true, servername: hk1.sanfen006.xyz, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇨🇳 _CN_中国_769, server: 14.29.225.243, port: 24409, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇺🇸 TG:@hkaa0 美国, server: 163.123.192.60, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, skip-cert-verify: true}
+  - {name: 🇺🇸 TG:@hkaa0 美国 2, server: 104.31.16.213, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇺🇸 美国, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 7f661b42-fb36-48aa-a0db-6961180ca69d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}}
+  - {name: 🇭🇰 香港专线 5 | 家庭宽带, server: speed11.duang2019.com, port: 12005, type: ss, cipher: aes-128-gcm, password: bf433d85-99d6-4e46-8147-4d11c04f36b3}
+  - {name: Relay_-🇦🇺AU_686 |21.95Mb, server: gg.xn--gmqa02ag57d.com, port: 33323, type: trojan, password: 5fa57521-e1a6-3a88-875c-5b7b232194c4, sni: z261.hongkongnode.top, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_47, server: 101.89.108.53, port: 24465, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇰🇷 TG:@hkaa0 韩国, server: 43.201.60.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国高速接入点-03, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: true, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us3.sanfencdn1.com}}}
+  - {name: 🇸🇬 TG:@hkaa0 新加坡, server: 3.0.183.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 _CN_中国_545, server: 123.158.253.190, port: 24446, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇸🇬 Singapore 09, server: mysql.accessconnect.cc, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇺🇸 美国 2, server: 198.41.223.237, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: t.wang66.homes}}}
+  - {name: 🇨🇳 _CN_中国_501, server: 123.158.253.190, port: 24453, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇳🇱 荷兰, server: 154.85.1.4, port: 40024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_659, server: 223.113.141.195, port: 24415, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_493, server: 123.158.253.248, port: 24448, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇭🇰 vip1 香港-09, server: gzdx.jcnode.top, port: 41063, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 距离下次重置剩余：20 天, server: gzdx.jcnode.top, port: 43000, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_631, server: 14.215.51.211, port: 24481, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_396, server: 14.215.51.211, port: 24421, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇺🇸 美国-IEPL-Basic-02, server: us07.network-cdn-gw.cc, port: 43211, type: ss, cipher: chacha20-ietf-poly1305, password: bdf68488-54c2-498b-bb97-3ec1104b0787}
+  - {name: 🇨🇳 _CN_中国_86, server: 101.89.144.3, port: 24462, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_458, server: 117.80.144.131, port: 24440, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_327, server: 223.113.141.195, port: 24432, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_467, server: 117.80.144.131, port: 24423, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: Relay_-🇭🇰HK_703 |15.92Mb, server: gg.xn--gmqa02ag57d.com, port: 20279, type: trojan, password: 5fa57521-e1a6-3a88-875c-5b7b232194c4, sni: z279.hongkongnode.top, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.97.71, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_635, server: 14.116.207.65, port: 24481, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇯🇵 vip1 日本-05_1, server: gzdx.jcnode.top, port: 15579, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: jp02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_544, server: 123.158.253.190, port: 24444, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_29, server: 101.89.144.3, port: 24473, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_772, server: 14.29.225.243, port: 24407, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇸🇬 Singapore 21, server: mysql.accessconnect.cc, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇨🇳 _CN_中国_172, server: 180.103.120.200, port: 24433, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇸🇬 Singapore 02, server: mysql.accessconnect.cc, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇨🇳 _CN_中国_252, server: 14.116.207.65, port: 24432, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}}
+  - {name: 🇭🇰 Hong Kong 18, server: mysql.accessconnect.cc, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 2x-临时-台北-高级节点3, server: a7d4813550c2.sanfen004.me, port: 29033, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_62, server: 101.89.165.165, port: 24473, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇸🇬 Singapore 12, server: mysql.accessconnect.cc, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 纽约测试|@ripaojiedian, server: 216.52.183.245, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: Relay_-🇹🇼TW_691 | 6.60Mb, server: gg.xn--gmqa02ag57d.com, port: 20301, type: trojan, password: 5fa57521-e1a6-3a88-875c-5b7b232194c4, sni: z301.hongkongnode.top, skip-cert-verify: true}
+  - {name: SG_1280 |16.42Mb, server: 8.222.154.12, port: 6066, type: vmess, uuid: d1fc3271-3a92-40fe-ec63-4a0e7c31ba9a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 3, server: 104.27.88.197, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: t.wang66.homes}}}
+  - {name: 🇨🇳 _CN_中国_94, server: 101.89.144.3, port: 24466, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_657, server: 223.113.141.195, port: 24416, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_641, server: 117.80.148.215, port: 24483, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_37, server: 101.89.144.3, port: 24480, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇺🇸 美国专线 3, server: speed11.duang2019.com, port: 12033, type: ss, cipher: aes-128-gcm, password: bf433d85-99d6-4e46-8147-4d11c04f36b3}
+  - {name: 🇳🇱 荷兰 2, server: 154.85.1.245, port: 47731, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 Singapore 14, server: mysql.accessconnect.cc, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇨🇳 _CN_中国_369, server: 14.29.225.243, port: 24424, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_734, server: 117.80.144.131, port: 24417, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_193, server: 14.29.225.243, port: 24433, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 3, server: 64.32.4.41, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_422, server: 14.116.207.65, port: 24430, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_262, server: 117.80.148.215, port: 24433, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇭🇺 TG:@hkaa0 匈牙利, server: 5.181.77.86, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇳 _CN_中国_392, server: 14.29.118.38, port: 24438, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: TG:@hkaa0 中国, server: 14.29.124.168, port: 24000, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 _CN_中国_104, server: 101.89.108.53, port: 24475, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_806, server: 117.80.148.215, port: 24420, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 台湾专线 5 NF ChatGPT, server: speed11.duang2019.com, port: 12015, type: ss, cipher: aes-128-gcm, password: bf433d85-99d6-4e46-8147-4d11c04f36b3}
+  - {name: 🇨🇳 _CN_中国_171, server: 180.103.120.200, port: 24435, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_526, server: 123.158.253.248, port: 24457, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_264, server: 117.80.148.215, port: 24432, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇸🇬 TG:@hkaa0 新加坡 2, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: 🇨🇳 _CN_中国_248, server: 14.116.207.65, port: 24431, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_395, server: 14.29.118.38, port: 24423, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_543, server: 123.158.253.190, port: 24448, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 40004, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-IEPL-Basic-01, server: us06.network-cdn-gw.cc, port: 43111, type: ss, cipher: chacha20-ietf-poly1305, password: bdf68488-54c2-498b-bb97-3ec1104b0787}
+  - {name: 🇨🇳 _CN_中国_226, server: 14.215.51.211, port: 24429, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇺🇸 美国 4, server: 104.16.117.33, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: t.wang66.homes}}}
+  - {name: 🇨🇳 _CN_中国_785, server: 14.215.51.211, port: 24401, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇭🇰 fscloud 香港 - 005, server: fschk.fscloud123456789.com, port: 443, type: trojan, password: 0ac1a0a8-2a02-4ec8-acbe-704a13a471ab, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 5, server: 104.25.180.141, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: t.wang66.homes}}}
+  - {name: 🇺🇸 美国 6, server: 142.4.104.205, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇻🇳 vip2 越南-03, server: gzyd01.jcnode.top, port: 27934, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_212, server: 14.29.118.38, port: 24434, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇺🇸 _US_美国 2, server: 198.2.203.61, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: Relay_-🇯🇵JP_722 |16.13Mb, server: gg.xn--gmqa02ag57d.com, port: 54178, type: trojan, password: 3f7094cc-1a41-3349-8b2f-525377fc554a, sni: x115.flybar.work, skip-cert-verify: true}
+  - {name: 🇯🇵 Japan(ChatGPT) 04 TG:@nodpai, server: 45.88.43.239, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 _FR_法国, server: 15.237.100.130, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_432, server: 14.116.207.65, port: 24428, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇸🇬 SG12新加坡|广移|专, server: gd.v2y.live, port: 49005, type: ss, cipher: chacha20-ietf-poly1305, password: 68e97468-88d1-449b-a20a-35da194c283b}
+  - {name: 🇨🇳 _CN_中国_12, server: 101.89.165.165, port: 24463, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_416, server: 14.116.207.65, port: 24426, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_550, server: 123.158.253.190, port: 24460, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_43, server: 101.89.108.53, port: 24479, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_592, server: 117.80.148.215, port: 24485, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_40, server: 101.89.144.3, port: 24477, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇺🇸 美国 7, server: 162.159.40.211, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: t.wang66.homes}}}
+  - {name: 🇸🇬 新加坡-IEPL-Basic专线-01, server: sgp01.network-cdn-gw.cc, port: 45501, type: ss, cipher: chacha20-ietf-poly1305, password: bdf68488-54c2-498b-bb97-3ec1104b0787}
+  - {name: 🇭🇰 香港高速接入点-02, server: hk2.c3bfe79372bi.sanfen006.xyz, port: 443, type: vmess, uuid: 0a5f3bfe-f8ba-4f17-b22f-63cb2255dd74, alterId: 0, cipher: auto, tls: true, servername: hk1.sanfen006.xyz, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇺🇸 TG:@hkaa0 美国 3, server: 142.4.100.41, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_129, server: 223.113.143.200, port: 24434, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_562, server: 223.113.141.195, port: 24485, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇯🇵 TG:@hkaa0 日本, server: 18.183.217.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇬🇧 github.com/freefq - 英国伦敦Linode数据中心 15, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: vuk1.0bad.com}}}
+  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
+  - {name: 🇨🇳 _CN_中国_4, server: 101.89.165.165, port: 24464, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_149, server: 223.113.141.195, port: 24432, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_732, server: 117.80.144.131, port: 24420, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇺🇸 美国 8, server: cf2.992688.xyz, port: 8080, type: vmess, uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f94b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
   - {name: 🇰🇷 TG:@hkaa0 韩国 2, server: 3.38.104.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 US12美国|上电Linode US|---, server: shct.v2y.live, port: 16968, type: ss, cipher: chacha20-ietf-poly1305, password: 68e97468-88d1-449b-a20a-35da194c283b}
-  - {name: 🇨🇳 _CN_中国_479, server: 123.158.253.248, port: 24451, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: 93b4077b-19cc-49b6-b680-1a9146a80946, sni: aus01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 _CN_中国_362, server: 14.29.225.243, port: 34421, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇺🇸 _US_美国 2, server: cf2.992688.xyz, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c95, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}}
-  - {name: 🇺🇸 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
-  - {name: 🇨🇳 _CN_中国_618, server: 14.29.225.243, port: 24485, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇨🇳 _CN_中国_279, server: 117.80.144.131, port: 24435, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
-  - {name: 🇨🇳 _CN_中国_337, server: 223.113.141.195, port: 24431, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
-  - {name: 🇺🇸 TG:@hkaa0 美国 8, server: 216.52.183.244, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: "", host: ""}}
+  - {name: 🇭🇰 _HK_香港, server: hk02.isddns.tk, port: 65527, type: trojan, password: 2a898bd8-c0d1-4f7d-a88e-831d5682a9b9, sni: hk02.isddns.tk, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_251, server: 14.116.207.65, port: 24422, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: Relay_-🇨🇳CN_668 |35.46Mb, server: 156.251.135.11, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国专线 2, server: speed11.duang2019.com, port: 12032, type: ss, cipher: aes-128-gcm, password: bf433d85-99d6-4e46-8147-4d11c04f36b3}
+  - {name: 🇨🇳 _CN_中国_617, server: 14.29.225.243, port: 24481, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇸🇬 新加坡高速接入点-01, server: sg1.c.f163ab0f2c75.sanfen006.xyz, port: 2052, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇵🇱 _PL_波兰, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA}
+  - {name: 🇺🇸 美国高速接入点-04, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 0a5f3bfe-f8ba-4f17-b22f-63cb2255dd74, alterId: 0, cipher: auto, tls: true, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us4.sanfencdn1.com}}}
+  - {name: 🇨🇦 TG:@hkaa0 加拿大, server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-fhgjs34n, sni: cat-1.opensvr.net, skip-cert-verify: true}
+  - {name: 🇭🇰 HK21香港|广移3G, server: gd.v2y.live, port: 30791, type: ss, cipher: chacha20-ietf-poly1305, password: 68e97468-88d1-449b-a20a-35da194c283b}
+  - {name: 🇨🇳 _CN_中国_270, server: 117.80.148.215, port: 24424, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_512, server: 123.158.253.190, port: 24442, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇳🇱 荷兰 3, server: bgd---nl-2xy---6jinm7--cx.xn--9kq476ja.com, port: 443, type: trojan, password: 7a0de033-5bc6-475a-95e0-15bbbeeb95b0, sni: bgd---nl-2xy---6jinm7--cx.xn--9kq476ja.com}
+  - {name: 🇭🇰 vip1 香港-09_1, server: gzdx.jcnode.top, port: 32631, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_143, server: 223.113.141.195, port: 24435, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇺🇸 美国 9, server: 104.24.54.235, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: t.wang66.homes}}}
+  - {name: 🇨🇳 _CN_中国_260, server: 117.80.148.215, port: 24429, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇸🇬 新加坡专线 4, server: speed11.duang2019.com, port: 12044, type: ss, cipher: aes-128-gcm, password: bf433d85-99d6-4e46-8147-4d11c04f36b3}
+  - {name: 🇨🇳 _CN_中国_500, server: 123.158.253.190, port: 24455, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇭🇰 HK22香港|广移1G, server: xy.v2y.live, port: 19157, type: ss, cipher: chacha20-ietf-poly1305, password: 68e97468-88d1-449b-a20a-35da194c283b}
+  - {name: 🇨🇳 _CN_中国_687, server: 14.29.118.38, port: 24410, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇺🇸US_1198 |41.47Mb, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: ddf1f4a6-7273-46a5-8583-be4f2b78ba9d, sni: jp1.xn--mes358a9urctx.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本高速接入点-06, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp6.sanfencdn2.com}}}
+  - {name: 🇨🇳 _CN_中国_400, server: 14.215.51.211, port: 24425, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_123, server: 223.113.143.200, port: 24426, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_764, server: 180.103.120.200, port: 24415, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_823, server: 117.80.144.131, port: 24417, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇻🇳 vip1 越南-01_1, server: gzdx.jcnode.top, port: 43686, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_473, server: 117.80.144.131, port: 24431, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_597, server: 117.80.144.131, port: 24485, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_528, server: 123.158.253.248, port: 24446, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_347, server: 180.103.120.200, port: 24437, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_581, server: 14.29.118.38, port: 24484, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_16, server: 101.89.165.165, port: 24466, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_645, server: 117.80.144.131, port: 24481, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_670, server: 180.103.120.200, port: 24419, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇸🇬 新加坡高速接入点-04, server: sg4.c.f163ab0f2c75.sanfen006.xyz, port: 2052, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇨🇳 _CN_中国_781, server: 14.29.118.38, port: 24401, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_234, server: 14.215.51.211, port: 24439, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇯🇵 日本-临时节点-30Mbps, server: 2f36c18cfe76.sanfen004.me, port: 14454, type: vmess, uuid: 0a5f3bfe-f8ba-4f17-b22f-63cb2255dd74, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_18, server: 101.89.165.165, port: 24470, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_765, server: 180.103.120.200, port: 24412, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_298, server: 117.80.144.131, port: 24425, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_822, server: 117.80.144.131, port: 24419, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_619, server: 14.29.225.243, port: 24484, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇭🇰 Hong Kong 02, server: sql.accessconnect.cc, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇸🇬 新加坡专线 2, server: speed11.duang2019.com, port: 12042, type: ss, cipher: aes-128-gcm, password: bf433d85-99d6-4e46-8147-4d11c04f36b3}
+  - {name: 🇸🇬 vip1 新加坡-01_1, server: gzdx.jcnode.top, port: 34472, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_344, server: 180.103.120.200, port: 24431, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇸🇬 Singapore 13, server: mysql.accessconnect.cc, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇨🇳 _CN_中国_818, server: 117.80.144.131, port: 24418, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇨🇳 _CN_中国_598, server: 117.80.144.131, port: 24484, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.15.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 vip1 韩国-02, server: gzyd.jcnode.top, port: 59250, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: sk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 _CN_中国_558, server: 223.113.143.200, port: 24484, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇯🇵 TG:@hkaa0 日本 2, server: jp-direct.node002.xyz, port: 554, type: vmess, uuid: bcec639e-a656-3703-8d13-47a6dca409e0, alterId: 0, cipher: auto, tls: true}
+  - {name: Relay_-🇯🇵JP_755 | 9.66Mb, server: hnyd.aliang.icu, port: 11317, type: trojan, password: cdf45086-a5d9-4bb2-a31f-ad57324d7deb, sni: awsjp.cfcloud.cyou, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 10, server: 104.17.3.81, port: 443, type: vmess, uuid: 132633a9-b53e-4352-82a6-93eae114482e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}}
+  - {name: 🇨🇳 _CN_中国_119, server: 101.89.108.53, port: 24464, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.234.211, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_376, server: 14.29.225.243, port: 24434, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
+  - {name: 🇭🇰 Hong Kong 03, server: mysql.accessconnect.cc, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇰🇷 vip1 韩国-01, server: gzdx.jcnode.top, port: 48834, type: trojan, password: 8909cd68-4272-4620-bc0e-4a08e48040ae, sni: sk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 TW12台湾|广移|专, server: gd.v2y.live, port: 16771, type: ss, cipher: chacha20-ietf-poly1305, password: 68e97468-88d1-449b-a20a-35da194c283b}
+  - {name: 🇸🇬 新加坡专线 3, server: speed11.duang2019.com, port: 12043, type: ss, cipher: aes-128-gcm, password: bf433d85-99d6-4e46-8147-4d11c04f36b3}
+  - {name: _CN_中国, server: 42.192.17.34, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_697, server: 14.215.51.211, port: 24402, type: ss, cipher: aes-128-gcm, password: 2a643329-83af-4422-8362-75109140b588}
+  - {name: 🇨🇳 _CN_中国_399, server: 14.215.51.211, port: 24424, type: ss, cipher: aes-128-gcm, password: 1b701e53-165e-4828-a165-2891ef54d87c}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -177,480 +206,567 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇨🇳 _CN_中国_220
-      - 🇨🇳 _CN_中国_594
-      - 🇨🇳 _CN_中国_797
-      - 🇨🇳 _CN_中国_409
-      - 🇨🇳 _CN_中国_310
-      - 🇨🇳 _CN_中国_760
-      - 🇨🇳 _CN_中国_14
-      - 🇨🇳 _CN_中国_617
-      - 🇨🇳 _CN_中国_619
-      - 🇨🇳 _CN_中国_191
-      - 🇨🇳 _CN_中国_512
-      - 🇨🇳 _CN_中国_132
-      - 🇨🇳 _CN_中国_303
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇨🇳 _CN_中国_76
-      - 火星互联 https://console.marsix.net/
-      - 🇨🇳 _CN_中国_588
-      - 🇨🇳 _CN_中国_401
-      - 🇨🇳 _CN_中国_19
-      - 🇨🇳 _CN_中国_564
-      - 🇨🇳 _CN_中国_149
-      - 🇨🇳 _CN_中国_264
-      - 🇨🇳 _CN_中国_763
-      - TG频道@kxswa | https://t.me/kxswa
-      - 🇺🇸 TG:@hkaa0 美国
-      - 🇨🇳 _CN_中国_256
-      - 🇨🇳 _CN_中国_718
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - 🇨🇳 _CN_中国_682
-      - 🇨🇳 _CN_中国_405
-      - 🇨🇳 _CN_中国_117
-      - 火星互联公益节点03
-      - 🇳🇱 TG:@hkaa0 荷兰
-      - TG频道@kxswa | https://t.me/kxswa 2
-      - 🇨🇳 _CN_中国_48
-      - 🇨🇳 _CN_中国_158
-      - 🇺🇸 TG:@hkaa0 美国 3
-      - 🇨🇳 _CN_中国_357
-      - 🇨🇳 _CN_中国_275
-      - 🇨🇳 _CN_中国_604
-      - 🇨🇳 _CN_中国_10
-      - 🇨🇳 _CN_中国_160
-      - 火星互联公益节点01
-      - 🇨🇳 _CN_中国_341
-      - 🇩🇪 _DE_德国
-      - 🇨🇳 _CN_中国_201
-      - 🇨🇳 _CN_中国_87
-      - 「SCP」UK2-CF-HTTP
-      - 🇫🇷 TG:@hkaa0 法国
-      - TG频道@kxswa | https://t.me/kxswa 3
-      - 🇨🇳 _CN_中国_183
-      - 🇺🇸 United States(ChatGPT) 10 TG:@nodpai
-      - TG频道@kxswa | https://t.me/kxswa 4
-      - TG频道@kxswa | https://t.me/kxswa 5
-      - 🇸🇬 SG12新加坡|广移|专
-      - 🇨🇳 _CN_中国_502
-      - 🇮🇳 India(ChatGPT) 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_307
-      - 🇨🇳 _CN_中国_652
-      - 🇨🇳 _CN_中国_99
-      - 🇨🇳 _CN_中国_678
-      - 🇨🇳 _CN_中国_387
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国_431
-      - 🇨🇳 _CN_中国_94
-      - 🇰🇷 TG:@hkaa0 韩国
-      - 🇨🇳 _CN_中国_354
-      - 🇨🇳 _CN_中国_736
-      - 🇨🇳 _CN_中国_239
-      - 🇨🇳 _CN_中国_408
-      - 🇨🇳 _CN_中国_503
-      - 有问题可咨询网站右下角客服
-      - 🇨🇳 _CN_中国_651
-      - 🇨🇳 vip1 台湾-01
-      - 🇨🇳 _CN_中国_16
-      - 🇨🇳 _CN_中国_728
-      - 🇨🇳 _CN_中国_311
-      - 🇸🇬 SG11新加坡|广联|专
-      - 🇺🇸 TG:@hkaa0 美国 4
-      - TG频道@kxswa | https://t.me/kxswa 6
-      - 🇨🇳 _CN_中国_694
-      - 🇨🇳 _CN_中国_218
-      - 🇭🇰 HK-免费
-      - 🇨🇳 _CN_中国_710
-      - 🇨🇳 _CN_中国_31
-      - 🇨🇳 _CN_中国_712
-      - 🇨🇳 _CN_中国_219
-      - 🇨🇳 _CN_中国_50
-      - 🇨🇳 _CN_中国_110
-      - 🇺🇸 TG:@hkaa0 美国 5
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇨🇳 _CN_中国_637
-      - 🇺🇸 TG:@hkaa0 美国 6
-      - 🇨🇳 _CN_中国_509
-      - 🇨🇳 _CN_中国_169
-      - 🇨🇳 _CN_中国_778
-      - 🇨🇳 _CN_中国_379
-      - 🇨🇳 _CN_中国_454
-      - 🇨🇳 _CN_中国_124
-      - 🇯🇵 TG:@hkaa0 日本
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - 🇺🇸 美国高速接入点-07
-      - 🇨🇳 _CN_中国_114
-      - 🇨🇳 _CN_中国_650
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-      - 🇨🇳 _CN_中国_393
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - 🇨🇳 _CN_中国_810
-      - TG频道@kxswa | https://t.me/kxswa 7
-      - 🇨🇳 _CN_中国_118
-      - 🇨🇳 _CN_中国_676
-      - 🇨🇳 _CN_中国_742
-      - 🇯🇵 vip1 日本-01
-      - 🇭🇰 vip1 香港-17
-      - 🇨🇳 _CN_中国_751
-      - 🇨🇳 _CN_中国_52
-      - 🇨🇳 _CN_中国_534
-      - 🇨🇳 _CN_中国_143
-      - 🇳🇱 TG:@hkaa0 荷兰 2
-      - 🇺🇸 TG:@hkaa0 美国 7
-      - 🇨🇳 _CN_中国_211
-      - 🇨🇳 _CN_中国_545
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 2x-临时-香港-高级节点2
-      - 🇨🇳 _CN_中国_235
-      - 🇨🇳 _CN_中国_378
-      - 🇨🇳 _CN_中国_128
-      - 🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_660
-      - 🇨🇳 _CN_中国_452
-      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
-      - TG:@hkaa0 中国
       - 🇨🇳 _CN_中国_824
-      - 🇨🇳 _CN_中国_465
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇨🇳 _CN_中国_447
-      - 🇨🇳 _CN_中国_374
-      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
-      - 🇨🇳 _CN_中国_686
-      - 🇨🇳 _CN_中国_53
-      - 🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_486
-      - 🇰🇷 TG:@hkaa0 韩国 2
-      - 🇺🇸 US12美国|上电Linode US|---
-      - 🇨🇳 _CN_中国_479
-      - 🇦🇺 vip1 澳大利亚-01
-      - 🇨🇳 _CN_中国_362
+      - 🇨🇳 _CN_中国_775
+      - 🇨🇳 _CN_中国_524
+      - 🇺🇸 _US_美国
+      - 🇨🇳 _CN_中国_778
+      - 🇨🇳 _CN_中国_646
+      - 🇭🇰 香港高速接入点-01
+      - 🇨🇳 _CN_中国_769
+      - 🇺🇸 TG:@hkaa0 美国
+      - 🇺🇸 TG:@hkaa0 美国 2
+      - 🇺🇸 美国
+      - 🇭🇰 香港专线 5 | 家庭宽带
+      - Relay_-🇦🇺AU_686 |21.95Mb
+      - 🇨🇳 _CN_中国_47
+      - 🇰🇷 TG:@hkaa0 韩国
+      - 🇺🇸 美国高速接入点-03
+      - 🇸🇬 TG:@hkaa0 新加坡
+      - 🇨🇳 _CN_中国_545
+      - 🇸🇬 Singapore 09
+      - 🇺🇸 美国 2
+      - 🇨🇳 _CN_中国_501
+      - 🇳🇱 荷兰
+      - 🇨🇳 _CN_中国_659
+      - 🇨🇳 _CN_中国_493
+      - 🇭🇰 vip1 香港-09
+      - 距离下次重置剩余：20 天
+      - 🇨🇳 _CN_中国_631
+      - 🇨🇳 _CN_中国_396
+      - 🇺🇸 美国-IEPL-Basic-02
+      - 🇨🇳 _CN_中国_86
+      - 🇨🇳 _CN_中国_458
+      - 🇨🇳 _CN_中国_327
+      - 🇨🇳 _CN_中国_467
+      - Relay_-🇭🇰HK_703 |15.92Mb
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇨🇳 _CN_中国_635
+      - 🇯🇵 vip1 日本-05_1
+      - 🇨🇳 _CN_中国_544
+      - 🇨🇳 _CN_中国_29
+      - 🇨🇳 _CN_中国_772
+      - 🇸🇬 Singapore 21
+      - 🇨🇳 _CN_中国_172
+      - 🇸🇬 Singapore 02
+      - 🇨🇳 _CN_中国_252
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 Hong Kong 18
+      - 2x-临时-台北-高级节点3
+      - 🇨🇳 _CN_中国_62
+      - 🇸🇬 Singapore 12
+      - 纽约测试|@ripaojiedian
+      - Relay_-🇹🇼TW_691 | 6.60Mb
+      - SG_1280 |16.42Mb
+      - 🇺🇸 美国 3
+      - 🇨🇳 _CN_中国_94
+      - 🇨🇳 _CN_中国_657
+      - 🇨🇳 _CN_中国_641
+      - 🇨🇳 _CN_中国_37
+      - 🇺🇸 美国专线 3
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 Singapore 14
+      - 🇨🇳 _CN_中国_369
+      - 🇨🇳 _CN_中国_734
+      - 🇨🇳 _CN_中国_193
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 3
+      - 🇨🇳 _CN_中国_422
+      - 🇨🇳 _CN_中国_262
+      - 🇭🇺 TG:@hkaa0 匈牙利
+      - 🇨🇳 _CN_中国_392
+      - TG:@hkaa0 中国
+      - 🇨🇳 _CN_中国_104
+      - 🇨🇳 _CN_中国_806
+      - 🇨🇳 台湾专线 5 NF ChatGPT
+      - 🇨🇳 _CN_中国_171
+      - 🇨🇳 _CN_中国_526
+      - 🇨🇳 _CN_中国_264
+      - 🇸🇬 TG:@hkaa0 新加坡 2
+      - 🇨🇳 _CN_中国_248
+      - 🇨🇳 _CN_中国_395
+      - 🇨🇳 _CN_中国_543
+      - 🇭🇰 vip1 香港-02
+      - 🇺🇸 美国-IEPL-Basic-01
+      - 🇨🇳 _CN_中国_226
+      - 🇺🇸 美国 4
+      - 🇨🇳 _CN_中国_785
+      - 🇭🇰 fscloud 香港 - 005
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇻🇳 vip2 越南-03
+      - 🇨🇳 _CN_中国_212
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇨🇳 _CN_中国_618
-      - 🇨🇳 _CN_中国_279
-      - 🇨🇳 _CN_中国_337
-      - 🇺🇸 TG:@hkaa0 美国 8
+      - Relay_-🇯🇵JP_722 |16.13Mb
+      - 🇯🇵 Japan(ChatGPT) 04 TG:@nodpai
+      - 🇫🇷 _FR_法国
+      - 🇨🇳 _CN_中国_432
+      - 🇸🇬 SG12新加坡|广移|专
+      - 🇨🇳 _CN_中国_12
+      - 🇨🇳 _CN_中国_416
+      - 🇨🇳 _CN_中国_550
+      - 🇨🇳 _CN_中国_43
+      - 🇨🇳 _CN_中国_592
+      - 🇨🇳 _CN_中国_40
+      - 🇺🇸 美国 7
+      - 🇸🇬 新加坡-IEPL-Basic专线-01
+      - 🇭🇰 香港高速接入点-02
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇨🇳 _CN_中国_129
+      - 🇨🇳 _CN_中国_562
+      - 🇯🇵 TG:@hkaa0 日本
+      - 🇬🇧 github.com/freefq - 英国伦敦Linode数据中心 15
+      - ""
+      - 🇨🇳 _CN_中国_4
+      - 🇨🇳 _CN_中国_149
+      - 🇨🇳 _CN_中国_732
+      - 🇺🇸 美国 8
+      - 🇰🇷 TG:@hkaa0 韩国 2
+      - 🇭🇰 _HK_香港
+      - 🇨🇳 _CN_中国_251
+      - Relay_-🇨🇳CN_668 |35.46Mb
+      - 🇺🇸 美国专线 2
+      - 🇨🇳 _CN_中国_617
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国高速接入点-04
+      - 🇨🇦 TG:@hkaa0 加拿大
+      - 🇭🇰 HK21香港|广移3G
+      - 🇨🇳 _CN_中国_270
+      - 🇨🇳 _CN_中国_512
+      - 🇳🇱 荷兰 3
+      - 🇭🇰 vip1 香港-09_1
+      - 🇨🇳 _CN_中国_143
+      - 🇺🇸 美国 9
+      - 🇨🇳 _CN_中国_260
+      - 🇸🇬 新加坡专线 4
+      - 🇨🇳 _CN_中国_500
+      - 🇭🇰 HK22香港|广移1G
+      - 🇨🇳 _CN_中国_687
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_1198 |41.47Mb
+      - 🇯🇵 日本高速接入点-06
+      - 🇨🇳 _CN_中国_400
+      - 🇨🇳 _CN_中国_123
+      - 🇨🇳 _CN_中国_764
+      - 🇨🇳 _CN_中国_823
+      - 🇻🇳 vip1 越南-01_1
+      - 🇨🇳 _CN_中国_473
+      - 🇨🇳 _CN_中国_597
+      - 🇨🇳 _CN_中国_528
+      - 🇨🇳 _CN_中国_347
+      - 🇨🇳 _CN_中国_581
+      - 🇨🇳 _CN_中国_16
+      - 🇨🇳 _CN_中国_645
+      - 🇨🇳 _CN_中国_670
+      - 🇸🇬 新加坡高速接入点-04
+      - 🇨🇳 _CN_中国_781
+      - 🇨🇳 _CN_中国_234
+      - 🇯🇵 日本-临时节点-30Mbps
+      - 🇨🇳 _CN_中国_18
+      - 🇨🇳 _CN_中国_765
+      - 🇨🇳 _CN_中国_298
+      - 🇨🇳 _CN_中国_822
+      - 🇨🇳 _CN_中国_619
+      - 🇭🇰 Hong Kong 02
+      - 🇸🇬 新加坡专线 2
+      - 🇸🇬 vip1 新加坡-01_1
+      - 🇨🇳 _CN_中国_344
+      - 🇸🇬 Singapore 13
+      - 🇨🇳 _CN_中国_818
+      - 🇨🇳 _CN_中国_598
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 vip1 韩国-02
+      - 🇨🇳 _CN_中国_558
+      - 🇯🇵 TG:@hkaa0 日本 2
+      - Relay_-🇯🇵JP_755 | 9.66Mb
+      - 🇺🇸 美国 10
+      - 🇨🇳 _CN_中国_119
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 _CN_中国_376
+      - 🇭🇰 Hong Kong 03
+      - 🇰🇷 vip1 韩国-01
+      - 🇨🇳 TW12台湾|广移|专
+      - 🇸🇬 新加坡专线 3
+      - _CN_中国
+      - 🇨🇳 _CN_中国_697
+      - 🇨🇳 _CN_中国_399
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 _CN_中国_220
-      - 🇨🇳 _CN_中国_594
-      - 🇨🇳 _CN_中国_797
-      - 🇨🇳 _CN_中国_409
-      - 🇨🇳 _CN_中国_310
-      - 🇨🇳 _CN_中国_760
-      - 🇨🇳 _CN_中国_14
-      - 🇨🇳 _CN_中国_617
-      - 🇨🇳 _CN_中国_619
-      - 🇨🇳 _CN_中国_191
-      - 🇨🇳 _CN_中国_512
-      - 🇨🇳 _CN_中国_132
-      - 🇨🇳 _CN_中国_303
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇨🇳 _CN_中国_76
-      - 火星互联 https://console.marsix.net/
-      - 🇨🇳 _CN_中国_588
-      - 🇨🇳 _CN_中国_401
-      - 🇨🇳 _CN_中国_19
-      - 🇨🇳 _CN_中国_564
-      - 🇨🇳 _CN_中国_149
-      - 🇨🇳 _CN_中国_264
-      - 🇨🇳 _CN_中国_763
-      - TG频道@kxswa | https://t.me/kxswa
-      - 🇺🇸 TG:@hkaa0 美国
-      - 🇨🇳 _CN_中国_256
-      - 🇨🇳 _CN_中国_718
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - 🇨🇳 _CN_中国_682
-      - 🇨🇳 _CN_中国_405
-      - 🇨🇳 _CN_中国_117
-      - 火星互联公益节点03
-      - 🇳🇱 TG:@hkaa0 荷兰
-      - TG频道@kxswa | https://t.me/kxswa 2
-      - 🇨🇳 _CN_中国_48
-      - 🇨🇳 _CN_中国_158
-      - 🇺🇸 TG:@hkaa0 美国 3
-      - 🇨🇳 _CN_中国_357
-      - 🇨🇳 _CN_中国_275
-      - 🇨🇳 _CN_中国_604
-      - 🇨🇳 _CN_中国_10
-      - 🇨🇳 _CN_中国_160
-      - 火星互联公益节点01
-      - 🇨🇳 _CN_中国_341
-      - 🇩🇪 _DE_德国
-      - 🇨🇳 _CN_中国_201
-      - 🇨🇳 _CN_中国_87
-      - 「SCP」UK2-CF-HTTP
-      - 🇫🇷 TG:@hkaa0 法国
-      - TG频道@kxswa | https://t.me/kxswa 3
-      - 🇨🇳 _CN_中国_183
-      - 🇺🇸 United States(ChatGPT) 10 TG:@nodpai
-      - TG频道@kxswa | https://t.me/kxswa 4
-      - TG频道@kxswa | https://t.me/kxswa 5
-      - 🇸🇬 SG12新加坡|广移|专
-      - 🇨🇳 _CN_中国_502
-      - 🇮🇳 India(ChatGPT) 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_307
-      - 🇨🇳 _CN_中国_652
-      - 🇨🇳 _CN_中国_99
-      - 🇨🇳 _CN_中国_678
-      - 🇨🇳 _CN_中国_387
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国_431
-      - 🇨🇳 _CN_中国_94
-      - 🇰🇷 TG:@hkaa0 韩国
-      - 🇨🇳 _CN_中国_354
-      - 🇨🇳 _CN_中国_736
-      - 🇨🇳 _CN_中国_239
-      - 🇨🇳 _CN_中国_408
-      - 🇨🇳 _CN_中国_503
-      - 有问题可咨询网站右下角客服
-      - 🇨🇳 _CN_中国_651
-      - 🇨🇳 vip1 台湾-01
-      - 🇨🇳 _CN_中国_16
-      - 🇨🇳 _CN_中国_728
-      - 🇨🇳 _CN_中国_311
-      - 🇸🇬 SG11新加坡|广联|专
-      - 🇺🇸 TG:@hkaa0 美国 4
-      - TG频道@kxswa | https://t.me/kxswa 6
-      - 🇨🇳 _CN_中国_694
-      - 🇨🇳 _CN_中国_218
-      - 🇭🇰 HK-免费
-      - 🇨🇳 _CN_中国_710
-      - 🇨🇳 _CN_中国_31
-      - 🇨🇳 _CN_中国_712
-      - 🇨🇳 _CN_中国_219
-      - 🇨🇳 _CN_中国_50
-      - 🇨🇳 _CN_中国_110
-      - 🇺🇸 TG:@hkaa0 美国 5
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇨🇳 _CN_中国_637
-      - 🇺🇸 TG:@hkaa0 美国 6
-      - 🇨🇳 _CN_中国_509
-      - 🇨🇳 _CN_中国_169
-      - 🇨🇳 _CN_中国_778
-      - 🇨🇳 _CN_中国_379
-      - 🇨🇳 _CN_中国_454
-      - 🇨🇳 _CN_中国_124
-      - 🇯🇵 TG:@hkaa0 日本
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - 🇺🇸 美国高速接入点-07
-      - 🇨🇳 _CN_中国_114
-      - 🇨🇳 _CN_中国_650
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-      - 🇨🇳 _CN_中国_393
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - 🇨🇳 _CN_中国_810
-      - TG频道@kxswa | https://t.me/kxswa 7
-      - 🇨🇳 _CN_中国_118
-      - 🇨🇳 _CN_中国_676
-      - 🇨🇳 _CN_中国_742
-      - 🇯🇵 vip1 日本-01
-      - 🇭🇰 vip1 香港-17
-      - 🇨🇳 _CN_中国_751
-      - 🇨🇳 _CN_中国_52
-      - 🇨🇳 _CN_中国_534
-      - 🇨🇳 _CN_中国_143
-      - 🇳🇱 TG:@hkaa0 荷兰 2
-      - 🇺🇸 TG:@hkaa0 美国 7
-      - 🇨🇳 _CN_中国_211
-      - 🇨🇳 _CN_中国_545
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 2x-临时-香港-高级节点2
-      - 🇨🇳 _CN_中国_235
-      - 🇨🇳 _CN_中国_378
-      - 🇨🇳 _CN_中国_128
-      - 🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_660
-      - 🇨🇳 _CN_中国_452
-      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
-      - TG:@hkaa0 中国
       - 🇨🇳 _CN_中国_824
-      - 🇨🇳 _CN_中国_465
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇨🇳 _CN_中国_447
-      - 🇨🇳 _CN_中国_374
-      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
-      - 🇨🇳 _CN_中国_686
-      - 🇨🇳 _CN_中国_53
-      - 🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_486
-      - 🇰🇷 TG:@hkaa0 韩国 2
-      - 🇺🇸 US12美国|上电Linode US|---
-      - 🇨🇳 _CN_中国_479
-      - 🇦🇺 vip1 澳大利亚-01
-      - 🇨🇳 _CN_中国_362
+      - 🇨🇳 _CN_中国_775
+      - 🇨🇳 _CN_中国_524
+      - 🇺🇸 _US_美国
+      - 🇨🇳 _CN_中国_778
+      - 🇨🇳 _CN_中国_646
+      - 🇭🇰 香港高速接入点-01
+      - 🇨🇳 _CN_中国_769
+      - 🇺🇸 TG:@hkaa0 美国
+      - 🇺🇸 TG:@hkaa0 美国 2
+      - 🇺🇸 美国
+      - 🇭🇰 香港专线 5 | 家庭宽带
+      - Relay_-🇦🇺AU_686 |21.95Mb
+      - 🇨🇳 _CN_中国_47
+      - 🇰🇷 TG:@hkaa0 韩国
+      - 🇺🇸 美国高速接入点-03
+      - 🇸🇬 TG:@hkaa0 新加坡
+      - 🇨🇳 _CN_中国_545
+      - 🇸🇬 Singapore 09
+      - 🇺🇸 美国 2
+      - 🇨🇳 _CN_中国_501
+      - 🇳🇱 荷兰
+      - 🇨🇳 _CN_中国_659
+      - 🇨🇳 _CN_中国_493
+      - 🇭🇰 vip1 香港-09
+      - 距离下次重置剩余：20 天
+      - 🇨🇳 _CN_中国_631
+      - 🇨🇳 _CN_中国_396
+      - 🇺🇸 美国-IEPL-Basic-02
+      - 🇨🇳 _CN_中国_86
+      - 🇨🇳 _CN_中国_458
+      - 🇨🇳 _CN_中国_327
+      - 🇨🇳 _CN_中国_467
+      - Relay_-🇭🇰HK_703 |15.92Mb
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇨🇳 _CN_中国_635
+      - 🇯🇵 vip1 日本-05_1
+      - 🇨🇳 _CN_中国_544
+      - 🇨🇳 _CN_中国_29
+      - 🇨🇳 _CN_中国_772
+      - 🇸🇬 Singapore 21
+      - 🇨🇳 _CN_中国_172
+      - 🇸🇬 Singapore 02
+      - 🇨🇳 _CN_中国_252
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 Hong Kong 18
+      - 2x-临时-台北-高级节点3
+      - 🇨🇳 _CN_中国_62
+      - 🇸🇬 Singapore 12
+      - 纽约测试|@ripaojiedian
+      - Relay_-🇹🇼TW_691 | 6.60Mb
+      - SG_1280 |16.42Mb
+      - 🇺🇸 美国 3
+      - 🇨🇳 _CN_中国_94
+      - 🇨🇳 _CN_中国_657
+      - 🇨🇳 _CN_中国_641
+      - 🇨🇳 _CN_中国_37
+      - 🇺🇸 美国专线 3
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 Singapore 14
+      - 🇨🇳 _CN_中国_369
+      - 🇨🇳 _CN_中国_734
+      - 🇨🇳 _CN_中国_193
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 3
+      - 🇨🇳 _CN_中国_422
+      - 🇨🇳 _CN_中国_262
+      - 🇭🇺 TG:@hkaa0 匈牙利
+      - 🇨🇳 _CN_中国_392
+      - TG:@hkaa0 中国
+      - 🇨🇳 _CN_中国_104
+      - 🇨🇳 _CN_中国_806
+      - 🇨🇳 台湾专线 5 NF ChatGPT
+      - 🇨🇳 _CN_中国_171
+      - 🇨🇳 _CN_中国_526
+      - 🇨🇳 _CN_中国_264
+      - 🇸🇬 TG:@hkaa0 新加坡 2
+      - 🇨🇳 _CN_中国_248
+      - 🇨🇳 _CN_中国_395
+      - 🇨🇳 _CN_中国_543
+      - 🇭🇰 vip1 香港-02
+      - 🇺🇸 美国-IEPL-Basic-01
+      - 🇨🇳 _CN_中国_226
+      - 🇺🇸 美国 4
+      - 🇨🇳 _CN_中国_785
+      - 🇭🇰 fscloud 香港 - 005
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇻🇳 vip2 越南-03
+      - 🇨🇳 _CN_中国_212
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇨🇳 _CN_中国_618
-      - 🇨🇳 _CN_中国_279
-      - 🇨🇳 _CN_中国_337
-      - 🇺🇸 TG:@hkaa0 美国 8
+      - Relay_-🇯🇵JP_722 |16.13Mb
+      - 🇯🇵 Japan(ChatGPT) 04 TG:@nodpai
+      - 🇫🇷 _FR_法国
+      - 🇨🇳 _CN_中国_432
+      - 🇸🇬 SG12新加坡|广移|专
+      - 🇨🇳 _CN_中国_12
+      - 🇨🇳 _CN_中国_416
+      - 🇨🇳 _CN_中国_550
+      - 🇨🇳 _CN_中国_43
+      - 🇨🇳 _CN_中国_592
+      - 🇨🇳 _CN_中国_40
+      - 🇺🇸 美国 7
+      - 🇸🇬 新加坡-IEPL-Basic专线-01
+      - 🇭🇰 香港高速接入点-02
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇨🇳 _CN_中国_129
+      - 🇨🇳 _CN_中国_562
+      - 🇯🇵 TG:@hkaa0 日本
+      - 🇬🇧 github.com/freefq - 英国伦敦Linode数据中心 15
+      - ""
+      - 🇨🇳 _CN_中国_4
+      - 🇨🇳 _CN_中国_149
+      - 🇨🇳 _CN_中国_732
+      - 🇺🇸 美国 8
+      - 🇰🇷 TG:@hkaa0 韩国 2
+      - 🇭🇰 _HK_香港
+      - 🇨🇳 _CN_中国_251
+      - Relay_-🇨🇳CN_668 |35.46Mb
+      - 🇺🇸 美国专线 2
+      - 🇨🇳 _CN_中国_617
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国高速接入点-04
+      - 🇨🇦 TG:@hkaa0 加拿大
+      - 🇭🇰 HK21香港|广移3G
+      - 🇨🇳 _CN_中国_270
+      - 🇨🇳 _CN_中国_512
+      - 🇳🇱 荷兰 3
+      - 🇭🇰 vip1 香港-09_1
+      - 🇨🇳 _CN_中国_143
+      - 🇺🇸 美国 9
+      - 🇨🇳 _CN_中国_260
+      - 🇸🇬 新加坡专线 4
+      - 🇨🇳 _CN_中国_500
+      - 🇭🇰 HK22香港|广移1G
+      - 🇨🇳 _CN_中国_687
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_1198 |41.47Mb
+      - 🇯🇵 日本高速接入点-06
+      - 🇨🇳 _CN_中国_400
+      - 🇨🇳 _CN_中国_123
+      - 🇨🇳 _CN_中国_764
+      - 🇨🇳 _CN_中国_823
+      - 🇻🇳 vip1 越南-01_1
+      - 🇨🇳 _CN_中国_473
+      - 🇨🇳 _CN_中国_597
+      - 🇨🇳 _CN_中国_528
+      - 🇨🇳 _CN_中国_347
+      - 🇨🇳 _CN_中国_581
+      - 🇨🇳 _CN_中国_16
+      - 🇨🇳 _CN_中国_645
+      - 🇨🇳 _CN_中国_670
+      - 🇸🇬 新加坡高速接入点-04
+      - 🇨🇳 _CN_中国_781
+      - 🇨🇳 _CN_中国_234
+      - 🇯🇵 日本-临时节点-30Mbps
+      - 🇨🇳 _CN_中国_18
+      - 🇨🇳 _CN_中国_765
+      - 🇨🇳 _CN_中国_298
+      - 🇨🇳 _CN_中国_822
+      - 🇨🇳 _CN_中国_619
+      - 🇭🇰 Hong Kong 02
+      - 🇸🇬 新加坡专线 2
+      - 🇸🇬 vip1 新加坡-01_1
+      - 🇨🇳 _CN_中国_344
+      - 🇸🇬 Singapore 13
+      - 🇨🇳 _CN_中国_818
+      - 🇨🇳 _CN_中国_598
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 vip1 韩国-02
+      - 🇨🇳 _CN_中国_558
+      - 🇯🇵 TG:@hkaa0 日本 2
+      - Relay_-🇯🇵JP_755 | 9.66Mb
+      - 🇺🇸 美国 10
+      - 🇨🇳 _CN_中国_119
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 _CN_中国_376
+      - 🇭🇰 Hong Kong 03
+      - 🇰🇷 vip1 韩国-01
+      - 🇨🇳 TW12台湾|广移|专
+      - 🇸🇬 新加坡专线 3
+      - _CN_中国
+      - 🇨🇳 _CN_中国_697
+      - 🇨🇳 _CN_中国_399
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 _CN_中国_220
-      - 🇨🇳 _CN_中国_594
-      - 🇨🇳 _CN_中国_797
-      - 🇨🇳 _CN_中国_409
-      - 🇨🇳 _CN_中国_310
-      - 🇨🇳 _CN_中国_760
-      - 🇨🇳 _CN_中国_14
-      - 🇨🇳 _CN_中国_617
-      - 🇨🇳 _CN_中国_619
-      - 🇨🇳 _CN_中国_191
-      - 🇨🇳 _CN_中国_512
-      - 🇨🇳 _CN_中国_132
-      - 🇨🇳 _CN_中国_303
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇨🇳 _CN_中国_76
-      - 火星互联 https://console.marsix.net/
-      - 🇨🇳 _CN_中国_588
-      - 🇨🇳 _CN_中国_401
-      - 🇨🇳 _CN_中国_19
-      - 🇨🇳 _CN_中国_564
-      - 🇨🇳 _CN_中国_149
-      - 🇨🇳 _CN_中国_264
-      - 🇨🇳 _CN_中国_763
-      - TG频道@kxswa | https://t.me/kxswa
-      - 🇺🇸 TG:@hkaa0 美国
-      - 🇨🇳 _CN_中国_256
-      - 🇨🇳 _CN_中国_718
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - 🇨🇳 _CN_中国_682
-      - 🇨🇳 _CN_中国_405
-      - 🇨🇳 _CN_中国_117
-      - 火星互联公益节点03
-      - 🇳🇱 TG:@hkaa0 荷兰
-      - TG频道@kxswa | https://t.me/kxswa 2
-      - 🇨🇳 _CN_中国_48
-      - 🇨🇳 _CN_中国_158
-      - 🇺🇸 TG:@hkaa0 美国 3
-      - 🇨🇳 _CN_中国_357
-      - 🇨🇳 _CN_中国_275
-      - 🇨🇳 _CN_中国_604
-      - 🇨🇳 _CN_中国_10
-      - 🇨🇳 _CN_中国_160
-      - 火星互联公益节点01
-      - 🇨🇳 _CN_中国_341
-      - 🇩🇪 _DE_德国
-      - 🇨🇳 _CN_中国_201
-      - 🇨🇳 _CN_中国_87
-      - 「SCP」UK2-CF-HTTP
-      - 🇫🇷 TG:@hkaa0 法国
-      - TG频道@kxswa | https://t.me/kxswa 3
-      - 🇨🇳 _CN_中国_183
-      - 🇺🇸 United States(ChatGPT) 10 TG:@nodpai
-      - TG频道@kxswa | https://t.me/kxswa 4
-      - TG频道@kxswa | https://t.me/kxswa 5
-      - 🇸🇬 SG12新加坡|广移|专
-      - 🇨🇳 _CN_中国_502
-      - 🇮🇳 India(ChatGPT) 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_307
-      - 🇨🇳 _CN_中国_652
-      - 🇨🇳 _CN_中国_99
-      - 🇨🇳 _CN_中国_678
-      - 🇨🇳 _CN_中国_387
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国_431
-      - 🇨🇳 _CN_中国_94
-      - 🇰🇷 TG:@hkaa0 韩国
-      - 🇨🇳 _CN_中国_354
-      - 🇨🇳 _CN_中国_736
-      - 🇨🇳 _CN_中国_239
-      - 🇨🇳 _CN_中国_408
-      - 🇨🇳 _CN_中国_503
-      - 有问题可咨询网站右下角客服
-      - 🇨🇳 _CN_中国_651
-      - 🇨🇳 vip1 台湾-01
-      - 🇨🇳 _CN_中国_16
-      - 🇨🇳 _CN_中国_728
-      - 🇨🇳 _CN_中国_311
-      - 🇸🇬 SG11新加坡|广联|专
-      - 🇺🇸 TG:@hkaa0 美国 4
-      - TG频道@kxswa | https://t.me/kxswa 6
-      - 🇨🇳 _CN_中国_694
-      - 🇨🇳 _CN_中国_218
-      - 🇭🇰 HK-免费
-      - 🇨🇳 _CN_中国_710
-      - 🇨🇳 _CN_中国_31
-      - 🇨🇳 _CN_中国_712
-      - 🇨🇳 _CN_中国_219
-      - 🇨🇳 _CN_中国_50
-      - 🇨🇳 _CN_中国_110
-      - 🇺🇸 TG:@hkaa0 美国 5
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇨🇳 _CN_中国_637
-      - 🇺🇸 TG:@hkaa0 美国 6
-      - 🇨🇳 _CN_中国_509
-      - 🇨🇳 _CN_中国_169
-      - 🇨🇳 _CN_中国_778
-      - 🇨🇳 _CN_中国_379
-      - 🇨🇳 _CN_中国_454
-      - 🇨🇳 _CN_中国_124
-      - 🇯🇵 TG:@hkaa0 日本
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - 🇺🇸 美国高速接入点-07
-      - 🇨🇳 _CN_中国_114
-      - 🇨🇳 _CN_中国_650
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-      - 🇨🇳 _CN_中国_393
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - 🇨🇳 _CN_中国_810
-      - TG频道@kxswa | https://t.me/kxswa 7
-      - 🇨🇳 _CN_中国_118
-      - 🇨🇳 _CN_中国_676
-      - 🇨🇳 _CN_中国_742
-      - 🇯🇵 vip1 日本-01
-      - 🇭🇰 vip1 香港-17
-      - 🇨🇳 _CN_中国_751
-      - 🇨🇳 _CN_中国_52
-      - 🇨🇳 _CN_中国_534
-      - 🇨🇳 _CN_中国_143
-      - 🇳🇱 TG:@hkaa0 荷兰 2
-      - 🇺🇸 TG:@hkaa0 美国 7
-      - 🇨🇳 _CN_中国_211
-      - 🇨🇳 _CN_中国_545
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 2x-临时-香港-高级节点2
-      - 🇨🇳 _CN_中国_235
-      - 🇨🇳 _CN_中国_378
-      - 🇨🇳 _CN_中国_128
-      - 🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_660
-      - 🇨🇳 _CN_中国_452
-      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
-      - TG:@hkaa0 中国
       - 🇨🇳 _CN_中国_824
-      - 🇨🇳 _CN_中国_465
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇨🇳 _CN_中国_447
-      - 🇨🇳 _CN_中国_374
-      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
-      - 🇨🇳 _CN_中国_686
-      - 🇨🇳 _CN_中国_53
-      - 🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_486
-      - 🇰🇷 TG:@hkaa0 韩国 2
-      - 🇺🇸 US12美国|上电Linode US|---
-      - 🇨🇳 _CN_中国_479
-      - 🇦🇺 vip1 澳大利亚-01
-      - 🇨🇳 _CN_中国_362
+      - 🇨🇳 _CN_中国_775
+      - 🇨🇳 _CN_中国_524
+      - 🇺🇸 _US_美国
+      - 🇨🇳 _CN_中国_778
+      - 🇨🇳 _CN_中国_646
+      - 🇭🇰 香港高速接入点-01
+      - 🇨🇳 _CN_中国_769
+      - 🇺🇸 TG:@hkaa0 美国
+      - 🇺🇸 TG:@hkaa0 美国 2
+      - 🇺🇸 美国
+      - 🇭🇰 香港专线 5 | 家庭宽带
+      - Relay_-🇦🇺AU_686 |21.95Mb
+      - 🇨🇳 _CN_中国_47
+      - 🇰🇷 TG:@hkaa0 韩国
+      - 🇺🇸 美国高速接入点-03
+      - 🇸🇬 TG:@hkaa0 新加坡
+      - 🇨🇳 _CN_中国_545
+      - 🇸🇬 Singapore 09
+      - 🇺🇸 美国 2
+      - 🇨🇳 _CN_中国_501
+      - 🇳🇱 荷兰
+      - 🇨🇳 _CN_中国_659
+      - 🇨🇳 _CN_中国_493
+      - 🇭🇰 vip1 香港-09
+      - 距离下次重置剩余：20 天
+      - 🇨🇳 _CN_中国_631
+      - 🇨🇳 _CN_中国_396
+      - 🇺🇸 美国-IEPL-Basic-02
+      - 🇨🇳 _CN_中国_86
+      - 🇨🇳 _CN_中国_458
+      - 🇨🇳 _CN_中国_327
+      - 🇨🇳 _CN_中国_467
+      - Relay_-🇭🇰HK_703 |15.92Mb
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇨🇳 _CN_中国_635
+      - 🇯🇵 vip1 日本-05_1
+      - 🇨🇳 _CN_中国_544
+      - 🇨🇳 _CN_中国_29
+      - 🇨🇳 _CN_中国_772
+      - 🇸🇬 Singapore 21
+      - 🇨🇳 _CN_中国_172
+      - 🇸🇬 Singapore 02
+      - 🇨🇳 _CN_中国_252
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 Hong Kong 18
+      - 2x-临时-台北-高级节点3
+      - 🇨🇳 _CN_中国_62
+      - 🇸🇬 Singapore 12
+      - 纽约测试|@ripaojiedian
+      - Relay_-🇹🇼TW_691 | 6.60Mb
+      - SG_1280 |16.42Mb
+      - 🇺🇸 美国 3
+      - 🇨🇳 _CN_中国_94
+      - 🇨🇳 _CN_中国_657
+      - 🇨🇳 _CN_中国_641
+      - 🇨🇳 _CN_中国_37
+      - 🇺🇸 美国专线 3
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 Singapore 14
+      - 🇨🇳 _CN_中国_369
+      - 🇨🇳 _CN_中国_734
+      - 🇨🇳 _CN_中国_193
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 3
+      - 🇨🇳 _CN_中国_422
+      - 🇨🇳 _CN_中国_262
+      - 🇭🇺 TG:@hkaa0 匈牙利
+      - 🇨🇳 _CN_中国_392
+      - TG:@hkaa0 中国
+      - 🇨🇳 _CN_中国_104
+      - 🇨🇳 _CN_中国_806
+      - 🇨🇳 台湾专线 5 NF ChatGPT
+      - 🇨🇳 _CN_中国_171
+      - 🇨🇳 _CN_中国_526
+      - 🇨🇳 _CN_中国_264
+      - 🇸🇬 TG:@hkaa0 新加坡 2
+      - 🇨🇳 _CN_中国_248
+      - 🇨🇳 _CN_中国_395
+      - 🇨🇳 _CN_中国_543
+      - 🇭🇰 vip1 香港-02
+      - 🇺🇸 美国-IEPL-Basic-01
+      - 🇨🇳 _CN_中国_226
+      - 🇺🇸 美国 4
+      - 🇨🇳 _CN_中国_785
+      - 🇭🇰 fscloud 香港 - 005
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇻🇳 vip2 越南-03
+      - 🇨🇳 _CN_中国_212
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇨🇳 _CN_中国_618
-      - 🇨🇳 _CN_中国_279
-      - 🇨🇳 _CN_中国_337
-      - 🇺🇸 TG:@hkaa0 美国 8
+      - Relay_-🇯🇵JP_722 |16.13Mb
+      - 🇯🇵 Japan(ChatGPT) 04 TG:@nodpai
+      - 🇫🇷 _FR_法国
+      - 🇨🇳 _CN_中国_432
+      - 🇸🇬 SG12新加坡|广移|专
+      - 🇨🇳 _CN_中国_12
+      - 🇨🇳 _CN_中国_416
+      - 🇨🇳 _CN_中国_550
+      - 🇨🇳 _CN_中国_43
+      - 🇨🇳 _CN_中国_592
+      - 🇨🇳 _CN_中国_40
+      - 🇺🇸 美国 7
+      - 🇸🇬 新加坡-IEPL-Basic专线-01
+      - 🇭🇰 香港高速接入点-02
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇨🇳 _CN_中国_129
+      - 🇨🇳 _CN_中国_562
+      - 🇯🇵 TG:@hkaa0 日本
+      - 🇬🇧 github.com/freefq - 英国伦敦Linode数据中心 15
+      - ""
+      - 🇨🇳 _CN_中国_4
+      - 🇨🇳 _CN_中国_149
+      - 🇨🇳 _CN_中国_732
+      - 🇺🇸 美国 8
+      - 🇰🇷 TG:@hkaa0 韩国 2
+      - 🇭🇰 _HK_香港
+      - 🇨🇳 _CN_中国_251
+      - Relay_-🇨🇳CN_668 |35.46Mb
+      - 🇺🇸 美国专线 2
+      - 🇨🇳 _CN_中国_617
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国高速接入点-04
+      - 🇨🇦 TG:@hkaa0 加拿大
+      - 🇭🇰 HK21香港|广移3G
+      - 🇨🇳 _CN_中国_270
+      - 🇨🇳 _CN_中国_512
+      - 🇳🇱 荷兰 3
+      - 🇭🇰 vip1 香港-09_1
+      - 🇨🇳 _CN_中国_143
+      - 🇺🇸 美国 9
+      - 🇨🇳 _CN_中国_260
+      - 🇸🇬 新加坡专线 4
+      - 🇨🇳 _CN_中国_500
+      - 🇭🇰 HK22香港|广移1G
+      - 🇨🇳 _CN_中国_687
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_1198 |41.47Mb
+      - 🇯🇵 日本高速接入点-06
+      - 🇨🇳 _CN_中国_400
+      - 🇨🇳 _CN_中国_123
+      - 🇨🇳 _CN_中国_764
+      - 🇨🇳 _CN_中国_823
+      - 🇻🇳 vip1 越南-01_1
+      - 🇨🇳 _CN_中国_473
+      - 🇨🇳 _CN_中国_597
+      - 🇨🇳 _CN_中国_528
+      - 🇨🇳 _CN_中国_347
+      - 🇨🇳 _CN_中国_581
+      - 🇨🇳 _CN_中国_16
+      - 🇨🇳 _CN_中国_645
+      - 🇨🇳 _CN_中国_670
+      - 🇸🇬 新加坡高速接入点-04
+      - 🇨🇳 _CN_中国_781
+      - 🇨🇳 _CN_中国_234
+      - 🇯🇵 日本-临时节点-30Mbps
+      - 🇨🇳 _CN_中国_18
+      - 🇨🇳 _CN_中国_765
+      - 🇨🇳 _CN_中国_298
+      - 🇨🇳 _CN_中国_822
+      - 🇨🇳 _CN_中国_619
+      - 🇭🇰 Hong Kong 02
+      - 🇸🇬 新加坡专线 2
+      - 🇸🇬 vip1 新加坡-01_1
+      - 🇨🇳 _CN_中国_344
+      - 🇸🇬 Singapore 13
+      - 🇨🇳 _CN_中国_818
+      - 🇨🇳 _CN_中国_598
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 vip1 韩国-02
+      - 🇨🇳 _CN_中国_558
+      - 🇯🇵 TG:@hkaa0 日本 2
+      - Relay_-🇯🇵JP_755 | 9.66Mb
+      - 🇺🇸 美国 10
+      - 🇨🇳 _CN_中国_119
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 _CN_中国_376
+      - 🇭🇰 Hong Kong 03
+      - 🇰🇷 vip1 韩国-01
+      - 🇨🇳 TW12台湾|广移|专
+      - 🇸🇬 新加坡专线 3
+      - _CN_中国
+      - 🇨🇳 _CN_中国_697
+      - 🇨🇳 _CN_中国_399
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -658,160 +774,189 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 _CN_中国_220
-      - 🇨🇳 _CN_中国_594
-      - 🇨🇳 _CN_中国_797
-      - 🇨🇳 _CN_中国_409
-      - 🇨🇳 _CN_中国_310
-      - 🇨🇳 _CN_中国_760
-      - 🇨🇳 _CN_中国_14
-      - 🇨🇳 _CN_中国_617
-      - 🇨🇳 _CN_中国_619
-      - 🇨🇳 _CN_中国_191
-      - 🇨🇳 _CN_中国_512
-      - 🇨🇳 _CN_中国_132
-      - 🇨🇳 _CN_中国_303
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇨🇳 _CN_中国_76
-      - 火星互联 https://console.marsix.net/
-      - 🇨🇳 _CN_中国_588
-      - 🇨🇳 _CN_中国_401
-      - 🇨🇳 _CN_中国_19
-      - 🇨🇳 _CN_中国_564
-      - 🇨🇳 _CN_中国_149
-      - 🇨🇳 _CN_中国_264
-      - 🇨🇳 _CN_中国_763
-      - TG频道@kxswa | https://t.me/kxswa
-      - 🇺🇸 TG:@hkaa0 美国
-      - 🇨🇳 _CN_中国_256
-      - 🇨🇳 _CN_中国_718
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - 🇨🇳 _CN_中国_682
-      - 🇨🇳 _CN_中国_405
-      - 🇨🇳 _CN_中国_117
-      - 火星互联公益节点03
-      - 🇳🇱 TG:@hkaa0 荷兰
-      - TG频道@kxswa | https://t.me/kxswa 2
-      - 🇨🇳 _CN_中国_48
-      - 🇨🇳 _CN_中国_158
-      - 🇺🇸 TG:@hkaa0 美国 3
-      - 🇨🇳 _CN_中国_357
-      - 🇨🇳 _CN_中国_275
-      - 🇨🇳 _CN_中国_604
-      - 🇨🇳 _CN_中国_10
-      - 🇨🇳 _CN_中国_160
-      - 火星互联公益节点01
-      - 🇨🇳 _CN_中国_341
-      - 🇩🇪 _DE_德国
-      - 🇨🇳 _CN_中国_201
-      - 🇨🇳 _CN_中国_87
-      - 「SCP」UK2-CF-HTTP
-      - 🇫🇷 TG:@hkaa0 法国
-      - TG频道@kxswa | https://t.me/kxswa 3
-      - 🇨🇳 _CN_中国_183
-      - 🇺🇸 United States(ChatGPT) 10 TG:@nodpai
-      - TG频道@kxswa | https://t.me/kxswa 4
-      - TG频道@kxswa | https://t.me/kxswa 5
-      - 🇸🇬 SG12新加坡|广移|专
-      - 🇨🇳 _CN_中国_502
-      - 🇮🇳 India(ChatGPT) 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_307
-      - 🇨🇳 _CN_中国_652
-      - 🇨🇳 _CN_中国_99
-      - 🇨🇳 _CN_中国_678
-      - 🇨🇳 _CN_中国_387
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国_431
-      - 🇨🇳 _CN_中国_94
-      - 🇰🇷 TG:@hkaa0 韩国
-      - 🇨🇳 _CN_中国_354
-      - 🇨🇳 _CN_中国_736
-      - 🇨🇳 _CN_中国_239
-      - 🇨🇳 _CN_中国_408
-      - 🇨🇳 _CN_中国_503
-      - 有问题可咨询网站右下角客服
-      - 🇨🇳 _CN_中国_651
-      - 🇨🇳 vip1 台湾-01
-      - 🇨🇳 _CN_中国_16
-      - 🇨🇳 _CN_中国_728
-      - 🇨🇳 _CN_中国_311
-      - 🇸🇬 SG11新加坡|广联|专
-      - 🇺🇸 TG:@hkaa0 美国 4
-      - TG频道@kxswa | https://t.me/kxswa 6
-      - 🇨🇳 _CN_中国_694
-      - 🇨🇳 _CN_中国_218
-      - 🇭🇰 HK-免费
-      - 🇨🇳 _CN_中国_710
-      - 🇨🇳 _CN_中国_31
-      - 🇨🇳 _CN_中国_712
-      - 🇨🇳 _CN_中国_219
-      - 🇨🇳 _CN_中国_50
-      - 🇨🇳 _CN_中国_110
-      - 🇺🇸 TG:@hkaa0 美国 5
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇨🇳 _CN_中国_637
-      - 🇺🇸 TG:@hkaa0 美国 6
-      - 🇨🇳 _CN_中国_509
-      - 🇨🇳 _CN_中国_169
-      - 🇨🇳 _CN_中国_778
-      - 🇨🇳 _CN_中国_379
-      - 🇨🇳 _CN_中国_454
-      - 🇨🇳 _CN_中国_124
-      - 🇯🇵 TG:@hkaa0 日本
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - 🇺🇸 美国高速接入点-07
-      - 🇨🇳 _CN_中国_114
-      - 🇨🇳 _CN_中国_650
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-      - 🇨🇳 _CN_中国_393
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - 🇨🇳 _CN_中国_810
-      - TG频道@kxswa | https://t.me/kxswa 7
-      - 🇨🇳 _CN_中国_118
-      - 🇨🇳 _CN_中国_676
-      - 🇨🇳 _CN_中国_742
-      - 🇯🇵 vip1 日本-01
-      - 🇭🇰 vip1 香港-17
-      - 🇨🇳 _CN_中国_751
-      - 🇨🇳 _CN_中国_52
-      - 🇨🇳 _CN_中国_534
-      - 🇨🇳 _CN_中国_143
-      - 🇳🇱 TG:@hkaa0 荷兰 2
-      - 🇺🇸 TG:@hkaa0 美国 7
-      - 🇨🇳 _CN_中国_211
-      - 🇨🇳 _CN_中国_545
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 2x-临时-香港-高级节点2
-      - 🇨🇳 _CN_中国_235
-      - 🇨🇳 _CN_中国_378
-      - 🇨🇳 _CN_中国_128
-      - 🇭🇰 Hong Kong 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_660
-      - 🇨🇳 _CN_中国_452
-      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
-      - TG:@hkaa0 中国
       - 🇨🇳 _CN_中国_824
-      - 🇨🇳 _CN_中国_465
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇨🇳 _CN_中国_447
-      - 🇨🇳 _CN_中国_374
-      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
-      - 🇨🇳 _CN_中国_686
-      - 🇨🇳 _CN_中国_53
-      - 🇨🇳 China 01 TG:@nodpai
-      - 🇨🇳 _CN_中国_486
-      - 🇰🇷 TG:@hkaa0 韩国 2
-      - 🇺🇸 US12美国|上电Linode US|---
-      - 🇨🇳 _CN_中国_479
-      - 🇦🇺 vip1 澳大利亚-01
-      - 🇨🇳 _CN_中国_362
+      - 🇨🇳 _CN_中国_775
+      - 🇨🇳 _CN_中国_524
+      - 🇺🇸 _US_美国
+      - 🇨🇳 _CN_中国_778
+      - 🇨🇳 _CN_中国_646
+      - 🇭🇰 香港高速接入点-01
+      - 🇨🇳 _CN_中国_769
+      - 🇺🇸 TG:@hkaa0 美国
+      - 🇺🇸 TG:@hkaa0 美国 2
+      - 🇺🇸 美国
+      - 🇭🇰 香港专线 5 | 家庭宽带
+      - Relay_-🇦🇺AU_686 |21.95Mb
+      - 🇨🇳 _CN_中国_47
+      - 🇰🇷 TG:@hkaa0 韩国
+      - 🇺🇸 美国高速接入点-03
+      - 🇸🇬 TG:@hkaa0 新加坡
+      - 🇨🇳 _CN_中国_545
+      - 🇸🇬 Singapore 09
+      - 🇺🇸 美国 2
+      - 🇨🇳 _CN_中国_501
+      - 🇳🇱 荷兰
+      - 🇨🇳 _CN_中国_659
+      - 🇨🇳 _CN_中国_493
+      - 🇭🇰 vip1 香港-09
+      - 距离下次重置剩余：20 天
+      - 🇨🇳 _CN_中国_631
+      - 🇨🇳 _CN_中国_396
+      - 🇺🇸 美国-IEPL-Basic-02
+      - 🇨🇳 _CN_中国_86
+      - 🇨🇳 _CN_中国_458
+      - 🇨🇳 _CN_中国_327
+      - 🇨🇳 _CN_中国_467
+      - Relay_-🇭🇰HK_703 |15.92Mb
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇨🇳 _CN_中国_635
+      - 🇯🇵 vip1 日本-05_1
+      - 🇨🇳 _CN_中国_544
+      - 🇨🇳 _CN_中国_29
+      - 🇨🇳 _CN_中国_772
+      - 🇸🇬 Singapore 21
+      - 🇨🇳 _CN_中国_172
+      - 🇸🇬 Singapore 02
+      - 🇨🇳 _CN_中国_252
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇭🇰 Hong Kong 18
+      - 2x-临时-台北-高级节点3
+      - 🇨🇳 _CN_中国_62
+      - 🇸🇬 Singapore 12
+      - 纽约测试|@ripaojiedian
+      - Relay_-🇹🇼TW_691 | 6.60Mb
+      - SG_1280 |16.42Mb
+      - 🇺🇸 美国 3
+      - 🇨🇳 _CN_中国_94
+      - 🇨🇳 _CN_中国_657
+      - 🇨🇳 _CN_中国_641
+      - 🇨🇳 _CN_中国_37
+      - 🇺🇸 美国专线 3
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 Singapore 14
+      - 🇨🇳 _CN_中国_369
+      - 🇨🇳 _CN_中国_734
+      - 🇨🇳 _CN_中国_193
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 3
+      - 🇨🇳 _CN_中国_422
+      - 🇨🇳 _CN_中国_262
+      - 🇭🇺 TG:@hkaa0 匈牙利
+      - 🇨🇳 _CN_中国_392
+      - TG:@hkaa0 中国
+      - 🇨🇳 _CN_中国_104
+      - 🇨🇳 _CN_中国_806
+      - 🇨🇳 台湾专线 5 NF ChatGPT
+      - 🇨🇳 _CN_中国_171
+      - 🇨🇳 _CN_中国_526
+      - 🇨🇳 _CN_中国_264
+      - 🇸🇬 TG:@hkaa0 新加坡 2
+      - 🇨🇳 _CN_中国_248
+      - 🇨🇳 _CN_中国_395
+      - 🇨🇳 _CN_中国_543
+      - 🇭🇰 vip1 香港-02
+      - 🇺🇸 美国-IEPL-Basic-01
+      - 🇨🇳 _CN_中国_226
+      - 🇺🇸 美国 4
+      - 🇨🇳 _CN_中国_785
+      - 🇭🇰 fscloud 香港 - 005
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇻🇳 vip2 越南-03
+      - 🇨🇳 _CN_中国_212
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇨🇳 _CN_中国_618
-      - 🇨🇳 _CN_中国_279
-      - 🇨🇳 _CN_中国_337
-      - 🇺🇸 TG:@hkaa0 美国 8
+      - Relay_-🇯🇵JP_722 |16.13Mb
+      - 🇯🇵 Japan(ChatGPT) 04 TG:@nodpai
+      - 🇫🇷 _FR_法国
+      - 🇨🇳 _CN_中国_432
+      - 🇸🇬 SG12新加坡|广移|专
+      - 🇨🇳 _CN_中国_12
+      - 🇨🇳 _CN_中国_416
+      - 🇨🇳 _CN_中国_550
+      - 🇨🇳 _CN_中国_43
+      - 🇨🇳 _CN_中国_592
+      - 🇨🇳 _CN_中国_40
+      - 🇺🇸 美国 7
+      - 🇸🇬 新加坡-IEPL-Basic专线-01
+      - 🇭🇰 香港高速接入点-02
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇨🇳 _CN_中国_129
+      - 🇨🇳 _CN_中国_562
+      - 🇯🇵 TG:@hkaa0 日本
+      - 🇬🇧 github.com/freefq - 英国伦敦Linode数据中心 15
+      - ""
+      - 🇨🇳 _CN_中国_4
+      - 🇨🇳 _CN_中国_149
+      - 🇨🇳 _CN_中国_732
+      - 🇺🇸 美国 8
+      - 🇰🇷 TG:@hkaa0 韩国 2
+      - 🇭🇰 _HK_香港
+      - 🇨🇳 _CN_中国_251
+      - Relay_-🇨🇳CN_668 |35.46Mb
+      - 🇺🇸 美国专线 2
+      - 🇨🇳 _CN_中国_617
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇵🇱 _PL_波兰
+      - 🇺🇸 美国高速接入点-04
+      - 🇨🇦 TG:@hkaa0 加拿大
+      - 🇭🇰 HK21香港|广移3G
+      - 🇨🇳 _CN_中国_270
+      - 🇨🇳 _CN_中国_512
+      - 🇳🇱 荷兰 3
+      - 🇭🇰 vip1 香港-09_1
+      - 🇨🇳 _CN_中国_143
+      - 🇺🇸 美国 9
+      - 🇨🇳 _CN_中国_260
+      - 🇸🇬 新加坡专线 4
+      - 🇨🇳 _CN_中国_500
+      - 🇭🇰 HK22香港|广移1G
+      - 🇨🇳 _CN_中国_687
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_1198 |41.47Mb
+      - 🇯🇵 日本高速接入点-06
+      - 🇨🇳 _CN_中国_400
+      - 🇨🇳 _CN_中国_123
+      - 🇨🇳 _CN_中国_764
+      - 🇨🇳 _CN_中国_823
+      - 🇻🇳 vip1 越南-01_1
+      - 🇨🇳 _CN_中国_473
+      - 🇨🇳 _CN_中国_597
+      - 🇨🇳 _CN_中国_528
+      - 🇨🇳 _CN_中国_347
+      - 🇨🇳 _CN_中国_581
+      - 🇨🇳 _CN_中国_16
+      - 🇨🇳 _CN_中国_645
+      - 🇨🇳 _CN_中国_670
+      - 🇸🇬 新加坡高速接入点-04
+      - 🇨🇳 _CN_中国_781
+      - 🇨🇳 _CN_中国_234
+      - 🇯🇵 日本-临时节点-30Mbps
+      - 🇨🇳 _CN_中国_18
+      - 🇨🇳 _CN_中国_765
+      - 🇨🇳 _CN_中国_298
+      - 🇨🇳 _CN_中国_822
+      - 🇨🇳 _CN_中国_619
+      - 🇭🇰 Hong Kong 02
+      - 🇸🇬 新加坡专线 2
+      - 🇸🇬 vip1 新加坡-01_1
+      - 🇨🇳 _CN_中国_344
+      - 🇸🇬 Singapore 13
+      - 🇨🇳 _CN_中国_818
+      - 🇨🇳 _CN_中国_598
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 vip1 韩国-02
+      - 🇨🇳 _CN_中国_558
+      - 🇯🇵 TG:@hkaa0 日本 2
+      - Relay_-🇯🇵JP_755 | 9.66Mb
+      - 🇺🇸 美国 10
+      - 🇨🇳 _CN_中国_119
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇨🇳 _CN_中国_376
+      - 🇭🇰 Hong Kong 03
+      - 🇰🇷 vip1 韩国-01
+      - 🇨🇳 TW12台湾|广移|专
+      - 🇸🇬 新加坡专线 3
+      - _CN_中国
+      - 🇨🇳 _CN_中国_697
+      - 🇨🇳 _CN_中国_399
   - name: 📲 电报消息
     type: select
     proxies:
@@ -998,63 +1143,100 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK-免费
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇭🇰 vip1 香港-17
-      - 🇭🇰 2x-临时-香港-高级节点2
-      - 🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 香港高速接入点-01
+      - 🇭🇰 香港专线 5 | 家庭宽带
+      - 🇭🇰 vip1 香港-09
+      - Relay_-🇭🇰HK_703 |15.92Mb
+      - 🇭🇰 Hong Kong 18
+      - 🇭🇰 vip1 香港-02
+      - 🇭🇰 fscloud 香港 - 005
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 HK21香港|广移3G
+      - 🇭🇰 vip1 香港-09_1
+      - 🇭🇰 HK22香港|广移1G
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 vip1 日本-05_1
+      - Relay_-🇯🇵JP_722 |16.13Mb
+      - 🇯🇵 Japan(ChatGPT) 04 TG:@nodpai
       - 🇯🇵 TG:@hkaa0 日本
-      - 🇯🇵 vip1 日本-01
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_1198 |41.47Mb
+      - 🇯🇵 日本高速接入点-06
+      - 🇯🇵 日本-临时节点-30Mbps
+      - 🇯🇵 TG:@hkaa0 日本 2
+      - Relay_-🇯🇵JP_755 | 9.66Mb
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 _US_美国
       - 🇺🇸 TG:@hkaa0 美国
       - 🇺🇸 TG:@hkaa0 美国 2
-      - 🇺🇸 TG:@hkaa0 美国 3
-      - 🇺🇸 United States(ChatGPT) 10 TG:@nodpai
-      - 🇺🇸 _US_美国
-      - 🇺🇸 TG:@hkaa0 美国 4
-      - 🇺🇸 TG:@hkaa0 美国 5
-      - 🇺🇸 TG:@hkaa0 美国 6
-      - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
-      - 🇺🇸 美国高速接入点-07
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸 TG:@hkaa0 美国 7
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇺🇸 US12美国|上电Linode US|---
+      - 🇺🇸 美国
+      - 🇺🇸 美国高速接入点-03
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国-IEPL-Basic-02
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 美国 3
+      - 🇺🇸 美国专线 3
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 3
+      - 🇺🇸 美国-IEPL-Basic-01
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 TG:@hkaa0 美国 8
+      - 🇺🇸 美国 7
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国专线 2
+      - 🇺🇸 美国高速接入点-04
+      - 🇺🇸 美国 9
+      - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_1198 |41.47Mb
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH数据中心
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 vip1 台湾-01
-      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
+      - 2x-临时-台北-高级节点3
+      - Relay_-🇹🇼TW_691 | 6.60Mb
+      - 🇨🇳 台湾专线 5 NF ChatGPT
+      - 🇨🇳 TW12台湾|广移|专
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 SG12新加坡|广移|专
-      - 🇸🇬 SG11新加坡|广联|专
       - 🇸🇬 TG:@hkaa0 新加坡
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 Singapore 09
+      - 🇸🇬 Singapore 21
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 12
+      - SG_1280 |16.42Mb
+      - 🇸🇬 Singapore 14
       - 🇸🇬 TG:@hkaa0 新加坡 2
+      - 🇸🇬 SG12新加坡|广移|专
+      - 🇸🇬 新加坡-IEPL-Basic专线-01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡专线 4
+      - 🇸🇬 新加坡高速接入点-04
+      - 🇸🇬 新加坡专线 2
+      - 🇸🇬 vip1 新加坡-01_1
+      - 🇸🇬 Singapore 13
+      - 🇸🇬 新加坡专线 3
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1062,12 +1244,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇰🇷 TG:@hkaa0 韩国
-      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
       - 🇰🇷 TG:@hkaa0 韩国 2
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 vip1 韩国-02
+      - 🇰🇷 vip1 韩国-01
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇳 台湾专线 5 NF ChatGPT
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
