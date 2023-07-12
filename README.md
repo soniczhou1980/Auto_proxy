@@ -21,39 +21,39 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`节点总数: 472`
+`节点总数: 262`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
-`合并节点总数: 60`
+`合并节点总数: 33`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2`
-`合并节点总数: 60`
+`合并节点总数: 33`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3`
-`合并节点总数: 60`
+`合并节点总数: 33`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4`
-`合并节点总数: 60`
+`合并节点总数: 33`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5`
-`合并节点总数: 60`
+`合并节点总数: 33`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6`
-`合并节点总数: 60`
+`合并节点总数: 33`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7`
-`合并节点总数: 60`
+`合并节点总数: 33`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`合并节点总数: 52`
+`合并节点总数: 31`
 
 - [clash订阅](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,8 +68,8 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 </details>
 
-### 试用高速订阅数量: `7`
-更新时间：`2023-07-13 02:32:20`
+### 试用高速订阅数量: `3`
+更新时间：`2023-07-13 04:27:33`
 
 
 <details>
@@ -18345,44 +18345,57 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=a0368f035b8f6dd0b0ea9f206da87f59`
 
 
 
 
->试用订阅：
-`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=67d6c6fbef985121d105d657c02aefd7`
 
 
 
 
->试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=5a3f9123d14525819b2f080c77b82d02`
 
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=c0504be1823c92bc829e8f1481e38423`
+
+
+
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=ba3a186a2699d8a99873e85e925844ce`
-
-
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=6ac97e557801d425a241e1b23ae09619`
-
+`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=d173fbffcb69d5ffa62acca7b00f558b`
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=12967fe83e22959f76707af252079731`
+`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=d173fbffcb69d5ffa62acca7b00f558b`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=869b54fd06ff6603f4a6c26a69b8f805`
+
+>试用订阅：
+`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=d173fbffcb69d5ffa62acca7b00f558b`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=869b54fd06ff6603f4a6c26a69b8f805`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=869b54fd06ff6603f4a6c26a69b8f805`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=ae7d59162e975c8a5ac972f52fa77ef2`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=ae7d59162e975c8a5ac972f52fa77ef2`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=ae7d59162e975c8a5ac972f52fa77ef2`
 
 
 
