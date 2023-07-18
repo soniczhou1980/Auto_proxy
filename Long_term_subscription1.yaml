@@ -5,81 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本02|媒体 下载 网页, server: iepl-2.bluetile.xyz, port: 40010, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
-  - {name: 🇺🇸 美国 03, server: cdn-yx.syjd.xyz, port: 443, type: vmess, uuid: aba9389e-21b7-45f5-a82d-0c2b8b989bb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cdn, headers: {Host: cdn-us.syjd.xyz}}}
-  - {name: 🇯🇵 JCBB_日本01【vip1】, server: gzdx.jcnode.top, port: 31550, type: trojan, password: 588785b5-4684-47ca-826e-8040b5790904, sni: jp01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 _HK_香港_30, server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: in.stablize.top}
-  - {name: TG@kxswa|https://t.me/kxswa, server: 0kxedm1x8q8lksmj07.xingbayun.buzz, port: 443, type: vmess, uuid: 62d1daee-c402-4915-9ba3-ba84b7562fdc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 🇭🇰 _HK_香港_38, server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: sg.stablize.top}
-  - {name: 🇭🇰 _HK_香港_32, server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: jp.stablize.top}
-  - {name: 🇸🇬 新加坡高速接入点-03, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg3.sanfencdn2.com}}}
-  - {name: "🇺🇸 美国 D [0.3x]", server: bsdhd77cdys65sxx.wudaki972.me, port: 6031, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 182756:cQmIOhWKtZjREb7g, obfs-param: 39e4f182756.microsoft.com}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai, server: 165.154.246.49, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: 🇧🇷 _BR_巴西->🇳🇱_NL_荷兰, server: nlawggbvfgerhtg.76898102.xyz, port: 2082, type: vmess, uuid: 4896559c-c94e-342a-b208-6107ec292652, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fwadfbbg, headers: {Host: nlawggbvfgerhtg.76898102.xyz}}}
-  - {name: 🇸🇬 Singapore(ChatGPT) 01 TG:@nodpai, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
-  - {name: 🇮🇳 JCBB_ 印度02【vip1】, server: gzyd.jcnode.top, port: 55199, type: trojan, password: 588785b5-4684-47ca-826e-8040b5790904, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 _JP_日本_71, server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: uk.stablize.top}
-  - {name: 🇨🇳 JCBB_ 台湾 02【vip1】, server: gzyd.jcnode.top, port: 55345, type: trojan, password: 588785b5-4684-47ca-826e-8040b5790904, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 _HK_香港_43, server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: usa.stablize.top}
-  - {name: 🇺🇸 TG:@hkaa0 美国, server: 156.225.67.132, port: 50884, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾01|媒体 下载 网页, server: iepl-1.bluetile.xyz, port: 40013, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
-  - {name: 🇨🇳 台湾02|媒体 下载 网页, server: iepl-2.bluetile.xyz, port: 40014, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
-  - {name: 🇰🇷 韩国 A, server: a1jexzshnphscpcr.wudaki972.me, port: 6061, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 182756:cQmIOhWKtZjREb7g, obfs-param: 39e4f182756.microsoft.com}
-  - {name: 🇺🇸 JCBB_ 美国 04【vip1】, server: gzdx.jcnode.top, port: 62684, type: vmess, uuid: 588785b5-4684-47ca-826e-8040b5790904, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇸🇬 Singapore 01, server: shdx.85413.xyz, port: 34501, type: ss, cipher: aes-128-gcm, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4}
-  - {name: 🇺🇸 美国 01, server: cdn-yx.syjd.xyz, port: 443, type: vmess, uuid: aba9389e-21b7-45f5-a82d-0c2b8b989bb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cdn, headers: {Host: cdn-us.syjd.xyz}}}
-  - {name: 🇰🇷 TG:@hkaa0 韩国, server: 221.150.109.69, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai, server: 183.237.20.158, port: 40095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 中国阿里云 12, server: cf.ielaina.com, port: 80, type: vmess, uuid: e52d79bb-b26e-4416-ac8a-7755176299a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /9SCqOah8/, headers: {Host: jp1.ielaina.com}}}
-  - {name: TG@kxswa|https://t.me/kxswa 2, server: beacomf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: T1pb7XxxrolvPSb0u2xSOA}
-  - {name: 🇻🇳 vip1 越南-01_1, server: gzdx.jcnode.top, port: 43686, type: trojan, password: 9035d3fc-8089-47f6-9c00-7a3d6b5e6539, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 JCBB_ 新加坡 03【vip1 】, server: gzyd.jcnode.top, port: 20707, type: trojan, password: 588785b5-4684-47ca-826e-8040b5790904, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 08 TG:@nodpai, server: 165.154.226.194, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 223.113.136.103, port: 2001, type: ss, cipher: chacha20-ietf-poly1305, password: 3a274e78-181d-467e-8aa9-be8dcab586fc}
-  - {name: 🇭🇰 _HK_香港_44, server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: usajs.stablize.top}
-  - {name: 🇺🇸 US美国芝加哥 01, server: cf-cdn.tiktokcloud.top, port: 2052, type: vmess, uuid: 3e04aaed-5980-4685-b317-120f1b4a7d60, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jntm=2048, headers: {Host: us-zjg2.91ip.xyz}}}
-  - {name: 🇸🇬 新加坡高速接入点-01, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg1.sanfencdn2.com}}}
-  - {name: TG@kxswa|https://t.me/kxswa 3, server: 0kxedm1x8q8lksmj19.xingbayun.buzz, port: 443, type: vmess, uuid: 9dba1b81-e6e3-4a75-bdde-597c4d21fbe1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇺🇸 _US_美国_9, server: cfcdn.sanfencdn.net, port: 2052, type: vmess, uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp5.sanfencdn2.com}}}
+  - {name: 🇩🇪 德国01|媒体 下载 网页, server: iepl-3.bluetile.xyz, port: 40021, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
+  - {name: TG@kxswa|https://t.me/kxswa, server: 0kxedm1x8q8lksmj15.xingbayun.buzz, port: 443, type: vmess, uuid: 9dba1b81-e6e3-4a75-bdde-597c4d21fbe1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 48834, type: trojan, password: e986607a-99d8-4379-9aa5-69416d6ae2ac, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: TG@kxswa|https://t.me/kxswa 2, server: 0kxedm1x8q8lksmj10.xingbayun.buzz, port: 443, type: vmess, uuid: 62d1daee-c402-4915-9ba3-ba84b7562fdc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇭🇰 _HK_香港_28, server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: frjs.stablize.top}
+  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 47492, type: trojan, password: e986607a-99d8-4379-9aa5-69416d6ae2ac, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: TG@kxswa|https://t.me/kxswa 3, server: 0kxedm1x8q8lksmj16.xingbayun.buzz, port: 443, type: vmess, uuid: 1320997d-6838-4da9-8faf-bd10cec68fb6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 18, server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
   - {name: wqfuinwqffq.dfcloud.xyz:30818, server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a}
-  - {name: 🇺🇸 United States(ChatGPT) 06 TG:@nodpai, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 43.202.65.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡02|媒体 下载 网页, server: iepl-2.bluetile.xyz, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
-  - {name: TG@kxswa|https://t.me/kxswa 4, server: 0kxedm1x8q8lksmj10.xingbayun.buzz, port: 443, type: vmess, uuid: 9dba1b81-e6e3-4a75-bdde-597c4d21fbe1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 🇯🇵 日本 01, server: jp-csjc.85413.xyz, port: 443, type: trojan, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4, sni: jp-csjc.85413.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13, server: speedip.eu.org, port: 8080, type: vmess, uuid: dd87d362-dba1-49aa-9c73-87c828f372d6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: 🇰🇷 JCBB_ 韩国 01【vip1】, server: gzyd.jcnode.top, port: 64761, type: trojan, password: 588785b5-4684-47ca-826e-8040b5790904, sni: sk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 _JP_日本_72, server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: ukjs.stablize.top}
-  - {name: 🇺🇸 United States(ChatGPT) 08 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
-  - {name: "快飞永久跳转地址: https://fastfly.club", server: gzdx.jcnode.top, port: 43000, type: trojan, password: 9035d3fc-8089-47f6-9c00-7a3d6b5e6539, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 US美国洛杉矶 01, server: cf-cdn.tiktokcloud.top, port: 2052, type: vmess, uuid: 3e04aaed-5980-4685-b317-120f1b4a7d60, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jntm=2048, headers: {Host: us-sm.91ip.xyz}}}
-  - {name: TG@kxswa|https://t.me/kxswa 5, server: 0kxedm1x8q8lksmj10.xingbayun.buzz, port: 443, type: vmess, uuid: 62d1daee-c402-4915-9ba3-ba84b7562fdc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 距离下次重置剩余：13 天, server: gzdx.jcnode.top, port: 43000, type: trojan, password: 9035d3fc-8089-47f6-9c00-7a3d6b5e6539, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 _JP_日本_55, server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: de.stablize.top}
-  - {name: TG@kxswa|https://t.me/kxswa 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇯🇵 vip3 日本-04, server: gzyd02.jcnode.top, port: 49072, type: trojan, password: 9035d3fc-8089-47f6-9c00-7a3d6b5e6539, sni: jp001.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇰🇷 TG:@hkaa0 韩国 2, server: 43.202.63.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11, server: 104.25.54.103, port: 80, type: vmess, uuid: 79691050-5798-42ce-a93c-1ad585983823, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: el.kapacloud.eu.org}}}
-  - {name: 🇺🇸 US美国 02, server: cf-best.tiktokcloud.top, port: 80, type: vmess, uuid: 3e04aaed-5980-4685-b317-120f1b4a7d60, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jntm=2048, headers: {Host: tr-jan.91ip.xyz}}}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: 9035d3fc-8089-47f6-9c00-7a3d6b5e6539, sni: aus01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾独家|@ripaojiedian, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: "", host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true}}
-  - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇯🇵 japan 03, server: hzct.85413.xyz, port: 34500, type: ss, cipher: aes-128-gcm, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4}
-  - {name: "🇨🇳 台湾 E [0.3x]", server: bfcztshshh6rxnzy.wudaki972.me, port: 6051, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 182756:cQmIOhWKtZjREb7g, obfs-param: 39e4f182756.microsoft.com}
-  - {name: TG@kxswa|https://t.me/kxswa 7, server: 0kxedm1x8q8lksmj01.xingbayun.buzz, port: 443, type: vmess, uuid: 9dba1b81-e6e3-4a75-bdde-597c4d21fbe1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇺🇸 _US_美国, server: 140.99.140.158, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai, server: zendesk1.grab.com, port: 443, type: vmess, uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}}
+  - {name: 🇺🇸 US 01, server: hzct.85413.xyz, port: 34502, type: ss, cipher: aes-128-gcm, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4}
+  - {name: 🇭🇰 香港03|媒体 下载 网页, server: iepl-1.bluetile.xyz, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
+  - {name: 🇨🇳 台湾 流媒体, server: ap-east-cht.lnaspiring.com, port: 7047, type: trojan, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4, sni: cdn.twnct.6641634715834932.me, skip-cert-verify: true}
+  - {name: 🇯🇵 _JP_日本_68, server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: sg.stablize.top}
+  - {name: 🇯🇵 _JP_日本_69, server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: swejs.stablize.top}
+  - {name: 🇯🇵 日本 A, server: a1jexzshnphscpcr.wudaki972.me, port: 6021, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 182756:cQmIOhWKtZjREb7g, obfs-param: 39e4f182756.microsoft.com}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai, server: 02-1.qqingca.cc, port: 20384, type: ss, cipher: chacha20-ietf-poly1305, password: 27e2f037-effd-493a-bd28-6004cd9ff1cf}
+  - {name: 🇭🇰 香港A|@ripaojiedian, server: 223.113.136.103, port: 2001, type: ss, cipher: chacha20-ietf-poly1305, password: 3a274e78-181d-467e-8aa9-be8dcab586fc}
+  - {name: 🇺🇸 TG:@hkaa0 美国, server: 198.2.197.69, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: TG@kxswa|https://t.me/kxswa 4, server: 0kxedm1x8q8lksmj20.xingbayun.buzz, port: 443, type: vmess, uuid: 9dba1b81-e6e3-4a75-bdde-597c4d21fbe1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇯🇵 _JP_日本_61, server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: itjs.stablize.top}
+  - {name: 🇺🇸 US 02, server: hzct.85413.xyz, port: 34502, type: ss, cipher: aes-128-gcm, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4}
   - {name: 🇩🇪 DE德意志帝国 03, server: cf-best.tiktokcloud.top, port: 80, type: vmess, uuid: 3e04aaed-5980-4685-b317-120f1b4a7d60, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jntm=2048, headers: {Host: de-hax.91ip.xyz}}}
-  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 9035d3fc-8089-47f6-9c00-7a3d6b5e6539, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 64328, type: trojan, password: 9035d3fc-8089-47f6-9c00-7a3d6b5e6539, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港01【vip1】, server: gzdx.jcnode.top, port: 35257, type: trojan, password: 588785b5-4684-47ca-826e-8040b5790904, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai, server: 183.213.200.225, port: 28114, type: trojan, password: cdyB1Q, sni: download.windowsupdate.com, skip-cert-verify: true}
-  - {name: "🇭🇰 香港 D [0.3x]", server: bsdhd77cdys65sxx.wudaki972.me, port: 6011, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 182756:cQmIOhWKtZjREb7g, obfs-param: 39e4f182756.microsoft.com}
-  - {name: 🇻🇳 越南01|媒体 下载 网页, server: iepl-1.bluetile.xyz, port: 40023, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
-  - {name: 🇭🇰 vip1 香港-18, server: gzyd.jcnode.top, port: 36554, type: trojan, password: 9035d3fc-8089-47f6-9c00-7a3d6b5e6539, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇹🇷 JCBB_土耳其 01【vip1】, server: gzdx.jcnode.top, port: 52546, type: trojan, password: 588785b5-4684-47ca-826e-8040b5790904, sni: tur01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇦🇺 澳大利亚02|媒体 下载 网页, server: iepl-1.bluetile.xyz, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
-  - {name: TG@kxswa|https://t.me/kxswa 8, server: 0kxedm1x8q8lksmj18.xingbayun.buzz, port: 443, type: vmess, uuid: 9dba1b81-e6e3-4a75-bdde-597c4d21fbe1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇺🇸 美国高速接入点-08, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us8.sanfencdn2.com}}}
+  - {name: 🇺🇸 TG:@hkaa0 美国 2, server: 171.22.116.43, port: 59338, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国 3, server: 140.99.120.171, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 Hong Kong 01 TG:@nodpai, server: wasanbi.ga, port: 443, type: vmess, uuid: 94448b9f-7d5d-4f7a-9c68-d4978878d401, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /94448b9f-7d5d-4f7a-9c68-d4978878d401, headers: {Host: wasanbi.ga}}}
+  - {name: "🇸🇬 新加坡 D [0.3x]", server: bsdhd77cdys65sxx.wudaki972.me, port: 6041, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 182756:cQmIOhWKtZjREb7g, obfs-param: 39e4f182756.microsoft.com}
+  - {name: 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai, server: 43.201.254.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 「SCP」UK2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk2.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 2, server: 140.99.59.229, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 61802, type: trojan, password: e986607a-99d8-4379-9aa5-69416d6ae2ac, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国 3, server: 108.186.116.182, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_13, server: cfcdn2.sanfencdn.net, port: 80, type: vmess, uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp1.sanfencdn2.com}}}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 173.245.59.198, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}}
+  - {name: 🇸🇬 _SG_新加坡, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 _US_美国_16, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us6.sanfencdn2.com}}}
+  - {name: 🇭🇰 香港01|媒体 下载 网页, server: iepl-1.bluetile.xyz, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
+  - {name: 🇸🇬 新加坡 04, server: sg-csjc.85413.xyz, port: 443, type: trojan, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4, sni: sg-csjc.85413.xyz, skip-cert-verify: true}
+  - {name: 🇰🇷 _KR_韩国, server: 43.201.19.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇹🇷 _TR_土耳其, server: 45.89.52.66, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: 🇸🇬 新加坡高速接入点-01, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg1.sanfencdn2.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 11, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f945, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
+  - {name: 🇭🇰 _HK_香港_43, server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: usa.stablize.top}
+  - {name: 🇯🇵 日本高速接入点-01, server: cfcdn2.sanfencdn.net, port: 80, type: vmess, uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp1.sanfencdn2.com}}}
+  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: e986607a-99d8-4379-9aa5-69416d6ae2ac, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾02|媒体 下载 网页, server: iepl-2.bluetile.xyz, port: 40014, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
+  - {name: 🇯🇵 _JP_日本_55, server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: de.stablize.top}
+  - {name: 🇹🇷 _TR_土耳其 2, server: 45.89.52.66, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇨🇳 vip1 台湾-06, server: gzyd.jcnode.top, port: 53826, type: trojan, password: e986607a-99d8-4379-9aa5-69416d6ae2ac, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 62951, type: trojan, password: e986607a-99d8-4379-9aa5-69416d6ae2ac, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai, server: bgptw3.cnamazon.sbs, port: 443, type: trojan, password: 5f9a5d8c-a57b-4da6-baff-490fe4cf8d60, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国_11, server: cfcdn2.sanfencdn.net, port: 80, type: vmess, uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp3.sanfencdn2.com}}}
+  - {name: 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai, server: 183.213.200.225, port: 28113, type: trojan, password: cdyB1Q, sni: 183.213.200.225, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-09, server: gzdx.jcnode.top, port: 17217, type: trojan, password: e986607a-99d8-4379-9aa5-69416d6ae2ac, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 _HK_香港_45, server: vpnhat.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: it.stablize.top}
+  - {name: 🇬🇧 vip1 英国-04, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: e986607a-99d8-4379-9aa5-69416d6ae2ac, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 _JP_日本_52, server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: cajs.stablize.top}
+  - {name: TG@kxswa|https://t.me/kxswa 5, server: 0kxedm1x8q8lksmj19.xingbayun.buzz, port: 443, type: vmess, uuid: 9dba1b81-e6e3-4a75-bdde-597c4d21fbe1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: e986607a-99d8-4379-9aa5-69416d6ae2ac, sni: aus01.ckcloud.info, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡04|媒体 下载 网页, server: iepl-2.bluetile.xyz, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: ade9fe20-623e-4344-aac6-5e5ba0a8bc50}
-  - {name: 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国, server: cf5.992688.xyz, port: 8080, type: vmess, uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hax.992688.xyz}}}
+  - {name: 🇯🇵 _JP_日本_57, server: vpnpool.stablize.top, port: 443, type: trojan, password: 2f8b959c-6b33-48ad-9ca6-0622c2de705b, sni: esjs.stablize.top}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: speedip.eu.org, port: 8080, type: vmess, uuid: dd87d362-dba1-49aa-9c73-87c828f372d6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -98,243 +88,213 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇯🇵 日本02|媒体 下载 网页
-      - 🇺🇸 美国 03
-      - 🇯🇵 JCBB_日本01【vip1】
-      - 🇭🇰 _HK_香港_30
+      - 🇺🇸 _US_美国_9
+      - 🇩🇪 德国01|媒体 下载 网页
       - TG@kxswa|https://t.me/kxswa
-      - 🇭🇰 _HK_香港_38
-      - 🇭🇰 _HK_香港_32
-      - 🇸🇬 新加坡高速接入点-03
-      - 🇺🇸 美国 D [0.3x]
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
-      - 🇧🇷 _BR_巴西->🇳🇱_NL_荷兰
-      - 🇸🇬 Singapore(ChatGPT) 01 TG:@nodpai
-      - 🇮🇳 JCBB_ 印度02【vip1】
-      - 🇯🇵 _JP_日本_71
-      - 🇨🇳 JCBB_ 台湾 02【vip1】
-      - 🇭🇰 _HK_香港_43
-      - 🇺🇸 TG:@hkaa0 美国
-      - 🇨🇳 台湾01|媒体 下载 网页
-      - 🇨🇳 台湾02|媒体 下载 网页
-      - 🇰🇷 韩国 A
-      - 🇺🇸 JCBB_ 美国 04【vip1】
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 美国 01
-      - 🇰🇷 TG:@hkaa0 韩国
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇨🇳 github.com/freefq - 中国阿里云 12
+      - 🇸🇬 vip1 新加坡-06
       - TG@kxswa|https://t.me/kxswa 2
-      - 🇻🇳 vip1 越南-01_1
-      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG:@nodpai
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 _HK_香港_44
-      - 🇺🇸 US美国芝加哥 01
-      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 _HK_香港_28
+      - 🇨🇳 vip1 台湾-01
       - TG@kxswa|https://t.me/kxswa 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 18
       - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇺🇸 United States(ChatGPT) 06 TG:@nodpai
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 新加坡02|媒体 下载 网页
+      - 🇺🇸 _US_美国
+      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 US 01
+      - 🇭🇰 香港03|媒体 下载 网页
+      - 🇨🇳 台湾 流媒体
+      - 🇯🇵 _JP_日本_68
+      - 🇯🇵 _JP_日本_69
+      - 🇯🇵 日本 A
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai
+      - 🇭🇰 香港A|@ripaojiedian
+      - 🇺🇸 TG:@hkaa0 美国
       - TG@kxswa|https://t.me/kxswa 4
-      - 🇯🇵 日本 01
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - 🇰🇷 JCBB_ 韩国 01【vip1】
-      - 🇯🇵 _JP_日本_72
-      - 🇺🇸 United States(ChatGPT) 08 TG:@nodpai
-      - "快飞永久跳转地址: https://fastfly.club"
-      - 🇺🇸 US美国洛杉矶 01
-      - TG@kxswa|https://t.me/kxswa 5
-      - 距离下次重置剩余：13 天
-      - 🇯🇵 _JP_日本_55
-      - TG@kxswa|https://t.me/kxswa 6
-      - 🇯🇵 vip3 日本-04
-      - 🇰🇷 TG:@hkaa0 韩国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 US美国 02
-      - 🇦🇺 vip1 澳大利亚-01
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇯🇵 japan 03
-      - 🇨🇳 台湾 E [0.3x]
-      - TG@kxswa|https://t.me/kxswa 7
+      - 🇯🇵 _JP_日本_61
+      - 🇺🇸 US 02
       - 🇩🇪 DE德意志帝国 03
-      - 🇸🇬 vip1 新加坡-01
-      - 🇭🇰 vip1 香港-14
-      - 🇭🇰 JCBB_香港01【vip1】
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇭🇰 香港 D [0.3x]
-      - 🇻🇳 越南01|媒体 下载 网页
-      - 🇭🇰 vip1 香港-18
-      - 🇹🇷 JCBB_土耳其 01【vip1】
-      - 🇦🇺 澳大利亚02|媒体 下载 网页
-      - TG@kxswa|https://t.me/kxswa 8
+      - 🇺🇸 美国高速接入点-08
+      - 🇺🇸 TG:@hkaa0 美国 2
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇸🇬 新加坡 D [0.3x]
+      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
+      - 「SCP」UK2-CF-HTTP
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 vip1 美国-11
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇭🇰 香港01|媒体 下载 网页
+      - 🇸🇬 新加坡 04
+      - 🇰🇷 _KR_韩国
+      - 🇹🇷 _TR_土耳其
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇭🇰 _HK_香港_43
+      - 🇯🇵 日本高速接入点-01
+      - 🇨🇳 vip1 台湾-02
+      - 🇨🇳 台湾02|媒体 下载 网页
+      - 🇯🇵 _JP_日本_55
+      - 🇹🇷 _TR_土耳其 2
+      - 🇨🇳 vip1 台湾-06
+      - 🇩🇪 vip1 德国-01
+      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
+      - 🇺🇸 _US_美国_11
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai
+      - 🇯🇵 vip1 日本-09
+      - 🇭🇰 _HK_香港_45
+      - 🇬🇧 vip1 英国-04
+      - 🇯🇵 _JP_日本_52
+      - TG@kxswa|https://t.me/kxswa 5
+      - 🇦🇺 vip1 澳大利亚-01
       - 🇸🇬 新加坡04|媒体 下载 网页
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本_57
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本02|媒体 下载 网页
-      - 🇺🇸 美国 03
-      - 🇯🇵 JCBB_日本01【vip1】
-      - 🇭🇰 _HK_香港_30
+      - 🇺🇸 _US_美国_9
+      - 🇩🇪 德国01|媒体 下载 网页
       - TG@kxswa|https://t.me/kxswa
-      - 🇭🇰 _HK_香港_38
-      - 🇭🇰 _HK_香港_32
-      - 🇸🇬 新加坡高速接入点-03
-      - 🇺🇸 美国 D [0.3x]
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
-      - 🇧🇷 _BR_巴西->🇳🇱_NL_荷兰
-      - 🇸🇬 Singapore(ChatGPT) 01 TG:@nodpai
-      - 🇮🇳 JCBB_ 印度02【vip1】
-      - 🇯🇵 _JP_日本_71
-      - 🇨🇳 JCBB_ 台湾 02【vip1】
-      - 🇭🇰 _HK_香港_43
-      - 🇺🇸 TG:@hkaa0 美国
-      - 🇨🇳 台湾01|媒体 下载 网页
-      - 🇨🇳 台湾02|媒体 下载 网页
-      - 🇰🇷 韩国 A
-      - 🇺🇸 JCBB_ 美国 04【vip1】
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 美国 01
-      - 🇰🇷 TG:@hkaa0 韩国
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇨🇳 github.com/freefq - 中国阿里云 12
+      - 🇸🇬 vip1 新加坡-06
       - TG@kxswa|https://t.me/kxswa 2
-      - 🇻🇳 vip1 越南-01_1
-      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG:@nodpai
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 _HK_香港_44
-      - 🇺🇸 US美国芝加哥 01
-      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 _HK_香港_28
+      - 🇨🇳 vip1 台湾-01
       - TG@kxswa|https://t.me/kxswa 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 18
       - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇺🇸 United States(ChatGPT) 06 TG:@nodpai
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 新加坡02|媒体 下载 网页
+      - 🇺🇸 _US_美国
+      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 US 01
+      - 🇭🇰 香港03|媒体 下载 网页
+      - 🇨🇳 台湾 流媒体
+      - 🇯🇵 _JP_日本_68
+      - 🇯🇵 _JP_日本_69
+      - 🇯🇵 日本 A
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai
+      - 🇭🇰 香港A|@ripaojiedian
+      - 🇺🇸 TG:@hkaa0 美国
       - TG@kxswa|https://t.me/kxswa 4
-      - 🇯🇵 日本 01
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - 🇰🇷 JCBB_ 韩国 01【vip1】
-      - 🇯🇵 _JP_日本_72
-      - 🇺🇸 United States(ChatGPT) 08 TG:@nodpai
-      - "快飞永久跳转地址: https://fastfly.club"
-      - 🇺🇸 US美国洛杉矶 01
-      - TG@kxswa|https://t.me/kxswa 5
-      - 距离下次重置剩余：13 天
-      - 🇯🇵 _JP_日本_55
-      - TG@kxswa|https://t.me/kxswa 6
-      - 🇯🇵 vip3 日本-04
-      - 🇰🇷 TG:@hkaa0 韩国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 US美国 02
-      - 🇦🇺 vip1 澳大利亚-01
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇯🇵 japan 03
-      - 🇨🇳 台湾 E [0.3x]
-      - TG@kxswa|https://t.me/kxswa 7
+      - 🇯🇵 _JP_日本_61
+      - 🇺🇸 US 02
       - 🇩🇪 DE德意志帝国 03
-      - 🇸🇬 vip1 新加坡-01
-      - 🇭🇰 vip1 香港-14
-      - 🇭🇰 JCBB_香港01【vip1】
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇭🇰 香港 D [0.3x]
-      - 🇻🇳 越南01|媒体 下载 网页
-      - 🇭🇰 vip1 香港-18
-      - 🇹🇷 JCBB_土耳其 01【vip1】
-      - 🇦🇺 澳大利亚02|媒体 下载 网页
-      - TG@kxswa|https://t.me/kxswa 8
+      - 🇺🇸 美国高速接入点-08
+      - 🇺🇸 TG:@hkaa0 美国 2
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇸🇬 新加坡 D [0.3x]
+      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
+      - 「SCP」UK2-CF-HTTP
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 vip1 美国-11
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇭🇰 香港01|媒体 下载 网页
+      - 🇸🇬 新加坡 04
+      - 🇰🇷 _KR_韩国
+      - 🇹🇷 _TR_土耳其
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇭🇰 _HK_香港_43
+      - 🇯🇵 日本高速接入点-01
+      - 🇨🇳 vip1 台湾-02
+      - 🇨🇳 台湾02|媒体 下载 网页
+      - 🇯🇵 _JP_日本_55
+      - 🇹🇷 _TR_土耳其 2
+      - 🇨🇳 vip1 台湾-06
+      - 🇩🇪 vip1 德国-01
+      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
+      - 🇺🇸 _US_美国_11
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai
+      - 🇯🇵 vip1 日本-09
+      - 🇭🇰 _HK_香港_45
+      - 🇬🇧 vip1 英国-04
+      - 🇯🇵 _JP_日本_52
+      - TG@kxswa|https://t.me/kxswa 5
+      - 🇦🇺 vip1 澳大利亚-01
       - 🇸🇬 新加坡04|媒体 下载 网页
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本_57
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本02|媒体 下载 网页
-      - 🇺🇸 美国 03
-      - 🇯🇵 JCBB_日本01【vip1】
-      - 🇭🇰 _HK_香港_30
+      - 🇺🇸 _US_美国_9
+      - 🇩🇪 德国01|媒体 下载 网页
       - TG@kxswa|https://t.me/kxswa
-      - 🇭🇰 _HK_香港_38
-      - 🇭🇰 _HK_香港_32
-      - 🇸🇬 新加坡高速接入点-03
-      - 🇺🇸 美国 D [0.3x]
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
-      - 🇧🇷 _BR_巴西->🇳🇱_NL_荷兰
-      - 🇸🇬 Singapore(ChatGPT) 01 TG:@nodpai
-      - 🇮🇳 JCBB_ 印度02【vip1】
-      - 🇯🇵 _JP_日本_71
-      - 🇨🇳 JCBB_ 台湾 02【vip1】
-      - 🇭🇰 _HK_香港_43
-      - 🇺🇸 TG:@hkaa0 美国
-      - 🇨🇳 台湾01|媒体 下载 网页
-      - 🇨🇳 台湾02|媒体 下载 网页
-      - 🇰🇷 韩国 A
-      - 🇺🇸 JCBB_ 美国 04【vip1】
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 美国 01
-      - 🇰🇷 TG:@hkaa0 韩国
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇨🇳 github.com/freefq - 中国阿里云 12
+      - 🇸🇬 vip1 新加坡-06
       - TG@kxswa|https://t.me/kxswa 2
-      - 🇻🇳 vip1 越南-01_1
-      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG:@nodpai
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 _HK_香港_44
-      - 🇺🇸 US美国芝加哥 01
-      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 _HK_香港_28
+      - 🇨🇳 vip1 台湾-01
       - TG@kxswa|https://t.me/kxswa 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 18
       - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇺🇸 United States(ChatGPT) 06 TG:@nodpai
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 新加坡02|媒体 下载 网页
+      - 🇺🇸 _US_美国
+      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 US 01
+      - 🇭🇰 香港03|媒体 下载 网页
+      - 🇨🇳 台湾 流媒体
+      - 🇯🇵 _JP_日本_68
+      - 🇯🇵 _JP_日本_69
+      - 🇯🇵 日本 A
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai
+      - 🇭🇰 香港A|@ripaojiedian
+      - 🇺🇸 TG:@hkaa0 美国
       - TG@kxswa|https://t.me/kxswa 4
-      - 🇯🇵 日本 01
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - 🇰🇷 JCBB_ 韩国 01【vip1】
-      - 🇯🇵 _JP_日本_72
-      - 🇺🇸 United States(ChatGPT) 08 TG:@nodpai
-      - "快飞永久跳转地址: https://fastfly.club"
-      - 🇺🇸 US美国洛杉矶 01
-      - TG@kxswa|https://t.me/kxswa 5
-      - 距离下次重置剩余：13 天
-      - 🇯🇵 _JP_日本_55
-      - TG@kxswa|https://t.me/kxswa 6
-      - 🇯🇵 vip3 日本-04
-      - 🇰🇷 TG:@hkaa0 韩国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 US美国 02
-      - 🇦🇺 vip1 澳大利亚-01
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇯🇵 japan 03
-      - 🇨🇳 台湾 E [0.3x]
-      - TG@kxswa|https://t.me/kxswa 7
+      - 🇯🇵 _JP_日本_61
+      - 🇺🇸 US 02
       - 🇩🇪 DE德意志帝国 03
-      - 🇸🇬 vip1 新加坡-01
-      - 🇭🇰 vip1 香港-14
-      - 🇭🇰 JCBB_香港01【vip1】
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇭🇰 香港 D [0.3x]
-      - 🇻🇳 越南01|媒体 下载 网页
-      - 🇭🇰 vip1 香港-18
-      - 🇹🇷 JCBB_土耳其 01【vip1】
-      - 🇦🇺 澳大利亚02|媒体 下载 网页
-      - TG@kxswa|https://t.me/kxswa 8
+      - 🇺🇸 美国高速接入点-08
+      - 🇺🇸 TG:@hkaa0 美国 2
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇸🇬 新加坡 D [0.3x]
+      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
+      - 「SCP」UK2-CF-HTTP
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 vip1 美国-11
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇭🇰 香港01|媒体 下载 网页
+      - 🇸🇬 新加坡 04
+      - 🇰🇷 _KR_韩国
+      - 🇹🇷 _TR_土耳其
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇭🇰 _HK_香港_43
+      - 🇯🇵 日本高速接入点-01
+      - 🇨🇳 vip1 台湾-02
+      - 🇨🇳 台湾02|媒体 下载 网页
+      - 🇯🇵 _JP_日本_55
+      - 🇹🇷 _TR_土耳其 2
+      - 🇨🇳 vip1 台湾-06
+      - 🇩🇪 vip1 德国-01
+      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
+      - 🇺🇸 _US_美国_11
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai
+      - 🇯🇵 vip1 日本-09
+      - 🇭🇰 _HK_香港_45
+      - 🇬🇧 vip1 英国-04
+      - 🇯🇵 _JP_日本_52
+      - TG@kxswa|https://t.me/kxswa 5
+      - 🇦🇺 vip1 澳大利亚-01
       - 🇸🇬 新加坡04|媒体 下载 网页
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本_57
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -342,81 +302,71 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本02|媒体 下载 网页
-      - 🇺🇸 美国 03
-      - 🇯🇵 JCBB_日本01【vip1】
-      - 🇭🇰 _HK_香港_30
+      - 🇺🇸 _US_美国_9
+      - 🇩🇪 德国01|媒体 下载 网页
       - TG@kxswa|https://t.me/kxswa
-      - 🇭🇰 _HK_香港_38
-      - 🇭🇰 _HK_香港_32
-      - 🇸🇬 新加坡高速接入点-03
-      - 🇺🇸 美国 D [0.3x]
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
-      - 🇧🇷 _BR_巴西->🇳🇱_NL_荷兰
-      - 🇸🇬 Singapore(ChatGPT) 01 TG:@nodpai
-      - 🇮🇳 JCBB_ 印度02【vip1】
-      - 🇯🇵 _JP_日本_71
-      - 🇨🇳 JCBB_ 台湾 02【vip1】
-      - 🇭🇰 _HK_香港_43
-      - 🇺🇸 TG:@hkaa0 美国
-      - 🇨🇳 台湾01|媒体 下载 网页
-      - 🇨🇳 台湾02|媒体 下载 网页
-      - 🇰🇷 韩国 A
-      - 🇺🇸 JCBB_ 美国 04【vip1】
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 美国 01
-      - 🇰🇷 TG:@hkaa0 韩国
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇨🇳 github.com/freefq - 中国阿里云 12
+      - 🇸🇬 vip1 新加坡-06
       - TG@kxswa|https://t.me/kxswa 2
-      - 🇻🇳 vip1 越南-01_1
-      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG:@nodpai
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 _HK_香港_44
-      - 🇺🇸 US美国芝加哥 01
-      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 _HK_香港_28
+      - 🇨🇳 vip1 台湾-01
       - TG@kxswa|https://t.me/kxswa 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 18
       - wqfuinwqffq.dfcloud.xyz:30818
-      - 🇺🇸 United States(ChatGPT) 06 TG:@nodpai
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 新加坡02|媒体 下载 网页
+      - 🇺🇸 _US_美国
+      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 US 01
+      - 🇭🇰 香港03|媒体 下载 网页
+      - 🇨🇳 台湾 流媒体
+      - 🇯🇵 _JP_日本_68
+      - 🇯🇵 _JP_日本_69
+      - 🇯🇵 日本 A
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai
+      - 🇭🇰 香港A|@ripaojiedian
+      - 🇺🇸 TG:@hkaa0 美国
       - TG@kxswa|https://t.me/kxswa 4
-      - 🇯🇵 日本 01
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - 🇰🇷 JCBB_ 韩国 01【vip1】
-      - 🇯🇵 _JP_日本_72
-      - 🇺🇸 United States(ChatGPT) 08 TG:@nodpai
-      - "快飞永久跳转地址: https://fastfly.club"
-      - 🇺🇸 US美国洛杉矶 01
-      - TG@kxswa|https://t.me/kxswa 5
-      - 距离下次重置剩余：13 天
-      - 🇯🇵 _JP_日本_55
-      - TG@kxswa|https://t.me/kxswa 6
-      - 🇯🇵 vip3 日本-04
-      - 🇰🇷 TG:@hkaa0 韩国 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 US美国 02
-      - 🇦🇺 vip1 澳大利亚-01
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇯🇵 japan 03
-      - 🇨🇳 台湾 E [0.3x]
-      - TG@kxswa|https://t.me/kxswa 7
+      - 🇯🇵 _JP_日本_61
+      - 🇺🇸 US 02
       - 🇩🇪 DE德意志帝国 03
-      - 🇸🇬 vip1 新加坡-01
-      - 🇭🇰 vip1 香港-14
-      - 🇭🇰 JCBB_香港01【vip1】
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇭🇰 香港 D [0.3x]
-      - 🇻🇳 越南01|媒体 下载 网页
-      - 🇭🇰 vip1 香港-18
-      - 🇹🇷 JCBB_土耳其 01【vip1】
-      - 🇦🇺 澳大利亚02|媒体 下载 网页
-      - TG@kxswa|https://t.me/kxswa 8
+      - 🇺🇸 美国高速接入点-08
+      - 🇺🇸 TG:@hkaa0 美国 2
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇸🇬 新加坡 D [0.3x]
+      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
+      - 「SCP」UK2-CF-HTTP
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 vip1 美国-11
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇭🇰 香港01|媒体 下载 网页
+      - 🇸🇬 新加坡 04
+      - 🇰🇷 _KR_韩国
+      - 🇹🇷 _TR_土耳其
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇭🇰 _HK_香港_43
+      - 🇯🇵 日本高速接入点-01
+      - 🇨🇳 vip1 台湾-02
+      - 🇨🇳 台湾02|媒体 下载 网页
+      - 🇯🇵 _JP_日本_55
+      - 🇹🇷 _TR_土耳其 2
+      - 🇨🇳 vip1 台湾-06
+      - 🇩🇪 vip1 德国-01
+      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
+      - 🇺🇸 _US_美国_11
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai
+      - 🇯🇵 vip1 日本-09
+      - 🇭🇰 _HK_香港_45
+      - 🇬🇧 vip1 英国-04
+      - 🇯🇵 _JP_日本_52
+      - TG@kxswa|https://t.me/kxswa 5
+      - 🇦🇺 vip1 澳大利亚-01
       - 🇸🇬 新加坡04|媒体 下载 网页
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本_57
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
   - name: 📲 电报消息
     type: select
     proxies:
@@ -603,79 +553,78 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 _HK_香港_30
-      - 🇭🇰 _HK_香港_38
-      - 🇭🇰 _HK_香港_32
+      - 🇭🇰 _HK_香港_28
+      - 🇭🇰 香港03|媒体 下载 网页
+      - 🇭🇰 香港A|@ripaojiedian
+      - 🇭🇰 Hong Kong 01 TG:@nodpai
+      - 🇭🇰 香港01|媒体 下载 网页
       - 🇭🇰 _HK_香港_43
-      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 _HK_香港_44
-      - 🇭🇰 vip1 香港-14
-      - 🇭🇰 JCBB_香港01【vip1】
-      - 🇭🇰 香港 D [0.3x]
-      - 🇭🇰 vip1 香港-18
+      - 🇭🇰 _HK_香港_45
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本02|媒体 下载 网页
-      - 🇯🇵 JCBB_日本01【vip1】
-      - 🇯🇵 _JP_日本_71
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 日本 01
-      - 🇯🇵 _JP_日本_72
+      - 🇯🇵 _JP_日本_68
+      - 🇯🇵 _JP_日本_69
+      - 🇯🇵 日本 A
+      - 🇯🇵 _JP_日本_61
+      - 🇯🇵 日本高速接入点-01
       - 🇯🇵 _JP_日本_55
-      - 🇯🇵 vip3 日本-04
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai
+      - 🇯🇵 vip1 日本-09
+      - 🇯🇵 _JP_日本_52
+      - 🇯🇵 _JP_日本_57
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国 03
-      - 🇺🇸 美国 D [0.3x]
+      - 🇺🇸 _US_美国_9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 18
+      - 🇺🇸 _US_美国
+      - 🇺🇸 US 01
       - 🇺🇸 TG:@hkaa0 美国
-      - 🇺🇸 JCBB_ 美国 04【vip1】
-      - 🇺🇸 美国 01
-      - 🇺🇸 US美国芝加哥 01
-      - 🇺🇸 United States(ChatGPT) 06 TG:@nodpai
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
-      - 🇺🇸 United States(ChatGPT) 08 TG:@nodpai
-      - 🇺🇸 US美国洛杉矶 01
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 US美国 02
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国
+      - 🇺🇸 US 02
+      - 🇺🇸 美国高速接入点-08
+      - 🇺🇸 TG:@hkaa0 美国 2
+      - 🇺🇸 TG:@hkaa0 美国 3
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 vip1 美国-11
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国_13
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 11
+      - 🇺🇸 _US_美国_11
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
-      - 🇨🇳 JCBB_ 台湾 02【vip1】
-      - 🇨🇳 台湾01|媒体 下载 网页
+      - 🇨🇳 vip1 台湾-01
+      - 🇨🇳 台湾 流媒体
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai
+      - 🇨🇳 vip1 台湾-02
       - 🇨🇳 台湾02|媒体 下载 网页
-      - 🇨🇳 Taiwan(ChatGPT) 08 TG:@nodpai
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - 🇨🇳 台湾 E [0.3x]
+      - 🇨🇳 vip1 台湾-06
+      - 🇨🇳 Taiwan(ChatGPT) 07 TG:@nodpai
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡高速接入点-03
-      - 🇸🇬 Singapore(ChatGPT) 01 TG:@nodpai
-      - 🇸🇬 Singapore 01
-      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
+      - 🇸🇬 vip1 新加坡-06
+      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇸🇬 新加坡 D [0.3x]
+      - 🇸🇬 _SG_新加坡
+      - 🇸🇬 新加坡 04
       - 🇸🇬 新加坡高速接入点-01
-      - 🇸🇬 新加坡02|媒体 下载 网页
-      - 🇸🇬 vip1 新加坡-01
       - 🇸🇬 新加坡04|媒体 下载 网页
   - name: 🇰🇷 韩国节点
     type: url-test
@@ -683,10 +632,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国 A
-      - 🇰🇷 TG:@hkaa0 韩国
-      - 🇰🇷 JCBB_ 韩国 01【vip1】
-      - 🇰🇷 TG:@hkaa0 韩国 2
+      - 🇰🇷 South Korea(ChatGPT) 02 TG:@nodpai
+      - 🇰🇷 _KR_韩国
   - name: 🎥 奈飞节点
     type: select
     proxies:
