@@ -5,82 +5,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Telegram@kxswa | https://t.me/kxswa, server: speedip.eu.org, port: 80, type: vmess, uuid: 789dfa0d-2028-4d53-a4db-252ea75d863e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: 🇭🇰 Hong Kong 19, server: mysql.accessconnect.cc, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
-  - {name: Telegram@kxswa | https://t.me/kxswa 2, server: 104.21.112.212, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇺🇸 美国A|@ripaojiedian, server: 120.233.43.30, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Telegram@kxswa | https://t.me/kxswa 3, server: catnet-other.kunlun-cave.com, port: 11038, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: Telegram@kxswa | https://t.me/kxswa 4, server: 223.95.40.7, port: 30030, type: trojan, password: 274fefdb-6159-4765-b3e8-c6050b23b48f, sni: mzy.windowsupdatea.com}
-  - {name: Telegram@kxswa | https://t.me/kxswa 5, server: 104.31.16.86, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: a2284cc1, headers: {Host: dedi2.1808.cf}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 6, server: char.samrg.buzz, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cutino, headers: {Host: char.samrg.buzz}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 7, server: 162.159.51.167, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 8, server: catnet-hk.kunlun-cave.com, port: 11006, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 9, server: catnet-other.kunlun-cave.com, port: 11035, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: 🇨🇦 @hkaa0||加拿大, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
-  - {name: 🇬🇧 @hkaa0||英国, server: 51.89.74.241, port: 51102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Telegram@kxswa | https://t.me/kxswa 10, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/meizhiyuan/nl1?ed=2048", headers: {Host: nl1.guolicheng.cyou}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 11, server: catnet-us.kunlun-cave.com, port: 11026, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: Telegram@kxswa | https://t.me/kxswa 12, server: 45.199.138.140, port: 43811, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false}
-  - {name: Telegram@kxswa | https://t.me/kxswa 13, server: catnet-other.kunlun-cave.com, port: 11046, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: Telegram@kxswa | https://t.me/kxswa 14, server: 104.25.167.88, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: a2284cc1, headers: {Host: dedi2.1808.cf}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 15, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: aa2c8122-d188-489f-88b9-b4af51b9ab9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg3.sanfencdn2.com}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 16, server: 103.173.255.234, port: 443, type: trojan, password: 274fefdb-6159-4765-b3e8-c6050b23b48f, sni: mzy.hruqoaw.cn}
-  - {name: 🇸🇬 vip1 新加坡-01_1, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: 0bd34f56-855a-4f4e-b2f9-9282db828960, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 香港-专线, server: ftransfer.top, port: 29114, type: ss, cipher: aes-128-gcm, password: 8744c979-6e54-4391-8cfb-29188988e409}
-  - {name: 🇹🇷 土耳其1, server: gzyddx.newbluecloud.top, port: 11129, type: ss, cipher: aes-128-gcm, password: 88bab9fc-2847-45c3-967b-d4a6bbc336b8}
-  - {name: 🇫🇷 _FR_法国->🇱🇺_LU_卢森堡, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇭🇰 Hong Kong 09, server: sql.accessconnect.cc, port: 2112, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
-  - {name: Telegram@kxswa | https://t.me/kxswa 17, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: 🇸🇬 github.com/freefq - 新加坡Linode数据中心 11, server: 45.118.132.102, port: 3309, type: vmess, uuid: 8744c979-6e54-4391-8cfb-29188988e409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国2, server: gzyddx.newbluecloud.top, port: 11141, type: ss, cipher: aes-128-gcm, password: 88bab9fc-2847-45c3-967b-d4a6bbc336b8}
-  - {name: Telegram@kxswa | https://t.me/kxswa 18, server: 190.93.247.199, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇯🇵 日本 03, server: jp-csjc.85413.xyz, port: 443, type: trojan, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4, sni: cdn-984916549816.85413.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai, server: 165.154.246.49, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: Telegram@kxswa | https://t.me/kxswa 19, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 19, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: fda2c765-ed35-4e97-ba13-ed64b1c4c460, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hax.vpn66.eu.org}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/meizhiyuan/fr?ed=2048", headers: {Host: fr.guolicheng.cyou}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 2, server: 173.245.49.187, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇸🇬 Singapore-CN2-04 - 457 单端口, server: sg-04.xm1s.top, port: 457, type: ssr, cipher: dummy, password: UtFRxN, protocol: auth_chain_a, obfs: plain, protocol-param: 3434:CymrKJ, obfs-param: wns.windows.com}
+  - {name: 🇭🇰 Hong Kong 02, server: sql.accessconnect.cc, port: 2106, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: "@hkaa0||中国", server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 54.199.83.239:2333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: 纽约测试|@ripaojiedian, server: 216.52.183.246, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 4, server: catnet-hk.kunlun-cave.com, port: 11009, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
+  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: d716f578-2614-4768-a5bd-37908e8bff6f, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港10_1【vip1】, server: gzdx01.jcnode.top, port: 57230, type: trojan, password: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17, server: 104.20.18.54, port: 2095, type: vmess, uuid: 8c4e5e83-8be2-4638-e3f6-a098ee484193, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: hk.wyhkaa0.tk}}}
+  - {name: 🇭🇰 Hong Kong 12, server: oracle.accessconnect.cc, port: 520, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇫🇷 @hkaa0||法国, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: ""}
+  - {name: 🇨🇳 JCBB_ 台湾 02【vip1】, server: gzyd.jcnode.top, port: 55345, type: trojan, password: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_美国05【vip1】, server: gzyd.jcnode.top, port: 56102, type: trojan, password: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-04, server: gzdx.jcnode.top, port: 50173, type: trojan, password: d716f578-2614-4768-a5bd-37908e8bff6f, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 A, server: a1jexzshnphscpcr.wudaki972.me, port: 6011, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 182756:cQmIOhWKtZjREb7g, obfs-param: 39e4f182756.microsoft.com}
+  - {name: Telegram@kxswa | https://t.me/kxswa 5, server: speedip.eu.org, port: 80, type: vmess, uuid: 789dfa0d-2028-4d53-a4db-252ea75d863e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}}
   - {name: 🇱🇺 卢森堡-中转, server: ftransfer.top, port: 58982, type: ss, cipher: aes-128-gcm, password: 8744c979-6e54-4391-8cfb-29188988e409}
-  - {name: 🇸🇬 Singapore 23, server: mysql.accessconnect.cc, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}}
-  - {name: 🇸🇬 新加坡 05, server: sg-csjc.85413.xyz, port: 443, type: trojan, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4, sni: cdn-984916549816.85413.xyz, skip-cert-verify: true}
-  - {name: Telegram@kxswa | https://t.me/kxswa 20, server: catnet-jp.kunlun-cave.com, port: 11014, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: Telegram@kxswa | https://t.me/kxswa 21, server: catnet-sg.kunlun-cave.com, port: 11019, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: Telegram@kxswa | https://t.me/kxswa 22, server: 104.21.69.45, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai, server: 183.213.200.225, port: 28114, type: trojan, password: cdyB1Q, sni: download.windowsupdate.com, skip-cert-verify: true}
-  - {name: 🇺🇸 @hkaa0||美国, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 vip1 香港-13_1, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: 0bd34f56-855a-4f4e-b2f9-9282db828960, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: Telegram@kxswa | https://t.me/kxswa 23, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/meizhiyuan/us3?ed=2048", headers: {Host: us3.guolicheng.cyou}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 24, server: cf.dalazhi.eu.org, port: 443, type: vmess, uuid: 64480f4c-61c2-4d88-89c3-fc0045229bfc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kplxvws, headers: {Host: us.dalazhi.eu.org}}}
-  - {name: 🇭🇰 vip3 香港-04, server: gzyd02.jcnode.top, port: 63343, type: trojan, password: 0bd34f56-855a-4f4e-b2f9-9282db828960, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: Telegram@kxswa | https://t.me/kxswa 25, server: cnzf.windowsupdatea.com, port: 38080, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /meizhiyuan/de, headers: {Host: download.windowsupdatea.com}}}
-  - {name: 🇸🇬 Singapore 19, server: mysql.accessconnect.cc, port: 6022, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
-  - {name: 🇸🇬 Singapore 25, server: sql.accessconnect.cc, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
-  - {name: 🇭🇰 Hong Kong 22, server: mysql.accessconnect.cc, port: 6020, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇬🇧 「节点冠名招商中」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: 🇺🇸 JCBB_ 美国02【vip1】, server: gzdx.jcnode.top, port: 28204, type: vmess, uuid: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 6, server: gzyda.821111.xyz, port: 30102, type: vmess, uuid: 53cec899-dc98-4c9a-af58-81507f8ebe07, alterId: 0, cipher: auto, tls: false}
+  - {name: Telegram@kxswa | https://t.me/kxswa 7, server: 103.21.244.16, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇫🇷 法国1, server: shck8bq.olb8qsg.top, port: 11130, type: ss, cipher: aes-128-gcm, password: 88bab9fc-2847-45c3-967b-d4a6bbc336b8}
+  - {name: 🇸🇬 Singapore 21, server: mysql.accessconnect.cc, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇺🇸 @hkaa0||美国, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 0e1215e4-aa7a-47ac-bbf9-27b84565eee5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn1.com}}}
+  - {name: 🇨🇳 Taiwan(ChatGPT) 05 TG:@nodpai, server: hinet1.downloadvip.cfd, port: 443, type: trojan, password: 5a67bf67-5af7-4262-a5ec-cd2c03866acd, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2, server: gzyddx.newbluecloud.top, port: 11141, type: ss, cipher: aes-128-gcm, password: 88bab9fc-2847-45c3-967b-d4a6bbc336b8}
+  - {name: 🇺🇸 @hkaa0||美国 2, server: 74.217.182.118, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1689849487190}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 104.31.16.46, port: 2082, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme100.fun}}}
+  - {name: "", server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}}
+  - {name: 动态节点, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, servername: d.freeh1.xyz, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 JCBB_美国05_1【vip1】, server: gzdx01.jcnode.top, port: 17503, type: trojan, password: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: Telegram@kxswa | https://t.me/kxswa 8, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/meizhiyuan/de?ed=2048", headers: {Host: de.guolicheng.cyou}}}
+  - {name: 🇯🇵 vip1 日本-10, server: gzyd.jcnode.top, port: 51840, type: trojan, password: d716f578-2614-4768-a5bd-37908e8bff6f, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 Hong Kong(ChatGPT) 02 TG:@nodpai, server: fschk.fscloud123456789.com, port: 443, type: trojan, password: fe5c139b-e3c2-4029-a783-b7f836557f6d, skip-cert-verify: false}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5, server: 107.167.16.102, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 JCBB_ 新加坡 04_1【vip1】, server: gzdx01.jcnode.top, port: 56915, type: trojan, password: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: Telegram@kxswa | https://t.me/kxswa 9, server: 104.25.103.144, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇬🇧 @hkaa0||英国, server: 51.89.74.241, port: 51102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 vip1 台湾-05, server: gzdx.jcnode.top, port: 16614, type: trojan, password: d716f578-2614-4768-a5bd-37908e8bff6f, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: Telegram@kxswa | https://t.me/kxswa 10, server: 104.19.216.164, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 11, server: catnet-sg.kunlun-cave.com, port: 11020, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
+  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 27897, type: trojan, password: d716f578-2614-4768-a5bd-37908e8bff6f, sni: jp001.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 Singapore-CN2-05 - 457 单端口, server: sg-05.xm1s.top, port: 457, type: ssr, cipher: dummy, password: UtFRxN, protocol: auth_chain_a, obfs: plain, protocol-param: 3434:CymrKJ, obfs-param: wns.windows.com}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇺🇸 JCBB_ 美国 04【vip1】, server: gzdx.jcnode.top, port: 62684, type: vmess, uuid: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 12, server: cm3.onebee.org, port: 703, type: ss, cipher: chacha20-ietf-poly1305, password: 1292de3a-505e-4e04-9caf-99fabd5ac720}
+  - {name: 🇺🇸 @hkaa0||美国 3, server: 104.25.241.246, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 「SCP」NL2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl2.sharecentrepro.com}}}
+  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 47020, type: trojan, password: d716f578-2614-4768-a5bd-37908e8bff6f, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: Telegram@kxswa | https://t.me/kxswa 13, server: cnzf.windowsupdatea.com, port: 38080, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /meizhiyuan/us2, headers: {Host: download.windowsupdatea.com}}}
+  - {name: 🇸🇬 Singapore 17, server: sql.accessconnect.cc, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
+  - {name: 🇺🇸 @hkaa0||美国 4, server: 104.21.69.45, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇸🇬 新加坡2, server: shyd.wingsjiasu.link, port: 11118, type: ss, cipher: aes-128-gcm, password: 88bab9fc-2847-45c3-967b-d4a6bbc336b8}
+  - {name: Telegram@kxswa | https://t.me/kxswa 14, server: 104.31.16.86, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: a2284cc1, headers: {Host: dedi2.1808.cf}}}
+  - {name: 🇹🇷 土耳其-备用, server: ftransfer.top, port: 39939, type: ss, cipher: aes-128-gcm, password: 8744c979-6e54-4391-8cfb-29188988e409}
+  - {name: 距离下次重置剩余：1 天, server: hk.wingsjiasu.link, port: 12580, type: ss, cipher: aes-128-gcm, password: 88bab9fc-2847-45c3-967b-d4a6bbc336b8}
+  - {name: 🇱🇻 _LV_拉脱维亚, server: 185.135.86.173, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 12, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: 🇸🇬 Singapore 01, server: shdx.85413.xyz, port: 34501, type: ss, cipher: aes-128-gcm, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4}
+  - {name: 🇩🇪 JCBB_德国02【vip1】, server: gzdx01.jcnode.top, port: 16525, type: trojan, password: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 _JP_日本_10, server: ovous.ovogreat.com, port: 443, type: trojan, password: 07c34f84-44f8-47d0-9ef9-95fbc762de93}
+  - {name: 🇭🇰 vip1 香港-10, server: gzyd.jcnode.top, port: 13734, type: trojan, password: d716f578-2614-4768-a5bd-37908e8bff6f, sni: hk04.ckcloud.info, skip-cert-verify: true}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇸🇬 Singapore 03, server: shdx.85413.xyz, port: 34501, type: ss, cipher: aes-128-gcm, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4}
-  - {name: 🇯🇵 日本 01, server: jp-csjc.85413.xyz, port: 443, type: trojan, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4, sni: cdn-984916549816.85413.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3, server: jp.wingsjiasu.link, port: 11138, type: ss, cipher: aes-128-gcm, password: 88bab9fc-2847-45c3-967b-d4a6bbc336b8}
-  - {name: Telegram@kxswa | https://t.me/kxswa 26, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 789dfa0d-2028-4d53-a4db-252ea75d863e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 27, server: 162.159.22.96, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17, server: 104.25.241.246, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇭🇰 vip3 香港-20, server: gzyd02.jcnode.top, port: 57600, type: trojan, password: 0bd34f56-855a-4f4e-b2f9-9282db828960, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: 0bd34f56-855a-4f4e-b2f9-9282db828960, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 HKT  01（原生ip）, server: ap-east-hkt.lnaspiring.com, port: 7061, type: trojan, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4, sni: ap-east-hkt.lnaspiring.com, skip-cert-verify: true}
-  - {name: Telegram@kxswa | https://t.me/kxswa 28, server: catnet-jp.kunlun-cave.com, port: 11013, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: 🇯🇵 JP22日本|广移|专, server: xy.v2y.live, port: 18482, type: ss, cipher: chacha20-ietf-poly1305, password: 68e97468-88d1-449b-a20a-35da194c283b}
-  - {name: 🇭🇰 Hong Kong 01, server: gdyd.85413.xyz, port: 30272, type: ss, cipher: aes-128-gcm, password: aba9389e-21b7-45f5-a82d-0c2b8b989bb4}
-  - {name: 🇭🇰 Hong Kong 02, server: sql.accessconnect.cc, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 230571:s7eJml, obfs-param: e7c79230571.www.gov.hk}
-  - {name: 🇸🇬 @hkaa0||新加坡, server: 18.141.236.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 52702, type: trojan, password: 0bd34f56-855a-4f4e-b2f9-9282db828960, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: Telegram@kxswa | https://t.me/kxswa 29, server: catnet-other.kunlun-cave.com, port: 11045, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: Telegram@kxswa | https://t.me/kxswa 30, server: catnet-other.kunlun-cave.com, port: 11047, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: 🇨🇳 github.com/freefq - 广东省东莞市移动 4, server: cm.chylink.xyz, port: 11009, type: ss, cipher: chacha20-ietf-poly1305, password: wNuh3WO616MCaVpb}
-  - {name: Telegram@kxswa | https://t.me/kxswa 31, server: catnet-hk.kunlun-cave.com, port: 11010, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
-  - {name: Telegram@kxswa | https://t.me/kxswa 32, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/meizhiyuan/us1?ed=2048", headers: {Host: us1.guolicheng.cyou}}}
-  - {name: Telegram@kxswa | https://t.me/kxswa 33, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/meizhiyuan/us2?ed=2048", headers: {Host: us2.guolicheng.cyou}}}
-  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 vip1 韩国-02, server: gzyd.jcnode.top, port: 59250, type: trojan, password: 0bd34f56-855a-4f4e-b2f9-9282db828960, sni: sk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai, server: zendesk1.grab.com, port: 443, type: vmess, uuid: e47e152d-5ccb-476b-a4ff-c1b355c34d7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray3.udpgw.com}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 15, server: 190.93.245.19, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 github.com/freefq - 美国Datability 2, server: 140.99.49.58, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇮🇳 JCBB_ 印度03【vip1】, server: gzyd.jcnode.top, port: 55199, type: trojan, password: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 @hkaa0||美国 5, server: 147.182.216.10, port: 443, type: trojan, password: 71148cca-0963-4abe-ab01-7cea982c1513, skip-cert-verify: true}
+  - {name: Telegram@kxswa | https://t.me/kxswa 16, server: catnet-jp.kunlun-cave.com, port: 11011, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
+  - {name: Telegram@kxswa | https://t.me/kxswa 17, server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇯🇵 @hkaa0||日本, server: spsg.1234567890spcloud.com, port: 443, type: trojan, password: e8e027f7-0672-43d4-8001-535b58852b2f, skip-cert-verify: true}
+  - {name: Telegram@kxswa | https://t.me/kxswa 18, server: cnzf.windowsupdatea.com, port: 38080, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /meizhiyuan/us1, headers: {Host: download.windowsupdatea.com}}}
+  - {name: 🇦🇺 Australia(ChatGPT) 01 TG:@nodpai, server: ap.stablize.top, port: 443, type: trojan, password: 6191d59d-021c-4af1-8197-85d52c564ac4, skip-cert-verify: false}
+  - {name: 🇨🇳 JCBB_ 台湾 06【vip1】, server: gzyd.jcnode.top, port: 22084, type: trojan, password: 34d50d2f-cbd8-492c-8b84-9a45e7cd1b97, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|tg频道:@ripaojiedian, server: 107.167.16.102, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
+  - {name: 中華電01a - 457 单端口, server: hkt-imsbiz-01.xm1s.top, port: 457, type: ssr, cipher: dummy, password: UtFRxN, protocol: auth_chain_a, obfs: plain, protocol-param: 3434:CymrKJ, obfs-param: wns.windows.com}
+  - {name: Telegram@kxswa | https://t.me/kxswa 19, server: catnet-us.kunlun-cave.com, port: 11023, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
+  - {name: Telegram@kxswa | https://t.me/kxswa 20, server: cnzf.windowsupdatea.com, port: 38080, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /meizhiyuan/fr, headers: {Host: download.windowsupdatea.com}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 21, server: cnzf.windowsupdatea.com, port: 38080, type: vmess, uuid: 274fefdb-6159-4765-b3e8-c6050b23b48f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /meizhiyuan/hinet, headers: {Host: download.windowsupdatea.com}}}
+  - {name: 🇰🇷 vip1 韩国-01, server: gzdx.jcnode.top, port: 48834, type: trojan, password: d716f578-2614-4768-a5bd-37908e8bff6f, sni: sk01.ckcloud.info, skip-cert-verify: true}
+  - {name: Telegram@kxswa | https://t.me/kxswa 22, server: catnet-other.kunlun-cave.com, port: 11041, type: ss, cipher: aes-128-gcm, password: f067eed3-0f6e-4752-b13f-6421740f3fb6}
+  - {name: 🇺🇸 美国2test, server: guangzhou.xn--mcss7nl5nptq.com, port: 11152, type: ss, cipher: aes-128-gcm, password: 88bab9fc-2847-45c3-967b-d4a6bbc336b8}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -100,81 +109,90 @@ proxy-groups:
     type: select
     proxies:
       - Telegram@kxswa | https://t.me/kxswa
-      - 🇭🇰 Hong Kong 19
       - Telegram@kxswa | https://t.me/kxswa 2
-      - 🇺🇸 美国A|@ripaojiedian
       - Telegram@kxswa | https://t.me/kxswa 3
+      - 🇸🇬 Singapore-CN2-04 - 457 单端口
+      - 🇭🇰 Hong Kong 02
+      - "@hkaa0||中国"
+      - 54.199.83.239:2333
+      - 纽约测试|@ripaojiedian
       - Telegram@kxswa | https://t.me/kxswa 4
+      - 🇨🇳 vip1 台湾-02
+      - 🇭🇰 JCBB_香港10_1【vip1】
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
+      - 🇭🇰 Hong Kong 12
+      - 🇫🇷 @hkaa0||法国
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 vip1 美国-04
+      - 🇭🇰 香港 A
       - Telegram@kxswa | https://t.me/kxswa 5
+      - 🇱🇺 卢森堡-中转
+      - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇺🇸 JCBB_ 美国02【vip1】
       - Telegram@kxswa | https://t.me/kxswa 6
       - Telegram@kxswa | https://t.me/kxswa 7
+      - 🇫🇷 法国1
+      - 🇸🇬 Singapore 21
+      - 🇺🇸 @hkaa0||美国
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG:@nodpai
+      - 🇺🇸 美国2
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - ""
+      - 动态节点
+      - 🇺🇸 JCBB_美国05_1【vip1】
       - Telegram@kxswa | https://t.me/kxswa 8
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 8
+      - 🇯🇵 vip1 日本-10
+      - 🇭🇰 Hong Kong(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5
+      - 🇸🇬 JCBB_ 新加坡 04_1【vip1】
       - Telegram@kxswa | https://t.me/kxswa 9
-      - 🇨🇦 @hkaa0||加拿大
       - 🇬🇧 @hkaa0||英国
+      - 🇨🇳 vip1 台湾-05
       - Telegram@kxswa | https://t.me/kxswa 10
       - Telegram@kxswa | https://t.me/kxswa 11
+      - 🇯🇵 vip1 日本-02
+      - 🇸🇬 Singapore-CN2-05 - 457 单端口
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 JCBB_ 美国 04【vip1】
       - Telegram@kxswa | https://t.me/kxswa 12
+      - 🇺🇸 @hkaa0||美国 3
+      - 「SCP」NL2-CF-HTTP
+      - 🇻🇳 vip1 越南-02
       - Telegram@kxswa | https://t.me/kxswa 13
+      - 🇸🇬 Singapore 17
+      - 🇺🇸 @hkaa0||美国 4
+      - 🇸🇬 新加坡2
       - Telegram@kxswa | https://t.me/kxswa 14
+      - 🇹🇷 土耳其-备用
+      - 距离下次重置剩余：1 天
+      - 🇱🇻 _LV_拉脱维亚
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 12
+      - 🇸🇬 Singapore 01
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇯🇵 _JP_日本_10
+      - 🇭🇰 vip1 香港-10
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
       - Telegram@kxswa | https://t.me/kxswa 15
+      - 🇺🇸 github.com/freefq - 美国Datability 2
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇺🇸 @hkaa0||美国 5
       - Telegram@kxswa | https://t.me/kxswa 16
-      - 🇸🇬 vip1 新加坡-01_1
-      - 🇭🇰 香港-专线
-      - 🇹🇷 土耳其1
-      - 🇫🇷 _FR_法国->🇱🇺_LU_卢森堡
-      - 🇭🇰 Hong Kong 09
       - Telegram@kxswa | https://t.me/kxswa 17
-      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 11
-      - 🇺🇸 美国2
+      - 🇯🇵 @hkaa0||日本
       - Telegram@kxswa | https://t.me/kxswa 18
-      - 🇯🇵 日本 03
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
+      - 🇦🇺 Australia(ChatGPT) 01 TG:@nodpai
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇺🇸 美国|tg频道:@ripaojiedian
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 中華電01a - 457 单端口
       - Telegram@kxswa | https://t.me/kxswa 19
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 19
-      - 🇱🇺 卢森堡-中转
-      - 🇸🇬 Singapore 23
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇸🇬 新加坡 05
       - Telegram@kxswa | https://t.me/kxswa 20
       - Telegram@kxswa | https://t.me/kxswa 21
+      - 🇰🇷 vip1 韩国-01
       - Telegram@kxswa | https://t.me/kxswa 22
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇺🇸 @hkaa0||美国
-      - 🇭🇰 vip1 香港-13_1
-      - Telegram@kxswa | https://t.me/kxswa 23
-      - Telegram@kxswa | https://t.me/kxswa 24
-      - 🇭🇰 vip3 香港-04
-      - Telegram@kxswa | https://t.me/kxswa 25
-      - 🇸🇬 Singapore 19
-      - 🇸🇬 Singapore 25
-      - 🇭🇰 Hong Kong 22
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
-      - 🇸🇬 Singapore 03
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本3
-      - Telegram@kxswa | https://t.me/kxswa 26
-      - Telegram@kxswa | https://t.me/kxswa 27
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
-      - 🇭🇰 vip3 香港-20
-      - 🇨🇳 vip1 台湾-02
-      - 🇭🇰 香港 HKT  01（原生ip）
-      - Telegram@kxswa | https://t.me/kxswa 28
-      - 🇯🇵 JP22日本|广移|专
-      - 🇭🇰 Hong Kong 01
-      - 🇭🇰 Hong Kong 02
-      - 🇸🇬 @hkaa0||新加坡
-      - 🇸🇬 vip1 新加坡-02
-      - Telegram@kxswa | https://t.me/kxswa 29
-      - Telegram@kxswa | https://t.me/kxswa 30
-      - 🇨🇳 github.com/freefq - 广东省东莞市移动 4
-      - Telegram@kxswa | https://t.me/kxswa 31
-      - Telegram@kxswa | https://t.me/kxswa 32
-      - Telegram@kxswa | https://t.me/kxswa 33
-      - 54.251.168.143:443
-      - 🇰🇷 vip1 韩国-02
-      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 美国2test
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -182,81 +200,90 @@ proxy-groups:
     tolerance: 50
     proxies:
       - Telegram@kxswa | https://t.me/kxswa
-      - 🇭🇰 Hong Kong 19
       - Telegram@kxswa | https://t.me/kxswa 2
-      - 🇺🇸 美国A|@ripaojiedian
       - Telegram@kxswa | https://t.me/kxswa 3
+      - 🇸🇬 Singapore-CN2-04 - 457 单端口
+      - 🇭🇰 Hong Kong 02
+      - "@hkaa0||中国"
+      - 54.199.83.239:2333
+      - 纽约测试|@ripaojiedian
       - Telegram@kxswa | https://t.me/kxswa 4
+      - 🇨🇳 vip1 台湾-02
+      - 🇭🇰 JCBB_香港10_1【vip1】
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
+      - 🇭🇰 Hong Kong 12
+      - 🇫🇷 @hkaa0||法国
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 vip1 美国-04
+      - 🇭🇰 香港 A
       - Telegram@kxswa | https://t.me/kxswa 5
+      - 🇱🇺 卢森堡-中转
+      - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇺🇸 JCBB_ 美国02【vip1】
       - Telegram@kxswa | https://t.me/kxswa 6
       - Telegram@kxswa | https://t.me/kxswa 7
+      - 🇫🇷 法国1
+      - 🇸🇬 Singapore 21
+      - 🇺🇸 @hkaa0||美国
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG:@nodpai
+      - 🇺🇸 美国2
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - ""
+      - 动态节点
+      - 🇺🇸 JCBB_美国05_1【vip1】
       - Telegram@kxswa | https://t.me/kxswa 8
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 8
+      - 🇯🇵 vip1 日本-10
+      - 🇭🇰 Hong Kong(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5
+      - 🇸🇬 JCBB_ 新加坡 04_1【vip1】
       - Telegram@kxswa | https://t.me/kxswa 9
-      - 🇨🇦 @hkaa0||加拿大
       - 🇬🇧 @hkaa0||英国
+      - 🇨🇳 vip1 台湾-05
       - Telegram@kxswa | https://t.me/kxswa 10
       - Telegram@kxswa | https://t.me/kxswa 11
+      - 🇯🇵 vip1 日本-02
+      - 🇸🇬 Singapore-CN2-05 - 457 单端口
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 JCBB_ 美国 04【vip1】
       - Telegram@kxswa | https://t.me/kxswa 12
+      - 🇺🇸 @hkaa0||美国 3
+      - 「SCP」NL2-CF-HTTP
+      - 🇻🇳 vip1 越南-02
       - Telegram@kxswa | https://t.me/kxswa 13
+      - 🇸🇬 Singapore 17
+      - 🇺🇸 @hkaa0||美国 4
+      - 🇸🇬 新加坡2
       - Telegram@kxswa | https://t.me/kxswa 14
+      - 🇹🇷 土耳其-备用
+      - 距离下次重置剩余：1 天
+      - 🇱🇻 _LV_拉脱维亚
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 12
+      - 🇸🇬 Singapore 01
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇯🇵 _JP_日本_10
+      - 🇭🇰 vip1 香港-10
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
       - Telegram@kxswa | https://t.me/kxswa 15
+      - 🇺🇸 github.com/freefq - 美国Datability 2
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇺🇸 @hkaa0||美国 5
       - Telegram@kxswa | https://t.me/kxswa 16
-      - 🇸🇬 vip1 新加坡-01_1
-      - 🇭🇰 香港-专线
-      - 🇹🇷 土耳其1
-      - 🇫🇷 _FR_法国->🇱🇺_LU_卢森堡
-      - 🇭🇰 Hong Kong 09
       - Telegram@kxswa | https://t.me/kxswa 17
-      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 11
-      - 🇺🇸 美国2
+      - 🇯🇵 @hkaa0||日本
       - Telegram@kxswa | https://t.me/kxswa 18
-      - 🇯🇵 日本 03
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
+      - 🇦🇺 Australia(ChatGPT) 01 TG:@nodpai
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇺🇸 美国|tg频道:@ripaojiedian
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 中華電01a - 457 单端口
       - Telegram@kxswa | https://t.me/kxswa 19
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 19
-      - 🇱🇺 卢森堡-中转
-      - 🇸🇬 Singapore 23
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇸🇬 新加坡 05
       - Telegram@kxswa | https://t.me/kxswa 20
       - Telegram@kxswa | https://t.me/kxswa 21
+      - 🇰🇷 vip1 韩国-01
       - Telegram@kxswa | https://t.me/kxswa 22
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇺🇸 @hkaa0||美国
-      - 🇭🇰 vip1 香港-13_1
-      - Telegram@kxswa | https://t.me/kxswa 23
-      - Telegram@kxswa | https://t.me/kxswa 24
-      - 🇭🇰 vip3 香港-04
-      - Telegram@kxswa | https://t.me/kxswa 25
-      - 🇸🇬 Singapore 19
-      - 🇸🇬 Singapore 25
-      - 🇭🇰 Hong Kong 22
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
-      - 🇸🇬 Singapore 03
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本3
-      - Telegram@kxswa | https://t.me/kxswa 26
-      - Telegram@kxswa | https://t.me/kxswa 27
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
-      - 🇭🇰 vip3 香港-20
-      - 🇨🇳 vip1 台湾-02
-      - 🇭🇰 香港 HKT  01（原生ip）
-      - Telegram@kxswa | https://t.me/kxswa 28
-      - 🇯🇵 JP22日本|广移|专
-      - 🇭🇰 Hong Kong 01
-      - 🇭🇰 Hong Kong 02
-      - 🇸🇬 @hkaa0||新加坡
-      - 🇸🇬 vip1 新加坡-02
-      - Telegram@kxswa | https://t.me/kxswa 29
-      - Telegram@kxswa | https://t.me/kxswa 30
-      - 🇨🇳 github.com/freefq - 广东省东莞市移动 4
-      - Telegram@kxswa | https://t.me/kxswa 31
-      - Telegram@kxswa | https://t.me/kxswa 32
-      - Telegram@kxswa | https://t.me/kxswa 33
-      - 54.251.168.143:443
-      - 🇰🇷 vip1 韩国-02
-      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 美国2test
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -264,81 +291,90 @@ proxy-groups:
     tolerance: 50
     proxies:
       - Telegram@kxswa | https://t.me/kxswa
-      - 🇭🇰 Hong Kong 19
       - Telegram@kxswa | https://t.me/kxswa 2
-      - 🇺🇸 美国A|@ripaojiedian
       - Telegram@kxswa | https://t.me/kxswa 3
+      - 🇸🇬 Singapore-CN2-04 - 457 单端口
+      - 🇭🇰 Hong Kong 02
+      - "@hkaa0||中国"
+      - 54.199.83.239:2333
+      - 纽约测试|@ripaojiedian
       - Telegram@kxswa | https://t.me/kxswa 4
+      - 🇨🇳 vip1 台湾-02
+      - 🇭🇰 JCBB_香港10_1【vip1】
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
+      - 🇭🇰 Hong Kong 12
+      - 🇫🇷 @hkaa0||法国
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 vip1 美国-04
+      - 🇭🇰 香港 A
       - Telegram@kxswa | https://t.me/kxswa 5
+      - 🇱🇺 卢森堡-中转
+      - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇺🇸 JCBB_ 美国02【vip1】
       - Telegram@kxswa | https://t.me/kxswa 6
       - Telegram@kxswa | https://t.me/kxswa 7
+      - 🇫🇷 法国1
+      - 🇸🇬 Singapore 21
+      - 🇺🇸 @hkaa0||美国
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG:@nodpai
+      - 🇺🇸 美国2
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - ""
+      - 动态节点
+      - 🇺🇸 JCBB_美国05_1【vip1】
       - Telegram@kxswa | https://t.me/kxswa 8
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 8
+      - 🇯🇵 vip1 日本-10
+      - 🇭🇰 Hong Kong(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5
+      - 🇸🇬 JCBB_ 新加坡 04_1【vip1】
       - Telegram@kxswa | https://t.me/kxswa 9
-      - 🇨🇦 @hkaa0||加拿大
       - 🇬🇧 @hkaa0||英国
+      - 🇨🇳 vip1 台湾-05
       - Telegram@kxswa | https://t.me/kxswa 10
       - Telegram@kxswa | https://t.me/kxswa 11
+      - 🇯🇵 vip1 日本-02
+      - 🇸🇬 Singapore-CN2-05 - 457 单端口
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 JCBB_ 美国 04【vip1】
       - Telegram@kxswa | https://t.me/kxswa 12
+      - 🇺🇸 @hkaa0||美国 3
+      - 「SCP」NL2-CF-HTTP
+      - 🇻🇳 vip1 越南-02
       - Telegram@kxswa | https://t.me/kxswa 13
+      - 🇸🇬 Singapore 17
+      - 🇺🇸 @hkaa0||美国 4
+      - 🇸🇬 新加坡2
       - Telegram@kxswa | https://t.me/kxswa 14
+      - 🇹🇷 土耳其-备用
+      - 距离下次重置剩余：1 天
+      - 🇱🇻 _LV_拉脱维亚
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 12
+      - 🇸🇬 Singapore 01
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇯🇵 _JP_日本_10
+      - 🇭🇰 vip1 香港-10
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
       - Telegram@kxswa | https://t.me/kxswa 15
+      - 🇺🇸 github.com/freefq - 美国Datability 2
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇺🇸 @hkaa0||美国 5
       - Telegram@kxswa | https://t.me/kxswa 16
-      - 🇸🇬 vip1 新加坡-01_1
-      - 🇭🇰 香港-专线
-      - 🇹🇷 土耳其1
-      - 🇫🇷 _FR_法国->🇱🇺_LU_卢森堡
-      - 🇭🇰 Hong Kong 09
       - Telegram@kxswa | https://t.me/kxswa 17
-      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 11
-      - 🇺🇸 美国2
+      - 🇯🇵 @hkaa0||日本
       - Telegram@kxswa | https://t.me/kxswa 18
-      - 🇯🇵 日本 03
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
+      - 🇦🇺 Australia(ChatGPT) 01 TG:@nodpai
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇺🇸 美国|tg频道:@ripaojiedian
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 中華電01a - 457 单端口
       - Telegram@kxswa | https://t.me/kxswa 19
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 19
-      - 🇱🇺 卢森堡-中转
-      - 🇸🇬 Singapore 23
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇸🇬 新加坡 05
       - Telegram@kxswa | https://t.me/kxswa 20
       - Telegram@kxswa | https://t.me/kxswa 21
+      - 🇰🇷 vip1 韩国-01
       - Telegram@kxswa | https://t.me/kxswa 22
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇺🇸 @hkaa0||美国
-      - 🇭🇰 vip1 香港-13_1
-      - Telegram@kxswa | https://t.me/kxswa 23
-      - Telegram@kxswa | https://t.me/kxswa 24
-      - 🇭🇰 vip3 香港-04
-      - Telegram@kxswa | https://t.me/kxswa 25
-      - 🇸🇬 Singapore 19
-      - 🇸🇬 Singapore 25
-      - 🇭🇰 Hong Kong 22
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
-      - 🇸🇬 Singapore 03
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本3
-      - Telegram@kxswa | https://t.me/kxswa 26
-      - Telegram@kxswa | https://t.me/kxswa 27
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
-      - 🇭🇰 vip3 香港-20
-      - 🇨🇳 vip1 台湾-02
-      - 🇭🇰 香港 HKT  01（原生ip）
-      - Telegram@kxswa | https://t.me/kxswa 28
-      - 🇯🇵 JP22日本|广移|专
-      - 🇭🇰 Hong Kong 01
-      - 🇭🇰 Hong Kong 02
-      - 🇸🇬 @hkaa0||新加坡
-      - 🇸🇬 vip1 新加坡-02
-      - Telegram@kxswa | https://t.me/kxswa 29
-      - Telegram@kxswa | https://t.me/kxswa 30
-      - 🇨🇳 github.com/freefq - 广东省东莞市移动 4
-      - Telegram@kxswa | https://t.me/kxswa 31
-      - Telegram@kxswa | https://t.me/kxswa 32
-      - Telegram@kxswa | https://t.me/kxswa 33
-      - 54.251.168.143:443
-      - 🇰🇷 vip1 韩国-02
-      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 美国2test
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -347,81 +383,90 @@ proxy-groups:
     tolerance: 50
     proxies:
       - Telegram@kxswa | https://t.me/kxswa
-      - 🇭🇰 Hong Kong 19
       - Telegram@kxswa | https://t.me/kxswa 2
-      - 🇺🇸 美国A|@ripaojiedian
       - Telegram@kxswa | https://t.me/kxswa 3
+      - 🇸🇬 Singapore-CN2-04 - 457 单端口
+      - 🇭🇰 Hong Kong 02
+      - "@hkaa0||中国"
+      - 54.199.83.239:2333
+      - 纽约测试|@ripaojiedian
       - Telegram@kxswa | https://t.me/kxswa 4
+      - 🇨🇳 vip1 台湾-02
+      - 🇭🇰 JCBB_香港10_1【vip1】
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
+      - 🇭🇰 Hong Kong 12
+      - 🇫🇷 @hkaa0||法国
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 vip1 美国-04
+      - 🇭🇰 香港 A
       - Telegram@kxswa | https://t.me/kxswa 5
+      - 🇱🇺 卢森堡-中转
+      - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇺🇸 JCBB_ 美国02【vip1】
       - Telegram@kxswa | https://t.me/kxswa 6
       - Telegram@kxswa | https://t.me/kxswa 7
+      - 🇫🇷 法国1
+      - 🇸🇬 Singapore 21
+      - 🇺🇸 @hkaa0||美国
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG:@nodpai
+      - 🇺🇸 美国2
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - ""
+      - 动态节点
+      - 🇺🇸 JCBB_美国05_1【vip1】
       - Telegram@kxswa | https://t.me/kxswa 8
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 8
+      - 🇯🇵 vip1 日本-10
+      - 🇭🇰 Hong Kong(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5
+      - 🇸🇬 JCBB_ 新加坡 04_1【vip1】
       - Telegram@kxswa | https://t.me/kxswa 9
-      - 🇨🇦 @hkaa0||加拿大
       - 🇬🇧 @hkaa0||英国
+      - 🇨🇳 vip1 台湾-05
       - Telegram@kxswa | https://t.me/kxswa 10
       - Telegram@kxswa | https://t.me/kxswa 11
+      - 🇯🇵 vip1 日本-02
+      - 🇸🇬 Singapore-CN2-05 - 457 单端口
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 JCBB_ 美国 04【vip1】
       - Telegram@kxswa | https://t.me/kxswa 12
+      - 🇺🇸 @hkaa0||美国 3
+      - 「SCP」NL2-CF-HTTP
+      - 🇻🇳 vip1 越南-02
       - Telegram@kxswa | https://t.me/kxswa 13
+      - 🇸🇬 Singapore 17
+      - 🇺🇸 @hkaa0||美国 4
+      - 🇸🇬 新加坡2
       - Telegram@kxswa | https://t.me/kxswa 14
+      - 🇹🇷 土耳其-备用
+      - 距离下次重置剩余：1 天
+      - 🇱🇻 _LV_拉脱维亚
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 12
+      - 🇸🇬 Singapore 01
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇯🇵 _JP_日本_10
+      - 🇭🇰 vip1 香港-10
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
       - Telegram@kxswa | https://t.me/kxswa 15
+      - 🇺🇸 github.com/freefq - 美国Datability 2
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇺🇸 @hkaa0||美国 5
       - Telegram@kxswa | https://t.me/kxswa 16
-      - 🇸🇬 vip1 新加坡-01_1
-      - 🇭🇰 香港-专线
-      - 🇹🇷 土耳其1
-      - 🇫🇷 _FR_法国->🇱🇺_LU_卢森堡
-      - 🇭🇰 Hong Kong 09
       - Telegram@kxswa | https://t.me/kxswa 17
-      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 11
-      - 🇺🇸 美国2
+      - 🇯🇵 @hkaa0||日本
       - Telegram@kxswa | https://t.me/kxswa 18
-      - 🇯🇵 日本 03
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
+      - 🇦🇺 Australia(ChatGPT) 01 TG:@nodpai
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇺🇸 美国|tg频道:@ripaojiedian
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 中華電01a - 457 单端口
       - Telegram@kxswa | https://t.me/kxswa 19
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 19
-      - 🇱🇺 卢森堡-中转
-      - 🇸🇬 Singapore 23
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇸🇬 新加坡 05
       - Telegram@kxswa | https://t.me/kxswa 20
       - Telegram@kxswa | https://t.me/kxswa 21
+      - 🇰🇷 vip1 韩国-01
       - Telegram@kxswa | https://t.me/kxswa 22
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇺🇸 @hkaa0||美国
-      - 🇭🇰 vip1 香港-13_1
-      - Telegram@kxswa | https://t.me/kxswa 23
-      - Telegram@kxswa | https://t.me/kxswa 24
-      - 🇭🇰 vip3 香港-04
-      - Telegram@kxswa | https://t.me/kxswa 25
-      - 🇸🇬 Singapore 19
-      - 🇸🇬 Singapore 25
-      - 🇭🇰 Hong Kong 22
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
-      - 🇸🇬 Singapore 03
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本3
-      - Telegram@kxswa | https://t.me/kxswa 26
-      - Telegram@kxswa | https://t.me/kxswa 27
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
-      - 🇭🇰 vip3 香港-20
-      - 🇨🇳 vip1 台湾-02
-      - 🇭🇰 香港 HKT  01（原生ip）
-      - Telegram@kxswa | https://t.me/kxswa 28
-      - 🇯🇵 JP22日本|广移|专
-      - 🇭🇰 Hong Kong 01
-      - 🇭🇰 Hong Kong 02
-      - 🇸🇬 @hkaa0||新加坡
-      - 🇸🇬 vip1 新加坡-02
-      - Telegram@kxswa | https://t.me/kxswa 29
-      - Telegram@kxswa | https://t.me/kxswa 30
-      - 🇨🇳 github.com/freefq - 广东省东莞市移动 4
-      - Telegram@kxswa | https://t.me/kxswa 31
-      - Telegram@kxswa | https://t.me/kxswa 32
-      - Telegram@kxswa | https://t.me/kxswa 33
-      - 54.251.168.143:443
-      - 🇰🇷 vip1 韩国-02
-      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇺🇸 美国2test
   - name: 📲 电报消息
     type: select
     proxies:
@@ -608,72 +653,80 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 Hong Kong 19
-      - 🇭🇰 香港-专线
-      - 🇭🇰 Hong Kong 09
-      - 🇭🇰 vip1 香港-13_1
-      - 🇭🇰 vip3 香港-04
-      - 🇭🇰 Hong Kong 22
-      - 🇭🇰 vip3 香港-20
-      - 🇭🇰 香港 HKT  01（原生ip）
-      - 🇭🇰 Hong Kong 01
       - 🇭🇰 Hong Kong 02
+      - 🇭🇰 JCBB_香港10_1【vip1】
+      - 🇭🇰 Hong Kong 12
+      - 🇭🇰 香港 A
+      - 🇭🇰 Hong Kong(ChatGPT) 02 TG:@nodpai
+      - 🇭🇰 vip1 香港-10
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本3
-      - 🇯🇵 JP22日本|广移|专
+      - 🇯🇵 vip1 日本-10
+      - 🇯🇵 vip1 日本-02
+      - 🇯🇵 _JP_日本_10
+      - 🇯🇵 @hkaa0||日本
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国A|@ripaojiedian
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 8
-      - 🇺🇸 美国2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 19
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 02 TG:@nodpai
-      - 🇺🇸 @hkaa0||美国
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 vip1 美国-04
+      - 🇺🇸 JCBB_ 美国02【vip1】
+      - 🇺🇸 @hkaa0||美国
+      - 🇺🇸 美国2
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 JCBB_美国05_1【vip1】
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 JCBB_ 美国 04【vip1】
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇺🇸 @hkaa0||美国 4
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 12
+      - 🇺🇸 github.com/freefq - 美国Datability 2
+      - 🇺🇸 @hkaa0||美国 5
+      - 🇺🇸 美国|tg频道:@ripaojiedian
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 美国2test
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG:@nodpai
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
       - 🇨🇳 vip1 台湾-02
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG:@nodpai
+      - 🇨🇳 vip1 台湾-05
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 vip1 新加坡-01_1
-      - 🇸🇬 github.com/freefq - 新加坡Linode数据中心 11
-      - 🇸🇬 Singapore 23
-      - 🇸🇬 新加坡 05
-      - 🇸🇬 Singapore 19
-      - 🇸🇬 Singapore 25
-      - 🇸🇬 Singapore 03
-      - 🇸🇬 @hkaa0||新加坡
-      - 🇸🇬 vip1 新加坡-02
-      - 🇸🇬 Singapore(ChatGPT) 02 TG:@nodpai
+      - 🇸🇬 Singapore-CN2-04 - 457 单端口
+      - 🇸🇬 Singapore 21
+      - 🇸🇬 JCBB_ 新加坡 04_1【vip1】
+      - 🇸🇬 Singapore-CN2-05 - 457 单端口
+      - 🇸🇬 Singapore 17
+      - 🇸🇬 新加坡2
+      - 🇸🇬 Singapore 01
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 vip1 韩国-02
+      - 🇰🇷 vip1 韩国-01
   - name: 🎥 奈飞节点
     type: select
     proxies:
