@@ -68,8 +68,8 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 </details>
 
-### 试用高速订阅数量: `6`
-更新时间：`2023-10-19 14:34:59`
+### 试用高速订阅数量: `7`
+更新时间：`2023-10-19 16:31:36`
 
 
 <details>
@@ -23046,56 +23046,53 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=203b87e5502fd59a34928a50ccc0ca02`
 
 
 
 
->试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=f98a884877f6eb93d4a54dd5479aac3e`
 
-
->试用订阅：
-`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=203b87e5502fd59a34928a50ccc0ca02`
-
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=d6586b3f47c41b4820b6b5187f8d7d73`
-
->试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=f98a884877f6eb93d4a54dd5479aac3e`
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=d6586b3f47c41b4820b6b5187f8d7d73`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=ea23faea9c90b674dccfa2d11bd964ae`
 
->试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=5ab75f34cf114afed6dce403f32d7ad4`
-
-
-
->试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=5ab75f34cf114afed6dce403f32d7ad4`
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=1143148069645b00cb0d97009dcf8634`
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=1143148069645b00cb0d97009dcf8634`
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=38d11c1cd6b61abe26994fec5bb3b3fd`
+`https://cloud.hhygj.xyz/api/v1/client/subscribe?token=c882f08a6cfb98f08776f56cf2087b16`
+
+
+
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=38d11c1cd6b61abe26994fec5bb3b3fd`
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=97e50900717737105c91db67a4d9d45d`
+
+
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=a3dfb8f3f4e361735f8feff7de5c93a8`
+
+
+
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=0353b46678d595ffe784c0916722d630`
+
+
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=42746ad114bcf8998639dfbd659f613a`
+
+
+
+
+>试用订阅：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=ac5ddcd9cc5990999a64c7e1d9550915`
 
 
 
