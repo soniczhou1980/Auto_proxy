@@ -5,108 +5,94 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 ·中国·TG@kkovokk·204, server: foshan.chiguayun.shop, port: 27146, type: ss, cipher: chacha20-ietf-poly1305, password: 6e0bb478-0292-4000-a425-db0d9267cc8b}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·45, server: jp.j.v3.2.kiki789.com, port: 23034, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: jp.j.v3.2.kiki789.com}}}
-  - {name: 🇺🇸 美国 | 解锁 | V2, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20133, type: vmess, uuid: 89bd657a-464e-447a-8cf9-512c87f23fcc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 BPG②| 解锁 | V2, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20115, type: vmess, uuid: 89bd657a-464e-447a-8cf9-512c87f23fcc, alterId: 0, cipher: auto, tls: false}
-  - {name: RELAY-162.159.250.246-1055, server: 162.159.250.246, port: 443, type: vmess, uuid: 172dc69f-3b43-4457-8ef8-d555b2d37f4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: service4.karop.homes}}}
-  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1699280099138, headers: {Host: www.42077230.xyz}}}
-  - {name: 🇭🇰 JCBB_香港03【vip1】, server: gdct003.jcnode.top, port: 11936, type: trojan, password: ecb6e2e8-10c3-4e6a-a56c-fbe19486d9c4, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: RELAY-104.16.67.38-0110, server: speed.cloudflare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: alvvin.click}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·46, server: u-s04.wamn.cc, port: 35016, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·80, server: 6.ovhsg.v4.kiki789.com, port: 23014, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: 6.ovhsg.v4.kiki789.com}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·179, server: yidong.liulangdiqiu.life, port: 10711, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd}
-  - {name: 🇸🇬 V0-IPV6-公益-新加坡接入点 02, server: 2606:4700:8d79:97e7:c19a:8019:121f:1b77, port: 80, type: vmess, uuid: 17fc5cb1-369b-4876-a573-8f60139996ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: f27ea3a549511688d4389be3fe87520bsg.baiduvideos.online}}}
-  - {name: 🇬🇧 vip1 英国-03, server: gdct002.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 47848ba7-9de4-4716-a62c-8a9057c72ab6}
-  - {name: 🇨🇳 湖南省 联通, server: tg_mfbpn_d5.52vpn.eu.org, port: 11032, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: alibaba-node.cn}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·187, server: sgp02.network-cdn-gw.cc, port: 45502, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·38, server: gtm.ktmwan.com, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: db1708c1-6f40-4515-92a4-7e9bb3df187a}
   - {name: 🇨🇳 ·中国·TG@kkovokk·159, server: tg_mfbpn_d4.52vpn.eu.org, port: 11006, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-08, server: gdct002.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 47848ba7-9de4-4716-a62c-8a9057c72ab6}
-  - {name: 🇹🇷 vip1 土耳其-01, server: gdct001.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: 47848ba7-9de4-4716-a62c-8a9057c72ab6}
-  - {name: RELAY-104.21.76.121-0884, server: 104.21.76.121, port: 2052, type: vmess, uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: x.36d.gay}}}
-  - {name: 🇯🇵 日本 ② | 解锁 | SS, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20117, type: ss, cipher: chacha20-ietf-poly1305, password: 3acd7926-4495-40fc-94d5-dbdc231b7e6a}
-  - {name: 🇨🇦 ·加拿大·TG@kkovokk·166, server: 23.227.38.45, port: 443, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, sni: jus3.jsjc.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /jsjc/us3, headers: {Host: jus3.jsjc.sbs}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·54, server: yidong.liulangdiqiu.life, port: 10702, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·134, server: ahyd.kiki789.com, port: 10442, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: ahyd.kiki789.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 198.41.192.4, port: 8080, type: vmess, uuid: f440527e-5243-4ca8-890c-5e05e4b3bb41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu1.openxai.link}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·127, server: yidong.liulangdiqiu.life, port: 10707, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·72, server: gtm.ktmwan.com, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: db1708c1-6f40-4515-92a4-7e9bb3df187a}
-  - {name: 🇺🇸 ·美国·TG@kkovokk·13, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/nYAwpBbW, headers: {Host: cfcdn1.sanfencdn9.com}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·48, server: yidong.liulangdiqiu.life, port: 10725, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd}
-  - {name: 🇹🇷 土耳其 V2CROSS.COM, server: 212.64.193.50, port: 2087, type: vmess, uuid: d22ae4d6-863b-4501-920a-99ac4a3c751b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇦 ·加拿大·TG@kkovokk·109, server: 23.227.38.19, port: 443, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, sni: jus1.jsjc.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /jsjc/us1, headers: {Host: jus1.jsjc.sbs}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·56, server: foshan.chiguayun.shop, port: 27131, type: ss, cipher: chacha20-ietf-poly1305, password: 6e0bb478-0292-4000-a425-db0d9267cc8b}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·33, server: yidong.liulangdiqiu.life, port: 10704, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd}
-  - {name: CZ-143.244.58.102-0386, server: 143.244.58.102, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: 🇰🇷 韩国 | 解锁 | V2, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20129, type: vmess, uuid: 89bd657a-464e-447a-8cf9-512c87f23fcc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 BGP② | 解锁 | SS, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 89bd657a-464e-447a-8cf9-512c87f23fcc}
-  - {name: 🇯🇵 日本③, server: li1jpfhssvb2-sc.559xp5.cn, port: 443, type: trojan, password: 188bf06b-c345-481d-bd93-92bcd7efa82f, skip-cert-verify: false}
-  - {name: 🇺🇸 vip1 美国-07, server: gdct003.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: 47848ba7-9de4-4716-a62c-8a9057c72ab6}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·43, server: u-s02.wamn.cc, port: 35014, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b}
-  - {name: 🇺🇸 US-89.187.185.132-2552, server: 89.187.185.132, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 JCBB_ 英国03【vip1】, server: gdct003.jcnode.top, port: 24662, type: trojan, password: ecb6e2e8-10c3-4e6a-a56c-fbe19486d9c4, sni: uk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 GB-52.56.170.248-2134, server: 52.56.170.248, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
-  - {name: 🇸🇬 SG-13.250.182.129-0499, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: RELAY-104.21.88.226-0180, server: nomore.hideip.tk, port: 8443, type: vmess, uuid: 874a60cd-f099-499a-8aee-e4606ccf3e86, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: nomore.hideip.tk}}}
-  - {name: 🇺🇸 JCBB_美国05_1【vip1】, server: gdct002.jcnode.top, port: 17503, type: trojan, password: ecb6e2e8-10c3-4e6a-a56c-fbe19486d9c4, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 TG频道:@hkaa0▓美国, server: xg107.npv4.com, port: 443, type: trojan, password: 95d4628a-5ac6-30b4-bd86-7c25ec085129, sni: xg107.npv4.com, skip-cert-verify: true}
-  - {name: 🇯🇵 JP-54.238.146.55-0500, server: pqawsjp3.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇺🇸 美国 Xerox, server: 13.50.220.2, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
-  - {name: 🇺🇦 github.com/freefq - 乌克兰  10, server: 95.164.61.27, port: 80, type: vmess, uuid: 73f51947-ce77-4d19-a652-467863492634, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: il1.xv2ray.net}}}
-  - {name: RELAY-104.31.16.3-0186, server: Jolimolilap.com, port: 443, type: vmess, uuid: e7ecdfa4-3e09-44a6-91e9-0e34c140be3b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: s4.folow-r18.cfd}}}
-  - {name: 🇨🇳 CN-38.95.233.82-0332, server: 38.95.233.82, port: 80, type: vmess, uuid: 34d79d0b-d5af-4a33-dc57-11cac68e24ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 38.95.233.82}}}
-  - {name: SE-37.19.222.212-0396, server: 37.19.222.212, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇨🇳 JCBB_ 台湾 01【vip1】, server: gdct001.jcnode.top, port: 45540, type: trojan, password: ecb6e2e8-10c3-4e6a-a56c-fbe19486d9c4, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 ② | 解锁 | SS, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20147, type: ss, cipher: chacha20-ietf-poly1305, password: 3acd7926-4495-40fc-94d5-dbdc231b7e6a}
-  - {name: 🇸🇪 瑞典 Oracle Corporation, server: jpd.zerodisk.site, port: 48493, type: vmess, uuid: f8ef7c47-9735-439c-a42b-355bae224656, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jpd.zerodisk.site}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·10, server: cccn.kiki789.com, port: 23021, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: cccn.kiki789.com}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·211, server: tg_mfbpn_d4.52vpn.eu.org, port: 11016, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 ① | 解锁 | SS, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20154, type: ss, cipher: chacha20-ietf-poly1305, password: 3acd7926-4495-40fc-94d5-dbdc231b7e6a}
-  - {name: 🇺🇸 TG频道:@hkaa0▓美国 2, server: jp-o-v2.66688888.xyz, port: 8080, type: vmess, uuid: 08a231e0-611d-4dcd-8fbc-9a722c37656d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jp-o-v2.66688888.xyz}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·122, server: j-p01.wamn.cc, port: 35009, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b}
-  - {name: SE-121.127.46.147-0220, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 vip1 美国-02, server: gdct003.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: 47848ba7-9de4-4716-a62c-8a9057c72ab6}
-  - {name: 🇯🇵 日本 ① | SS, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20139, type: ss, cipher: chacha20-ietf-poly1305, password: 3acd7926-4495-40fc-94d5-dbdc231b7e6a}
-  - {name: 🇬🇧 GB-212.102.53.195-0390, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: TG频道:@hkaa0▓中国, server: userpd.haitunvip.vip, port: 13002, type: vmess, uuid: f66192d0-d59d-3e11-bd93-89b1a281048e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: userpd.haitunvip.vip}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·22, server: 120.233.30.219, port: 10816, type: trojan, password: 452862ba-1d04-44f3-a91e-a324a6a164d9, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: RELAY-104.21.75.246-0079, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 13, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1699280099138, headers: {Host: www.42077230.xyz}}}
-  - {name: 🇬🇧 GB-198.244.228.191-0445, server: 198.244.228.191, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·208, server: gtm.ktmwan.com, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: db1708c1-6f40-4515-92a4-7e9bb3df187a}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·105, server: gtm.ktmwan.com, port: 27261, type: ss, cipher: chacha20-ietf-poly1305, password: db1708c1-6f40-4515-92a4-7e9bb3df187a}
-  - {name: 🇺🇸 V0-IPV6-公益-美国接入点 02, server: 2606:4700:17:a31e:81ae:4981:e40:7681, port: 80, type: vmess, uuid: 17fc5cb1-369b-4876-a573-8f60139996ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: f27ea3a549511688d4389be3fe87520bus.baiduvideos.online}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}}
-  - {name: 🇬🇧 _GB_英国, server: 198.244.231.25, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇬🇧 vip1 英国-02, server: gdct003.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 47848ba7-9de4-4716-a62c-8a9057c72ab6}
-  - {name: 🇺🇸 US-45.77.167.137-0311, server: 45.77.167.137, port: 80, type: vmess, uuid: ff85a2eb-5cef-49a3-e969-f527ff8f4167, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 45.77.167.137}}}
-  - {name: 🇸🇬 SG-3.1.51.46-0503, server: pqawssg2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇧🇷 巴西 | SS, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20168, type: ss, cipher: chacha20-ietf-poly1305, password: 3acd7926-4495-40fc-94d5-dbdc231b7e6a}
-  - {name: RELAY-172.67.184.53-0751, server: 172.67.184.53, port: 8443, type: vmess, uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cloudconebbb.gorgorchicken.one}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·138, server: tw05.network-cdn-gw.cc, port: 46605, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
-  - {name: TG频道:@hkaa0▓中国 2, server: 112.29.94.23, port: 49884, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 | IPLC深韩专线 | ×10x, server: iplc.youcansee.cyou, port: 13110, type: ss, cipher: chacha20-ietf-poly1305, password: 3acd7926-4495-40fc-94d5-dbdc231b7e6a}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·209, server: sgp05.network-cdn-gw.cc, port: 45505, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·172, server: fl.network-cdn-gw.cc, port: 43302, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
-  - {name: 🇬🇧 GB-198.244.252.93-0169, server: 198.244.252.93, port: 443, type: trojan, password: c33883045c, sni: uk1.connecton.surf}
-  - {name: 🇰🇷 TG频道:@hkaa0▓韩国, server: 43.200.7.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 US-205.134.180.143-0325, server: 205.134.180.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: R9Xc4dHXGv3c}
-  - {name: RELAY-172.67.179.37-1038, server: 172.67.179.37, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: octavi.cfd}}}
-  - {name: 🇭🇰 香港②, server: li1hkv2b.559xp5.cn, port: 443, type: trojan, password: 188bf06b-c345-481d-bd93-92bcd7efa82f, skip-cert-verify: false}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·62, server: tg_mfbpn_d4.52vpn.eu.org, port: 11004, type: vmess, uuid: 85db6652-a747-3a0a-a170-422736076410, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 ·美国·TG@kkovokk·151, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/wmXBjoZA, headers: {Host: cfcdn3.sanfencdn9.com}}}
-  - {name: 🇫🇷 FR-51.159.111.208-0337, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇸🇬 vip1 新加坡-07, server: gdct003.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 47848ba7-9de4-4716-a62c-8a9057c72ab6}
-  - {name: 🇭🇰 github.com/freefq - 香港阿里云 16, server: xg107.npv4.com, port: 443, type: trojan, password: d1fb8915-5770-3148-9ac2-d15773ecdf7b}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·129, server: tg_mfbpn_d4.52vpn.eu.org, port: 11011, type: vmess, uuid: 85db6652-a747-3a0a-a170-422736076410, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 vip1 日本-07, server: gdct003.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: 47848ba7-9de4-4716-a62c-8a9057c72ab6}
-  - {name: 🇭🇰 JCBB_香港01【vip1】, server: gdct002.jcnode.top, port: 41390, type: trojan, password: ecb6e2e8-10c3-4e6a-a56c-fbe19486d9c4, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 US-198.2.244.24-0146, server: 198.2.244.24, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.47722380.xyz}}}
-  - {name: 🇨🇳 ·中国·TG@kkovokk·123, server: tg_mfbpn_d4.52vpn.eu.org, port: 11009, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 US-142.4.105.5-0114, server: 142.4.105.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.39281349.xyz}}}
+  - {name: 🇩🇪 DE-3.71.92.131-0477, server: 3.71.92.131, port: 33108, type: ss, cipher: chacha20-ietf-poly1305, password: Wc9mwaXoVeyznoAXxvaxok}
+  - {name: RELAY-104.31.16.196-0778, server: 104.31.16.196, port: 2053, type: vmess, uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b5.iraniancp.click}}}
+  - {name: 🇺🇸 _US_美国, server: 64.176.162.24, port: 443, type: trojan, password: wkmY1R4EcP, sni: z-v1-zzzh.ashx.net, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 05【vip1】, server: gdct001.jcnode.top, port: 61413, type: trojan, password: 90b4463b-0208-4a22-b694-4876b8186e5e, sni: rctw02.ckcloud.info, skip-cert-verify: true}
   - {name: 🇰🇷 韩国特殊2|@ripaojiedian, server: 3.35.156.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇮🇳 vip1 印度-01, server: gdct001.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: 47848ba7-9de4-4716-a62c-8a9057c72ab6}
+  - {name: 🇨🇳 JCBB_ 台湾 05_1【vip1】, server: gdct002.jcnode.top, port: 24448, type: trojan, password: 90b4463b-0208-4a22-b694-4876b8186e5e, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·144, server: gtm.ktmwan.com, port: 27259, type: ss, cipher: chacha20-ietf-poly1305, password: db1708c1-6f40-4515-92a4-7e9bb3df187a}
+  - {name: 🇨🇳 JCBB_ 台湾 06【vip1】, server: gdct003.jcnode.top, port: 22084, type: trojan, password: 90b4463b-0208-4a22-b694-4876b8186e5e, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 GB-212.102.53.197-0406, server: ak1784.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: "", server: 159.223.94.156, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn}}
+  - {name: 🇫🇷 FR-195.154.185.174-0334, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇭🇰 JCBB_香港10【vip1】, server: gdct001.jcnode.top, port: 27753, type: trojan, password: 90b4463b-0208-4a22-b694-4876b8186e5e, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·57, server: cccn.kiki789.com, port: 23148, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: cccn.kiki789.com}}}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·202, server: hefei.chiguayun.shop, port: 27134, type: ss, cipher: chacha20-ietf-poly1305, password: 6e0bb478-0292-4000-a425-db0d9267cc8b}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·190, server: jp05.network-cdn-gw.cc, port: 48805, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·200, server: sgp03.network-cdn-gw.cc, port: 45503, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇬🇧 GB-198.244.231.26-0356, server: 198.244.231.26, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 US-142.4.104.172-0118, server: 142.4.104.172, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.72304286.xyz}}}
+  - {name: 🇨🇦 ·加拿大·TG@kkovokk·99, server: 23.227.39.36, port: 443, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, sni: jsg1.jsjc.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /jsjc/sg1, headers: {Host: jsg1.jsjc.sbs}}}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 120.233.43.47, port: 11009, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: tg_mfbpn_d4.52vpn.eu.org, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国 | IPLC深韩专线 | ×10x, server: iplc.youcansee.cyou, port: 13110, type: ss, cipher: chacha20-ietf-poly1305, password: 89bd657a-464e-447a-8cf9-512c87f23fcc}
+  - {name: 🇸🇬 JCBB_ 新加坡 05【vip1】, server: gdct002.jcnode.top, port: 56915, type: trojan, password: 90b4463b-0208-4a22-b694-4876b8186e5e, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 JCBB_土耳其 03【vip1】, server: gdct002.jcnode.top, port: 55856, type: trojan, password: 90b4463b-0208-4a22-b694-4876b8186e5e, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: RELAY-104.24.177.7-1125, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: LosAngeles.kotick.site}}}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·34, server: 120.233.30.219, port: 10825, type: trojan, password: d864e4c9-a625-4142-82ae-a129fa40f36b, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇺🇸 US-89.187.179.192-0213, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 112.120.127.9, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: true}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·68, server: tg_mfbpn_d4.52vpn.eu.org, port: 11012, type: vmess, uuid: 85db6652-a747-3a0a-a170-422736076410, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 ① |  V2, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20113, type: vmess, uuid: 89bd657a-464e-447a-8cf9-512c87f23fcc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 JCBB_ 新加坡 06【vip1】, server: gdct001.jcnode.top, port: 18716, type: trojan, password: 90b4463b-0208-4a22-b694-4876b8186e5e, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 github.com/freefq - 香港阿里云 16, server: xg107.npv4.com, port: 443, type: trojan, password: d1fb8915-5770-3148-9ac2-d15773ecdf7b}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·201, server: in01.network-cdn-gw.cc, port: 43304, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.8.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·25, server: yidong.liulangdiqiu.life, port: 10726, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·119, server: h-k01.wamn.cc, port: 35005, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b}
+  - {name: 🇭🇰 github.com/freefq - 香港阿里云 12, server: n1697685464.aaigefm.cn, port: 443, type: vmess, uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697685464.aaigefm.cn}}}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·115, server: j-p02.wamn.cc, port: 35010, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b}
+  - {name: 🇬🇧 GB-212.102.53.197-0412, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇨🇳 广东省 移动, server: tg_mfbpn_d4.52vpn.eu.org, port: 11008, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: alibaba-node.cn}
+  - {name: 🇬🇧 GB-212.102.53.193-1984, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇨🇳 台湾 | 解锁 | V2, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20119, type: vmess, uuid: 89bd657a-464e-447a-8cf9-512c87f23fcc, alterId: 0, cipher: auto, tls: false}
+  - {name: RELAY-104.16.68.38-0880, server: 104.16.68.38, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: alvvin.click}}}
+  - {name: CH-84.17.53.160-0366, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇭🇰 香港1|@ripaojiedian, server: 183.233.187.214, port: 38962, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇬🇧 GB-198.244.252.93-0169, server: 198.244.252.93, port: 443, type: trojan, password: c33883045c, sni: uk1.connecton.surf}
+  - {name: 🇺🇸 US-198.2.244.24-0146, server: 198.2.244.24, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.47722380.xyz}}}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: nbq11.ntbq.dynu.net, port: 443, type: vmess, uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b11, headers: {Host: nbq11.ntbq.dynu.net}}}
+  - {name: 🇯🇵 vip1 日本-08, server: gdct002.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: d90e5022-e44d-4622-b5bd-150ef3191b91}
+  - {name: 🇻🇳 vip1 越南-02, server: gdct003.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: d90e5022-e44d-4622-b5bd-150ef3191b91}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·81, server: hk5.network-cdn-gw.cc, port: 47705, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇰🇷 首尔特殊|@ripaojiedian, server: 3.34.132.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 V0-IPV6-公益-美国接入点 02, server: 2606:4700:17:a31e:81ae:4981:e40:7681, port: 80, type: vmess, uuid: 17fc5cb1-369b-4876-a573-8f60139996ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: f27ea3a549511688d4389be3fe87520bus.baiduvideos.online}}}
+  - {name: RELAY-104.18.212.12-1508, server: api.jquery.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sub.xn--9kq89d4y0g.top}}}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·111, server: hkp05.network-cdn-gw.cc, port: 49905, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·76, server: yidong.liulangdiqiu.life, port: 10715, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd}
+  - {name: 54.199.83.239:2333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·186, server: jp01.network-cdn-gw.cc, port: 48801, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·86, server: gtm.ktmwan.com, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: db1708c1-6f40-4515-92a4-7e9bb3df187a}
+  - {name: 🇺🇸 US-205.134.180.143-0325, server: 205.134.180.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: R9Xc4dHXGv3c}
+  - {name: 🇫🇷 FR-51.158.54.208-2777, server: 51.158.54.208, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·204, server: foshan.chiguayun.shop, port: 27146, type: ss, cipher: chacha20-ietf-poly1305, password: 6e0bb478-0292-4000-a425-db0d9267cc8b}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 69.176.89.193, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, servername: www.31445823.xyz, network: ws, ws-opts: {path: /path/080218162423, headers: {Host: www.31445823.xyz}}}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: krse.qrfly.me, port: 22004, type: ss, cipher: chacha20-ietf-poly1305, password: b264e44a-578c-4ce6-bb8d-cd31ae33201f}
+  - {name: 🇫🇷 FR-51.159.221.231-0217, server: 51.159.221.231, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇸🇬 SG-13.214.178.150-0496, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇺🇸 ·美国·TG@kkovokk·199, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bFVDnAyn, headers: {Host: cfcdn2.sanfencdn9.com}}}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 11.namesilo123.top, port: 2082, type: vmess, uuid: 63ddc2c9-d897-42a7-b1d0-d0461d477925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/grdohhgrdh4hhhhhj?ed", headers: {Host: jpan33.sanfen003.top}}}
+  - {name: 🇯🇵 vip1 日本-01, server: gdct001.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: d90e5022-e44d-4622-b5bd-150ef3191b91}
+  - {name: 🇵🇭 菲律宾, server: bacmlwrkoph.559xp5.cn, port: 443, type: trojan, password: 3b730778-4529-4b28-9c73-cc7a9585ea03, skip-cert-verify: false}
+  - {name: 🇬🇧 vip1 英国-02, server: gdct003.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: d90e5022-e44d-4622-b5bd-150ef3191b91}
+  - {name: 🇭🇰 JCBB_香港 06_1【vip1】, server: gdct002.jcnode.top, port: 17967, type: trojan, password: 90b4463b-0208-4a22-b694-4876b8186e5e, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·146, server: s-g01.wamn.cc, port: 35025, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·137, server: u-k02.wamn.cc, port: 35030, type: ss, cipher: chacha20-ietf-poly1305, password: 8508aab9-f695-4da5-95f8-e9366e204d1b}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·114, server: yidong.liulangdiqiu.life, port: 10719, type: ss, cipher: chacha20-ietf-poly1305, password: 51ebaf54-9473-4836-8686-826a347953dd}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·88, server: cccn.kiki789.com, port: 23151, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: cccn.kiki789.com}}}
+  - {name: 🇫🇷 FR-172.232.42.125-0357, server: beeconf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: ezesBXesf3RKBCp1vqKuIx}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·12, server: us02.network-cdn-gw.cc, port: 44402, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇸🇬 vip1 新加坡-08, server: gdct002.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: d90e5022-e44d-4622-b5bd-150ef3191b91}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·214, server: tg_mfbpn_d5.52vpn.eu.org, port: 11034, type: trojan, password: 85db6652-a747-3a0a-a170-422736076410, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·82, server: 120.233.30.219, port: 10801, type: trojan, password: d864e4c9-a625-4142-82ae-a129fa40f36b, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 01【vip1】, server: gdct001.jcnode.top, port: 45540, type: trojan, password: 90b4463b-0208-4a22-b694-4876b8186e5e, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇦 加拿大 | 解锁 | SS, server: uydyfkghjrtcsdx.youcansee.cyou, port: 20166, type: ss, cipher: chacha20-ietf-poly1305, password: 89bd657a-464e-447a-8cf9-512c87f23fcc}
+  - {name: TG频道:@hkaa0▓中国, server: userpd.haitunvip.vip, port: 13002, type: vmess, uuid: f66192d0-d59d-3e11-bd93-89b1a281048e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: userpd.haitunvip.vip}}}
+  - {name: 🇯🇵 日本②, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: 3b730778-4529-4b28-9c73-cc7a9585ea03, skip-cert-verify: false}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·18, server: au.network-cdn-gw.cc, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇨🇳 ·中国·TG@kkovokk·29, server: sgp04.network-cdn-gw.cc, port: 45504, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -125,324 +111,282 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇨🇳 ·中国·TG@kkovokk·204
-      - 🇨🇳 ·中国·TG@kkovokk·45
-      - 🇺🇸 美国 | 解锁 | V2
-      - 🇭🇰 香港 BPG②| 解锁 | V2
-      - RELAY-162.159.250.246-1055
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇭🇰 JCBB_香港03【vip1】
-      - RELAY-104.16.67.38-0110
-      - 🇨🇳 ·中国·TG@kkovokk·46
-      - 🇨🇳 ·中国·TG@kkovokk·80
-      - 🇨🇳 ·中国·TG@kkovokk·179
-      - 🇸🇬 V0-IPV6-公益-新加坡接入点 02
-      - 🇬🇧 vip1 英国-03
-      - 🇨🇳 湖南省 联通
-      - 🇨🇳 ·中国·TG@kkovokk·187
-      - 🇨🇳 ·中国·TG@kkovokk·38
       - 🇨🇳 ·中国·TG@kkovokk·159
-      - 🇸🇬 vip1 新加坡-08
-      - 🇹🇷 vip1 土耳其-01
-      - RELAY-104.21.76.121-0884
-      - 🇯🇵 日本 ② | 解锁 | SS
-      - 🇨🇦 ·加拿大·TG@kkovokk·166
-      - 🇨🇳 ·中国·TG@kkovokk·54
-      - 🇨🇳 ·中国·TG@kkovokk·134
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 ·中国·TG@kkovokk·127
-      - 🇨🇳 ·中国·TG@kkovokk·72
-      - 🇺🇸 ·美国·TG@kkovokk·13
-      - 🇨🇳 ·中国·TG@kkovokk·48
-      - 🇹🇷 土耳其 V2CROSS.COM
-      - 🇨🇦 ·加拿大·TG@kkovokk·109
-      - 🇨🇳 ·中国·TG@kkovokk·56
-      - 🇨🇳 ·中国·TG@kkovokk·33
-      - CZ-143.244.58.102-0386
-      - ""
-      - 🇰🇷 韩国 | 解锁 | V2
-      - 🇭🇰 香港 BGP② | 解锁 | SS
-      - 🇯🇵 日本③
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 ·中国·TG@kkovokk·43
-      - 🇺🇸 US-89.187.185.132-2552
-      - 🇬🇧 JCBB_ 英国03【vip1】
-      - 🇬🇧 GB-52.56.170.248-2134
-      - 🇸🇬 SG-13.250.182.129-0499
-      - RELAY-104.21.88.226-0180
-      - 🇺🇸 JCBB_美国05_1【vip1】
-      - 🇺🇸 TG频道:@hkaa0▓美国
-      - 🇯🇵 JP-54.238.146.55-0500
-      - 🇺🇸 美国 Xerox
-      - 🇺🇦 github.com/freefq - 乌克兰  10
-      - RELAY-104.31.16.3-0186
-      - 🇨🇳 CN-38.95.233.82-0332
-      - SE-37.19.222.212-0396
-      - 🇨🇳 JCBB_ 台湾 01【vip1】
-      - 🇸🇬 新加坡 ② | 解锁 | SS
-      - 🇸🇪 瑞典 Oracle Corporation
-      - 🇨🇳 ·中国·TG@kkovokk·10
-      - 🇨🇳 ·中国·TG@kkovokk·211
-      - 🇺🇸 美国 ① | 解锁 | SS
-      - 🇺🇸 TG频道:@hkaa0▓美国 2
-      - 🇨🇳 ·中国·TG@kkovokk·122
-      - SE-121.127.46.147-0220
-      - 🇺🇸 vip1 美国-02
-      - 🇯🇵 日本 ① | SS
-      - 🇬🇧 GB-212.102.53.195-0390
-      - TG频道:@hkaa0▓中国
-      - 🇨🇳 ·中国·TG@kkovokk·22
-      - RELAY-104.21.75.246-0079
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 13
-      - 🇬🇧 GB-198.244.228.191-0445
-      - 🇨🇳 ·中国·TG@kkovokk·208
-      - 🇨🇳 ·中国·TG@kkovokk·105
-      - 🇺🇸 V0-IPV6-公益-美国接入点 02
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇬🇧 _GB_英国
-      - 🇬🇧 vip1 英国-02
-      - 🇺🇸 US-45.77.167.137-0311
-      - 🇸🇬 SG-3.1.51.46-0503
-      - 🇧🇷 巴西 | SS
-      - RELAY-172.67.184.53-0751
-      - 🇨🇳 ·中国·TG@kkovokk·138
-      - TG频道:@hkaa0▓中国 2
-      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
-      - 🇨🇳 ·中国·TG@kkovokk·209
-      - 🇨🇳 ·中国·TG@kkovokk·172
-      - 🇬🇧 GB-198.244.252.93-0169
-      - 🇰🇷 TG频道:@hkaa0▓韩国
-      - 🇺🇸 US-205.134.180.143-0325
-      - RELAY-172.67.179.37-1038
-      - 🇭🇰 香港②
-      - 🇨🇳 ·中国·TG@kkovokk·62
-      - 🇺🇸 ·美国·TG@kkovokk·151
-      - 🇫🇷 FR-51.159.111.208-0337
-      - 🇸🇬 vip1 新加坡-07
-      - 🇭🇰 github.com/freefq - 香港阿里云 16
-      - 🇨🇳 ·中国·TG@kkovokk·129
-      - 🇯🇵 vip1 日本-07
-      - 🇭🇰 JCBB_香港01【vip1】
-      - 🇺🇸 US-198.2.244.24-0146
-      - 🇨🇳 ·中国·TG@kkovokk·123
+      - 🇺🇸 US-142.4.105.5-0114
+      - 🇩🇪 DE-3.71.92.131-0477
+      - RELAY-104.31.16.196-0778
+      - 🇺🇸 _US_美国
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
       - 🇰🇷 韩国特殊2|@ripaojiedian
-      - 🇮🇳 vip1 印度-01
+      - 🇨🇳 JCBB_ 台湾 05_1【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·144
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇬🇧 GB-212.102.53.197-0406
+      - ""
+      - 🇫🇷 FR-195.154.185.174-0334
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·57
+      - 🇨🇳 ·中国·TG@kkovokk·202
+      - 🇨🇳 ·中国·TG@kkovokk·190
+      - 🇨🇳 ·中国·TG@kkovokk·200
+      - 🇬🇧 GB-198.244.231.26-0356
+      - 🇺🇸 US-142.4.104.172-0118
+      - 🇨🇦 ·加拿大·TG@kkovokk·99
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - RELAY-104.24.177.7-1125
+      - 🇨🇳 ·中国·TG@kkovokk·34
+      - 🇺🇸 US-89.187.179.192-0213
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 ·中国·TG@kkovokk·68
+      - 🇯🇵 日本 ① |  V2
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 github.com/freefq - 香港阿里云 16
+      - 🇨🇳 ·中国·TG@kkovokk·201
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 ·中国·TG@kkovokk·25
+      - 🇨🇳 ·中国·TG@kkovokk·119
+      - 🇭🇰 github.com/freefq - 香港阿里云 12
+      - 🇨🇳 ·中国·TG@kkovokk·115
+      - 🇬🇧 GB-212.102.53.197-0412
+      - 🇨🇳 广东省 移动
+      - 🇬🇧 GB-212.102.53.193-1984
+      - 🇨🇳 台湾 | 解锁 | V2
+      - RELAY-104.16.68.38-0880
+      - CH-84.17.53.160-0366
+      - 🇭🇰 香港1|@ripaojiedian
+      - 🇬🇧 GB-198.244.252.93-0169
+      - 🇺🇸 US-198.2.244.24-0146
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 vip1 日本-08
+      - 🇻🇳 vip1 越南-02
+      - 🇨🇳 ·中国·TG@kkovokk·81
+      - 🇰🇷 首尔特殊|@ripaojiedian
+      - 🇺🇸 V0-IPV6-公益-美国接入点 02
+      - RELAY-104.18.212.12-1508
+      - 🇨🇳 ·中国·TG@kkovokk·111
+      - 🇨🇳 ·中国·TG@kkovokk·76
+      - 54.199.83.239:2333
+      - 🇨🇳 ·中国·TG@kkovokk·186
+      - 🇨🇳 ·中国·TG@kkovokk·86
+      - 🇺🇸 US-205.134.180.143-0325
+      - 🇫🇷 FR-51.158.54.208-2777
+      - 🇨🇳 ·中国·TG@kkovokk·204
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇫🇷 FR-51.159.221.231-0217
+      - 🇸🇬 SG-13.214.178.150-0496
+      - 🇺🇸 ·美国·TG@kkovokk·199
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 vip1 日本-01
+      - 🇵🇭 菲律宾
+      - 🇬🇧 vip1 英国-02
+      - 🇭🇰 JCBB_香港 06_1【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·146
+      - 🇨🇳 ·中国·TG@kkovokk·137
+      - 🇨🇳 ·中国·TG@kkovokk·114
+      - 🇨🇳 ·中国·TG@kkovokk·88
+      - 🇫🇷 FR-172.232.42.125-0357
+      - 🇨🇳 ·中国·TG@kkovokk·12
+      - 🇸🇬 vip1 新加坡-08
+      - 🇨🇳 ·中国·TG@kkovokk·214
+      - 🇨🇳 ·中国·TG@kkovokk·82
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇦 加拿大 | 解锁 | SS
+      - TG频道:@hkaa0▓中国
+      - 🇯🇵 日本②
+      - 🇨🇳 ·中国·TG@kkovokk·18
+      - 🇨🇳 ·中国·TG@kkovokk·29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 ·中国·TG@kkovokk·204
-      - 🇨🇳 ·中国·TG@kkovokk·45
-      - 🇺🇸 美国 | 解锁 | V2
-      - 🇭🇰 香港 BPG②| 解锁 | V2
-      - RELAY-162.159.250.246-1055
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇭🇰 JCBB_香港03【vip1】
-      - RELAY-104.16.67.38-0110
-      - 🇨🇳 ·中国·TG@kkovokk·46
-      - 🇨🇳 ·中国·TG@kkovokk·80
-      - 🇨🇳 ·中国·TG@kkovokk·179
-      - 🇸🇬 V0-IPV6-公益-新加坡接入点 02
-      - 🇬🇧 vip1 英国-03
-      - 🇨🇳 湖南省 联通
-      - 🇨🇳 ·中国·TG@kkovokk·187
-      - 🇨🇳 ·中国·TG@kkovokk·38
       - 🇨🇳 ·中国·TG@kkovokk·159
-      - 🇸🇬 vip1 新加坡-08
-      - 🇹🇷 vip1 土耳其-01
-      - RELAY-104.21.76.121-0884
-      - 🇯🇵 日本 ② | 解锁 | SS
-      - 🇨🇦 ·加拿大·TG@kkovokk·166
-      - 🇨🇳 ·中国·TG@kkovokk·54
-      - 🇨🇳 ·中国·TG@kkovokk·134
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 ·中国·TG@kkovokk·127
-      - 🇨🇳 ·中国·TG@kkovokk·72
-      - 🇺🇸 ·美国·TG@kkovokk·13
-      - 🇨🇳 ·中国·TG@kkovokk·48
-      - 🇹🇷 土耳其 V2CROSS.COM
-      - 🇨🇦 ·加拿大·TG@kkovokk·109
-      - 🇨🇳 ·中国·TG@kkovokk·56
-      - 🇨🇳 ·中国·TG@kkovokk·33
-      - CZ-143.244.58.102-0386
-      - ""
-      - 🇰🇷 韩国 | 解锁 | V2
-      - 🇭🇰 香港 BGP② | 解锁 | SS
-      - 🇯🇵 日本③
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 ·中国·TG@kkovokk·43
-      - 🇺🇸 US-89.187.185.132-2552
-      - 🇬🇧 JCBB_ 英国03【vip1】
-      - 🇬🇧 GB-52.56.170.248-2134
-      - 🇸🇬 SG-13.250.182.129-0499
-      - RELAY-104.21.88.226-0180
-      - 🇺🇸 JCBB_美国05_1【vip1】
-      - 🇺🇸 TG频道:@hkaa0▓美国
-      - 🇯🇵 JP-54.238.146.55-0500
-      - 🇺🇸 美国 Xerox
-      - 🇺🇦 github.com/freefq - 乌克兰  10
-      - RELAY-104.31.16.3-0186
-      - 🇨🇳 CN-38.95.233.82-0332
-      - SE-37.19.222.212-0396
-      - 🇨🇳 JCBB_ 台湾 01【vip1】
-      - 🇸🇬 新加坡 ② | 解锁 | SS
-      - 🇸🇪 瑞典 Oracle Corporation
-      - 🇨🇳 ·中国·TG@kkovokk·10
-      - 🇨🇳 ·中国·TG@kkovokk·211
-      - 🇺🇸 美国 ① | 解锁 | SS
-      - 🇺🇸 TG频道:@hkaa0▓美国 2
-      - 🇨🇳 ·中国·TG@kkovokk·122
-      - SE-121.127.46.147-0220
-      - 🇺🇸 vip1 美国-02
-      - 🇯🇵 日本 ① | SS
-      - 🇬🇧 GB-212.102.53.195-0390
-      - TG频道:@hkaa0▓中国
-      - 🇨🇳 ·中国·TG@kkovokk·22
-      - RELAY-104.21.75.246-0079
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 13
-      - 🇬🇧 GB-198.244.228.191-0445
-      - 🇨🇳 ·中国·TG@kkovokk·208
-      - 🇨🇳 ·中国·TG@kkovokk·105
-      - 🇺🇸 V0-IPV6-公益-美国接入点 02
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇬🇧 _GB_英国
-      - 🇬🇧 vip1 英国-02
-      - 🇺🇸 US-45.77.167.137-0311
-      - 🇸🇬 SG-3.1.51.46-0503
-      - 🇧🇷 巴西 | SS
-      - RELAY-172.67.184.53-0751
-      - 🇨🇳 ·中国·TG@kkovokk·138
-      - TG频道:@hkaa0▓中国 2
-      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
-      - 🇨🇳 ·中国·TG@kkovokk·209
-      - 🇨🇳 ·中国·TG@kkovokk·172
-      - 🇬🇧 GB-198.244.252.93-0169
-      - 🇰🇷 TG频道:@hkaa0▓韩国
-      - 🇺🇸 US-205.134.180.143-0325
-      - RELAY-172.67.179.37-1038
-      - 🇭🇰 香港②
-      - 🇨🇳 ·中国·TG@kkovokk·62
-      - 🇺🇸 ·美国·TG@kkovokk·151
-      - 🇫🇷 FR-51.159.111.208-0337
-      - 🇸🇬 vip1 新加坡-07
-      - 🇭🇰 github.com/freefq - 香港阿里云 16
-      - 🇨🇳 ·中国·TG@kkovokk·129
-      - 🇯🇵 vip1 日本-07
-      - 🇭🇰 JCBB_香港01【vip1】
-      - 🇺🇸 US-198.2.244.24-0146
-      - 🇨🇳 ·中国·TG@kkovokk·123
+      - 🇺🇸 US-142.4.105.5-0114
+      - 🇩🇪 DE-3.71.92.131-0477
+      - RELAY-104.31.16.196-0778
+      - 🇺🇸 _US_美国
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
       - 🇰🇷 韩国特殊2|@ripaojiedian
-      - 🇮🇳 vip1 印度-01
+      - 🇨🇳 JCBB_ 台湾 05_1【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·144
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇬🇧 GB-212.102.53.197-0406
+      - ""
+      - 🇫🇷 FR-195.154.185.174-0334
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·57
+      - 🇨🇳 ·中国·TG@kkovokk·202
+      - 🇨🇳 ·中国·TG@kkovokk·190
+      - 🇨🇳 ·中国·TG@kkovokk·200
+      - 🇬🇧 GB-198.244.231.26-0356
+      - 🇺🇸 US-142.4.104.172-0118
+      - 🇨🇦 ·加拿大·TG@kkovokk·99
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - RELAY-104.24.177.7-1125
+      - 🇨🇳 ·中国·TG@kkovokk·34
+      - 🇺🇸 US-89.187.179.192-0213
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 ·中国·TG@kkovokk·68
+      - 🇯🇵 日本 ① |  V2
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 github.com/freefq - 香港阿里云 16
+      - 🇨🇳 ·中国·TG@kkovokk·201
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 ·中国·TG@kkovokk·25
+      - 🇨🇳 ·中国·TG@kkovokk·119
+      - 🇭🇰 github.com/freefq - 香港阿里云 12
+      - 🇨🇳 ·中国·TG@kkovokk·115
+      - 🇬🇧 GB-212.102.53.197-0412
+      - 🇨🇳 广东省 移动
+      - 🇬🇧 GB-212.102.53.193-1984
+      - 🇨🇳 台湾 | 解锁 | V2
+      - RELAY-104.16.68.38-0880
+      - CH-84.17.53.160-0366
+      - 🇭🇰 香港1|@ripaojiedian
+      - 🇬🇧 GB-198.244.252.93-0169
+      - 🇺🇸 US-198.2.244.24-0146
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 vip1 日本-08
+      - 🇻🇳 vip1 越南-02
+      - 🇨🇳 ·中国·TG@kkovokk·81
+      - 🇰🇷 首尔特殊|@ripaojiedian
+      - 🇺🇸 V0-IPV6-公益-美国接入点 02
+      - RELAY-104.18.212.12-1508
+      - 🇨🇳 ·中国·TG@kkovokk·111
+      - 🇨🇳 ·中国·TG@kkovokk·76
+      - 54.199.83.239:2333
+      - 🇨🇳 ·中国·TG@kkovokk·186
+      - 🇨🇳 ·中国·TG@kkovokk·86
+      - 🇺🇸 US-205.134.180.143-0325
+      - 🇫🇷 FR-51.158.54.208-2777
+      - 🇨🇳 ·中国·TG@kkovokk·204
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇫🇷 FR-51.159.221.231-0217
+      - 🇸🇬 SG-13.214.178.150-0496
+      - 🇺🇸 ·美国·TG@kkovokk·199
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 vip1 日本-01
+      - 🇵🇭 菲律宾
+      - 🇬🇧 vip1 英国-02
+      - 🇭🇰 JCBB_香港 06_1【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·146
+      - 🇨🇳 ·中国·TG@kkovokk·137
+      - 🇨🇳 ·中国·TG@kkovokk·114
+      - 🇨🇳 ·中国·TG@kkovokk·88
+      - 🇫🇷 FR-172.232.42.125-0357
+      - 🇨🇳 ·中国·TG@kkovokk·12
+      - 🇸🇬 vip1 新加坡-08
+      - 🇨🇳 ·中国·TG@kkovokk·214
+      - 🇨🇳 ·中国·TG@kkovokk·82
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇦 加拿大 | 解锁 | SS
+      - TG频道:@hkaa0▓中国
+      - 🇯🇵 日本②
+      - 🇨🇳 ·中国·TG@kkovokk·18
+      - 🇨🇳 ·中国·TG@kkovokk·29
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 ·中国·TG@kkovokk·204
-      - 🇨🇳 ·中国·TG@kkovokk·45
-      - 🇺🇸 美国 | 解锁 | V2
-      - 🇭🇰 香港 BPG②| 解锁 | V2
-      - RELAY-162.159.250.246-1055
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇭🇰 JCBB_香港03【vip1】
-      - RELAY-104.16.67.38-0110
-      - 🇨🇳 ·中国·TG@kkovokk·46
-      - 🇨🇳 ·中国·TG@kkovokk·80
-      - 🇨🇳 ·中国·TG@kkovokk·179
-      - 🇸🇬 V0-IPV6-公益-新加坡接入点 02
-      - 🇬🇧 vip1 英国-03
-      - 🇨🇳 湖南省 联通
-      - 🇨🇳 ·中国·TG@kkovokk·187
-      - 🇨🇳 ·中国·TG@kkovokk·38
       - 🇨🇳 ·中国·TG@kkovokk·159
-      - 🇸🇬 vip1 新加坡-08
-      - 🇹🇷 vip1 土耳其-01
-      - RELAY-104.21.76.121-0884
-      - 🇯🇵 日本 ② | 解锁 | SS
-      - 🇨🇦 ·加拿大·TG@kkovokk·166
-      - 🇨🇳 ·中国·TG@kkovokk·54
-      - 🇨🇳 ·中国·TG@kkovokk·134
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 ·中国·TG@kkovokk·127
-      - 🇨🇳 ·中国·TG@kkovokk·72
-      - 🇺🇸 ·美国·TG@kkovokk·13
-      - 🇨🇳 ·中国·TG@kkovokk·48
-      - 🇹🇷 土耳其 V2CROSS.COM
-      - 🇨🇦 ·加拿大·TG@kkovokk·109
-      - 🇨🇳 ·中国·TG@kkovokk·56
-      - 🇨🇳 ·中国·TG@kkovokk·33
-      - CZ-143.244.58.102-0386
-      - ""
-      - 🇰🇷 韩国 | 解锁 | V2
-      - 🇭🇰 香港 BGP② | 解锁 | SS
-      - 🇯🇵 日本③
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 ·中国·TG@kkovokk·43
-      - 🇺🇸 US-89.187.185.132-2552
-      - 🇬🇧 JCBB_ 英国03【vip1】
-      - 🇬🇧 GB-52.56.170.248-2134
-      - 🇸🇬 SG-13.250.182.129-0499
-      - RELAY-104.21.88.226-0180
-      - 🇺🇸 JCBB_美国05_1【vip1】
-      - 🇺🇸 TG频道:@hkaa0▓美国
-      - 🇯🇵 JP-54.238.146.55-0500
-      - 🇺🇸 美国 Xerox
-      - 🇺🇦 github.com/freefq - 乌克兰  10
-      - RELAY-104.31.16.3-0186
-      - 🇨🇳 CN-38.95.233.82-0332
-      - SE-37.19.222.212-0396
-      - 🇨🇳 JCBB_ 台湾 01【vip1】
-      - 🇸🇬 新加坡 ② | 解锁 | SS
-      - 🇸🇪 瑞典 Oracle Corporation
-      - 🇨🇳 ·中国·TG@kkovokk·10
-      - 🇨🇳 ·中国·TG@kkovokk·211
-      - 🇺🇸 美国 ① | 解锁 | SS
-      - 🇺🇸 TG频道:@hkaa0▓美国 2
-      - 🇨🇳 ·中国·TG@kkovokk·122
-      - SE-121.127.46.147-0220
-      - 🇺🇸 vip1 美国-02
-      - 🇯🇵 日本 ① | SS
-      - 🇬🇧 GB-212.102.53.195-0390
-      - TG频道:@hkaa0▓中国
-      - 🇨🇳 ·中国·TG@kkovokk·22
-      - RELAY-104.21.75.246-0079
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 13
-      - 🇬🇧 GB-198.244.228.191-0445
-      - 🇨🇳 ·中国·TG@kkovokk·208
-      - 🇨🇳 ·中国·TG@kkovokk·105
-      - 🇺🇸 V0-IPV6-公益-美国接入点 02
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇬🇧 _GB_英国
-      - 🇬🇧 vip1 英国-02
-      - 🇺🇸 US-45.77.167.137-0311
-      - 🇸🇬 SG-3.1.51.46-0503
-      - 🇧🇷 巴西 | SS
-      - RELAY-172.67.184.53-0751
-      - 🇨🇳 ·中国·TG@kkovokk·138
-      - TG频道:@hkaa0▓中国 2
-      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
-      - 🇨🇳 ·中国·TG@kkovokk·209
-      - 🇨🇳 ·中国·TG@kkovokk·172
-      - 🇬🇧 GB-198.244.252.93-0169
-      - 🇰🇷 TG频道:@hkaa0▓韩国
-      - 🇺🇸 US-205.134.180.143-0325
-      - RELAY-172.67.179.37-1038
-      - 🇭🇰 香港②
-      - 🇨🇳 ·中国·TG@kkovokk·62
-      - 🇺🇸 ·美国·TG@kkovokk·151
-      - 🇫🇷 FR-51.159.111.208-0337
-      - 🇸🇬 vip1 新加坡-07
-      - 🇭🇰 github.com/freefq - 香港阿里云 16
-      - 🇨🇳 ·中国·TG@kkovokk·129
-      - 🇯🇵 vip1 日本-07
-      - 🇭🇰 JCBB_香港01【vip1】
-      - 🇺🇸 US-198.2.244.24-0146
-      - 🇨🇳 ·中国·TG@kkovokk·123
+      - 🇺🇸 US-142.4.105.5-0114
+      - 🇩🇪 DE-3.71.92.131-0477
+      - RELAY-104.31.16.196-0778
+      - 🇺🇸 _US_美国
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
       - 🇰🇷 韩国特殊2|@ripaojiedian
-      - 🇮🇳 vip1 印度-01
+      - 🇨🇳 JCBB_ 台湾 05_1【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·144
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇬🇧 GB-212.102.53.197-0406
+      - ""
+      - 🇫🇷 FR-195.154.185.174-0334
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·57
+      - 🇨🇳 ·中国·TG@kkovokk·202
+      - 🇨🇳 ·中国·TG@kkovokk·190
+      - 🇨🇳 ·中国·TG@kkovokk·200
+      - 🇬🇧 GB-198.244.231.26-0356
+      - 🇺🇸 US-142.4.104.172-0118
+      - 🇨🇦 ·加拿大·TG@kkovokk·99
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - RELAY-104.24.177.7-1125
+      - 🇨🇳 ·中国·TG@kkovokk·34
+      - 🇺🇸 US-89.187.179.192-0213
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 ·中国·TG@kkovokk·68
+      - 🇯🇵 日本 ① |  V2
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 github.com/freefq - 香港阿里云 16
+      - 🇨🇳 ·中国·TG@kkovokk·201
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 ·中国·TG@kkovokk·25
+      - 🇨🇳 ·中国·TG@kkovokk·119
+      - 🇭🇰 github.com/freefq - 香港阿里云 12
+      - 🇨🇳 ·中国·TG@kkovokk·115
+      - 🇬🇧 GB-212.102.53.197-0412
+      - 🇨🇳 广东省 移动
+      - 🇬🇧 GB-212.102.53.193-1984
+      - 🇨🇳 台湾 | 解锁 | V2
+      - RELAY-104.16.68.38-0880
+      - CH-84.17.53.160-0366
+      - 🇭🇰 香港1|@ripaojiedian
+      - 🇬🇧 GB-198.244.252.93-0169
+      - 🇺🇸 US-198.2.244.24-0146
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 vip1 日本-08
+      - 🇻🇳 vip1 越南-02
+      - 🇨🇳 ·中国·TG@kkovokk·81
+      - 🇰🇷 首尔特殊|@ripaojiedian
+      - 🇺🇸 V0-IPV6-公益-美国接入点 02
+      - RELAY-104.18.212.12-1508
+      - 🇨🇳 ·中国·TG@kkovokk·111
+      - 🇨🇳 ·中国·TG@kkovokk·76
+      - 54.199.83.239:2333
+      - 🇨🇳 ·中国·TG@kkovokk·186
+      - 🇨🇳 ·中国·TG@kkovokk·86
+      - 🇺🇸 US-205.134.180.143-0325
+      - 🇫🇷 FR-51.158.54.208-2777
+      - 🇨🇳 ·中国·TG@kkovokk·204
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇫🇷 FR-51.159.221.231-0217
+      - 🇸🇬 SG-13.214.178.150-0496
+      - 🇺🇸 ·美国·TG@kkovokk·199
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 vip1 日本-01
+      - 🇵🇭 菲律宾
+      - 🇬🇧 vip1 英国-02
+      - 🇭🇰 JCBB_香港 06_1【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·146
+      - 🇨🇳 ·中国·TG@kkovokk·137
+      - 🇨🇳 ·中国·TG@kkovokk·114
+      - 🇨🇳 ·中国·TG@kkovokk·88
+      - 🇫🇷 FR-172.232.42.125-0357
+      - 🇨🇳 ·中国·TG@kkovokk·12
+      - 🇸🇬 vip1 新加坡-08
+      - 🇨🇳 ·中国·TG@kkovokk·214
+      - 🇨🇳 ·中国·TG@kkovokk·82
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇦 加拿大 | 解锁 | SS
+      - TG频道:@hkaa0▓中国
+      - 🇯🇵 日本②
+      - 🇨🇳 ·中国·TG@kkovokk·18
+      - 🇨🇳 ·中国·TG@kkovokk·29
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -450,108 +394,94 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 ·中国·TG@kkovokk·204
-      - 🇨🇳 ·中国·TG@kkovokk·45
-      - 🇺🇸 美国 | 解锁 | V2
-      - 🇭🇰 香港 BPG②| 解锁 | V2
-      - RELAY-162.159.250.246-1055
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
-      - 🇭🇰 JCBB_香港03【vip1】
-      - RELAY-104.16.67.38-0110
-      - 🇨🇳 ·中国·TG@kkovokk·46
-      - 🇨🇳 ·中国·TG@kkovokk·80
-      - 🇨🇳 ·中国·TG@kkovokk·179
-      - 🇸🇬 V0-IPV6-公益-新加坡接入点 02
-      - 🇬🇧 vip1 英国-03
-      - 🇨🇳 湖南省 联通
-      - 🇨🇳 ·中国·TG@kkovokk·187
-      - 🇨🇳 ·中国·TG@kkovokk·38
       - 🇨🇳 ·中国·TG@kkovokk·159
-      - 🇸🇬 vip1 新加坡-08
-      - 🇹🇷 vip1 土耳其-01
-      - RELAY-104.21.76.121-0884
-      - 🇯🇵 日本 ② | 解锁 | SS
-      - 🇨🇦 ·加拿大·TG@kkovokk·166
-      - 🇨🇳 ·中国·TG@kkovokk·54
-      - 🇨🇳 ·中国·TG@kkovokk·134
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇨🇳 ·中国·TG@kkovokk·127
-      - 🇨🇳 ·中国·TG@kkovokk·72
-      - 🇺🇸 ·美国·TG@kkovokk·13
-      - 🇨🇳 ·中国·TG@kkovokk·48
-      - 🇹🇷 土耳其 V2CROSS.COM
-      - 🇨🇦 ·加拿大·TG@kkovokk·109
-      - 🇨🇳 ·中国·TG@kkovokk·56
-      - 🇨🇳 ·中国·TG@kkovokk·33
-      - CZ-143.244.58.102-0386
-      - ""
-      - 🇰🇷 韩国 | 解锁 | V2
-      - 🇭🇰 香港 BGP② | 解锁 | SS
-      - 🇯🇵 日本③
-      - 🇺🇸 vip1 美国-07
-      - 🇨🇳 ·中国·TG@kkovokk·43
-      - 🇺🇸 US-89.187.185.132-2552
-      - 🇬🇧 JCBB_ 英国03【vip1】
-      - 🇬🇧 GB-52.56.170.248-2134
-      - 🇸🇬 SG-13.250.182.129-0499
-      - RELAY-104.21.88.226-0180
-      - 🇺🇸 JCBB_美国05_1【vip1】
-      - 🇺🇸 TG频道:@hkaa0▓美国
-      - 🇯🇵 JP-54.238.146.55-0500
-      - 🇺🇸 美国 Xerox
-      - 🇺🇦 github.com/freefq - 乌克兰  10
-      - RELAY-104.31.16.3-0186
-      - 🇨🇳 CN-38.95.233.82-0332
-      - SE-37.19.222.212-0396
-      - 🇨🇳 JCBB_ 台湾 01【vip1】
-      - 🇸🇬 新加坡 ② | 解锁 | SS
-      - 🇸🇪 瑞典 Oracle Corporation
-      - 🇨🇳 ·中国·TG@kkovokk·10
-      - 🇨🇳 ·中国·TG@kkovokk·211
-      - 🇺🇸 美国 ① | 解锁 | SS
-      - 🇺🇸 TG频道:@hkaa0▓美国 2
-      - 🇨🇳 ·中国·TG@kkovokk·122
-      - SE-121.127.46.147-0220
-      - 🇺🇸 vip1 美国-02
-      - 🇯🇵 日本 ① | SS
-      - 🇬🇧 GB-212.102.53.195-0390
-      - TG频道:@hkaa0▓中国
-      - 🇨🇳 ·中国·TG@kkovokk·22
-      - RELAY-104.21.75.246-0079
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 13
-      - 🇬🇧 GB-198.244.228.191-0445
-      - 🇨🇳 ·中国·TG@kkovokk·208
-      - 🇨🇳 ·中国·TG@kkovokk·105
-      - 🇺🇸 V0-IPV6-公益-美国接入点 02
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇬🇧 _GB_英国
-      - 🇬🇧 vip1 英国-02
-      - 🇺🇸 US-45.77.167.137-0311
-      - 🇸🇬 SG-3.1.51.46-0503
-      - 🇧🇷 巴西 | SS
-      - RELAY-172.67.184.53-0751
-      - 🇨🇳 ·中国·TG@kkovokk·138
-      - TG频道:@hkaa0▓中国 2
-      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
-      - 🇨🇳 ·中国·TG@kkovokk·209
-      - 🇨🇳 ·中国·TG@kkovokk·172
-      - 🇬🇧 GB-198.244.252.93-0169
-      - 🇰🇷 TG频道:@hkaa0▓韩国
-      - 🇺🇸 US-205.134.180.143-0325
-      - RELAY-172.67.179.37-1038
-      - 🇭🇰 香港②
-      - 🇨🇳 ·中国·TG@kkovokk·62
-      - 🇺🇸 ·美国·TG@kkovokk·151
-      - 🇫🇷 FR-51.159.111.208-0337
-      - 🇸🇬 vip1 新加坡-07
-      - 🇭🇰 github.com/freefq - 香港阿里云 16
-      - 🇨🇳 ·中国·TG@kkovokk·129
-      - 🇯🇵 vip1 日本-07
-      - 🇭🇰 JCBB_香港01【vip1】
-      - 🇺🇸 US-198.2.244.24-0146
-      - 🇨🇳 ·中国·TG@kkovokk·123
+      - 🇺🇸 US-142.4.105.5-0114
+      - 🇩🇪 DE-3.71.92.131-0477
+      - RELAY-104.31.16.196-0778
+      - 🇺🇸 _US_美国
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
       - 🇰🇷 韩国特殊2|@ripaojiedian
-      - 🇮🇳 vip1 印度-01
+      - 🇨🇳 JCBB_ 台湾 05_1【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·144
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇬🇧 GB-212.102.53.197-0406
+      - ""
+      - 🇫🇷 FR-195.154.185.174-0334
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·57
+      - 🇨🇳 ·中国·TG@kkovokk·202
+      - 🇨🇳 ·中国·TG@kkovokk·190
+      - 🇨🇳 ·中国·TG@kkovokk·200
+      - 🇬🇧 GB-198.244.231.26-0356
+      - 🇺🇸 US-142.4.104.172-0118
+      - 🇨🇦 ·加拿大·TG@kkovokk·99
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - RELAY-104.24.177.7-1125
+      - 🇨🇳 ·中国·TG@kkovokk·34
+      - 🇺🇸 US-89.187.179.192-0213
+      - 🇭🇰 香港5|@ripaojiedian
+      - 🇨🇳 ·中国·TG@kkovokk·68
+      - 🇯🇵 日本 ① |  V2
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 github.com/freefq - 香港阿里云 16
+      - 🇨🇳 ·中国·TG@kkovokk·201
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 ·中国·TG@kkovokk·25
+      - 🇨🇳 ·中国·TG@kkovokk·119
+      - 🇭🇰 github.com/freefq - 香港阿里云 12
+      - 🇨🇳 ·中国·TG@kkovokk·115
+      - 🇬🇧 GB-212.102.53.197-0412
+      - 🇨🇳 广东省 移动
+      - 🇬🇧 GB-212.102.53.193-1984
+      - 🇨🇳 台湾 | 解锁 | V2
+      - RELAY-104.16.68.38-0880
+      - CH-84.17.53.160-0366
+      - 🇭🇰 香港1|@ripaojiedian
+      - 🇬🇧 GB-198.244.252.93-0169
+      - 🇺🇸 US-198.2.244.24-0146
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇯🇵 vip1 日本-08
+      - 🇻🇳 vip1 越南-02
+      - 🇨🇳 ·中国·TG@kkovokk·81
+      - 🇰🇷 首尔特殊|@ripaojiedian
+      - 🇺🇸 V0-IPV6-公益-美国接入点 02
+      - RELAY-104.18.212.12-1508
+      - 🇨🇳 ·中国·TG@kkovokk·111
+      - 🇨🇳 ·中国·TG@kkovokk·76
+      - 54.199.83.239:2333
+      - 🇨🇳 ·中国·TG@kkovokk·186
+      - 🇨🇳 ·中国·TG@kkovokk·86
+      - 🇺🇸 US-205.134.180.143-0325
+      - 🇫🇷 FR-51.158.54.208-2777
+      - 🇨🇳 ·中国·TG@kkovokk·204
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇫🇷 FR-51.159.221.231-0217
+      - 🇸🇬 SG-13.214.178.150-0496
+      - 🇺🇸 ·美国·TG@kkovokk·199
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 vip1 日本-01
+      - 🇵🇭 菲律宾
+      - 🇬🇧 vip1 英国-02
+      - 🇭🇰 JCBB_香港 06_1【vip1】
+      - 🇨🇳 ·中国·TG@kkovokk·146
+      - 🇨🇳 ·中国·TG@kkovokk·137
+      - 🇨🇳 ·中国·TG@kkovokk·114
+      - 🇨🇳 ·中国·TG@kkovokk·88
+      - 🇫🇷 FR-172.232.42.125-0357
+      - 🇨🇳 ·中国·TG@kkovokk·12
+      - 🇸🇬 vip1 新加坡-08
+      - 🇨🇳 ·中国·TG@kkovokk·214
+      - 🇨🇳 ·中国·TG@kkovokk·82
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇦 加拿大 | 解锁 | SS
+      - TG频道:@hkaa0▓中国
+      - 🇯🇵 日本②
+      - 🇨🇳 ·中国·TG@kkovokk·18
+      - 🇨🇳 ·中国·TG@kkovokk·29
   - name: 📲 电报消息
     type: select
     proxies:
@@ -693,13 +623,8 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇺🇸 美国 | 解锁 | V2
-      - 🇭🇰 香港 BPG②| 解锁 | V2
-      - 🇯🇵 日本 ② | 解锁 | SS
-      - 🇰🇷 韩国 | 解锁 | V2
-      - 🇭🇰 香港 BGP② | 解锁 | SS
-      - 🇸🇬 新加坡 ② | 解锁 | SS
-      - 🇺🇸 美国 ① | 解锁 | SS
+      - 🇨🇳 台湾 | 解锁 | V2
+      - 🇨🇦 加拿大 | 解锁 | SS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -745,54 +670,51 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港 BPG②| 解锁 | V2
-      - 🇭🇰 JCBB_香港03【vip1】
-      - 🇭🇰 香港 BGP② | 解锁 | SS
-      - 🇭🇰 香港②
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 github.com/freefq - 香港阿里云 16
-      - 🇭🇰 JCBB_香港01【vip1】
+      - 🇭🇰 github.com/freefq - 香港阿里云 12
+      - 🇭🇰 香港1|@ripaojiedian
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 JCBB_香港 06_1【vip1】
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本 ② | 解锁 | SS
-      - 🇯🇵 日本③
-      - 🇯🇵 JP-54.238.146.55-0500
-      - 🇯🇵 日本 ① | SS
-      - 🇯🇵 vip1 日本-07
+      - 🇯🇵 日本 ① |  V2
+      - 🇯🇵 vip1 日本-08
+      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 vip1 日本-01
+      - 🇯🇵 日本②
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国 | 解锁 | V2
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 US-142.4.105.5-0114
+      - 🇺🇸 _US_美国
+      - 🇺🇸 US-142.4.104.172-0118
+      - 🇺🇸 US-89.187.179.192-0213
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 ·美国·TG@kkovokk·13
-      - 🇺🇸 vip1 美国-07
-      - 🇺🇸 US-89.187.185.132-2552
-      - 🇺🇸 JCBB_美国05_1【vip1】
-      - 🇺🇸 TG频道:@hkaa0▓美国
-      - 🇺🇸 美国 Xerox
-      - 🇺🇸 美国 ① | 解锁 | SS
-      - 🇺🇸 TG频道:@hkaa0▓美国 2
-      - 🇺🇸 vip1 美国-02
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 13
-      - 🇺🇸 V0-IPV6-公益-美国接入点 02
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 US-45.77.167.137-0311
-      - 🇺🇸 US-205.134.180.143-0325
-      - 🇺🇸 ·美国·TG@kkovokk·151
       - 🇺🇸 US-198.2.244.24-0146
+      - 🇺🇸 V0-IPV6-公益-美国接入点 02
+      - 🇺🇸 US-205.134.180.143-0325
+      - 🇺🇸 ·美国·TG@kkovokk·199
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
+      - 🇨🇳 JCBB_ 台湾 05_1【vip1】
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇨🇳 台湾 | 解锁 | V2
+      - 🇨🇳 台湾|@ripaojiedian
       - 🇨🇳 JCBB_ 台湾 01【vip1】
   - name: 🇸🇬 狮城节点
     type: url-test
@@ -800,32 +722,25 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 V0-IPV6-公益-新加坡接入点 02
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇸🇬 SG-13.214.178.150-0496
       - 🇸🇬 vip1 新加坡-08
-      - 🇸🇬 SG-13.250.182.129-0499
-      - 🇸🇬 新加坡 ② | 解锁 | SS
-      - 🇸🇬 SG-3.1.51.46-0503
-      - 🇸🇬 vip1 新加坡-07
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国 | 解锁 | V2
-      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
-      - 🇰🇷 TG频道:@hkaa0▓韩国
       - 🇰🇷 韩国特殊2|@ripaojiedian
+      - 🇰🇷 韩国 | IPLC深韩专线 | ×10x
+      - 🇰🇷 首尔特殊|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇺🇸 美国 | 解锁 | V2
-      - 🇭🇰 香港 BPG②| 解锁 | V2
-      - 🇯🇵 日本 ② | 解锁 | SS
-      - 🇰🇷 韩国 | 解锁 | V2
-      - 🇭🇰 香港 BGP② | 解锁 | SS
-      - 🇸🇬 新加坡 ② | 解锁 | SS
-      - 🇺🇸 美国 ① | 解锁 | SS
+      - 🇨🇳 台湾 | 解锁 | V2
+      - 🇨🇦 加拿大 | 解锁 | SS
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
