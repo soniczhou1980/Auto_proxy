@@ -5,183 +5,57 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 _CN_中国_899, server: falungong.19890604.day, port: 10823, type: trojan, password: 1465fe22-ccd5-483a-9584-c011c2e52387, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_581, server: tank.19890604.day, port: 10827, type: trojan, password: 33f86c8f-0360-4ca8-83a0-55a5b69577c7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_670, server: xijinping.19890604.day, port: 10812, type: trojan, password: a91d1655-d07f-4118-b63d-c7ca197f28c9, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇬🇧 GB-13.42.117.163-5592, server: jseyu.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 🇺🇸 US-38.75.136.21-10257, server: 38.75.136.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇳 _CN_中国_430, server: tiananmen.19890604.day, port: 10807, type: trojan, password: 6a150215-b5e2-4d6c-9f0b-d07a98c57444, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇫🇷 法国 巴黎Amazon数据中心, server: 35.181.178.176, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk}
-  - {name: 🇨🇳 _CN_中国_407, server: xibaozi.19890604.day, port: 10849, type: trojan, password: f63f5f79-67c1-4cb9-8887-0fd3ad76a46c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: xibaozi.19890604.day, port: 10847, type: trojan, password: a8c6bd90-e346-406b-beba-8f9d78f61df0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 US-167.88.61.175-0959, server: 167.88.61.175, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇳 _CN_中国_682, server: xijinping.19890604.day, port: 10814, type: trojan, password: 75f41a98-6b7c-4aad-9cd1-91714b75d350, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_186, server: xibaozi.19890604.day, port: 10847, type: trojan, password: aefccacc-d966-4cc7-b7af-91ce103dcd5c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_879, server: xibaozi.19890604.day, port: 10849, type: trojan, password: aefccacc-d966-4cc7-b7af-91ce103dcd5c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_832, server: xibaozi.19890604.day, port: 10836, type: trojan, password: 7a65ee4a-1997-4c15-9602-ec836a1f75e6, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 US-45.55.2.232-0815, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8}
-  - {name: 🇨🇳 _CN_中国_809, server: xijinping.19890604.day, port: 10816, type: trojan, password: 709fc28f-3246-48f3-a158-360fe014684f, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_272, server: tiananmen.19890604.day, port: 10808, type: trojan, password: f63f5f79-67c1-4cb9-8887-0fd3ad76a46c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_52, server: falungong.19890604.day, port: 10823, type: trojan, password: a18bbf75-7a77-4af9-a1e1-5beb9fce1a08, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇮🇪 _IE_爱尔兰, server: 34.247.125.249, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国_569, server: tank.19890604.day, port: 10828, type: trojan, password: f064dbb3-2abf-4960-b225-f3078f746e59, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: "🇭🇰 C香港SS_V4 [广州->香港|X1]", server: gz2btf.999333.xyz, port: 44349, type: ss, cipher: chacha20-ietf-poly1305, password: 888873cf-87db-4d79-b3aa-6e741377defa}
-  - {name: 🇫🇷 FR-51.159.111.208-0836, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 _CN_中国_586, server: tank.19890604.day, port: 10827, type: trojan, password: e88fd441-191e-4312-954d-f729c90cdac7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: RELAY-172.67.166.190-0136, server: www.crispyrainbow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}}
-  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 1.65.223.223, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
-  - {name: 🇨🇳 _CN_中国_524, server: tank.19890604.day, port: 10834, type: trojan, password: e88fd441-191e-4312-954d-f729c90cdac7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_428, server: xibaozi.19890604.day, port: 10849, type: trojan, password: 0bbb192b-70d1-4194-91cf-edabae70ce12, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_229, server: tiananmen.19890604.day, port: 10806, type: trojan, password: a91d1655-d07f-4118-b63d-c7ca197f28c9, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: "🇭🇰 D香港SS_V4 [沪/杭->香港|X1]", server: shbtf.999333.xyz, port: 36284, type: ss, cipher: chacha20-ietf-poly1305, password: 888873cf-87db-4d79-b3aa-6e741377defa}
-  - {name: 🇨🇳 _CN_中国_626, server: xibaozi.19890604.day, port: 10835, type: trojan, password: 232418fb-71c2-44e1-ad2f-26e2c301e2ea, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_162, server: xibaozi.19890604.day, port: 10847, type: trojan, password: 75f41a98-6b7c-4aad-9cd1-91714b75d350, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_559, server: tank.19890604.day, port: 10831, type: trojan, password: 33f86c8f-0360-4ca8-83a0-55a5b69577c7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 54.199.158.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 _CN_中国_265, server: tiananmen.19890604.day, port: 10808, type: trojan, password: f72084e5-f26f-4682-9eb5-ad523e6ed28b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_230, server: tiananmen.19890604.day, port: 10803, type: trojan, password: f63f5f79-67c1-4cb9-8887-0fd3ad76a46c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_199, server: xibaozi.19890604.day, port: 10849, type: trojan, password: 75f41a98-6b7c-4aad-9cd1-91714b75d350, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_314, server: falungong.19890604.day, port: 10820, type: trojan, password: bf94a876-e40c-49b0-8fbc-6e283c852015, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_256, server: tiananmen.19890604.day, port: 10807, type: trojan, password: a18bbf75-7a77-4af9-a1e1-5beb9fce1a08, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_109, server: xijinping.19890604.day, port: 10815, type: trojan, password: 1465fe22-ccd5-483a-9584-c011c2e52387, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_818, server: tiananmen.19890604.day, port: 10808, type: trojan, password: a18bbf75-7a77-4af9-a1e1-5beb9fce1a08, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_813, server: xijinping.19890604.day, port: 10816, type: trojan, password: 277fb0a8-7ca5-4280-9b7a-9e1f6ac85f70, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_259, server: tiananmen.19890604.day, port: 10802, type: trojan, password: 9b078fdc-9d52-4b48-88d3-689d22961812, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_389, server: tiananmen.19890604.day, port: 10801, type: trojan, password: 709fc28f-3246-48f3-a158-360fe014684f, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇦 加拿大 01 (cdn), server: cf-cdn.981545.xyz, port: 2052, type: vmess, uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index?ed=2048", headers: {Host: ca-cdncdn.syjd.xyz}}}
-  - {name: 🇨🇳 _CN_中国_839, server: xijinping.19890604.day, port: 10815, type: trojan, password: a8c6bd90-e346-406b-beba-8f9d78f61df0, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_934, server: xibaozi.19890604.day, port: 10839, type: trojan, password: f63f5f79-67c1-4cb9-8887-0fd3ad76a46c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇯🇵 日本1|@ripaojiedian, server: 103.20.198.51, port: 43713, type: vmess, uuid: 5d3a1ace-4288-4442-98f2-50ff8795797a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_424, server: xibaozi.19890604.day, port: 10849, type: trojan, password: a912c063-252d-4c4f-8944-1b3bd93bf9ba, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_641, server: xibaozi.19890604.day, port: 10835, type: trojan, password: abc86d70-2a53-4313-8808-8be6398a6f2f, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇫🇷 法国巴黎, server: cf-cdn.981545.xyz, port: 2082, type: vmess, uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index?ed=2048", headers: {Host: cffgbl.981545.xyz}}}
-  - {name: 🇨🇳 _CN_中国_553, server: tank.19890604.day, port: 10827, type: trojan, password: a91d1655-d07f-4118-b63d-c7ca197f28c9, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 104.18.15.148, port: 80, type: vmess, uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
-  - {name: 🇨🇳 _CN_中国_39, server: falungong.19890604.day, port: 10819, type: trojan, password: 4fb06f2a-b74e-4b8b-b586-2b0ddb301f3b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: xibaozi.19890604.day, port: 10850, type: trojan, password: a912c063-252d-4c4f-8944-1b3bd93bf9ba, sni: xibaozi.19890604.day, skip-cert-verify: true}
-  - {name: 🇨🇳 _CN_中国_817, server: xijinping.19890604.day, port: 10817, type: trojan, password: 75f41a98-6b7c-4aad-9cd1-91714b75d350, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  8, server: los16.ttddd.xyz, port: 443, type: trojan, password: 27876_t7d7f4e3f}
-  - {name: 🇨🇳 _CN_中国_761, server: xibaozi.19890604.day, port: 10841, type: trojan, password: e88fd441-191e-4312-954d-f729c90cdac7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_592, server: tank.19890604.day, port: 10831, type: trojan, password: fa251e70-2c7b-47a7-acca-16b39bcbc7fd, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇦 github.com/freefq - 乌克兰  4, server: be1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: be1-vmess.sshmax.xyz}}}
-  - {name: 🇨🇳 _CN_中国_26, server: falungong.19890604.day, port: 10819, type: trojan, password: 7a65ee4a-1997-4c15-9602-ec836a1f75e6, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_290, server: tiananmen.19890604.day, port: 10803, type: trojan, password: 709fc28f-3246-48f3-a158-360fe014684f, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: "🇯🇵 B日本SS_V4 [沪/杭->日/韩|X1]", server: shbtf.999333.xyz, port: 23709, type: ss, cipher: chacha20-ietf-poly1305, password: 888873cf-87db-4d79-b3aa-6e741377defa}
-  - {name: 🇰🇷 KR-125.141.26.10-0884, server: p228.panda004.net, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇨🇳 _CN_中国_318, server: tiananmen.19890604.day, port: 10803, type: trojan, password: f72084e5-f26f-4682-9eb5-ad523e6ed28b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_656, server: xijinping.19890604.day, port: 10815, type: trojan, password: f72084e5-f26f-4682-9eb5-ad523e6ed28b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: turkmenistan.ednovas.org, port: 443, type: vmess, uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_736, server: xijinping.19890604.day, port: 10815, type: trojan, password: 33f86c8f-0360-4ca8-83a0-55a5b69577c7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 TG频道:@hkaa0|美国, server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇳 _CN_中国_975, server: falungong.19890604.day, port: 10824, type: trojan, password: bf94a876-e40c-49b0-8fbc-6e283c852015, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_522, server: tank.19890604.day, port: 10827, type: trojan, password: a18bbf75-7a77-4af9-a1e1-5beb9fce1a08, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_182, server: xibaozi.19890604.day, port: 10847, type: trojan, password: 4fb06f2a-b74e-4b8b-b586-2b0ddb301f3b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_114, server: xijinping.19890604.day, port: 10814, type: trojan, password: e88fd441-191e-4312-954d-f729c90cdac7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_727, server: xijinping.19890604.day, port: 10812, type: trojan, password: f72084e5-f26f-4682-9eb5-ad523e6ed28b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_511, server: tank.19890604.day, port: 10834, type: trojan, password: a912c063-252d-4c4f-8944-1b3bd93bf9ba, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_876, server: xibaozi.19890604.day, port: 10836, type: trojan, password: 6a150215-b5e2-4d6c-9f0b-d07a98c57444, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_103, server: xibaozi.19890604.day, port: 10835, type: trojan, password: a8c6bd90-e346-406b-beba-8f9d78f61df0, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_434, server: xibaozi.19890604.day, port: 10850, type: trojan, password: 6a150215-b5e2-4d6c-9f0b-d07a98c57444}
-  - {name: 🇨🇳 _CN_中国_830, server: xijinping.19890604.day, port: 10811, type: trojan, password: 277fb0a8-7ca5-4280-9b7a-9e1f6ac85f70, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: VN-103.75.185.226-9473, server: bs5.loadingip.com, port: 80, type: vmess, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, alterId: 0, cipher: auto, tls: false, servername: bs5.loadingip.com, network: ws, ws-opts: {path: /, headers: {Host: bs5.loadingip.com}}}
-  - {name: 🇨🇳 _CN_中国_921, server: falungong.19890604.day, port: 10819, type: trojan, password: f63f5f79-67c1-4cb9-8887-0fd3ad76a46c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_483, server: tank.19890604.day, port: 10828, type: trojan, password: d22d2130-3602-40d5-aa72-41808b37f686, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_459, server: tank.19890604.day, port: 10828, type: trojan, password: 709fc28f-3246-48f3-a158-360fe014684f, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_930, server: falungong.19890604.day, port: 10826, type: trojan, password: 7a65ee4a-1997-4c15-9602-ec836a1f75e6, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 _US_美国, server: 104.18.154.42, port: 80, type: vmess, uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us3.visaapp.top}}}
-  - {name: 🇨🇳 _CN_中国_468, server: tank.19890604.day, port: 10829, type: trojan, password: 4fb06f2a-b74e-4b8b-b586-2b0ddb301f3b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇩🇪 德国|@ripaojiedian, server: 104.17.25.1, port: 80, type: vmess, uuid: 3d668cbe-5464-4a79-aab5-e301b4e0f169, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dg.catnipballs.gay}}}
-  - {name: 🇨🇳 _CN_中国_108, server: tank.19890604.day, port: 10829, type: trojan, password: bf94a876-e40c-49b0-8fbc-6e283c852015, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_354, server: tiananmen.19890604.day, port: 10804, type: trojan, password: fa251e70-2c7b-47a7-acca-16b39bcbc7fd, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_368, server: tiananmen.19890604.day, port: 10801, type: trojan, password: e88fd441-191e-4312-954d-f729c90cdac7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_737, server: xijinping.19890604.day, port: 10817, type: trojan, password: 9b078fdc-9d52-4b48-88d3-689d22961812, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: 101.89.154.94, port: 41082, type: vmess, uuid: 8c456efc-67d7-3190-8b75-5c879e133288, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in, headers: {Host: data-us-2.db-link01.top}}}
-  - {name: 🇸🇬 SG-128.199.128.214-0202, server: 128.199.128.214, port: 42338, type: vmess, uuid: 13e5d814-834b-473a-a87a-15459987f181, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 _CN_中国_909, server: falungong.19890604.day, port: 10825, type: trojan, password: a912c063-252d-4c4f-8944-1b3bd93bf9ba, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_772, server: xijinping.19890604.day, port: 10817, type: trojan, password: 277fb0a8-7ca5-4280-9b7a-9e1f6ac85f70, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_421, server: xibaozi.19890604.day, port: 10839, type: trojan, password: a91d1655-d07f-4118-b63d-c7ca197f28c9, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 _US_美国 2, server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}}
-  - {name: 🇨🇳 _CN_中国_36, server: falungong.19890604.day, port: 10821, type: trojan, password: 9b078fdc-9d52-4b48-88d3-689d22961812, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 US-169.197.141.186-0904, server: 169.197.141.186, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v#NSFP_LG_bJ}
-  - {name: 🇨🇳 _CN_中国_615, server: xibaozi.19890604.day, port: 10835, type: trojan, password: a91d1655-d07f-4118-b63d-c7ca197f28c9, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇭🇰 香港|@ripaojiedian, server: 185.214.103.249, port: 8002, type: vmess, uuid: 1405f400-4d72-3cd2-88fc-5bfb9dd9120d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-1.cn-db.top}}}
-  - {name: 🇨🇳 _CN_中国_536, server: tank.19890604.day, port: 10829, type: trojan, password: 709fc28f-3246-48f3-a158-360fe014684f, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_848, server: xijinping.19890604.day, port: 10817, type: trojan, password: 1465fe22-ccd5-483a-9584-c011c2e52387, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇯🇵 japan 01, server: jp.85413.xyz, port: 11112, type: vmess, uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_953, server: falungong.19890604.day, port: 10822, type: trojan, password: a91d1655-d07f-4118-b63d-c7ca197f28c9, sni: cloudflare.node-ssl.cdn-alibaba.com}
   - {name: "🇯🇵 A日本SS_V4 [沪/杭->日/韩|X1]", server: sh2btf.999333.xyz, port: 42325, type: ss, cipher: chacha20-ietf-poly1305, password: 888873cf-87db-4d79-b3aa-6e741377defa}
-  - {name: 🇺🇸 US-74.121.191.98-0921, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 _CN_中国_237, server: tiananmen.19890604.day, port: 10808, type: trojan, password: e88fd441-191e-4312-954d-f729c90cdac7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_933, server: falungong.19890604.day, port: 10822, type: trojan, password: 0bbb192b-70d1-4194-91cf-edabae70ce12, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇰🇷 【直连】首尔 - 2 - A Group, server: 00000000000000000000000000000000000000000000000000000000000028.agroup-node-for-bigairport.sbs, port: 38758, type: vmess, uuid: 843764ed-637a-4085-856e-72c507df3447, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_146, server: falungong.19890604.day, port: 10823, type: trojan, password: a8c6bd90-e346-406b-beba-8f9d78f61df0, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_196, server: xibaozi.19890604.day, port: 10847, type: trojan, password: 33f86c8f-0360-4ca8-83a0-55a5b69577c7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇬🇧 GB-13.42.117.163-0893, server: fast_2ray_telchannelll.fast2rayy.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 🇨🇳 _CN_中国_332, server: tiananmen.19890604.day, port: 10806, type: trojan, password: f72084e5-f26f-4682-9eb5-ad523e6ed28b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇦 乌克兰 V2CROSS.COM, server: 94.131.8.32, port: 8880, type: vmess, uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇨🇳 _CN_中国_475, server: xibaozi.19890604.day, port: 10847, type: trojan, password: a912c063-252d-4c4f-8944-1b3bd93bf9ba, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇦 乌克兰 V2CROSS.COM 2, server: 94.131.8.32, port: 2086, type: vmess, uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇨🇳 _CN_中国_260, server: tiananmen.19890604.day, port: 10802, type: trojan, password: a912c063-252d-4c4f-8944-1b3bd93bf9ba, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇳🇱 NL-95.179.186.161-9346, server: hdfy4s2d1.foriran.trade, port: 443, type: vmess, uuid: dfbbc8de-8a4f-407d-8069-6de38d83c4e1, alterId: 0, cipher: auto, tls: true, servername: hdfy4s2d1.foriran.trade, network: ws, ws-opts: {path: /, headers: {Host: hdfy4s2d1.foriran.trade}}}
-  - {name: 🇨🇳 _CN_中国_291, server: tiananmen.19890604.day, port: 10804, type: trojan, password: 9b078fdc-9d52-4b48-88d3-689d22961812, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_35, server: falungong.19890604.day, port: 10826, type: trojan, password: 9b078fdc-9d52-4b48-88d3-689d22961812, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_163, server: xibaozi.19890604.day, port: 10847, type: trojan, password: bf94a876-e40c-49b0-8fbc-6e283c852015, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_882, server: tiananmen.19890604.day, port: 10805, type: trojan, password: d22d2130-3602-40d5-aa72-41808b37f686, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_690, server: xijinping.19890604.day, port: 10817, type: trojan, password: e88fd441-191e-4312-954d-f729c90cdac7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_865, server: xibaozi.19890604.day, port: 10841, type: trojan, password: bf94a876-e40c-49b0-8fbc-6e283c852015, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_595, server: tank.19890604.day, port: 10829, type: trojan, password: a912c063-252d-4c4f-8944-1b3bd93bf9ba, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_497, server: tank.19890604.day, port: 10830, type: trojan, password: a91d1655-d07f-4118-b63d-c7ca197f28c9, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_445, server: tank.19890604.day, port: 10832, type: trojan, password: a8c6bd90-e346-406b-beba-8f9d78f61df0, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_700, server: xijinping.19890604.day, port: 10816, type: trojan, password: d22d2130-3602-40d5-aa72-41808b37f686, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_849, server: xijinping.19890604.day, port: 10818, type: trojan, password: e88fd441-191e-4312-954d-f729c90cdac7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_668, server: xibaozi.19890604.day, port: 10848, type: trojan, password: a8c6bd90-e346-406b-beba-8f9d78f61df0, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 【直连】下载专用 - 11, server: tls.91.node-for-bigairport.win, port: 443, type: vmess, uuid: 843764ed-637a-4085-856e-72c507df3447, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.91.node-for-bigairport.win}}}
-  - {name: 🇯🇵 JP-185.172.113.182-0939, server: 185.172.113.182, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 _CN_中国_636, server: xibaozi.19890604.day, port: 10847, type: trojan, password: 1465fe22-ccd5-483a-9584-c011c2e52387, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_125, server: xijinping.19890604.day, port: 10817, type: trojan, password: 232418fb-71c2-44e1-ad2f-26e2c301e2ea, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: 🇺🇸 _US_美国, server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}}
+  - {name: 🇦🇹 _CN_中国->🇦🇹_AT_奥地利, server: xibaozi.19890604.day, port: 10848, type: trojan, password: aefccacc-d966-4cc7-b7af-91ce103dcd5c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 US-38.75.136.135-10676, server: 38.75.136.135, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇸🇬 SG-103.172.116.103-5698, server: 103.172.116.103, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 8a4450df-74cc-4a57-a404-4b9558390043, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}}
+  - {name: 🇺🇸 _US_美国 2, server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}}
+  - {name: 🇸🇬 新加坡 DigitalOcean数据中心, server: 128.199.128.214, port: 42338, type: vmess, uuid: 13e5d814-834b-473a-a87a-15459987f181, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 Merit网络公司, server: 35.86.53.174, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
+  - {name: 🇺🇸 US-80.92.205.112-0917, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: RELAY-172.67.215.103-0141, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
   - {name: 🇰🇷 Korea 01, server: dx-kr.85413.xyz, port: 11113, type: vmess, uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG-103.172.116.103-9508, server: 103.172.116.103, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
-  - {name: 🇨🇳 _CN_中国_396, server: tiananmen.19890604.day, port: 10807, type: trojan, password: 9b078fdc-9d52-4b48-88d3-689d22961812, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇦 UA-5.188.6.8-0878, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 _CN_中国_98, server: tank.19890604.day, port: 10829, type: trojan, password: a91d1655-d07f-4118-b63d-c7ca197f28c9, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_609, server: tank.19890604.day, port: 10829, type: trojan, password: f72084e5-f26f-4682-9eb5-ad523e6ed28b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇸🇬 SG-103.172.116.103-9512, server: 103.172.116.103, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
-  - {name: SE-172.232.129.141-0871, server: masting.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: XlUFgoOqDlVqlZFD3Js0YA}
-  - {name: 🇨🇳 _CN_中国_970, server: falungong.19890604.day, port: 10824, type: trojan, password: f72084e5-f26f-4682-9eb5-ad523e6ed28b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_696, server: xijinping.19890604.day, port: 10818, type: trojan, password: 232418fb-71c2-44e1-ad2f-26e2c301e2ea, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇸🇬 SG-103.172.116.103-9511, server: 103.172.116.103, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
-  - {name: 🇨🇳 _CN_中国_254, server: tiananmen.19890604.day, port: 10806, type: trojan, password: aefccacc-d966-4cc7-b7af-91ce103dcd5c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_871, server: xibaozi.19890604.day, port: 10836, type: trojan, password: aefccacc-d966-4cc7-b7af-91ce103dcd5c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 _US_美国->🇮🇷_IR_伊朗, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
-  - {name: 🇨🇳 _CN_中国_371, server: gz.daxun.cyou, port: 26040, type: vmess, uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2, server: 162.159.200.4, port: 80, type: vmess, uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
-  - {name: 🇨🇳 _CN_中国_139, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 05cddebe-d62b-4662-87b6-33b67a21b255, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_752, server: tiananmen.19890604.day, port: 10804, type: trojan, password: aefccacc-d966-4cc7-b7af-91ce103dcd5c, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_652, server: xijinping.19890604.day, port: 10816, type: trojan, password: 33f86c8f-0360-4ca8-83a0-55a5b69577c7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_400, server: tiananmen.19890604.day, port: 10808, type: trojan, password: 709fc28f-3246-48f3-a158-360fe014684f, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_481, server: tank.19890604.day, port: 10834, type: trojan, password: a8c6bd90-e346-406b-beba-8f9d78f61df0, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_273, server: tiananmen.19890604.day, port: 10808, type: trojan, password: 75f41a98-6b7c-4aad-9cd1-91714b75d350, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: RELAY-172.67.198.187-1504, server: hms04.xmivideo.cfd, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: xmivideo.cfd}}}
-  - {name: 🇨🇳 _CN_中国_366, server: tiananmen.19890604.day, port: 10808, type: trojan, password: 7a65ee4a-1997-4c15-9602-ec836a1f75e6, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_600, server: tank.19890604.day, port: 10827, type: trojan, password: 1465fe22-ccd5-483a-9584-c011c2e52387, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇦🇪 迪拜, server: cf-cdn.981545.xyz, port: 2082, type: vmess, uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index?ed=2048", headers: {Host: cfdb.981545.xyz}}}
-  - {name: 🇨🇳 _CN_中国_23, server: falungong.19890604.day, port: 10824, type: trojan, password: abc86d70-2a53-4313-8808-8be6398a6f2f, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_355, server: 101.89.154.94, port: 41082, type: vmess, uuid: 8c456efc-67d7-3190-8b75-5c879e133288, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in, headers: {Host: data-us-2.db-link01.top}}}
-  - {name: 🇨🇳 _CN_中国_150, server: xijinping.19890604.day, port: 10818, type: trojan, password: 0bbb192b-70d1-4194-91cf-edabae70ce12, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3, server: 162.159.200.3, port: 80, type: vmess, uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
-  - {name: 🇨🇳 _CN_中国_345, server: tiananmen.19890604.day, port: 10806, type: trojan, password: a8c6bd90-e346-406b-beba-8f9d78f61df0, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_221, server: tiananmen.19890604.day, port: 10806, type: trojan, password: 709fc28f-3246-48f3-a158-360fe014684f, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_31, server: falungong.19890604.day, port: 10825, type: trojan, password: a18bbf75-7a77-4af9-a1e1-5beb9fce1a08, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇺🇸 US-167.88.61.175-10336, server: 167.88.61.175, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇳 _CN_中国_302, server: tiananmen.19890604.day, port: 10805, type: trojan, password: a912c063-252d-4c4f-8944-1b3bd93bf9ba, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_397, server: tiananmen.19890604.day, port: 10808, type: trojan, password: 05cddebe-d62b-4662-87b6-33b67a21b255, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_207, server: xijinping.19890604.day, port: 10811, type: trojan, password: 232418fb-71c2-44e1-ad2f-26e2c301e2ea, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_328, server: tiananmen.19890604.day, port: 10804, type: trojan, password: 1465fe22-ccd5-483a-9584-c011c2e52387, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_28, server: falungong.19890604.day, port: 10821, type: trojan, password: 05cddebe-d62b-4662-87b6-33b67a21b255, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_294, server: tiananmen.19890604.day, port: 10806, type: trojan, password: 4fb06f2a-b74e-4b8b-b586-2b0ddb301f3b, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_474, server: tank.19890604.day, port: 10834, type: trojan, password: fa251e70-2c7b-47a7-acca-16b39bcbc7fd, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_831, server: xijinping.19890604.day, port: 10815, type: trojan, password: e88fd441-191e-4312-954d-f729c90cdac7, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 🇨🇳 _CN_中国_541, server: tank.19890604.day, port: 10829, type: trojan, password: 9b078fdc-9d52-4b48-88d3-689d22961812, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: RELAY-104.17.255.183-5679, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 657140e4-fb53-4404-80b7-fcbac652671f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}}
+  - {name: 🇺🇸 USA 01, server: dx-us.85413.xyz, port: 11114, type: vmess, uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG-103.172.116.103-5720, server: 103.172.116.103, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
+  - {name: 🇺🇸 US-38.75.136.21-10493, server: 38.75.136.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: RELAY-188.114.96.3-0819, server: 188.114.96.3, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}}
+  - {name: 🇺🇸 US-38.75.137.71-9382, server: 38.75.137.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 US-38.75.136.135-10339, server: 38.75.136.135, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CY-213.169.137.221-0931, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 US-205.134.180.143-0816, server: 205.134.180.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: R9Xc4dHXGv3c}
+  - {name: "🇭🇰 A俄罗斯SS_V4 [沪/杭->香港|X1]", server: shbtf.999333.xyz, port: 26800, type: ss, cipher: chacha20-ietf-poly1305, password: 888873cf-87db-4d79-b3aa-6e741377defa}
+  - {name: AR-190.103.176.29-0912, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇬🇧 TG频道:@hkaa0|英国, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: 【直连】下载专用 - 13, server: tls.93.node-for-bigairport.win, port: 443, type: vmess, uuid: 843764ed-637a-4085-856e-72c507df3447, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.93.node-for-bigairport.win}}}
+  - {name: 🇬🇧 GB-212.102.53.80-0851, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇨🇳 github.com/freefq - 广东省广州市移动 17, server: service.ouluyun9803.com, port: 26666, type: ss, cipher: chacha20-ietf-poly1305, password: f665c5d0-77c0-4196-bc8d-f0450e9c665b}
+  - {name: TG频道:@hkaa0|中国, server: 112.28.208.10, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 3, server: www.crispyrainbow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}}
+  - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇬🇧 英国伦敦, server: cf-cdn.981545.xyz, port: 2082, type: vmess, uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index?ed=2048", headers: {Host: cfygld.981545.xyz}}}
+  - {name: 🇺🇸 【直连】美国西区 - 2 - A Group, server: 00000000000000000000000000000000000000000000000000000000000030.agroup-node-for-bigairport.sbs, port: 38750, type: vmess, uuid: 843764ed-637a-4085-856e-72c507df3447, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: xibaozi.19890604.day, port: 10850, type: trojan, password: a912c063-252d-4c4f-8944-1b3bd93bf9ba, sni: xibaozi.19890604.day, skip-cert-verify: true}
+  - {name: 🇪🇸 西班牙 V2CROSS.COM, server: 185.214.103.249, port: 8002, type: vmess, uuid: 1405f400-4d72-3cd2-88fc-5bfb9dd9120d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-1.cn-db.top}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: turkmenistan.ednovas.org, port: 443, type: vmess, uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736, alterId: 0, cipher: auto, tls: false}
+  - {name: RELAY-104.21.83.10-0199, server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: xibaozi.19890604.day, port: 10838, type: trojan, password: 3547bfda-1009-42d4-8319-b027ad049347, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
+  - {name: 🇬🇧 TG频道:@hkaa0|英国 2, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
+  - {name: 🇺🇸 US-38.75.137.9-10709, server: 38.75.137.9, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "🇭🇰 A香港SS_V4 [沪/杭->香港|X1]", server: sh2btf.999333.xyz, port: 39073, type: ss, cipher: chacha20-ietf-poly1305, password: 888873cf-87db-4d79-b3aa-6e741377defa}
+  - {name: 🇺🇦 github.com/freefq - 乌克兰  5, server: be1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: be1-vmess.sshmax.xyz}}}
+  - {name: 🇨🇦 _CA_加拿大, server: 108.181.2.154, port: 33445, type: vmess, uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦, server: 104.18.15.150, port: 80, type: vmess, uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}}
+  - {name: "🇰🇷 A韩国WS_V4 [沪/杭->韩国|天翼视讯免流X1]", server: sh2btf.999333.xyz, port: 18039, type: vmess, uuid: 888873cf-87db-4d79-b3aa-6e741377defa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wss, headers: {Host: h5.nty.tv189.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 162.159.200.4, port: 80, type: vmess, uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
+  - {name: 🇬🇧 GB-172.99.190.109-2244, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇬🇧 GB-13.42.117.163-0893, server: fast_2ray_telchannelll.fast2rayy.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
+  - {name: 🇺🇸 US-205.134.180.145-4525, server: 205.134.180.145, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hgLCgfLRgB6d}
+  - {name: 🇬🇧 GB-212.102.53.194-0280, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -200,549 +74,171 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇨🇳 _CN_中国_899
-      - 🇨🇳 _CN_中国_581
-      - 🇨🇳 _CN_中国_670
-      - 🇬🇧 GB-13.42.117.163-5592
-      - 🇺🇸 US-38.75.136.21-10257
-      - 🇨🇳 _CN_中国_430
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇳 _CN_中国_407
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 US-167.88.61.175-0959
-      - 🇨🇳 _CN_中国_682
-      - 🇨🇳 _CN_中国_186
-      - 🇨🇳 _CN_中国_879
-      - 🇨🇳 _CN_中国_832
-      - 🇺🇸 US-45.55.2.232-0815
-      - 🇨🇳 _CN_中国_809
-      - 🇨🇳 _CN_中国_272
-      - 🇨🇳 _CN_中国_52
-      - 🇮🇪 _IE_爱尔兰
-      - 🇨🇳 _CN_中国_569
-      - 🇭🇰 C香港SS_V4 [广州->香港|X1]
-      - 🇫🇷 FR-51.159.111.208-0836
-      - 🇨🇳 _CN_中国_586
-      - RELAY-172.67.166.190-0136
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇨🇳 _CN_中国_524
-      - 🇨🇳 _CN_中国_428
-      - 🇨🇳 _CN_中国_229
-      - 🇭🇰 D香港SS_V4 [沪/杭->香港|X1]
-      - 🇨🇳 _CN_中国_626
-      - 🇨🇳 _CN_中国_162
-      - 🇨🇳 _CN_中国_559
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 _CN_中国_265
-      - 🇨🇳 _CN_中国_230
-      - 🇨🇳 _CN_中国_199
-      - 🇨🇳 _CN_中国_314
-      - 🇨🇳 _CN_中国_256
-      - 🇨🇳 _CN_中国_109
-      - 🇨🇳 _CN_中国_818
-      - 🇨🇳 _CN_中国_813
-      - 🇨🇳 _CN_中国_259
-      - 🇨🇳 _CN_中国_389
-      - 🇨🇦 加拿大 01 (cdn)
-      - 🇨🇳 _CN_中国_839
-      - 🇨🇳 _CN_中国_934
-      - 🇯🇵 日本1|@ripaojiedian
-      - 🇨🇳 _CN_中国_424
-      - 🇨🇳 _CN_中国_641
-      - 🇫🇷 法国巴黎
-      - 🇨🇳 _CN_中国_553
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇳 _CN_中国_39
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 _CN_中国_817
-      - 🇺🇸 github.com/freefq - 北美地区  8
-      - 🇨🇳 _CN_中国_761
-      - 🇨🇳 _CN_中国_592
-      - 🇺🇦 github.com/freefq - 乌克兰  4
-      - 🇨🇳 _CN_中国_26
-      - 🇨🇳 _CN_中国_290
-      - 🇯🇵 B日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇰🇷 KR-125.141.26.10-0884
-      - 🇨🇳 _CN_中国_318
-      - 🇨🇳 _CN_中国_656
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 _CN_中国_736
-      - 🇺🇸 TG频道:@hkaa0|美国
-      - 🇨🇳 _CN_中国_975
-      - 🇨🇳 _CN_中国_522
-      - 🇨🇳 _CN_中国_182
-      - 🇨🇳 _CN_中国_114
-      - 🇨🇳 _CN_中国_727
-      - 🇨🇳 _CN_中国_511
-      - 🇨🇳 _CN_中国_876
-      - 🇨🇳 _CN_中国_103
-      - 🇨🇳 _CN_中国_434
-      - 🇨🇳 _CN_中国_830
-      - VN-103.75.185.226-9473
-      - 🇨🇳 _CN_中国_921
-      - 🇨🇳 _CN_中国_483
-      - 🇨🇳 _CN_中国_459
-      - 🇨🇳 _CN_中国_930
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国_468
-      - 🇩🇪 德国|@ripaojiedian
-      - 🇨🇳 _CN_中国_108
-      - 🇨🇳 _CN_中国_354
-      - 🇨🇳 _CN_中国_368
-      - 🇨🇳 _CN_中国_737
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
-      - 🇸🇬 SG-128.199.128.214-0202
-      - 🇨🇳 _CN_中国_909
-      - 🇨🇳 _CN_中国_772
-      - 🇨🇳 _CN_中国_421
-      - 🇺🇸 _US_美国 2
-      - 🇨🇳 _CN_中国_36
-      - 🇺🇸 US-169.197.141.186-0904
-      - 🇨🇳 _CN_中国_615
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 _CN_中国_536
-      - 🇨🇳 _CN_中国_848
-      - 🇯🇵 japan 01
-      - 🇨🇳 _CN_中国_953
       - 🇯🇵 A日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇺🇸 US-74.121.191.98-0921
-      - 🇨🇳 _CN_中国_237
-      - 🇨🇳 _CN_中国_933
-      - 🇰🇷 【直连】首尔 - 2 - A Group
-      - 🇨🇳 _CN_中国_146
-      - 🇨🇳 _CN_中国_196
-      - 🇬🇧 GB-13.42.117.163-0893
-      - 🇨🇳 _CN_中国_332
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇨🇳 _CN_中国_475
-      - 🇺🇦 乌克兰 V2CROSS.COM 2
-      - 🇨🇳 _CN_中国_260
-      - 🇳🇱 NL-95.179.186.161-9346
-      - 🇨🇳 _CN_中国_291
-      - 🇨🇳 _CN_中国_35
-      - 🇨🇳 _CN_中国_163
-      - 🇨🇳 _CN_中国_882
-      - 🇨🇳 _CN_中国_690
-      - 🇨🇳 _CN_中国_865
-      - 🇨🇳 _CN_中国_595
-      - 🇨🇳 _CN_中国_497
-      - 🇨🇳 _CN_中国_445
-      - 🇨🇳 _CN_中国_700
-      - 🇨🇳 _CN_中国_849
-      - 🇨🇳 _CN_中国_668
-      - 【直连】下载专用 - 11
-      - 🇯🇵 JP-185.172.113.182-0939
-      - 🇨🇳 _CN_中国_636
-      - 🇨🇳 _CN_中国_125
+      - 🇺🇸 _US_美国
+      - 🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 54.251.168.143:443
+      - 🇺🇸 US-38.75.136.135-10676
+      - 🇸🇬 SG-103.172.116.103-5698
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇺🇸 美国 Merit网络公司
+      - 🇺🇸 US-80.92.205.112-0917
+      - RELAY-172.67.215.103-0141
       - 🇰🇷 Korea 01
-      - 🇸🇬 SG-103.172.116.103-9508
-      - 🇨🇳 _CN_中国_396
-      - 🇺🇦 UA-5.188.6.8-0878
-      - 🇨🇳 _CN_中国_98
-      - 🇨🇳 _CN_中国_609
-      - 🇸🇬 SG-103.172.116.103-9512
-      - SE-172.232.129.141-0871
-      - 🇨🇳 _CN_中国_970
-      - 🇨🇳 _CN_中国_696
-      - 🇸🇬 SG-103.172.116.103-9511
-      - 🇨🇳 _CN_中国_254
-      - 🇨🇳 _CN_中国_871
-      - 🇺🇸 _US_美国->🇮🇷_IR_伊朗
-      - 🇨🇳 _CN_中国_371
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇨🇳 _CN_中国_139
-      - 🇨🇳 _CN_中国_752
-      - 🇨🇳 _CN_中国_652
-      - 🇨🇳 _CN_中国_400
-      - 🇨🇳 _CN_中国_481
-      - 🇨🇳 _CN_中国_273
-      - RELAY-172.67.198.187-1504
-      - 🇨🇳 _CN_中国_366
-      - 🇨🇳 _CN_中国_600
-      - 🇦🇪 迪拜
-      - 🇨🇳 _CN_中国_23
-      - 🇨🇳 _CN_中国_355
-      - 🇨🇳 _CN_中国_150
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇨🇳 _CN_中国_345
-      - 🇨🇳 _CN_中国_221
-      - 🇨🇳 _CN_中国_31
-      - 🇺🇸 US-167.88.61.175-10336
-      - 🇨🇳 _CN_中国_302
-      - 🇨🇳 _CN_中国_397
-      - 🇨🇳 _CN_中国_207
-      - 🇨🇳 _CN_中国_328
-      - 🇨🇳 _CN_中国_28
-      - 🇨🇳 _CN_中国_294
-      - 🇨🇳 _CN_中国_474
-      - 🇨🇳 _CN_中国_831
-      - 🇨🇳 _CN_中国_541
+      - RELAY-104.17.255.183-5679
+      - 🇺🇸 USA 01
+      - 🇸🇬 SG-103.172.116.103-5720
+      - 🇺🇸 US-38.75.136.21-10493
+      - RELAY-188.114.96.3-0819
+      - 🇺🇸 US-38.75.137.71-9382
+      - 🇺🇸 US-38.75.136.135-10339
+      - CY-213.169.137.221-0931
+      - 🇺🇸 US-205.134.180.143-0816
+      - 🇭🇰 A俄罗斯SS_V4 [沪/杭->香港|X1]
+      - AR-190.103.176.29-0912
+      - 🇬🇧 TG频道:@hkaa0|英国
+      - 【直连】下载专用 - 13
+      - 🇬🇧 GB-212.102.53.80-0851
+      - 🇨🇳 github.com/freefq - 广东省广州市移动 17
+      - TG频道:@hkaa0|中国
+      - 🇺🇸 _US_美国 3
+      - 13.213.46.196:443
+      - 🇬🇧 英国伦敦
+      - 🇺🇸 【直连】美国西区 - 2 - A Group
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM
+      - RELAY-104.21.83.10-0199
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇬🇧 TG频道:@hkaa0|英国 2
+      - 🇺🇸 US-38.75.137.9-10709
+      - 🇭🇰 A香港SS_V4 [沪/杭->香港|X1]
+      - 🇺🇦 github.com/freefq - 乌克兰  5
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇰🇷 A韩国WS_V4 [沪/杭->韩国|天翼视讯免流X1]
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇬🇧 GB-172.99.190.109-2244
+      - 🇬🇧 GB-13.42.117.163-0893
+      - ""
+      - 🇺🇸 US-205.134.180.145-4525
+      - 🇬🇧 GB-212.102.53.194-0280
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 _CN_中国_899
-      - 🇨🇳 _CN_中国_581
-      - 🇨🇳 _CN_中国_670
-      - 🇬🇧 GB-13.42.117.163-5592
-      - 🇺🇸 US-38.75.136.21-10257
-      - 🇨🇳 _CN_中国_430
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇳 _CN_中国_407
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 US-167.88.61.175-0959
-      - 🇨🇳 _CN_中国_682
-      - 🇨🇳 _CN_中国_186
-      - 🇨🇳 _CN_中国_879
-      - 🇨🇳 _CN_中国_832
-      - 🇺🇸 US-45.55.2.232-0815
-      - 🇨🇳 _CN_中国_809
-      - 🇨🇳 _CN_中国_272
-      - 🇨🇳 _CN_中国_52
-      - 🇮🇪 _IE_爱尔兰
-      - 🇨🇳 _CN_中国_569
-      - 🇭🇰 C香港SS_V4 [广州->香港|X1]
-      - 🇫🇷 FR-51.159.111.208-0836
-      - 🇨🇳 _CN_中国_586
-      - RELAY-172.67.166.190-0136
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇨🇳 _CN_中国_524
-      - 🇨🇳 _CN_中国_428
-      - 🇨🇳 _CN_中国_229
-      - 🇭🇰 D香港SS_V4 [沪/杭->香港|X1]
-      - 🇨🇳 _CN_中国_626
-      - 🇨🇳 _CN_中国_162
-      - 🇨🇳 _CN_中国_559
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 _CN_中国_265
-      - 🇨🇳 _CN_中国_230
-      - 🇨🇳 _CN_中国_199
-      - 🇨🇳 _CN_中国_314
-      - 🇨🇳 _CN_中国_256
-      - 🇨🇳 _CN_中国_109
-      - 🇨🇳 _CN_中国_818
-      - 🇨🇳 _CN_中国_813
-      - 🇨🇳 _CN_中国_259
-      - 🇨🇳 _CN_中国_389
-      - 🇨🇦 加拿大 01 (cdn)
-      - 🇨🇳 _CN_中国_839
-      - 🇨🇳 _CN_中国_934
-      - 🇯🇵 日本1|@ripaojiedian
-      - 🇨🇳 _CN_中国_424
-      - 🇨🇳 _CN_中国_641
-      - 🇫🇷 法国巴黎
-      - 🇨🇳 _CN_中国_553
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇳 _CN_中国_39
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 _CN_中国_817
-      - 🇺🇸 github.com/freefq - 北美地区  8
-      - 🇨🇳 _CN_中国_761
-      - 🇨🇳 _CN_中国_592
-      - 🇺🇦 github.com/freefq - 乌克兰  4
-      - 🇨🇳 _CN_中国_26
-      - 🇨🇳 _CN_中国_290
-      - 🇯🇵 B日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇰🇷 KR-125.141.26.10-0884
-      - 🇨🇳 _CN_中国_318
-      - 🇨🇳 _CN_中国_656
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 _CN_中国_736
-      - 🇺🇸 TG频道:@hkaa0|美国
-      - 🇨🇳 _CN_中国_975
-      - 🇨🇳 _CN_中国_522
-      - 🇨🇳 _CN_中国_182
-      - 🇨🇳 _CN_中国_114
-      - 🇨🇳 _CN_中国_727
-      - 🇨🇳 _CN_中国_511
-      - 🇨🇳 _CN_中国_876
-      - 🇨🇳 _CN_中国_103
-      - 🇨🇳 _CN_中国_434
-      - 🇨🇳 _CN_中国_830
-      - VN-103.75.185.226-9473
-      - 🇨🇳 _CN_中国_921
-      - 🇨🇳 _CN_中国_483
-      - 🇨🇳 _CN_中国_459
-      - 🇨🇳 _CN_中国_930
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国_468
-      - 🇩🇪 德国|@ripaojiedian
-      - 🇨🇳 _CN_中国_108
-      - 🇨🇳 _CN_中国_354
-      - 🇨🇳 _CN_中国_368
-      - 🇨🇳 _CN_中国_737
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
-      - 🇸🇬 SG-128.199.128.214-0202
-      - 🇨🇳 _CN_中国_909
-      - 🇨🇳 _CN_中国_772
-      - 🇨🇳 _CN_中国_421
-      - 🇺🇸 _US_美国 2
-      - 🇨🇳 _CN_中国_36
-      - 🇺🇸 US-169.197.141.186-0904
-      - 🇨🇳 _CN_中国_615
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 _CN_中国_536
-      - 🇨🇳 _CN_中国_848
-      - 🇯🇵 japan 01
-      - 🇨🇳 _CN_中国_953
       - 🇯🇵 A日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇺🇸 US-74.121.191.98-0921
-      - 🇨🇳 _CN_中国_237
-      - 🇨🇳 _CN_中国_933
-      - 🇰🇷 【直连】首尔 - 2 - A Group
-      - 🇨🇳 _CN_中国_146
-      - 🇨🇳 _CN_中国_196
-      - 🇬🇧 GB-13.42.117.163-0893
-      - 🇨🇳 _CN_中国_332
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇨🇳 _CN_中国_475
-      - 🇺🇦 乌克兰 V2CROSS.COM 2
-      - 🇨🇳 _CN_中国_260
-      - 🇳🇱 NL-95.179.186.161-9346
-      - 🇨🇳 _CN_中国_291
-      - 🇨🇳 _CN_中国_35
-      - 🇨🇳 _CN_中国_163
-      - 🇨🇳 _CN_中国_882
-      - 🇨🇳 _CN_中国_690
-      - 🇨🇳 _CN_中国_865
-      - 🇨🇳 _CN_中国_595
-      - 🇨🇳 _CN_中国_497
-      - 🇨🇳 _CN_中国_445
-      - 🇨🇳 _CN_中国_700
-      - 🇨🇳 _CN_中国_849
-      - 🇨🇳 _CN_中国_668
-      - 【直连】下载专用 - 11
-      - 🇯🇵 JP-185.172.113.182-0939
-      - 🇨🇳 _CN_中国_636
-      - 🇨🇳 _CN_中国_125
+      - 🇺🇸 _US_美国
+      - 🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 54.251.168.143:443
+      - 🇺🇸 US-38.75.136.135-10676
+      - 🇸🇬 SG-103.172.116.103-5698
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇺🇸 美国 Merit网络公司
+      - 🇺🇸 US-80.92.205.112-0917
+      - RELAY-172.67.215.103-0141
       - 🇰🇷 Korea 01
-      - 🇸🇬 SG-103.172.116.103-9508
-      - 🇨🇳 _CN_中国_396
-      - 🇺🇦 UA-5.188.6.8-0878
-      - 🇨🇳 _CN_中国_98
-      - 🇨🇳 _CN_中国_609
-      - 🇸🇬 SG-103.172.116.103-9512
-      - SE-172.232.129.141-0871
-      - 🇨🇳 _CN_中国_970
-      - 🇨🇳 _CN_中国_696
-      - 🇸🇬 SG-103.172.116.103-9511
-      - 🇨🇳 _CN_中国_254
-      - 🇨🇳 _CN_中国_871
-      - 🇺🇸 _US_美国->🇮🇷_IR_伊朗
-      - 🇨🇳 _CN_中国_371
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇨🇳 _CN_中国_139
-      - 🇨🇳 _CN_中国_752
-      - 🇨🇳 _CN_中国_652
-      - 🇨🇳 _CN_中国_400
-      - 🇨🇳 _CN_中国_481
-      - 🇨🇳 _CN_中国_273
-      - RELAY-172.67.198.187-1504
-      - 🇨🇳 _CN_中国_366
-      - 🇨🇳 _CN_中国_600
-      - 🇦🇪 迪拜
-      - 🇨🇳 _CN_中国_23
-      - 🇨🇳 _CN_中国_355
-      - 🇨🇳 _CN_中国_150
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇨🇳 _CN_中国_345
-      - 🇨🇳 _CN_中国_221
-      - 🇨🇳 _CN_中国_31
-      - 🇺🇸 US-167.88.61.175-10336
-      - 🇨🇳 _CN_中国_302
-      - 🇨🇳 _CN_中国_397
-      - 🇨🇳 _CN_中国_207
-      - 🇨🇳 _CN_中国_328
-      - 🇨🇳 _CN_中国_28
-      - 🇨🇳 _CN_中国_294
-      - 🇨🇳 _CN_中国_474
-      - 🇨🇳 _CN_中国_831
-      - 🇨🇳 _CN_中国_541
+      - RELAY-104.17.255.183-5679
+      - 🇺🇸 USA 01
+      - 🇸🇬 SG-103.172.116.103-5720
+      - 🇺🇸 US-38.75.136.21-10493
+      - RELAY-188.114.96.3-0819
+      - 🇺🇸 US-38.75.137.71-9382
+      - 🇺🇸 US-38.75.136.135-10339
+      - CY-213.169.137.221-0931
+      - 🇺🇸 US-205.134.180.143-0816
+      - 🇭🇰 A俄罗斯SS_V4 [沪/杭->香港|X1]
+      - AR-190.103.176.29-0912
+      - 🇬🇧 TG频道:@hkaa0|英国
+      - 【直连】下载专用 - 13
+      - 🇬🇧 GB-212.102.53.80-0851
+      - 🇨🇳 github.com/freefq - 广东省广州市移动 17
+      - TG频道:@hkaa0|中国
+      - 🇺🇸 _US_美国 3
+      - 13.213.46.196:443
+      - 🇬🇧 英国伦敦
+      - 🇺🇸 【直连】美国西区 - 2 - A Group
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM
+      - RELAY-104.21.83.10-0199
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇬🇧 TG频道:@hkaa0|英国 2
+      - 🇺🇸 US-38.75.137.9-10709
+      - 🇭🇰 A香港SS_V4 [沪/杭->香港|X1]
+      - 🇺🇦 github.com/freefq - 乌克兰  5
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇰🇷 A韩国WS_V4 [沪/杭->韩国|天翼视讯免流X1]
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇬🇧 GB-172.99.190.109-2244
+      - 🇬🇧 GB-13.42.117.163-0893
+      - ""
+      - 🇺🇸 US-205.134.180.145-4525
+      - 🇬🇧 GB-212.102.53.194-0280
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 _CN_中国_899
-      - 🇨🇳 _CN_中国_581
-      - 🇨🇳 _CN_中国_670
-      - 🇬🇧 GB-13.42.117.163-5592
-      - 🇺🇸 US-38.75.136.21-10257
-      - 🇨🇳 _CN_中国_430
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇳 _CN_中国_407
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 US-167.88.61.175-0959
-      - 🇨🇳 _CN_中国_682
-      - 🇨🇳 _CN_中国_186
-      - 🇨🇳 _CN_中国_879
-      - 🇨🇳 _CN_中国_832
-      - 🇺🇸 US-45.55.2.232-0815
-      - 🇨🇳 _CN_中国_809
-      - 🇨🇳 _CN_中国_272
-      - 🇨🇳 _CN_中国_52
-      - 🇮🇪 _IE_爱尔兰
-      - 🇨🇳 _CN_中国_569
-      - 🇭🇰 C香港SS_V4 [广州->香港|X1]
-      - 🇫🇷 FR-51.159.111.208-0836
-      - 🇨🇳 _CN_中国_586
-      - RELAY-172.67.166.190-0136
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇨🇳 _CN_中国_524
-      - 🇨🇳 _CN_中国_428
-      - 🇨🇳 _CN_中国_229
-      - 🇭🇰 D香港SS_V4 [沪/杭->香港|X1]
-      - 🇨🇳 _CN_中国_626
-      - 🇨🇳 _CN_中国_162
-      - 🇨🇳 _CN_中国_559
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 _CN_中国_265
-      - 🇨🇳 _CN_中国_230
-      - 🇨🇳 _CN_中国_199
-      - 🇨🇳 _CN_中国_314
-      - 🇨🇳 _CN_中国_256
-      - 🇨🇳 _CN_中国_109
-      - 🇨🇳 _CN_中国_818
-      - 🇨🇳 _CN_中国_813
-      - 🇨🇳 _CN_中国_259
-      - 🇨🇳 _CN_中国_389
-      - 🇨🇦 加拿大 01 (cdn)
-      - 🇨🇳 _CN_中国_839
-      - 🇨🇳 _CN_中国_934
-      - 🇯🇵 日本1|@ripaojiedian
-      - 🇨🇳 _CN_中国_424
-      - 🇨🇳 _CN_中国_641
-      - 🇫🇷 法国巴黎
-      - 🇨🇳 _CN_中国_553
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇳 _CN_中国_39
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 _CN_中国_817
-      - 🇺🇸 github.com/freefq - 北美地区  8
-      - 🇨🇳 _CN_中国_761
-      - 🇨🇳 _CN_中国_592
-      - 🇺🇦 github.com/freefq - 乌克兰  4
-      - 🇨🇳 _CN_中国_26
-      - 🇨🇳 _CN_中国_290
-      - 🇯🇵 B日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇰🇷 KR-125.141.26.10-0884
-      - 🇨🇳 _CN_中国_318
-      - 🇨🇳 _CN_中国_656
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 _CN_中国_736
-      - 🇺🇸 TG频道:@hkaa0|美国
-      - 🇨🇳 _CN_中国_975
-      - 🇨🇳 _CN_中国_522
-      - 🇨🇳 _CN_中国_182
-      - 🇨🇳 _CN_中国_114
-      - 🇨🇳 _CN_中国_727
-      - 🇨🇳 _CN_中国_511
-      - 🇨🇳 _CN_中国_876
-      - 🇨🇳 _CN_中国_103
-      - 🇨🇳 _CN_中国_434
-      - 🇨🇳 _CN_中国_830
-      - VN-103.75.185.226-9473
-      - 🇨🇳 _CN_中国_921
-      - 🇨🇳 _CN_中国_483
-      - 🇨🇳 _CN_中国_459
-      - 🇨🇳 _CN_中国_930
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国_468
-      - 🇩🇪 德国|@ripaojiedian
-      - 🇨🇳 _CN_中国_108
-      - 🇨🇳 _CN_中国_354
-      - 🇨🇳 _CN_中国_368
-      - 🇨🇳 _CN_中国_737
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
-      - 🇸🇬 SG-128.199.128.214-0202
-      - 🇨🇳 _CN_中国_909
-      - 🇨🇳 _CN_中国_772
-      - 🇨🇳 _CN_中国_421
-      - 🇺🇸 _US_美国 2
-      - 🇨🇳 _CN_中国_36
-      - 🇺🇸 US-169.197.141.186-0904
-      - 🇨🇳 _CN_中国_615
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 _CN_中国_536
-      - 🇨🇳 _CN_中国_848
-      - 🇯🇵 japan 01
-      - 🇨🇳 _CN_中国_953
       - 🇯🇵 A日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇺🇸 US-74.121.191.98-0921
-      - 🇨🇳 _CN_中国_237
-      - 🇨🇳 _CN_中国_933
-      - 🇰🇷 【直连】首尔 - 2 - A Group
-      - 🇨🇳 _CN_中国_146
-      - 🇨🇳 _CN_中国_196
-      - 🇬🇧 GB-13.42.117.163-0893
-      - 🇨🇳 _CN_中国_332
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇨🇳 _CN_中国_475
-      - 🇺🇦 乌克兰 V2CROSS.COM 2
-      - 🇨🇳 _CN_中国_260
-      - 🇳🇱 NL-95.179.186.161-9346
-      - 🇨🇳 _CN_中国_291
-      - 🇨🇳 _CN_中国_35
-      - 🇨🇳 _CN_中国_163
-      - 🇨🇳 _CN_中国_882
-      - 🇨🇳 _CN_中国_690
-      - 🇨🇳 _CN_中国_865
-      - 🇨🇳 _CN_中国_595
-      - 🇨🇳 _CN_中国_497
-      - 🇨🇳 _CN_中国_445
-      - 🇨🇳 _CN_中国_700
-      - 🇨🇳 _CN_中国_849
-      - 🇨🇳 _CN_中国_668
-      - 【直连】下载专用 - 11
-      - 🇯🇵 JP-185.172.113.182-0939
-      - 🇨🇳 _CN_中国_636
-      - 🇨🇳 _CN_中国_125
+      - 🇺🇸 _US_美国
+      - 🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 54.251.168.143:443
+      - 🇺🇸 US-38.75.136.135-10676
+      - 🇸🇬 SG-103.172.116.103-5698
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇺🇸 美国 Merit网络公司
+      - 🇺🇸 US-80.92.205.112-0917
+      - RELAY-172.67.215.103-0141
       - 🇰🇷 Korea 01
-      - 🇸🇬 SG-103.172.116.103-9508
-      - 🇨🇳 _CN_中国_396
-      - 🇺🇦 UA-5.188.6.8-0878
-      - 🇨🇳 _CN_中国_98
-      - 🇨🇳 _CN_中国_609
-      - 🇸🇬 SG-103.172.116.103-9512
-      - SE-172.232.129.141-0871
-      - 🇨🇳 _CN_中国_970
-      - 🇨🇳 _CN_中国_696
-      - 🇸🇬 SG-103.172.116.103-9511
-      - 🇨🇳 _CN_中国_254
-      - 🇨🇳 _CN_中国_871
-      - 🇺🇸 _US_美国->🇮🇷_IR_伊朗
-      - 🇨🇳 _CN_中国_371
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇨🇳 _CN_中国_139
-      - 🇨🇳 _CN_中国_752
-      - 🇨🇳 _CN_中国_652
-      - 🇨🇳 _CN_中国_400
-      - 🇨🇳 _CN_中国_481
-      - 🇨🇳 _CN_中国_273
-      - RELAY-172.67.198.187-1504
-      - 🇨🇳 _CN_中国_366
-      - 🇨🇳 _CN_中国_600
-      - 🇦🇪 迪拜
-      - 🇨🇳 _CN_中国_23
-      - 🇨🇳 _CN_中国_355
-      - 🇨🇳 _CN_中国_150
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇨🇳 _CN_中国_345
-      - 🇨🇳 _CN_中国_221
-      - 🇨🇳 _CN_中国_31
-      - 🇺🇸 US-167.88.61.175-10336
-      - 🇨🇳 _CN_中国_302
-      - 🇨🇳 _CN_中国_397
-      - 🇨🇳 _CN_中国_207
-      - 🇨🇳 _CN_中国_328
-      - 🇨🇳 _CN_中国_28
-      - 🇨🇳 _CN_中国_294
-      - 🇨🇳 _CN_中国_474
-      - 🇨🇳 _CN_中国_831
-      - 🇨🇳 _CN_中国_541
+      - RELAY-104.17.255.183-5679
+      - 🇺🇸 USA 01
+      - 🇸🇬 SG-103.172.116.103-5720
+      - 🇺🇸 US-38.75.136.21-10493
+      - RELAY-188.114.96.3-0819
+      - 🇺🇸 US-38.75.137.71-9382
+      - 🇺🇸 US-38.75.136.135-10339
+      - CY-213.169.137.221-0931
+      - 🇺🇸 US-205.134.180.143-0816
+      - 🇭🇰 A俄罗斯SS_V4 [沪/杭->香港|X1]
+      - AR-190.103.176.29-0912
+      - 🇬🇧 TG频道:@hkaa0|英国
+      - 【直连】下载专用 - 13
+      - 🇬🇧 GB-212.102.53.80-0851
+      - 🇨🇳 github.com/freefq - 广东省广州市移动 17
+      - TG频道:@hkaa0|中国
+      - 🇺🇸 _US_美国 3
+      - 13.213.46.196:443
+      - 🇬🇧 英国伦敦
+      - 🇺🇸 【直连】美国西区 - 2 - A Group
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM
+      - RELAY-104.21.83.10-0199
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇬🇧 TG频道:@hkaa0|英国 2
+      - 🇺🇸 US-38.75.137.9-10709
+      - 🇭🇰 A香港SS_V4 [沪/杭->香港|X1]
+      - 🇺🇦 github.com/freefq - 乌克兰  5
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇰🇷 A韩国WS_V4 [沪/杭->韩国|天翼视讯免流X1]
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇬🇧 GB-172.99.190.109-2244
+      - 🇬🇧 GB-13.42.117.163-0893
+      - ""
+      - 🇺🇸 US-205.134.180.145-4525
+      - 🇬🇧 GB-212.102.53.194-0280
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -750,183 +246,57 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 _CN_中国_899
-      - 🇨🇳 _CN_中国_581
-      - 🇨🇳 _CN_中国_670
-      - 🇬🇧 GB-13.42.117.163-5592
-      - 🇺🇸 US-38.75.136.21-10257
-      - 🇨🇳 _CN_中国_430
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 🇨🇳 _CN_中国_407
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 US-167.88.61.175-0959
-      - 🇨🇳 _CN_中国_682
-      - 🇨🇳 _CN_中国_186
-      - 🇨🇳 _CN_中国_879
-      - 🇨🇳 _CN_中国_832
-      - 🇺🇸 US-45.55.2.232-0815
-      - 🇨🇳 _CN_中国_809
-      - 🇨🇳 _CN_中国_272
-      - 🇨🇳 _CN_中国_52
-      - 🇮🇪 _IE_爱尔兰
-      - 🇨🇳 _CN_中国_569
-      - 🇭🇰 C香港SS_V4 [广州->香港|X1]
-      - 🇫🇷 FR-51.159.111.208-0836
-      - 🇨🇳 _CN_中国_586
-      - RELAY-172.67.166.190-0136
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇨🇳 _CN_中国_524
-      - 🇨🇳 _CN_中国_428
-      - 🇨🇳 _CN_中国_229
-      - 🇭🇰 D香港SS_V4 [沪/杭->香港|X1]
-      - 🇨🇳 _CN_中国_626
-      - 🇨🇳 _CN_中国_162
-      - 🇨🇳 _CN_中国_559
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 _CN_中国_265
-      - 🇨🇳 _CN_中国_230
-      - 🇨🇳 _CN_中国_199
-      - 🇨🇳 _CN_中国_314
-      - 🇨🇳 _CN_中国_256
-      - 🇨🇳 _CN_中国_109
-      - 🇨🇳 _CN_中国_818
-      - 🇨🇳 _CN_中国_813
-      - 🇨🇳 _CN_中国_259
-      - 🇨🇳 _CN_中国_389
-      - 🇨🇦 加拿大 01 (cdn)
-      - 🇨🇳 _CN_中国_839
-      - 🇨🇳 _CN_中国_934
-      - 🇯🇵 日本1|@ripaojiedian
-      - 🇨🇳 _CN_中国_424
-      - 🇨🇳 _CN_中国_641
-      - 🇫🇷 法国巴黎
-      - 🇨🇳 _CN_中国_553
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇨🇳 _CN_中国_39
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇨🇳 _CN_中国_817
-      - 🇺🇸 github.com/freefq - 北美地区  8
-      - 🇨🇳 _CN_中国_761
-      - 🇨🇳 _CN_中国_592
-      - 🇺🇦 github.com/freefq - 乌克兰  4
-      - 🇨🇳 _CN_中国_26
-      - 🇨🇳 _CN_中国_290
-      - 🇯🇵 B日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇰🇷 KR-125.141.26.10-0884
-      - 🇨🇳 _CN_中国_318
-      - 🇨🇳 _CN_中国_656
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇨🇳 _CN_中国_736
-      - 🇺🇸 TG频道:@hkaa0|美国
-      - 🇨🇳 _CN_中国_975
-      - 🇨🇳 _CN_中国_522
-      - 🇨🇳 _CN_中国_182
-      - 🇨🇳 _CN_中国_114
-      - 🇨🇳 _CN_中国_727
-      - 🇨🇳 _CN_中国_511
-      - 🇨🇳 _CN_中国_876
-      - 🇨🇳 _CN_中国_103
-      - 🇨🇳 _CN_中国_434
-      - 🇨🇳 _CN_中国_830
-      - VN-103.75.185.226-9473
-      - 🇨🇳 _CN_中国_921
-      - 🇨🇳 _CN_中国_483
-      - 🇨🇳 _CN_中国_459
-      - 🇨🇳 _CN_中国_930
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国_468
-      - 🇩🇪 德国|@ripaojiedian
-      - 🇨🇳 _CN_中国_108
-      - 🇨🇳 _CN_中国_354
-      - 🇨🇳 _CN_中国_368
-      - 🇨🇳 _CN_中国_737
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
-      - 🇸🇬 SG-128.199.128.214-0202
-      - 🇨🇳 _CN_中国_909
-      - 🇨🇳 _CN_中国_772
-      - 🇨🇳 _CN_中国_421
-      - 🇺🇸 _US_美国 2
-      - 🇨🇳 _CN_中国_36
-      - 🇺🇸 US-169.197.141.186-0904
-      - 🇨🇳 _CN_中国_615
-      - 🇭🇰 香港|@ripaojiedian
-      - 🇨🇳 _CN_中国_536
-      - 🇨🇳 _CN_中国_848
-      - 🇯🇵 japan 01
-      - 🇨🇳 _CN_中国_953
       - 🇯🇵 A日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇺🇸 US-74.121.191.98-0921
-      - 🇨🇳 _CN_中国_237
-      - 🇨🇳 _CN_中国_933
-      - 🇰🇷 【直连】首尔 - 2 - A Group
-      - 🇨🇳 _CN_中国_146
-      - 🇨🇳 _CN_中国_196
-      - 🇬🇧 GB-13.42.117.163-0893
-      - 🇨🇳 _CN_中国_332
-      - 🇺🇦 乌克兰 V2CROSS.COM
-      - 🇨🇳 _CN_中国_475
-      - 🇺🇦 乌克兰 V2CROSS.COM 2
-      - 🇨🇳 _CN_中国_260
-      - 🇳🇱 NL-95.179.186.161-9346
-      - 🇨🇳 _CN_中国_291
-      - 🇨🇳 _CN_中国_35
-      - 🇨🇳 _CN_中国_163
-      - 🇨🇳 _CN_中国_882
-      - 🇨🇳 _CN_中国_690
-      - 🇨🇳 _CN_中国_865
-      - 🇨🇳 _CN_中国_595
-      - 🇨🇳 _CN_中国_497
-      - 🇨🇳 _CN_中国_445
-      - 🇨🇳 _CN_中国_700
-      - 🇨🇳 _CN_中国_849
-      - 🇨🇳 _CN_中国_668
-      - 【直连】下载专用 - 11
-      - 🇯🇵 JP-185.172.113.182-0939
-      - 🇨🇳 _CN_中国_636
-      - 🇨🇳 _CN_中国_125
+      - 🇺🇸 _US_美国
+      - 🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 54.251.168.143:443
+      - 🇺🇸 US-38.75.136.135-10676
+      - 🇸🇬 SG-103.172.116.103-5698
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇺🇸 美国 Merit网络公司
+      - 🇺🇸 US-80.92.205.112-0917
+      - RELAY-172.67.215.103-0141
       - 🇰🇷 Korea 01
-      - 🇸🇬 SG-103.172.116.103-9508
-      - 🇨🇳 _CN_中国_396
-      - 🇺🇦 UA-5.188.6.8-0878
-      - 🇨🇳 _CN_中国_98
-      - 🇨🇳 _CN_中国_609
-      - 🇸🇬 SG-103.172.116.103-9512
-      - SE-172.232.129.141-0871
-      - 🇨🇳 _CN_中国_970
-      - 🇨🇳 _CN_中国_696
-      - 🇸🇬 SG-103.172.116.103-9511
-      - 🇨🇳 _CN_中国_254
-      - 🇨🇳 _CN_中国_871
-      - 🇺🇸 _US_美国->🇮🇷_IR_伊朗
-      - 🇨🇳 _CN_中国_371
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇨🇳 _CN_中国_139
-      - 🇨🇳 _CN_中国_752
-      - 🇨🇳 _CN_中国_652
-      - 🇨🇳 _CN_中国_400
-      - 🇨🇳 _CN_中国_481
-      - 🇨🇳 _CN_中国_273
-      - RELAY-172.67.198.187-1504
-      - 🇨🇳 _CN_中国_366
-      - 🇨🇳 _CN_中国_600
-      - 🇦🇪 迪拜
-      - 🇨🇳 _CN_中国_23
-      - 🇨🇳 _CN_中国_355
-      - 🇨🇳 _CN_中国_150
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇨🇳 _CN_中国_345
-      - 🇨🇳 _CN_中国_221
-      - 🇨🇳 _CN_中国_31
-      - 🇺🇸 US-167.88.61.175-10336
-      - 🇨🇳 _CN_中国_302
-      - 🇨🇳 _CN_中国_397
-      - 🇨🇳 _CN_中国_207
-      - 🇨🇳 _CN_中国_328
-      - 🇨🇳 _CN_中国_28
-      - 🇨🇳 _CN_中国_294
-      - 🇨🇳 _CN_中国_474
-      - 🇨🇳 _CN_中国_831
-      - 🇨🇳 _CN_中国_541
+      - RELAY-104.17.255.183-5679
+      - 🇺🇸 USA 01
+      - 🇸🇬 SG-103.172.116.103-5720
+      - 🇺🇸 US-38.75.136.21-10493
+      - RELAY-188.114.96.3-0819
+      - 🇺🇸 US-38.75.137.71-9382
+      - 🇺🇸 US-38.75.136.135-10339
+      - CY-213.169.137.221-0931
+      - 🇺🇸 US-205.134.180.143-0816
+      - 🇭🇰 A俄罗斯SS_V4 [沪/杭->香港|X1]
+      - AR-190.103.176.29-0912
+      - 🇬🇧 TG频道:@hkaa0|英国
+      - 【直连】下载专用 - 13
+      - 🇬🇧 GB-212.102.53.80-0851
+      - 🇨🇳 github.com/freefq - 广东省广州市移动 17
+      - TG频道:@hkaa0|中国
+      - 🇺🇸 _US_美国 3
+      - 13.213.46.196:443
+      - 🇬🇧 英国伦敦
+      - 🇺🇸 【直连】美国西区 - 2 - A Group
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇪🇸 西班牙 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM
+      - RELAY-104.21.83.10-0199
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇬🇧 TG频道:@hkaa0|英国 2
+      - 🇺🇸 US-38.75.137.9-10709
+      - 🇭🇰 A香港SS_V4 [沪/杭->香港|X1]
+      - 🇺🇦 github.com/freefq - 乌克兰  5
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇰🇷 A韩国WS_V4 [沪/杭->韩国|天翼视讯免流X1]
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇬🇧 GB-172.99.190.109-2244
+      - 🇬🇧 GB-13.42.117.163-0893
+      - ""
+      - 🇺🇸 US-205.134.180.145-4525
+      - 🇬🇧 GB-212.102.53.194-0280
   - name: 📲 电报消息
     type: select
     proxies:
@@ -1113,44 +483,40 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 C香港SS_V4 [广州->香港|X1]
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇭🇰 D香港SS_V4 [沪/杭->香港|X1]
-      - 🇭🇰 香港|@ripaojiedian
+      - 🇭🇰 A俄罗斯SS_V4 [沪/杭->香港|X1]
+      - 🇭🇰 A香港SS_V4 [沪/杭->香港|X1]
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本1|@ripaojiedian
-      - 🇯🇵 B日本SS_V4 [沪/杭->日/韩|X1]
       - 🇯🇵 A日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇯🇵 JP-185.172.113.182-0939
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 US-38.75.136.21-10257
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 US-167.88.61.175-0959
-      - 🇺🇸 US-45.55.2.232-0815
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇺🇸 github.com/freefq - 北美地区  8
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 TG频道:@hkaa0|美国
       - 🇺🇸 _US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇺🇸 US-38.75.136.135-10676
       - 🇺🇸 _US_美国 2
-      - 🇺🇸 US-169.197.141.186-0904
-      - 🇺🇸 US-74.121.191.98-0921
-      - 🇺🇸 _US_美国->🇮🇷_IR_伊朗
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 US-167.88.61.175-10336
+      - 🇺🇸 美国 Merit网络公司
+      - 🇺🇸 US-80.92.205.112-0917
+      - 🇺🇸 USA 01
+      - 🇺🇸 US-38.75.136.21-10493
+      - 🇺🇸 US-38.75.137.71-9382
+      - 🇺🇸 US-38.75.136.135-10339
+      - 🇺🇸 US-205.134.180.143-0816
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 【直连】美国西区 - 2 - A Group
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 US-38.75.137.9-10709
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 US-205.134.180.145-4525
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1164,22 +530,19 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇸🇬 SG-128.199.128.214-0202
-      - 🇸🇬 SG-103.172.116.103-9508
-      - 🇸🇬 SG-103.172.116.103-9512
-      - 🇸🇬 SG-103.172.116.103-9511
+      - 🇸🇬 SG-103.172.116.103-5698
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇸🇬 新加坡 DigitalOcean数据中心
+      - 🇸🇬 SG-103.172.116.103-5720
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 B日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇰🇷 KR-125.141.26.10-0884
       - 🇯🇵 A日本SS_V4 [沪/杭->日/韩|X1]
-      - 🇰🇷 【直连】首尔 - 2 - A Group
       - 🇰🇷 Korea 01
+      - 🇰🇷 A韩国WS_V4 [沪/杭->韩国|天翼视讯免流X1]
   - name: 🎥 奈飞节点
     type: select
     proxies:
