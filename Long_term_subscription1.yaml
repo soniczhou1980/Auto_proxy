@@ -5,110 +5,81 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 台湾 02|HiNet|台北市|1.0, server: 221.131.165.182, port: 19977, type: vmess, uuid: 796f2257-58f6-320b-9022-2655c256703e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda, headers: {Host: www.alidns.com}}}
-  - {name: 🇭🇰 Lil 香港09 | 倍率:1.6, server: sql.accessconnect.cc, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇺🇸 US-38.75.136.135-8978, server: 38.75.136.135, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇳 Large 台灣01 | 倍率:1.8, server: mysql.accessconnect.cc, port: 6501, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇨🇳 Large 台灣05 | 倍率:1.5, server: mysql.accessconnect.cc, port: 700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 104.21.238.94, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
-  - {name: 🇭🇰 Large 香港14 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇬🇧 GB-18.169.112.76-1049, server: v1.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg}
-  - {name: PA-138.186.142.4-1084, server: 138.186.142.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇦🇺 澳大利亚-广东专线 VUAU, server: lbhk.bnnodeservice.com, port: 32012, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇯🇵 Large 日本05 | 倍率:1.3, server: mysql.accessconnect.cc, port: 6305, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 54.220.129.173, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk}
-  - {name: 🇺🇸 Lil 美国10 | 倍率:1.3, server: sql.accessconnect.cc, port: 1159, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇺🇸 US-38.75.136.21-1145, server: 38.75.136.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇧🇷 巴西-广东专线 GCore 1, server: lbhk.bnnodeservice.com, port: 32016, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.77.164.171, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: 9a557d02-12ff-4da8-8669-1824cfdefe1f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/VDXcaM7r, headers: {Host: GWYp69Yujp2.yofnhkfc.xyz}}}
-  - {name: 🇭🇰 Large 香港24 | 倍率:1.6, server: mysql.accessconnect.cc, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇺🇸 US-38.68.134.9-1169, server: 38.68.134.9, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 US-38.68.134.9-7949, server: 38.68.134.9, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 Lil 美国08 | 倍率:1.3, server: sql.accessconnect.cc, port: 1157, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇭🇰 Large 香港23 | 倍率:1.6, server: mysql.accessconnect.cc, port: 3725, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
-  - {name: 🇮🇳 印度-上海专线 GCore, server: lbsh.bnnodeservice.com, port: 34024, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇬🇧 TG频道:@hkaa0|英国, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
-  - {name: 🇬🇧 Lil 英国2 | 倍率:1.3, server: sql.accessconnect.cc, port: 1602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇺🇸 Lil 美国11 | 倍率:2, server: sql.accessconnect.cc, port: 874, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇭🇰 Large 香港05 | 倍率:1.8, server: mysql.accessconnect.cc, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇭🇰 Large 香港07 | 倍率:1.8, server: mysql.accessconnect.cc, port: 6007, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
-  - {name: 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5, server: oracle.accessconnect.cc, port: 7003, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
-  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 12, server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: TR-45.89.52.66-1092, server: 45.89.52.66, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
-  - {name: 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1, server: oracle.accessconnect.cc, port: 1123, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 2, server: 104.21.231.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
-  - {name: 🇵🇭 菲律宾-广东专线 Comfac, server: lbhk.bnnodeservice.com, port: 32030, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇭🇰 Lil 香港07 | 倍率:1.5, server: sql.accessconnect.cc, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇭🇰 Large 香港16 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
-  - {name: 🇪🇸 ES-5.188.181.201-10060, server: 5.188.181.201, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr}
-  - {name: 🇨🇳 Large 台灣01 | 倍率:1.8 2, server: mysql.accessconnect.cc, port: 6501, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇩🇪 Lil 德国3 | 倍率:1.3, server: sql.accessconnect.cc, port: 2403, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5 2, server: oracle.accessconnect.cc, port: 7003, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇬🇧 Lil 英国1 | 倍率:1.6, server: sql.accessconnect.cc, port: 1601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇺🇸 US-38.75.136.135-9561, server: 38.75.136.135, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 US-38.75.136.21-8890, server: 38.75.136.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇦 UA-5.188.6.8-1072, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 US-38.54.104.184-0773, server: 38.54.104.184, port: 18808, type: ss, cipher: aes-256-gcm, password: wwq6Xo5gJ8}
-  - {name: 🇰🇷 Lil 韩国03 | 倍率:1.5, server: sql.accessconnect.cc, port: 2303, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇸🇬 Large 新加坡12 | 倍率:1.5, server: mysql.accessconnect.cc, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
-  - {name: 🇺🇸 US-167.88.61.175-1143, server: 167.88.61.175, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 3, server: 104.21.230.50, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
-  - {name: 🇺🇸 美国 01|NATOLAB|洛杉矶|1.0, server: 221.131.165.179, port: 18048, type: vmess, uuid: 796f2257-58f6-320b-9022-2655c256703e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda, headers: {Host: cn.bing.com}}}
-  - {name: 🇳🇱 NL-109.201.152.181-1052, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: RELAY-172.67.68.246-0302, server: 172.67.68.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: vip2323.cfd, network: ws, ws-opts: {path: /, headers: {Host: vip2323.cfd}}}
-  - {name: 🇺🇸 美国-广东专线 BGP 2, server: lbhk.bnnodeservice.com, port: 32028, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇭🇰 Super 香港07  | IEPL | 倍率:2.3, server: oracle.accessconnect.cc, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
-  - {name: RELAY-172.67.174.63-0242, server: nina.bond, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: nina.bond, network: ws, ws-opts: {path: /, headers: {Host: nina.bond}}}
-  - {name: 🇭🇰 Super 香港06  | IEPL | 倍率:2.5, server: oracle.accessconnect.cc, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇺🇸 _US_美国, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 4, server: 104.21.234.53, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 5, server: 104.21.225.79, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}}
-  - {name: 🇺🇦 _UA_乌克兰, server: 95.164.89.225, port: 38153, type: vmess, uuid: 70a694c8-ba65-4d1d-942d-4fc489da1b5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 Lil 日本02 | 倍率:1.3, server: sql.accessconnect.cc, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 158780:swf03t, obfs-param: 08494158780.www.gov.hk}
-  - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
-  - {name: 🇺🇸 US-38.75.137.9-1175, server: 38.75.137.9, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: PT-94.131.10.135-4314, server: 94.131.10.135, port: 80, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 94.131.10.135}}}
-  - {name: 🇺🇦 乌克兰-上海专线 Vik, server: lbsh.bnnodeservice.com, port: 34019, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20, server: oracle.accessconnect.cc, port: 520, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
-  - {name: 🇯🇵 日本 多线中继 01 1x, server: stream04.tdm-anime.moe, port: 19030, type: ss, cipher: aes-256-gcm, password: 1298b28e-4ac9-428e-9e24-02c689a2ff72}
-  - {name: 🇲🇾 马来西亚-上海专线 Shin, server: lbsh.bnnodeservice.com, port: 34038, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
-  - {name: 🇺🇸 US-38.75.136.21-1155, server: 38.75.136.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇯🇵 Lil 日本06 | 倍率:2, server: sql.accessconnect.cc, port: 1097, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇰🇷 韩国 02|한국|Amazon|首尔市|1.0, server: 221.131.165.179, port: 19086, type: vmess, uuid: 796f2257-58f6-320b-9022-2655c256703e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda, headers: {Host: china.bing123.com}}}
-  - {name: 🇺🇸 Large 美国04 | 倍率:1.5, server: mysql.accessconnect.cc, port: 1800, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
-  - {name: 🇯🇵 Large 日本04 | 倍率:1.3, server: mysql.accessconnect.cc, port: 6304, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇰🇷 韩国1|@ripaojiedian, server: service.ouluyun9803.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 2770a662-61db-40ed-a17c-783e521084ce}
-  - {name: 🇯🇵 Large 日本05 | 倍率:1.3 2, server: mysql.accessconnect.cc, port: 6305, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: RELAY-162.159.36.20-1769, server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mikasa.erenyeager.cloudns.biz}}}
-  - {name: 🇬🇧 TG频道:@hkaa0|英国 2, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 🇺🇸 US-38.75.136.135-8784, server: 38.75.136.135, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 13.213.46.196:443, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇬🇧 _GB_英国, server: 89.185.84.30, port: 20228, type: ss, cipher: chacha20-ietf-poly1305, password: QCT5IEwTgJilykO9sOs7VW}
-  - {name: 🇺🇸 US-167.88.61.175-2255, server: 167.88.61.175, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇭🇰 Large 香港16 | 倍率:1.6 2, server: mysql.accessconnect.cc, port: 6016, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇺🇸 US-38.75.136.21-1148, server: 38.75.136.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 _US_美国 2, server: 104.21.73.14, port: 8880, type: vmess, uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /adenc35.fixedlfoat.top/linkws, headers: {Host: yaghoob55freenodes.repaco69437403.workers.dev}}}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 6, server: 104.21.232.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
-  - {name: 🇭🇰 香港 04|HKT-WTT|沙田区|1.0, server: 183.236.48.151, port: 31492, type: vmess, uuid: 796f2257-58f6-320b-9022-2655c256703e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda, headers: {Host: cn.bing.com}}}
-  - {name: 🇨🇳 Lil 台湾05 | 倍率:1.3, server: sql.accessconnect.cc, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇸🇬 Large 新加坡06 | 倍率:1.5, server: mysql.accessconnect.cc, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
-  - {name: 🇭🇰 Lil 香港01 | 倍率:1.8, server: sql.accessconnect.cc, port: 2101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇭🇰 香港Test 海外用户直连, server: idc.wakuwakussl.com, port: 16790, type: vmess, uuid: 796f2257-58f6-320b-9022-2655c256703e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /soda, headers: {Host: cn.bing.com}}}
+  - {name: 🇺🇸 Large 美国02 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇨🇳 Large 台灣02 | 倍率:1.8, server: mysql.accessconnect.cc, port: 6502, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
+  - {name: 🇭🇰 香港KT2|@ripaojiedian, server: 42.2.118.117, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: 🇺🇸 US-38.75.136.135-1154, server: 38.75.136.135, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US-38.75.136.21-1197, server: 38.75.136.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32021, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇬🇧 GB-3.11.149.184-1047, server: jseyu.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: 🇺🇸 美国 麻省理工学院, server: 18.118.163.102, port: 15365, type: trojan, password: jpvq1Ezj2shD, sni: www.myethblog.com}
+  - {name: 54.251.168.143:443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 Large 美国03 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇬🇧 GB-18.169.112.76-1050, server: java.ct.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇺🇸 US-38.75.136.135-1151, server: 38.75.136.135, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇳 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20, server: oracle.accessconnect.cc, port: 11130, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
   - {name: BA-185.164.35.9-1080, server: 185.164.35.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 7, server: 104.21.226.14, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
-  - {name: 🇭🇰 Lil 香港09 | 倍率:1.6 2, server: sql.accessconnect.cc, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇰🇷 Large 韩国02 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇺🇸 US-38.75.136.135-1199, server: 38.75.136.135, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇭🇰 Large 香港24 | 倍率:1.6 2, server: mysql.accessconnect.cc, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: 🇨🇳 Lil 台湾02 | 倍率:1.3, server: sql.accessconnect.cc, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 106132:axh1215.., obfs-param: 0c34b106132.www.gov.hk}
-  - {name: VN-103.163.218.2-2117, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇪🇸 ES-5.188.181.201-2179, server: 5.188.181.201, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
-  - {name: 🇯🇵 _JP_日本->🇩🇪_DE_德国, server: 131.186.63.127, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}}
+  - {name: 🇺🇸 US-38.68.134.9-1169, server: 38.68.134.9, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国 Amazon EC2服务器, server: 3.71.40.8, port: 15383, type: trojan, password: Qu1XsH3WK8e1, sni: www.myethblog.com}
+  - {name: 🇯🇵 日本 多线中继 02 1x, server: stream04.tdm-anime.moe, port: 19031, type: ss, cipher: aes-256-gcm, password: 1298b28e-4ac9-428e-9e24-02c689a2ff72}
+  - {name: 🇯🇵 Super 日本02  | IEPL | 倍率:2, server: oracle.accessconnect.cc, port: 1129, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇺🇦 乌克兰-上海专线 Vik, server: lbsh.bnnodeservice.com, port: 34019, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇭🇰 Super 香港06  | IEPL | 倍率:2.5, server: oracle.accessconnect.cc, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇻🇳 TG频道:@hkaa0|越南, server: vn7.5gsieutocdo.com, port: 443, type: trojan, password: c95357eb-2869-4511-8940-f0dc5e1ec9b1, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: RELAY-172.67.229.25-4709, server: 14.vmessprotocol.telegram-vmessprotocol-channel.space, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca6.tehme100.fun}}}
+  - {name: 🇫🇷 法国-广东专线 BGP, server: lbhk.bnnodeservice.com, port: 32009, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇭🇰 Large 香港01 | 倍率:1.8, server: mysql.accessconnect.cc, port: 6001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 2, server: 104.21.228.24, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
+  - {name: 🇯🇵 TG频道:@hkaa0|日本, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: true}
+  - {name: 🇩🇪 TG频道:@hkaa0|德国, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-167.88.61.175-9087, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇭🇰 Super 香港08  | IEPL | 倍率:2.3, server: oracle.accessconnect.cc, port: 7008, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: RELAY-172.67.196.112-1763, server: kellie.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: kellie.makeup}}}
+  - {name: 🇸🇬 Large 新加坡08 | 倍率:1.5, server: mysql.accessconnect.cc, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇭🇰 Large 香港08 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇯🇵 JP-185.172.113.182-1104, server: 185.172.113.182, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇭🇰 Large 香港15 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6015, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 3, server: 104.21.237.65, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: lbhk.bnnodeservice.com, port: 32028, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: true}
+  - {name: 🇯🇵 日本-广东专线 GCore, server: lbhk.bnnodeservice.com, port: 32022, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇺🇸 US-74.121.191.98-2279, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: RELAY-104.21.83.208-4545, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: afrhms16v.bestxray.buzz}}}
+  - {name: 🇺🇸 US-38.75.136.135-1189, server: 38.75.136.135, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 US-38.75.136.21-1177, server: 38.75.136.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 4, server: 104.21.236.61, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
+  - {name: 🇭🇰 香港-广东专线 NeaRoute, server: lbhk.bnnodeservice.com, port: 32029, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇺🇸 US-167.88.61.175-1135, server: 167.88.61.175, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国-上海专线 BGP 2, server: lbsh.bnnodeservice.com, port: 34028, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇭🇰 Large 香港21 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇨🇳 Super 台湾04  | IEPL | 倍率:2.1, server: oracle.accessconnect.cc, port: 1131, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇺🇸 US-167.88.61.175-1138, server: 167.88.61.175, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
+  - {name: 🇳🇱 NL-185.242.86.156-1063, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 162.159.136.253, port: 8080, type: vmess, uuid: ade73e62-7554-40a8-9314-195a372bae28, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/7bFcoRZS?ed=2048", headers: {Host: xentain.kmoljklj.top}}}
-  - {name: 🇪🇸 ES-5.188.181.201-2178, server: 5.188.181.201, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
-  - {name: AZ-180.149.44.120-1081, server: 180.149.44.120, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 美国4|@ripaojiedian, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
+  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: fastly.alipay.ovh, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: 101.89.154.94, port: 19979, type: vmess, uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}}
+  - {name: 🇬🇧 GB-51.142.171.150-1064, server: 51.142.171.150, port: 49499, type: ss, cipher: chacha20-ietf-poly1305, password: kTjlLxrncKx4i2HIjxfA3M}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 5, server: 104.21.232.42, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
+  - {name: 🇵🇭 菲律宾-上海专线 Comfac, server: lbsh.bnnodeservice.com, port: 34030, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 多线中继 03 1x, server: stream04.tdm-anime.moe, port: 19012, type: ss, cipher: aes-256-gcm, password: 1298b28e-4ac9-428e-9e24-02c689a2ff72}
+  - {name: 🇺🇸 US-167.88.61.175-9237, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇭🇰 Large 香港13 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇭🇰 Large 香港03 | 倍率:1.8, server: mysql.accessconnect.cc, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 6, server: 104.21.230.52, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
+  - {name: 🇭🇰 Large 香港12 | 倍率:1.6, server: mysql.accessconnect.cc, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1, server: oracle.accessconnect.cc, port: 1123, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 215280:fpdbeJ, obfs-param: 70033215280.www.gov.hk}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 7, server: 104.21.225.175, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}}
+  - {name: 🇦🇷 阿根廷-上海专线 DonWeb, server: lbsh.bnnodeservice.com, port: 34015, type: trojan, password: d9ee78a4-ddf6-4650-979e-4eb2c72fd11d, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 8, server: 104.21.225.56, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}}
+  - {name: 🇺🇸 US-167.88.61.175-1181, server: 167.88.61.175, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇭🇰 香港 多线中继 01 1x, server: stream04.tdm-anime.moe, port: 19010, type: ss, cipher: aes-256-gcm, password: 1298b28e-4ac9-428e-9e24-02c689a2ff72}
+  - {name: RELAY-162.159.36.20-1769, server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mikasa.erenyeager.cloudns.biz}}}
+  - {name: PT-94.131.10.135-2965, server: 94.131.10.135, port: 2086, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 9, server: 104.21.239.97, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -127,330 +98,243 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇨🇳 台湾 02|HiNet|台北市|1.0
-      - 🇭🇰 Lil 香港09 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-8978
-      - 🇨🇳 Large 台灣01 | 倍率:1.8
-      - 🇨🇳 Large 台灣05 | 倍率:1.5
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇭🇰 Large 香港14 | 倍率:1.6
-      - 🇬🇧 GB-18.169.112.76-1049
-      - PA-138.186.142.4-1084
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇯🇵 Large 日本05 | 倍率:1.3
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 Lil 美国10 | 倍率:1.3
-      - 🇺🇸 US-38.75.136.21-1145
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 Large 香港24 | 倍率:1.6
-      - 🇺🇸 US-38.68.134.9-1169
-      - 🇺🇸 US-38.68.134.9-7949
-      - 🇺🇸 Lil 美国08 | 倍率:1.3
-      - 🇭🇰 Large 香港23 | 倍率:1.6
-      - 🇮🇳 印度-上海专线 GCore
-      - 🇬🇧 TG频道:@hkaa0|英国
-      - 🇬🇧 Lil 英国2 | 倍率:1.3
-      - 🇺🇸 Lil 美国11 | 倍率:2
-      - 🇭🇰 Large 香港05 | 倍率:1.8
-      - 🇭🇰 Large 香港07 | 倍率:1.8
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - TR-45.89.52.66-1092
-      - 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇭🇰 Lil 香港07 | 倍率:1.5
-      - 🇭🇰 Large 香港16 | 倍率:1.6
-      - 🇪🇸 ES-5.188.181.201-10060
-      - 🇨🇳 Large 台灣01 | 倍率:1.8 2
-      - 🇩🇪 Lil 德国3 | 倍率:1.3
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5 2
-      - 🇬🇧 Lil 英国1 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-9561
-      - 🇺🇸 US-38.75.136.21-8890
-      - 🇺🇦 UA-5.188.6.8-1072
-      - 🇺🇸 US-38.54.104.184-0773
-      - 🇰🇷 Lil 韩国03 | 倍率:1.5
-      - 🇸🇬 Large 新加坡12 | 倍率:1.5
-      - 🇺🇸 US-167.88.61.175-1143
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
-      - 🇺🇸 美国 01|NATOLAB|洛杉矶|1.0
-      - 🇳🇱 NL-109.201.152.181-1052
-      - RELAY-172.67.68.246-0302
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - RELAY-172.67.174.63-0242
-      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 4
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 5
-      - 🇺🇦 _UA_乌克兰
-      - 🇯🇵 Lil 日本02 | 倍率:1.3
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 US-38.75.137.9-1175
-      - PT-94.131.10.135-4314
-      - 🇺🇦 乌克兰-上海专线 Vik
-      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
-      - 🇯🇵 日本 多线中继 01 1x
-      - 🇲🇾 马来西亚-上海专线 Shin
-      - 🇺🇸 US-38.75.136.21-1155
-      - 🇯🇵 Lil 日本06 | 倍率:2
-      - 🇰🇷 韩国 02|한국|Amazon|首尔市|1.0
-      - 🇺🇸 Large 美国04 | 倍率:1.5
-      - 🇯🇵 Large 日本04 | 倍率:1.3
-      - 🇰🇷 韩国1|@ripaojiedian
-      - 🇯🇵 Large 日本05 | 倍率:1.3 2
-      - RELAY-162.159.36.20-1769
-      - 🇬🇧 TG频道:@hkaa0|英国 2
-      - 🇺🇸 US-38.75.136.135-8784
-      - 13.213.46.196:443
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 US-167.88.61.175-2255
-      - 🇭🇰 Large 香港16 | 倍率:1.6 2
-      - 🇺🇸 US-38.75.136.21-1148
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 6
-      - 🇭🇰 香港 04|HKT-WTT|沙田区|1.0
-      - 🇨🇳 Lil 台湾05 | 倍率:1.3
-      - 🇸🇬 Large 新加坡06 | 倍率:1.5
-      - 🇭🇰 Lil 香港01 | 倍率:1.8
-      - 🇭🇰 香港Test 海外用户直连
+      - 🇺🇸 Large 美国02 | 倍率:1.6
+      - 🇨🇳 Large 台灣02 | 倍率:1.8
+      - ""
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇺🇸 US-38.75.136.135-1154
+      - 🇺🇸 US-38.75.136.21-1197
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇬🇧 GB-3.11.149.184-1047
+      - 🇺🇸 美国 麻省理工学院
+      - 54.251.168.143:443
+      - 🇺🇸 Large 美国03 | 倍率:1.6
+      - 🇬🇧 GB-18.169.112.76-1050
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 US-38.75.136.135-1151
+      - 🇨🇳 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
       - BA-185.164.35.9-1080
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 7
-      - 🇭🇰 Lil 香港09 | 倍率:1.6 2
-      - 🇰🇷 Large 韩国02 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-1199
-      - 🇭🇰 Large 香港24 | 倍率:1.6 2
-      - 🇨🇳 Lil 台湾02 | 倍率:1.3
-      - VN-103.163.218.2-2117
-      - 🇪🇸 ES-5.188.181.201-2179
-      - 🇯🇵 _JP_日本->🇩🇪_DE_德国
+      - 🇺🇸 US-38.68.134.9-1169
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇯🇵 日本 多线中继 02 1x
+      - 🇯🇵 Super 日本02  | IEPL | 倍率:2
+      - 🇺🇦 乌克兰-上海专线 Vik
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇻🇳 TG频道:@hkaa0|越南
+      - RELAY-172.67.229.25-4709
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇭🇰 Large 香港01 | 倍率:1.8
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
+      - 🇯🇵 TG频道:@hkaa0|日本
+      - 🇩🇪 TG频道:@hkaa0|德国
+      - 🇺🇸 US-167.88.61.175-9087
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - RELAY-172.67.196.112-1763
+      - 🇸🇬 Large 新加坡08 | 倍率:1.5
+      - 🇭🇰 Large 香港08 | 倍率:1.6
+      - 🇯🇵 JP-185.172.113.182-1104
+      - 🇭🇰 Large 香港15 | 倍率:1.6
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇺🇸 US-74.121.191.98-2279
+      - RELAY-104.21.83.208-4545
+      - 🇺🇸 US-38.75.136.135-1189
+      - 🇺🇸 US-38.75.136.21-1177
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 4
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇺🇸 US-167.88.61.175-1135
+      - 🇺🇸 美国-上海专线 BGP 2
+      - 🇭🇰 Large 香港21 | 倍率:1.6
+      - 🇨🇳 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇺🇸 US-167.88.61.175-1138
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇳🇱 NL-185.242.86.156-1063
       - 🇺🇸 美国|@ripaojiedian
-      - 🇪🇸 ES-5.188.181.201-2178
-      - AZ-180.149.44.120-1081
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇪 瑞典 V2CROSS.COM
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇬🇧 GB-51.142.171.150-1064
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 5
+      - 🇵🇭 菲律宾-上海专线 Comfac
+      - 🇭🇰 香港 多线中继 03 1x
+      - 🇺🇸 US-167.88.61.175-9237
+      - 🇭🇰 Large 香港13 | 倍率:1.6
+      - 🇭🇰 Large 香港03 | 倍率:1.8
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 6
+      - 🇭🇰 Large 香港12 | 倍率:1.6
+      - 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 7
+      - 🇦🇷 阿根廷-上海专线 DonWeb
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 8
+      - 🇺🇸 US-167.88.61.175-1181
+      - 🇭🇰 香港 多线中继 01 1x
+      - RELAY-162.159.36.20-1769
+      - PT-94.131.10.135-2965
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾 02|HiNet|台北市|1.0
-      - 🇭🇰 Lil 香港09 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-8978
-      - 🇨🇳 Large 台灣01 | 倍率:1.8
-      - 🇨🇳 Large 台灣05 | 倍率:1.5
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇭🇰 Large 香港14 | 倍率:1.6
-      - 🇬🇧 GB-18.169.112.76-1049
-      - PA-138.186.142.4-1084
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇯🇵 Large 日本05 | 倍率:1.3
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 Lil 美国10 | 倍率:1.3
-      - 🇺🇸 US-38.75.136.21-1145
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 Large 香港24 | 倍率:1.6
-      - 🇺🇸 US-38.68.134.9-1169
-      - 🇺🇸 US-38.68.134.9-7949
-      - 🇺🇸 Lil 美国08 | 倍率:1.3
-      - 🇭🇰 Large 香港23 | 倍率:1.6
-      - 🇮🇳 印度-上海专线 GCore
-      - 🇬🇧 TG频道:@hkaa0|英国
-      - 🇬🇧 Lil 英国2 | 倍率:1.3
-      - 🇺🇸 Lil 美国11 | 倍率:2
-      - 🇭🇰 Large 香港05 | 倍率:1.8
-      - 🇭🇰 Large 香港07 | 倍率:1.8
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - TR-45.89.52.66-1092
-      - 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇭🇰 Lil 香港07 | 倍率:1.5
-      - 🇭🇰 Large 香港16 | 倍率:1.6
-      - 🇪🇸 ES-5.188.181.201-10060
-      - 🇨🇳 Large 台灣01 | 倍率:1.8 2
-      - 🇩🇪 Lil 德国3 | 倍率:1.3
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5 2
-      - 🇬🇧 Lil 英国1 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-9561
-      - 🇺🇸 US-38.75.136.21-8890
-      - 🇺🇦 UA-5.188.6.8-1072
-      - 🇺🇸 US-38.54.104.184-0773
-      - 🇰🇷 Lil 韩国03 | 倍率:1.5
-      - 🇸🇬 Large 新加坡12 | 倍率:1.5
-      - 🇺🇸 US-167.88.61.175-1143
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
-      - 🇺🇸 美国 01|NATOLAB|洛杉矶|1.0
-      - 🇳🇱 NL-109.201.152.181-1052
-      - RELAY-172.67.68.246-0302
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - RELAY-172.67.174.63-0242
-      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 4
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 5
-      - 🇺🇦 _UA_乌克兰
-      - 🇯🇵 Lil 日本02 | 倍率:1.3
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 US-38.75.137.9-1175
-      - PT-94.131.10.135-4314
-      - 🇺🇦 乌克兰-上海专线 Vik
-      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
-      - 🇯🇵 日本 多线中继 01 1x
-      - 🇲🇾 马来西亚-上海专线 Shin
-      - 🇺🇸 US-38.75.136.21-1155
-      - 🇯🇵 Lil 日本06 | 倍率:2
-      - 🇰🇷 韩国 02|한국|Amazon|首尔市|1.0
-      - 🇺🇸 Large 美国04 | 倍率:1.5
-      - 🇯🇵 Large 日本04 | 倍率:1.3
-      - 🇰🇷 韩国1|@ripaojiedian
-      - 🇯🇵 Large 日本05 | 倍率:1.3 2
-      - RELAY-162.159.36.20-1769
-      - 🇬🇧 TG频道:@hkaa0|英国 2
-      - 🇺🇸 US-38.75.136.135-8784
-      - 13.213.46.196:443
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 US-167.88.61.175-2255
-      - 🇭🇰 Large 香港16 | 倍率:1.6 2
-      - 🇺🇸 US-38.75.136.21-1148
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 6
-      - 🇭🇰 香港 04|HKT-WTT|沙田区|1.0
-      - 🇨🇳 Lil 台湾05 | 倍率:1.3
-      - 🇸🇬 Large 新加坡06 | 倍率:1.5
-      - 🇭🇰 Lil 香港01 | 倍率:1.8
-      - 🇭🇰 香港Test 海外用户直连
+      - 🇺🇸 Large 美国02 | 倍率:1.6
+      - 🇨🇳 Large 台灣02 | 倍率:1.8
+      - ""
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇺🇸 US-38.75.136.135-1154
+      - 🇺🇸 US-38.75.136.21-1197
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇬🇧 GB-3.11.149.184-1047
+      - 🇺🇸 美国 麻省理工学院
+      - 54.251.168.143:443
+      - 🇺🇸 Large 美国03 | 倍率:1.6
+      - 🇬🇧 GB-18.169.112.76-1050
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 US-38.75.136.135-1151
+      - 🇨🇳 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
       - BA-185.164.35.9-1080
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 7
-      - 🇭🇰 Lil 香港09 | 倍率:1.6 2
-      - 🇰🇷 Large 韩国02 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-1199
-      - 🇭🇰 Large 香港24 | 倍率:1.6 2
-      - 🇨🇳 Lil 台湾02 | 倍率:1.3
-      - VN-103.163.218.2-2117
-      - 🇪🇸 ES-5.188.181.201-2179
-      - 🇯🇵 _JP_日本->🇩🇪_DE_德国
+      - 🇺🇸 US-38.68.134.9-1169
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇯🇵 日本 多线中继 02 1x
+      - 🇯🇵 Super 日本02  | IEPL | 倍率:2
+      - 🇺🇦 乌克兰-上海专线 Vik
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇻🇳 TG频道:@hkaa0|越南
+      - RELAY-172.67.229.25-4709
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇭🇰 Large 香港01 | 倍率:1.8
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
+      - 🇯🇵 TG频道:@hkaa0|日本
+      - 🇩🇪 TG频道:@hkaa0|德国
+      - 🇺🇸 US-167.88.61.175-9087
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - RELAY-172.67.196.112-1763
+      - 🇸🇬 Large 新加坡08 | 倍率:1.5
+      - 🇭🇰 Large 香港08 | 倍率:1.6
+      - 🇯🇵 JP-185.172.113.182-1104
+      - 🇭🇰 Large 香港15 | 倍率:1.6
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇺🇸 US-74.121.191.98-2279
+      - RELAY-104.21.83.208-4545
+      - 🇺🇸 US-38.75.136.135-1189
+      - 🇺🇸 US-38.75.136.21-1177
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 4
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇺🇸 US-167.88.61.175-1135
+      - 🇺🇸 美国-上海专线 BGP 2
+      - 🇭🇰 Large 香港21 | 倍率:1.6
+      - 🇨🇳 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇺🇸 US-167.88.61.175-1138
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇳🇱 NL-185.242.86.156-1063
       - 🇺🇸 美国|@ripaojiedian
-      - 🇪🇸 ES-5.188.181.201-2178
-      - AZ-180.149.44.120-1081
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇪 瑞典 V2CROSS.COM
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇬🇧 GB-51.142.171.150-1064
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 5
+      - 🇵🇭 菲律宾-上海专线 Comfac
+      - 🇭🇰 香港 多线中继 03 1x
+      - 🇺🇸 US-167.88.61.175-9237
+      - 🇭🇰 Large 香港13 | 倍率:1.6
+      - 🇭🇰 Large 香港03 | 倍率:1.8
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 6
+      - 🇭🇰 Large 香港12 | 倍率:1.6
+      - 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 7
+      - 🇦🇷 阿根廷-上海专线 DonWeb
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 8
+      - 🇺🇸 US-167.88.61.175-1181
+      - 🇭🇰 香港 多线中继 01 1x
+      - RELAY-162.159.36.20-1769
+      - PT-94.131.10.135-2965
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 9
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾 02|HiNet|台北市|1.0
-      - 🇭🇰 Lil 香港09 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-8978
-      - 🇨🇳 Large 台灣01 | 倍率:1.8
-      - 🇨🇳 Large 台灣05 | 倍率:1.5
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇭🇰 Large 香港14 | 倍率:1.6
-      - 🇬🇧 GB-18.169.112.76-1049
-      - PA-138.186.142.4-1084
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇯🇵 Large 日本05 | 倍率:1.3
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 Lil 美国10 | 倍率:1.3
-      - 🇺🇸 US-38.75.136.21-1145
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 Large 香港24 | 倍率:1.6
-      - 🇺🇸 US-38.68.134.9-1169
-      - 🇺🇸 US-38.68.134.9-7949
-      - 🇺🇸 Lil 美国08 | 倍率:1.3
-      - 🇭🇰 Large 香港23 | 倍率:1.6
-      - 🇮🇳 印度-上海专线 GCore
-      - 🇬🇧 TG频道:@hkaa0|英国
-      - 🇬🇧 Lil 英国2 | 倍率:1.3
-      - 🇺🇸 Lil 美国11 | 倍率:2
-      - 🇭🇰 Large 香港05 | 倍率:1.8
-      - 🇭🇰 Large 香港07 | 倍率:1.8
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - TR-45.89.52.66-1092
-      - 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇭🇰 Lil 香港07 | 倍率:1.5
-      - 🇭🇰 Large 香港16 | 倍率:1.6
-      - 🇪🇸 ES-5.188.181.201-10060
-      - 🇨🇳 Large 台灣01 | 倍率:1.8 2
-      - 🇩🇪 Lil 德国3 | 倍率:1.3
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5 2
-      - 🇬🇧 Lil 英国1 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-9561
-      - 🇺🇸 US-38.75.136.21-8890
-      - 🇺🇦 UA-5.188.6.8-1072
-      - 🇺🇸 US-38.54.104.184-0773
-      - 🇰🇷 Lil 韩国03 | 倍率:1.5
-      - 🇸🇬 Large 新加坡12 | 倍率:1.5
-      - 🇺🇸 US-167.88.61.175-1143
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
-      - 🇺🇸 美国 01|NATOLAB|洛杉矶|1.0
-      - 🇳🇱 NL-109.201.152.181-1052
-      - RELAY-172.67.68.246-0302
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - RELAY-172.67.174.63-0242
-      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 4
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 5
-      - 🇺🇦 _UA_乌克兰
-      - 🇯🇵 Lil 日本02 | 倍率:1.3
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 US-38.75.137.9-1175
-      - PT-94.131.10.135-4314
-      - 🇺🇦 乌克兰-上海专线 Vik
-      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
-      - 🇯🇵 日本 多线中继 01 1x
-      - 🇲🇾 马来西亚-上海专线 Shin
-      - 🇺🇸 US-38.75.136.21-1155
-      - 🇯🇵 Lil 日本06 | 倍率:2
-      - 🇰🇷 韩国 02|한국|Amazon|首尔市|1.0
-      - 🇺🇸 Large 美国04 | 倍率:1.5
-      - 🇯🇵 Large 日本04 | 倍率:1.3
-      - 🇰🇷 韩国1|@ripaojiedian
-      - 🇯🇵 Large 日本05 | 倍率:1.3 2
-      - RELAY-162.159.36.20-1769
-      - 🇬🇧 TG频道:@hkaa0|英国 2
-      - 🇺🇸 US-38.75.136.135-8784
-      - 13.213.46.196:443
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 US-167.88.61.175-2255
-      - 🇭🇰 Large 香港16 | 倍率:1.6 2
-      - 🇺🇸 US-38.75.136.21-1148
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 6
-      - 🇭🇰 香港 04|HKT-WTT|沙田区|1.0
-      - 🇨🇳 Lil 台湾05 | 倍率:1.3
-      - 🇸🇬 Large 新加坡06 | 倍率:1.5
-      - 🇭🇰 Lil 香港01 | 倍率:1.8
-      - 🇭🇰 香港Test 海外用户直连
+      - 🇺🇸 Large 美国02 | 倍率:1.6
+      - 🇨🇳 Large 台灣02 | 倍率:1.8
+      - ""
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇺🇸 US-38.75.136.135-1154
+      - 🇺🇸 US-38.75.136.21-1197
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇬🇧 GB-3.11.149.184-1047
+      - 🇺🇸 美国 麻省理工学院
+      - 54.251.168.143:443
+      - 🇺🇸 Large 美国03 | 倍率:1.6
+      - 🇬🇧 GB-18.169.112.76-1050
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 US-38.75.136.135-1151
+      - 🇨🇳 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
       - BA-185.164.35.9-1080
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 7
-      - 🇭🇰 Lil 香港09 | 倍率:1.6 2
-      - 🇰🇷 Large 韩国02 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-1199
-      - 🇭🇰 Large 香港24 | 倍率:1.6 2
-      - 🇨🇳 Lil 台湾02 | 倍率:1.3
-      - VN-103.163.218.2-2117
-      - 🇪🇸 ES-5.188.181.201-2179
-      - 🇯🇵 _JP_日本->🇩🇪_DE_德国
+      - 🇺🇸 US-38.68.134.9-1169
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇯🇵 日本 多线中继 02 1x
+      - 🇯🇵 Super 日本02  | IEPL | 倍率:2
+      - 🇺🇦 乌克兰-上海专线 Vik
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇻🇳 TG频道:@hkaa0|越南
+      - RELAY-172.67.229.25-4709
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇭🇰 Large 香港01 | 倍率:1.8
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
+      - 🇯🇵 TG频道:@hkaa0|日本
+      - 🇩🇪 TG频道:@hkaa0|德国
+      - 🇺🇸 US-167.88.61.175-9087
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - RELAY-172.67.196.112-1763
+      - 🇸🇬 Large 新加坡08 | 倍率:1.5
+      - 🇭🇰 Large 香港08 | 倍率:1.6
+      - 🇯🇵 JP-185.172.113.182-1104
+      - 🇭🇰 Large 香港15 | 倍率:1.6
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇺🇸 US-74.121.191.98-2279
+      - RELAY-104.21.83.208-4545
+      - 🇺🇸 US-38.75.136.135-1189
+      - 🇺🇸 US-38.75.136.21-1177
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 4
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇺🇸 US-167.88.61.175-1135
+      - 🇺🇸 美国-上海专线 BGP 2
+      - 🇭🇰 Large 香港21 | 倍率:1.6
+      - 🇨🇳 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇺🇸 US-167.88.61.175-1138
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇳🇱 NL-185.242.86.156-1063
       - 🇺🇸 美国|@ripaojiedian
-      - 🇪🇸 ES-5.188.181.201-2178
-      - AZ-180.149.44.120-1081
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇪 瑞典 V2CROSS.COM
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇬🇧 GB-51.142.171.150-1064
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 5
+      - 🇵🇭 菲律宾-上海专线 Comfac
+      - 🇭🇰 香港 多线中继 03 1x
+      - 🇺🇸 US-167.88.61.175-9237
+      - 🇭🇰 Large 香港13 | 倍率:1.6
+      - 🇭🇰 Large 香港03 | 倍率:1.8
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 6
+      - 🇭🇰 Large 香港12 | 倍率:1.6
+      - 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 7
+      - 🇦🇷 阿根廷-上海专线 DonWeb
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 8
+      - 🇺🇸 US-167.88.61.175-1181
+      - 🇭🇰 香港 多线中继 01 1x
+      - RELAY-162.159.36.20-1769
+      - PT-94.131.10.135-2965
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 9
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -458,110 +342,81 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾 02|HiNet|台北市|1.0
-      - 🇭🇰 Lil 香港09 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-8978
-      - 🇨🇳 Large 台灣01 | 倍率:1.8
-      - 🇨🇳 Large 台灣05 | 倍率:1.5
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇭🇰 Large 香港14 | 倍率:1.6
-      - 🇬🇧 GB-18.169.112.76-1049
-      - PA-138.186.142.4-1084
-      - 🇦🇺 澳大利亚-广东专线 VUAU
-      - 🇯🇵 Large 日本05 | 倍率:1.3
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇸 Lil 美国10 | 倍率:1.3
-      - 🇺🇸 US-38.75.136.21-1145
-      - 🇧🇷 巴西-广东专线 GCore 1
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇭🇰 Large 香港24 | 倍率:1.6
-      - 🇺🇸 US-38.68.134.9-1169
-      - 🇺🇸 US-38.68.134.9-7949
-      - 🇺🇸 Lil 美国08 | 倍率:1.3
-      - 🇭🇰 Large 香港23 | 倍率:1.6
-      - 🇮🇳 印度-上海专线 GCore
-      - 🇬🇧 TG频道:@hkaa0|英国
-      - 🇬🇧 Lil 英国2 | 倍率:1.3
-      - 🇺🇸 Lil 美国11 | 倍率:2
-      - 🇭🇰 Large 香港05 | 倍率:1.8
-      - 🇭🇰 Large 香港07 | 倍率:1.8
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
-      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
-      - TR-45.89.52.66-1092
-      - 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇵🇭 菲律宾-广东专线 Comfac
-      - 🇭🇰 Lil 香港07 | 倍率:1.5
-      - 🇭🇰 Large 香港16 | 倍率:1.6
-      - 🇪🇸 ES-5.188.181.201-10060
-      - 🇨🇳 Large 台灣01 | 倍率:1.8 2
-      - 🇩🇪 Lil 德国3 | 倍率:1.3
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5 2
-      - 🇬🇧 Lil 英国1 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-9561
-      - 🇺🇸 US-38.75.136.21-8890
-      - 🇺🇦 UA-5.188.6.8-1072
-      - 🇺🇸 US-38.54.104.184-0773
-      - 🇰🇷 Lil 韩国03 | 倍率:1.5
-      - 🇸🇬 Large 新加坡12 | 倍率:1.5
-      - 🇺🇸 US-167.88.61.175-1143
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
-      - 🇺🇸 美国 01|NATOLAB|洛杉矶|1.0
-      - 🇳🇱 NL-109.201.152.181-1052
-      - RELAY-172.67.68.246-0302
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - RELAY-172.67.174.63-0242
-      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 4
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 5
-      - 🇺🇦 _UA_乌克兰
-      - 🇯🇵 Lil 日本02 | 倍率:1.3
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - 🇺🇸 US-38.75.137.9-1175
-      - PT-94.131.10.135-4314
-      - 🇺🇦 乌克兰-上海专线 Vik
-      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
-      - 🇯🇵 日本 多线中继 01 1x
-      - 🇲🇾 马来西亚-上海专线 Shin
-      - 🇺🇸 US-38.75.136.21-1155
-      - 🇯🇵 Lil 日本06 | 倍率:2
-      - 🇰🇷 韩国 02|한국|Amazon|首尔市|1.0
-      - 🇺🇸 Large 美国04 | 倍率:1.5
-      - 🇯🇵 Large 日本04 | 倍率:1.3
-      - 🇰🇷 韩国1|@ripaojiedian
-      - 🇯🇵 Large 日本05 | 倍率:1.3 2
-      - RELAY-162.159.36.20-1769
-      - 🇬🇧 TG频道:@hkaa0|英国 2
-      - 🇺🇸 US-38.75.136.135-8784
-      - 13.213.46.196:443
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 US-167.88.61.175-2255
-      - 🇭🇰 Large 香港16 | 倍率:1.6 2
-      - 🇺🇸 US-38.75.136.21-1148
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 6
-      - 🇭🇰 香港 04|HKT-WTT|沙田区|1.0
-      - 🇨🇳 Lil 台湾05 | 倍率:1.3
-      - 🇸🇬 Large 新加坡06 | 倍率:1.5
-      - 🇭🇰 Lil 香港01 | 倍率:1.8
-      - 🇭🇰 香港Test 海外用户直连
+      - 🇺🇸 Large 美国02 | 倍率:1.6
+      - 🇨🇳 Large 台灣02 | 倍率:1.8
+      - ""
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇺🇸 US-38.75.136.135-1154
+      - 🇺🇸 US-38.75.136.21-1197
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇬🇧 GB-3.11.149.184-1047
+      - 🇺🇸 美国 麻省理工学院
+      - 54.251.168.143:443
+      - 🇺🇸 Large 美国03 | 倍率:1.6
+      - 🇬🇧 GB-18.169.112.76-1050
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇺🇸 US-38.75.136.135-1151
+      - 🇨🇳 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
       - BA-185.164.35.9-1080
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 7
-      - 🇭🇰 Lil 香港09 | 倍率:1.6 2
-      - 🇰🇷 Large 韩国02 | 倍率:1.6
-      - 🇺🇸 US-38.75.136.135-1199
-      - 🇭🇰 Large 香港24 | 倍率:1.6 2
-      - 🇨🇳 Lil 台湾02 | 倍率:1.3
-      - VN-103.163.218.2-2117
-      - 🇪🇸 ES-5.188.181.201-2179
-      - 🇯🇵 _JP_日本->🇩🇪_DE_德国
+      - 🇺🇸 US-38.68.134.9-1169
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇯🇵 日本 多线中继 02 1x
+      - 🇯🇵 Super 日本02  | IEPL | 倍率:2
+      - 🇺🇦 乌克兰-上海专线 Vik
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇻🇳 TG频道:@hkaa0|越南
+      - RELAY-172.67.229.25-4709
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇭🇰 Large 香港01 | 倍率:1.8
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
+      - 🇯🇵 TG频道:@hkaa0|日本
+      - 🇩🇪 TG频道:@hkaa0|德国
+      - 🇺🇸 US-167.88.61.175-9087
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - RELAY-172.67.196.112-1763
+      - 🇸🇬 Large 新加坡08 | 倍率:1.5
+      - 🇭🇰 Large 香港08 | 倍率:1.6
+      - 🇯🇵 JP-185.172.113.182-1104
+      - 🇭🇰 Large 香港15 | 倍率:1.6
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇺🇸 US-74.121.191.98-2279
+      - RELAY-104.21.83.208-4545
+      - 🇺🇸 US-38.75.136.135-1189
+      - 🇺🇸 US-38.75.136.21-1177
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 4
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇺🇸 US-167.88.61.175-1135
+      - 🇺🇸 美国-上海专线 BGP 2
+      - 🇭🇰 Large 香港21 | 倍率:1.6
+      - 🇨🇳 Super 台湾04  | IEPL | 倍率:2.1
+      - 🇺🇸 US-167.88.61.175-1138
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇳🇱 NL-185.242.86.156-1063
       - 🇺🇸 美国|@ripaojiedian
-      - 🇪🇸 ES-5.188.181.201-2178
-      - AZ-180.149.44.120-1081
+      - 🇺🇸 美国4|@ripaojiedian
+      - 🇸🇪 瑞典 V2CROSS.COM
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇬🇧 GB-51.142.171.150-1064
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 5
+      - 🇵🇭 菲律宾-上海专线 Comfac
+      - 🇭🇰 香港 多线中继 03 1x
+      - 🇺🇸 US-167.88.61.175-9237
+      - 🇭🇰 Large 香港13 | 倍率:1.6
+      - 🇭🇰 Large 香港03 | 倍率:1.8
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 6
+      - 🇭🇰 Large 香港12 | 倍率:1.6
+      - 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 7
+      - 🇦🇷 阿根廷-上海专线 DonWeb
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 8
+      - 🇺🇸 US-167.88.61.175-1181
+      - 🇭🇰 香港 多线中继 01 1x
+      - RELAY-162.159.36.20-1769
+      - PT-94.131.10.135-2965
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 9
   - name: 📲 电报消息
     type: select
     proxies:
@@ -748,108 +603,92 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 Lil 香港09 | 倍率:1.6
-      - 🇭🇰 Large 香港14 | 倍率:1.6
-      - 🇭🇰 Large 香港24 | 倍率:1.6
-      - 🇭🇰 Large 香港23 | 倍率:1.6
-      - 🇭🇰 Large 香港05 | 倍率:1.8
-      - 🇭🇰 Large 香港07 | 倍率:1.8
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5
-      - 🇭🇰 Lil 香港07 | 倍率:1.5
-      - 🇭🇰 Large 香港16 | 倍率:1.6
-      - 🇭🇰 Super 香港03  | MIEPL | 倍率:2.5 2
-      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 香港KT2|@ripaojiedian
       - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
-      - 🇭🇰 Play2 香港 - 遊戲專用|視頻限速 | 倍率:20
-      - 🇭🇰 Large 香港16 | 倍率:1.6 2
-      - 🇭🇰 香港 04|HKT-WTT|沙田区|1.0
-      - 🇭🇰 Lil 香港01 | 倍率:1.8
-      - 🇭🇰 香港Test 海外用户直连
-      - 🇭🇰 Lil 香港09 | 倍率:1.6 2
-      - 🇭🇰 Large 香港24 | 倍率:1.6 2
+      - 🇭🇰 Large 香港01 | 倍率:1.8
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Large 香港08 | 倍率:1.6
+      - 🇭🇰 Large 香港15 | 倍率:1.6
+      - 🇭🇰 香港-广东专线 NeaRoute
+      - 🇭🇰 Large 香港21 | 倍率:1.6
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 香港 多线中继 03 1x
+      - 🇭🇰 Large 香港13 | 倍率:1.6
+      - 🇭🇰 Large 香港03 | 倍率:1.8
+      - 🇭🇰 Large 香港12 | 倍率:1.6
+      - 🇭🇰 香港 多线中继 01 1x
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 Large 日本05 | 倍率:1.3
-      - 🇯🇵 Lil 日本02 | 倍率:1.3
-      - 🇯🇵 日本 多线中继 01 1x
-      - 🇯🇵 Lil 日本06 | 倍率:2
-      - 🇯🇵 Large 日本04 | 倍率:1.3
-      - 🇯🇵 Large 日本05 | 倍率:1.3 2
-      - 🇯🇵 _JP_日本->🇩🇪_DE_德国
+      - 🇯🇵 日本 多线中继 02 1x
+      - 🇯🇵 Super 日本02  | IEPL | 倍率:2
+      - 🇯🇵 TG频道:@hkaa0|日本
+      - 🇯🇵 JP-185.172.113.182-1104
+      - 🇯🇵 日本-广东专线 GCore
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 US-38.75.136.135-8978
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 Lil 美国10 | 倍率:1.3
-      - 🇺🇸 US-38.75.136.21-1145
-      - 🇺🇸 美国 Amazon EC2服务器
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 Large 美国02 | 倍率:1.6
+      - 🇺🇸 US-38.75.136.135-1154
+      - 🇺🇸 US-38.75.136.21-1197
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇺🇸 美国 麻省理工学院
+      - 🇺🇸 Large 美国03 | 倍率:1.6
+      - 🇺🇸 US-38.75.136.135-1151
       - 🇺🇸 US-38.68.134.9-1169
-      - 🇺🇸 US-38.68.134.9-7949
-      - 🇺🇸 Lil 美国08 | 倍率:1.3
-      - 🇺🇸 Lil 美国11 | 倍率:2
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇺🇸 US-38.75.136.135-9561
-      - 🇺🇸 US-38.75.136.21-8890
-      - 🇺🇸 US-38.54.104.184-0773
-      - 🇺🇸 US-167.88.61.175-1143
+      - 🇺🇸 US-167.88.61.175-9087
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 3
-      - 🇺🇸 美国 01|NATOLAB|洛杉矶|1.0
-      - 🇺🇸 美国-广东专线 BGP 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 _US_美国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇺🇸 US-74.121.191.98-2279
+      - 🇺🇸 US-38.75.136.135-1189
+      - 🇺🇸 US-38.75.136.21-1177
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 4
+      - 🇺🇸 US-167.88.61.175-1135
+      - 🇺🇸 美国-上海专线 BGP 2
+      - 🇺🇸 US-167.88.61.175-1138
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国4|@ripaojiedian
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 5
-      - 🇺🇸 US-38.75.137.9-1175
-      - 🇺🇸 US-38.75.136.21-1155
-      - 🇺🇸 Large 美国04 | 倍率:1.5
-      - 🇺🇸 US-38.75.136.135-8784
-      - 🇺🇸 US-167.88.61.175-2255
-      - 🇺🇸 US-38.75.136.21-1148
-      - 🇺🇸 _US_美国 2
+      - 🇺🇸 US-167.88.61.175-9237
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 6
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 7
-      - 🇺🇸 US-38.75.136.135-1199
-      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 8
+      - 🇺🇸 US-167.88.61.175-1181
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 9
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾 02|HiNet|台北市|1.0
-      - 🇨🇳 Large 台灣01 | 倍率:1.8
-      - 🇨🇳 Large 台灣05 | 倍率:1.5
+      - 🇨🇳 Large 台灣02 | 倍率:1.8
+      - 🇨🇳 Play3 台湾 - 遊戲專用|視頻限速 | 倍率:20
+      - 🇨🇳 Super 台湾04  | IEPL | 倍率:2.1
       - 🇨🇳 Super 台湾02  | MIEPL | 倍率:2.1
-      - 🇨🇳 Large 台灣01 | 倍率:1.8 2
-      - 🇨🇳 Lil 台湾05 | 倍率:1.3
-      - 🇨🇳 Lil 台湾02 | 倍率:1.3
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 Large 新加坡12 | 倍率:1.5
-      - 🇸🇬 Large 新加坡06 | 倍率:1.5
+      - 🇸🇬 Large 新加坡08 | 倍率:1.5
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 Lil 韩国03 | 倍率:1.5
-      - 🇰🇷 韩国 02|한국|Amazon|首尔市|1.0
-      - 🇰🇷 韩国1|@ripaojiedian
-      - 🇰🇷 Large 韩国02 | 倍率:1.6
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
