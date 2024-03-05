@@ -5,70 +5,66 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: UK01, server: 111.12.60.29, port: 2200, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4}
-  - {name: 🇬🇧 GB-51.142.173.103-0729, server: 51.142.173.103, port: 51899, type: ss, cipher: chacha20-ietf-poly1305, password: gcpVehVytslepmkHHRLXYx}
-  - {name: 🇺🇸 _US_美国, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}}
-  - {name: HK08, server: 111.12.60.117, port: 777, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4}
-  - {name: RELAY-188.114.97.3-0086, server: 188.114.97.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: oliv.beauty, network: ws, ws-opts: {path: /, headers: {Host: oliv.beauty}}}
-  - {name: 🇺🇸 US-38.107.226.49-0850, server: 38.107.226.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: RELAY-104.21.91.254-2205, server: 104.21.91.254, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: waynn.makeup, network: ws, ws-opts: {path: /, headers: {Host: waynn.makeup}}}
-  - {name: CO-190.120.231.45-0808, server: 190.120.231.45, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: Video 罗马利亚A-下载, server: 231103level2.unclemanco.com, port: 10057, type: ssr, cipher: aes-256-cfb, password: 2sa2/1a, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: UK04, server: 111.12.60.29, port: 2200, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4}
-  - {name: 🇫🇷 FR-51.15.27.48-0725, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 Game 美国03-标准, server: 231103level3.unclemanco.com, port: 29574, type: ssr, cipher: chacha20-ietf, password: ay2l23ud1, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
-  - {name: 🇺🇸 US-38.107.226.146-0855, server: 38.107.226.146, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇬🇧 _GB_英国, server: 13.43.246.34, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true}
-  - {name: "", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 8237ec34-143a-11ee-8019-000017022008, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: "🇨🇳 Lv3 台湾 06 [2.0]", server: sdv3-tw.04xvkr9ed1.com, port: 6626, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
-  - {name: 🇺🇸 US-205.134.180.137-0665, server: 205.134.180.137, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: g13S7doXar0A}
-  - {name: 🇺🇸 US-38.107.226.146-7292, server: 38.107.226.146, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 US-38.107.226.49-7327, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "🇭🇰 Lv3 香港 03 [2.0]", server: sdv3-hk.04xvkr9ed1.com, port: 6603, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
-  - {name: 🇷🇺 Game 俄罗斯01-标准, server: 231103level3.unclemanco.com, port: 37862, type: ssr, cipher: aes-256-cfb, password: "dajkdkjda&dja*/?", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: 🇵🇭 Video 菲律宾A-原生, server: 231103level2.unclemanco.com, port: 5555, type: ssr, cipher: aes-256-cfb, password: ayds232sffssd1, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: "🇯🇵 Lv3 日本 03 [2.0]", server: sdv3-jp.04xvkr9ed1.com, port: 6617, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 3.112.221.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国, server: 23.227.38.22, port: 8080, type: vmess, uuid: c575b66a-2901-4e05-a4b2-453e196f9bb5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: c575b66a-2901-4e05-a4b2-453e196f9bb5-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
-  - {name: RELAY-172.67.183.110-2225, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: waynn.makeup, network: ws, ws-opts: {path: /, headers: {Host: waynn.makeup}}}
-  - {name: 🇰🇷 Game 韩国05-标准, server: 231103level3.unclemanco.com, port: 20006, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: 🇬🇧 GB-18.134.118.9-0712, server: wxwctxxx.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
-  - {name: 🇧🇪 Manifold-比利时01-原生, server: 231103level4.unclemanco.com, port: 10071, type: ssr, cipher: aes-256-cfb, password: 2sa2/321a, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: 🇰🇷 Game 韩国01-标准, server: 231103level3.unclemanco.com, port: 20003, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: 🇭🇰 HK-8.217.93.104-1228, server: 8.217.93.104, port: 443, type: vmess, uuid: dcd70249-06fa-4fe7-aaed-cbba86ac125b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sptufp5n3o19imic.iwebsocket.com}}}
-  - {name: 🇳🇱 _NL_荷兰, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
-  - {name: 🇺🇸 _US_美国 2, server: 104.21.226.251, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt5.ir}}}
-  - {name: TR-95.164.116.35-0101, server: tr-full.privateip.net, port: 443, type: trojan, password: 01f378e3-16fb-41ba-be7e-e23a7813275e}
-  - {name: 🇸🇬 SG-202.79.171.239-1225, server: 202.79.171.239, port: 443, type: vmess, uuid: fb3583a3-7717-4fe5-9146-3301861f9f41, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.46130221.xyz}}}
-  - {name: 🇭🇰 Game 香港03-标准, server: 231103level3.unclemanco.com, port: 20021, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: AZ-180.149.44.120-0771, server: 180.149.44.120, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 美国 麻省理工学院, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
-  - {name: 🇳🇬 Web 尼日利亚I-原生, server: 231103level1.unclemanco.com, port: 10020, type: ssr, cipher: aes-256-cfb, password: aa2x2sa2/1a, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: SG05, server: 111.12.60.116, port: 2100, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4}
-  - {name: "🇭🇰 Lv3 香港 08 [2.0]", server: sdv3-hk.04xvkr9ed1.com, port: 6608, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
-  - {name: VN-103.163.218.2-0810, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: RELAY-104.18.36.174-0107, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
-  - {name: 🇿🇦 Manifold-南非01-标准, server: 231103level4.unclemanco.com, port: 2406, type: ssr, cipher: aes-256-cfb, password: "dajkdkjda&dja*/?", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: EC-179.49.5.114-2164, server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 US-38.107.226.49-0847, server: 38.107.226.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇰🇷 KR-152.67.218.38-0773, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇰🇷 Game 韩国04-标准, server: 231103level3.unclemanco.com, port: 1876, type: ssr, cipher: chacha20-ietf, password: ayucloud1, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: RELAY-104.21.77.103-0060, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}}
-  - {name: 🇸🇮 Manifold 斯洛文尼亚01 原生, server: 231103levelx.unclemanco.com, port: 11112, type: ssr, cipher: aes-256-cfb, password: V2efNeJZr, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
+  - {name: RO-194.14.217.115-0758, server: 194.14.217.115, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇳🇱 NL-78.141.221.194-1215, server: 78.141.221.194, port: 443, type: trojan, password: wkmY1R4EcP, sni: z-v2-002750.kailib.com}
+  - {name: 🇸🇬 SG-103.172.116.103-0827, server: 103.172.116.103, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
+  - {name: 🇯🇵 Video 日本C-原生, server: 231103level2.unclemanco.com, port: 1234, type: ssr, cipher: aes-256-cfb, password: ay232sffssd1, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: UK02, server: 111.12.60.29, port: 2200, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4}
+  - {name: 🇬🇧 Web 英国I-标准, server: 231103level1.unclemanco.com, port: 2687, type: ssr, cipher: aes-256-cfb, password: fs23l/, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: "🇸🇬 Lv3 新加坡 06 [2.0]", server: sdv3-sg.04xvkr9ed1.com, port: 6614, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
+  - {name: 🇲🇾 Manifold-马来西亚01-原生, server: 231103level4.unclemanco.com, port: 36592, type: ssr, cipher: aes-256-cfb, password: dajkdkjda&dj23gsa, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: CH-156.146.62.160-0744, server: 156.146.62.160, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 17c82b45-dff0-47bb-9e0c-07ef07f67005, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/3YKfzGw4, headers: {Host: rpmlybgzsg2.yofnhkfc.xyz}}}
+  - {name: 🇩🇪 德国 黑森州法兰克福Amazon数据中心, server: 35.156.51.199, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk}
+  - {name: 🇯🇵 Game 日本05-原生, server: 231103level3.unclemanco.com, port: 28507, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
   - {name: 🇬🇧 GB-51.142.159.23-0719, server: 51.142.159.23, port: 32790, type: ss, cipher: chacha20-ietf-poly1305, password: 5ii16fmPTms8icYnYvxUfa}
-  - {name: 🇯🇵 JP-185.172.113.182-0823, server: 185.172.113.182, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 TG频道:@hkaa0▓中国_11, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: 🇯🇵 Game 日本04-原生, server: 231103level3.unclemanco.com, port: 20029, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: 🇸🇬 Game 新加坡01-标准, server: 231103level3.unclemanco.com, port: 28009, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
-  - {name: 下载专用, server: nl1.421421.xyz, port: 20230, type: trojan, password: 578547e6-f06f-4a04-8283-4a13a56c9a82, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-185.172.113.182-0821, server: 185.172.113.182, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 TW-板桥1-2(Trojan), server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: bc22f8b6-a366-4c09-812f-64da5a6a15b1, sni: b12.ntbq.dynu.net, skip-cert-verify: false}
-  - {name: "🇺🇸 Lv3 美国 03 [2.0]", server: sdv3-us.04xvkr9ed1.com, port: 6629, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
-  - {name: 🇮🇳 github.com/freefq - 印度  10, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}}
-  - {name: 🇸🇬 SG-103.172.116.79-0786, server: 103.172.116.79, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA}
-  - {name: 🇨🇳 TW-114.37.131.113-0068, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 645f0af0-dec8-48db-862f-82b6346408b4, sni: b13.ntbq.dynu.net}
-  - {name: 🇺🇸 美国 Amazon数据中心, server: 18.171.126.108, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: 🇺🇸 US-38.14.107.229-1162, server: 38.14.107.229, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.23179753.xyz}}}
+  - {name: 🇿🇦 Manifold-南非01-标准, server: 231103level4.unclemanco.com, port: 2406, type: ssr, cipher: aes-256-cfb, password: "dajkdkjda&dja*/?", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: 🇯🇵 日本05, server: jp05.421421.xyz, port: 20230, type: trojan, password: 578547e6-f06f-4a04-8283-4a13a56c9a82, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: AT-185.180.12.81-0746, server: 185.180.12.81, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: RELAY-172.67.197.82-6688, server: odelia.autos, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: odelia.autos}}}
+  - {name: 🇨🇭 Manifold-瑞士01-标准, server: 231103level4.unclemanco.com, port: 6558, type: ssr, cipher: aes-256-cfb, password: "dajkdkjda&dja*/?", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: 🇬🇧 GB-18.134.118.9-0717, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
+  - {name: 🇺🇸 TG频道:@hkaa0▓美国_7, server: cf.openxai.link, port: 8080, type: vmess, uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu1.openxai.link}}}
+  - {name: RELAY-172.67.136.12-0070, server: www.ywnouvbale.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}}
+  - {name: 🇺🇸 US-192.9.134.82-3449, server: xray.cheeshon.cyou, port: 19344, type: vmess, uuid: ac9dd407-d053-4c67-e44e-31d6a5833ff4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xray.cheeshon.cyou}}}
+  - {name: "🇭🇰 Lv3 香港 01 [2.0]", server: sdv3-hk.04xvkr9ed1.com, port: 6601, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
+  - {name: "", server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}}
+  - {name: 🇨🇳 Video 台湾B-原生, server: 231103level2.unclemanco.com, port: 20060, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: RELAY-104.21.77.103-0060, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}}
+  - {name: 🇭🇰 Game 香港03-标准, server: 231103level3.unclemanco.com, port: 20021, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: "🇺🇸 Lv3 美国 01 [2.0]", server: sdv3-us.04xvkr9ed1.com, port: 6627, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
+  - {name: 🇺🇸 US-38.107.226.146-7153, server: 38.107.226.146, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: SG01, server: 111.12.60.116, port: 2100, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4}
+  - {name: 🇺🇸 US-38.107.226.49-7327, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 US-38.107.226.49-7840, server: 38.107.226.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇦🇷 Video 阿根廷A-原生, server: 231103level2.unclemanco.com, port: 6042, type: ssr, cipher: aes-256-cfb, password: ayds232sffssd1, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: 🇮🇳 Web 印度I-通用, server: 231103level1.unclemanco.com, port: 20001, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: 🇨🇳 TW-板桥2-2(Trojan), server: b22.ntbq.dynu.net, port: 19489, type: trojan, password: bc22f8b6-a366-4c09-812f-64da5a6a15b1, sni: b22.ntbq.dynu.net, skip-cert-verify: false}
+  - {name: HK01, server: 111.12.60.102, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4}
+  - {name: 🇺🇸 _US_美国, server: 104.20.30.205, port: 80, type: vmess, uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xn--mes53ddysu0o3gl, headers: {Host: newus1.xn--mes53ddysu0o3gl.top}}}
+  - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
+  - {name: "🇭🇰 Lv3 香港 04 [2.0]", server: sdv3-hk.04xvkr9ed1.com, port: 6604, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
+  - {name: "🇯🇵 Lv3 日本 04 [2.0]", server: sdv3-jp.04xvkr9ed1.com, port: 6618, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
+  - {name: 🇺🇦 乌克兰 V2CROSS.COM, server: es-full.privateip.net, port: 443, type: trojan, password: e2486b91-71a6-421b-9d53-3c080fb0edb8, skip-cert-verify: false}
+  - {name: 🇭🇰 Game 香港04-国际, server: 231103level3.unclemanco.com, port: 20011, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: 🇨🇱 Video 智利A-标准, server: 231103level2.unclemanco.com, port: 2200, type: ssr, cipher: aes-256-cfb, password: "dajsdkdkjda&dja*/?", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: HK05, server: 111.12.60.102, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4}
+  - {name: 🇩🇪 DE-217.160.45.31-0312, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 Video 美国B-解锁, server: 231103level2.unclemanco.com, port: 1000, type: ssr, cipher: chacha20-ietf, password: ayucjrsll, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: "🇸🇬 Lv3 新加坡 03 [2.0]", server: sdv3-sg.04xvkr9ed1.com, port: 6611, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
+  - {name: 🇨🇳 TG频道:@hkaa0▓台湾, server: e001.panda003.net, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: "🇭🇰 Lv3 香港 05 [2.0]", server: sdv3-hk.04xvkr9ed1.com, port: 6605, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd}
+  - {name: RELAY-104.21.53.12-6692, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, servername: ophelia.mom, network: ws, ws-opts: {path: /, headers: {Host: ophelia.mom}}}
+  - {name: RELAY-104.21.91.254-2205, server: 104.21.91.254, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: waynn.makeup, network: ws, ws-opts: {path: /, headers: {Host: waynn.makeup}}}
+  - {name: 🇸🇬 SG-103.172.116.103-0813, server: 103.172.116.103, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}}
+  - {name: 🇺🇸 United States 01 @nodpai, server: hytron.io, port: 8080, type: vmess, uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hytron.io}}}
+  - {name: HK03, server: 111.12.60.102, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: fd3edf71-5692-4d08-8a23-a9d22b616de4}
+  - {name: 🇨🇳 Game 台湾04-标准, server: 231103level3.unclemanco.com, port: 20452, type: ssr, cipher: chacha20-ietf, password: ayucloud1, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: yh1.dtku41.xyz, port: 8080, type: vmess, uuid: 8df7d5fa-cecb-4816-a943-be94929543f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm, headers: {Host: widescreen-instruction-breakdown-postage.trycloudflare.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -87,210 +83,198 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - UK01
-      - 🇬🇧 GB-51.142.173.103-0729
-      - 🇺🇸 _US_美国
-      - HK08
-      - RELAY-188.114.97.3-0086
-      - 🇺🇸 US-38.107.226.49-0850
-      - RELAY-104.21.91.254-2205
-      - CO-190.120.231.45-0808
-      - Video 罗马利亚A-下载
-      - UK04
-      - 🇫🇷 FR-51.15.27.48-0725
-      - 🇺🇸 Game 美国03-标准
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 US-38.107.226.146-0855
-      - 🇬🇧 _GB_英国
-      - ""
-      - 🇨🇳 Lv3 台湾 06 [2.0]
-      - 🇺🇸 US-205.134.180.137-0665
-      - 🇺🇸 US-38.107.226.146-7292
-      - 🇺🇸 US-38.107.226.49-7327
-      - 🇭🇰 Lv3 香港 03 [2.0]
-      - 🇷🇺 Game 俄罗斯01-标准
-      - 🇵🇭 Video 菲律宾A-原生
-      - 🇯🇵 Lv3 日本 03 [2.0]
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - RELAY-172.67.183.110-2225
-      - 🇰🇷 Game 韩国05-标准
-      - 🇬🇧 GB-18.134.118.9-0712
-      - 🇧🇪 Manifold-比利时01-原生
-      - 🇰🇷 Game 韩国01-标准
-      - 🇭🇰 HK-8.217.93.104-1228
-      - 🇳🇱 _NL_荷兰
-      - 🇺🇸 _US_美国 2
-      - TR-95.164.116.35-0101
-      - 🇸🇬 SG-202.79.171.239-1225
-      - 🇭🇰 Game 香港03-标准
-      - AZ-180.149.44.120-0771
-      - 🇺🇸 美国 麻省理工学院
-      - 🇳🇬 Web 尼日利亚I-原生
-      - SG05
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - VN-103.163.218.2-0810
-      - RELAY-104.18.36.174-0107
-      - 🇿🇦 Manifold-南非01-标准
-      - EC-179.49.5.114-2164
-      - 🇺🇸 US-38.107.226.49-0847
-      - 🇰🇷 KR-152.67.218.38-0773
-      - 🇰🇷 Game 韩国04-标准
-      - RELAY-104.21.77.103-0060
-      - 🇸🇮 Manifold 斯洛文尼亚01 原生
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - RO-194.14.217.115-0758
+      - 🇳🇱 NL-78.141.221.194-1215
+      - 🇸🇬 SG-103.172.116.103-0827
+      - 🇯🇵 Video 日本C-原生
+      - UK02
+      - 🇬🇧 Web 英国I-标准
+      - 🇸🇬 Lv3 新加坡 06 [2.0]
+      - 🇲🇾 Manifold-马来西亚01-原生
+      - CH-156.146.62.160-0744
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
+      - 🇯🇵 Game 日本05-原生
       - 🇬🇧 GB-51.142.159.23-0719
-      - 🇯🇵 JP-185.172.113.182-0823
-      - 🇨🇳 TG频道:@hkaa0▓中国_11
-      - 🇯🇵 Game 日本04-原生
-      - 🇸🇬 Game 新加坡01-标准
-      - 下载专用
-      - 🇯🇵 JP-185.172.113.182-0821
-      - 🇨🇳 TW-板桥1-2(Trojan)
-      - 🇺🇸 Lv3 美国 03 [2.0]
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 SG-103.172.116.79-0786
-      - 🇨🇳 TW-114.37.131.113-0068
-      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 US-38.14.107.229-1162
+      - 🇿🇦 Manifold-南非01-标准
+      - 🇯🇵 日本05
+      - AT-185.180.12.81-0746
+      - RELAY-172.67.197.82-6688
+      - 🇨🇭 Manifold-瑞士01-标准
+      - 🇬🇧 GB-18.134.118.9-0717
+      - 🇺🇸 TG频道:@hkaa0▓美国_7
+      - RELAY-172.67.136.12-0070
+      - 🇺🇸 US-192.9.134.82-3449
+      - 🇭🇰 Lv3 香港 01 [2.0]
+      - ""
+      - 🇨🇳 Video 台湾B-原生
+      - RELAY-104.21.77.103-0060
+      - 🇭🇰 Game 香港03-标准
+      - 🇺🇸 Lv3 美国 01 [2.0]
+      - 🇺🇸 US-38.107.226.146-7153
+      - SG01
+      - 🇺🇸 US-38.107.226.49-7327
+      - 🇺🇸 US-38.107.226.49-7840
+      - 🇦🇷 Video 阿根廷A-原生
+      - 🇮🇳 Web 印度I-通用
+      - 🇨🇳 TW-板桥2-2(Trojan)
+      - HK01
+      - 🇺🇸 _US_美国
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 Lv3 香港 04 [2.0]
+      - 🇯🇵 Lv3 日本 04 [2.0]
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇭🇰 Game 香港04-国际
+      - 🇨🇱 Video 智利A-标准
+      - HK05
+      - 🇩🇪 DE-217.160.45.31-0312
+      - 🇺🇸 Video 美国B-解锁
+      - 🇸🇬 Lv3 新加坡 03 [2.0]
+      - 🇨🇳 TG频道:@hkaa0▓台湾
+      - 🇭🇰 Lv3 香港 05 [2.0]
+      - RELAY-104.21.53.12-6692
+      - RELAY-104.21.91.254-2205
+      - 🇸🇬 SG-103.172.116.103-0813
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 United States 01 @nodpai
+      - HK03
+      - 🇨🇳 Game 台湾04-标准
+      - 🇺🇸 美国 CloudFlare节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - UK01
-      - 🇬🇧 GB-51.142.173.103-0729
-      - 🇺🇸 _US_美国
-      - HK08
-      - RELAY-188.114.97.3-0086
-      - 🇺🇸 US-38.107.226.49-0850
-      - RELAY-104.21.91.254-2205
-      - CO-190.120.231.45-0808
-      - Video 罗马利亚A-下载
-      - UK04
-      - 🇫🇷 FR-51.15.27.48-0725
-      - 🇺🇸 Game 美国03-标准
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 US-38.107.226.146-0855
-      - 🇬🇧 _GB_英国
-      - ""
-      - 🇨🇳 Lv3 台湾 06 [2.0]
-      - 🇺🇸 US-205.134.180.137-0665
-      - 🇺🇸 US-38.107.226.146-7292
-      - 🇺🇸 US-38.107.226.49-7327
-      - 🇭🇰 Lv3 香港 03 [2.0]
-      - 🇷🇺 Game 俄罗斯01-标准
-      - 🇵🇭 Video 菲律宾A-原生
-      - 🇯🇵 Lv3 日本 03 [2.0]
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - RELAY-172.67.183.110-2225
-      - 🇰🇷 Game 韩国05-标准
-      - 🇬🇧 GB-18.134.118.9-0712
-      - 🇧🇪 Manifold-比利时01-原生
-      - 🇰🇷 Game 韩国01-标准
-      - 🇭🇰 HK-8.217.93.104-1228
-      - 🇳🇱 _NL_荷兰
-      - 🇺🇸 _US_美国 2
-      - TR-95.164.116.35-0101
-      - 🇸🇬 SG-202.79.171.239-1225
-      - 🇭🇰 Game 香港03-标准
-      - AZ-180.149.44.120-0771
-      - 🇺🇸 美国 麻省理工学院
-      - 🇳🇬 Web 尼日利亚I-原生
-      - SG05
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - VN-103.163.218.2-0810
-      - RELAY-104.18.36.174-0107
-      - 🇿🇦 Manifold-南非01-标准
-      - EC-179.49.5.114-2164
-      - 🇺🇸 US-38.107.226.49-0847
-      - 🇰🇷 KR-152.67.218.38-0773
-      - 🇰🇷 Game 韩国04-标准
-      - RELAY-104.21.77.103-0060
-      - 🇸🇮 Manifold 斯洛文尼亚01 原生
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - RO-194.14.217.115-0758
+      - 🇳🇱 NL-78.141.221.194-1215
+      - 🇸🇬 SG-103.172.116.103-0827
+      - 🇯🇵 Video 日本C-原生
+      - UK02
+      - 🇬🇧 Web 英国I-标准
+      - 🇸🇬 Lv3 新加坡 06 [2.0]
+      - 🇲🇾 Manifold-马来西亚01-原生
+      - CH-156.146.62.160-0744
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
+      - 🇯🇵 Game 日本05-原生
       - 🇬🇧 GB-51.142.159.23-0719
-      - 🇯🇵 JP-185.172.113.182-0823
-      - 🇨🇳 TG频道:@hkaa0▓中国_11
-      - 🇯🇵 Game 日本04-原生
-      - 🇸🇬 Game 新加坡01-标准
-      - 下载专用
-      - 🇯🇵 JP-185.172.113.182-0821
-      - 🇨🇳 TW-板桥1-2(Trojan)
-      - 🇺🇸 Lv3 美国 03 [2.0]
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 SG-103.172.116.79-0786
-      - 🇨🇳 TW-114.37.131.113-0068
-      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 US-38.14.107.229-1162
+      - 🇿🇦 Manifold-南非01-标准
+      - 🇯🇵 日本05
+      - AT-185.180.12.81-0746
+      - RELAY-172.67.197.82-6688
+      - 🇨🇭 Manifold-瑞士01-标准
+      - 🇬🇧 GB-18.134.118.9-0717
+      - 🇺🇸 TG频道:@hkaa0▓美国_7
+      - RELAY-172.67.136.12-0070
+      - 🇺🇸 US-192.9.134.82-3449
+      - 🇭🇰 Lv3 香港 01 [2.0]
+      - ""
+      - 🇨🇳 Video 台湾B-原生
+      - RELAY-104.21.77.103-0060
+      - 🇭🇰 Game 香港03-标准
+      - 🇺🇸 Lv3 美国 01 [2.0]
+      - 🇺🇸 US-38.107.226.146-7153
+      - SG01
+      - 🇺🇸 US-38.107.226.49-7327
+      - 🇺🇸 US-38.107.226.49-7840
+      - 🇦🇷 Video 阿根廷A-原生
+      - 🇮🇳 Web 印度I-通用
+      - 🇨🇳 TW-板桥2-2(Trojan)
+      - HK01
+      - 🇺🇸 _US_美国
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 Lv3 香港 04 [2.0]
+      - 🇯🇵 Lv3 日本 04 [2.0]
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇭🇰 Game 香港04-国际
+      - 🇨🇱 Video 智利A-标准
+      - HK05
+      - 🇩🇪 DE-217.160.45.31-0312
+      - 🇺🇸 Video 美国B-解锁
+      - 🇸🇬 Lv3 新加坡 03 [2.0]
+      - 🇨🇳 TG频道:@hkaa0▓台湾
+      - 🇭🇰 Lv3 香港 05 [2.0]
+      - RELAY-104.21.53.12-6692
+      - RELAY-104.21.91.254-2205
+      - 🇸🇬 SG-103.172.116.103-0813
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 United States 01 @nodpai
+      - HK03
+      - 🇨🇳 Game 台湾04-标准
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - UK01
-      - 🇬🇧 GB-51.142.173.103-0729
-      - 🇺🇸 _US_美国
-      - HK08
-      - RELAY-188.114.97.3-0086
-      - 🇺🇸 US-38.107.226.49-0850
-      - RELAY-104.21.91.254-2205
-      - CO-190.120.231.45-0808
-      - Video 罗马利亚A-下载
-      - UK04
-      - 🇫🇷 FR-51.15.27.48-0725
-      - 🇺🇸 Game 美国03-标准
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 US-38.107.226.146-0855
-      - 🇬🇧 _GB_英国
-      - ""
-      - 🇨🇳 Lv3 台湾 06 [2.0]
-      - 🇺🇸 US-205.134.180.137-0665
-      - 🇺🇸 US-38.107.226.146-7292
-      - 🇺🇸 US-38.107.226.49-7327
-      - 🇭🇰 Lv3 香港 03 [2.0]
-      - 🇷🇺 Game 俄罗斯01-标准
-      - 🇵🇭 Video 菲律宾A-原生
-      - 🇯🇵 Lv3 日本 03 [2.0]
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - RELAY-172.67.183.110-2225
-      - 🇰🇷 Game 韩国05-标准
-      - 🇬🇧 GB-18.134.118.9-0712
-      - 🇧🇪 Manifold-比利时01-原生
-      - 🇰🇷 Game 韩国01-标准
-      - 🇭🇰 HK-8.217.93.104-1228
-      - 🇳🇱 _NL_荷兰
-      - 🇺🇸 _US_美国 2
-      - TR-95.164.116.35-0101
-      - 🇸🇬 SG-202.79.171.239-1225
-      - 🇭🇰 Game 香港03-标准
-      - AZ-180.149.44.120-0771
-      - 🇺🇸 美国 麻省理工学院
-      - 🇳🇬 Web 尼日利亚I-原生
-      - SG05
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - VN-103.163.218.2-0810
-      - RELAY-104.18.36.174-0107
-      - 🇿🇦 Manifold-南非01-标准
-      - EC-179.49.5.114-2164
-      - 🇺🇸 US-38.107.226.49-0847
-      - 🇰🇷 KR-152.67.218.38-0773
-      - 🇰🇷 Game 韩国04-标准
-      - RELAY-104.21.77.103-0060
-      - 🇸🇮 Manifold 斯洛文尼亚01 原生
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - RO-194.14.217.115-0758
+      - 🇳🇱 NL-78.141.221.194-1215
+      - 🇸🇬 SG-103.172.116.103-0827
+      - 🇯🇵 Video 日本C-原生
+      - UK02
+      - 🇬🇧 Web 英国I-标准
+      - 🇸🇬 Lv3 新加坡 06 [2.0]
+      - 🇲🇾 Manifold-马来西亚01-原生
+      - CH-156.146.62.160-0744
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
+      - 🇯🇵 Game 日本05-原生
       - 🇬🇧 GB-51.142.159.23-0719
-      - 🇯🇵 JP-185.172.113.182-0823
-      - 🇨🇳 TG频道:@hkaa0▓中国_11
-      - 🇯🇵 Game 日本04-原生
-      - 🇸🇬 Game 新加坡01-标准
-      - 下载专用
-      - 🇯🇵 JP-185.172.113.182-0821
-      - 🇨🇳 TW-板桥1-2(Trojan)
-      - 🇺🇸 Lv3 美国 03 [2.0]
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 SG-103.172.116.79-0786
-      - 🇨🇳 TW-114.37.131.113-0068
-      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 US-38.14.107.229-1162
+      - 🇿🇦 Manifold-南非01-标准
+      - 🇯🇵 日本05
+      - AT-185.180.12.81-0746
+      - RELAY-172.67.197.82-6688
+      - 🇨🇭 Manifold-瑞士01-标准
+      - 🇬🇧 GB-18.134.118.9-0717
+      - 🇺🇸 TG频道:@hkaa0▓美国_7
+      - RELAY-172.67.136.12-0070
+      - 🇺🇸 US-192.9.134.82-3449
+      - 🇭🇰 Lv3 香港 01 [2.0]
+      - ""
+      - 🇨🇳 Video 台湾B-原生
+      - RELAY-104.21.77.103-0060
+      - 🇭🇰 Game 香港03-标准
+      - 🇺🇸 Lv3 美国 01 [2.0]
+      - 🇺🇸 US-38.107.226.146-7153
+      - SG01
+      - 🇺🇸 US-38.107.226.49-7327
+      - 🇺🇸 US-38.107.226.49-7840
+      - 🇦🇷 Video 阿根廷A-原生
+      - 🇮🇳 Web 印度I-通用
+      - 🇨🇳 TW-板桥2-2(Trojan)
+      - HK01
+      - 🇺🇸 _US_美国
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 Lv3 香港 04 [2.0]
+      - 🇯🇵 Lv3 日本 04 [2.0]
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇭🇰 Game 香港04-国际
+      - 🇨🇱 Video 智利A-标准
+      - HK05
+      - 🇩🇪 DE-217.160.45.31-0312
+      - 🇺🇸 Video 美国B-解锁
+      - 🇸🇬 Lv3 新加坡 03 [2.0]
+      - 🇨🇳 TG频道:@hkaa0▓台湾
+      - 🇭🇰 Lv3 香港 05 [2.0]
+      - RELAY-104.21.53.12-6692
+      - RELAY-104.21.91.254-2205
+      - 🇸🇬 SG-103.172.116.103-0813
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 United States 01 @nodpai
+      - HK03
+      - 🇨🇳 Game 台湾04-标准
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -298,70 +282,66 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - UK01
-      - 🇬🇧 GB-51.142.173.103-0729
-      - 🇺🇸 _US_美国
-      - HK08
-      - RELAY-188.114.97.3-0086
-      - 🇺🇸 US-38.107.226.49-0850
-      - RELAY-104.21.91.254-2205
-      - CO-190.120.231.45-0808
-      - Video 罗马利亚A-下载
-      - UK04
-      - 🇫🇷 FR-51.15.27.48-0725
-      - 🇺🇸 Game 美国03-标准
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 US-38.107.226.146-0855
-      - 🇬🇧 _GB_英国
-      - ""
-      - 🇨🇳 Lv3 台湾 06 [2.0]
-      - 🇺🇸 US-205.134.180.137-0665
-      - 🇺🇸 US-38.107.226.146-7292
-      - 🇺🇸 US-38.107.226.49-7327
-      - 🇭🇰 Lv3 香港 03 [2.0]
-      - 🇷🇺 Game 俄罗斯01-标准
-      - 🇵🇭 Video 菲律宾A-原生
-      - 🇯🇵 Lv3 日本 03 [2.0]
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - RELAY-172.67.183.110-2225
-      - 🇰🇷 Game 韩国05-标准
-      - 🇬🇧 GB-18.134.118.9-0712
-      - 🇧🇪 Manifold-比利时01-原生
-      - 🇰🇷 Game 韩国01-标准
-      - 🇭🇰 HK-8.217.93.104-1228
-      - 🇳🇱 _NL_荷兰
-      - 🇺🇸 _US_美国 2
-      - TR-95.164.116.35-0101
-      - 🇸🇬 SG-202.79.171.239-1225
-      - 🇭🇰 Game 香港03-标准
-      - AZ-180.149.44.120-0771
-      - 🇺🇸 美国 麻省理工学院
-      - 🇳🇬 Web 尼日利亚I-原生
-      - SG05
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - VN-103.163.218.2-0810
-      - RELAY-104.18.36.174-0107
-      - 🇿🇦 Manifold-南非01-标准
-      - EC-179.49.5.114-2164
-      - 🇺🇸 US-38.107.226.49-0847
-      - 🇰🇷 KR-152.67.218.38-0773
-      - 🇰🇷 Game 韩国04-标准
-      - RELAY-104.21.77.103-0060
-      - 🇸🇮 Manifold 斯洛文尼亚01 原生
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - RO-194.14.217.115-0758
+      - 🇳🇱 NL-78.141.221.194-1215
+      - 🇸🇬 SG-103.172.116.103-0827
+      - 🇯🇵 Video 日本C-原生
+      - UK02
+      - 🇬🇧 Web 英国I-标准
+      - 🇸🇬 Lv3 新加坡 06 [2.0]
+      - 🇲🇾 Manifold-马来西亚01-原生
+      - CH-156.146.62.160-0744
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
+      - 🇯🇵 Game 日本05-原生
       - 🇬🇧 GB-51.142.159.23-0719
-      - 🇯🇵 JP-185.172.113.182-0823
-      - 🇨🇳 TG频道:@hkaa0▓中国_11
-      - 🇯🇵 Game 日本04-原生
-      - 🇸🇬 Game 新加坡01-标准
-      - 下载专用
-      - 🇯🇵 JP-185.172.113.182-0821
-      - 🇨🇳 TW-板桥1-2(Trojan)
-      - 🇺🇸 Lv3 美国 03 [2.0]
-      - 🇮🇳 github.com/freefq - 印度  10
-      - 🇸🇬 SG-103.172.116.79-0786
-      - 🇨🇳 TW-114.37.131.113-0068
-      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 US-38.14.107.229-1162
+      - 🇿🇦 Manifold-南非01-标准
+      - 🇯🇵 日本05
+      - AT-185.180.12.81-0746
+      - RELAY-172.67.197.82-6688
+      - 🇨🇭 Manifold-瑞士01-标准
+      - 🇬🇧 GB-18.134.118.9-0717
+      - 🇺🇸 TG频道:@hkaa0▓美国_7
+      - RELAY-172.67.136.12-0070
+      - 🇺🇸 US-192.9.134.82-3449
+      - 🇭🇰 Lv3 香港 01 [2.0]
+      - ""
+      - 🇨🇳 Video 台湾B-原生
+      - RELAY-104.21.77.103-0060
+      - 🇭🇰 Game 香港03-标准
+      - 🇺🇸 Lv3 美国 01 [2.0]
+      - 🇺🇸 US-38.107.226.146-7153
+      - SG01
+      - 🇺🇸 US-38.107.226.49-7327
+      - 🇺🇸 US-38.107.226.49-7840
+      - 🇦🇷 Video 阿根廷A-原生
+      - 🇮🇳 Web 印度I-通用
+      - 🇨🇳 TW-板桥2-2(Trojan)
+      - HK01
+      - 🇺🇸 _US_美国
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇭🇰 Lv3 香港 04 [2.0]
+      - 🇯🇵 Lv3 日本 04 [2.0]
+      - 🇺🇦 乌克兰 V2CROSS.COM
+      - 🇭🇰 Game 香港04-国际
+      - 🇨🇱 Video 智利A-标准
+      - HK05
+      - 🇩🇪 DE-217.160.45.31-0312
+      - 🇺🇸 Video 美国B-解锁
+      - 🇸🇬 Lv3 新加坡 03 [2.0]
+      - 🇨🇳 TG频道:@hkaa0▓台湾
+      - 🇭🇰 Lv3 香港 05 [2.0]
+      - RELAY-104.21.53.12-6692
+      - RELAY-104.21.91.254-2205
+      - 🇸🇬 SG-103.172.116.103-0813
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 United States 01 @nodpai
+      - HK03
+      - 🇨🇳 Game 台湾04-标准
+      - 🇺🇸 美国 CloudFlare节点
   - name: 📲 电报消息
     type: select
     proxies:
@@ -503,6 +483,7 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🇺🇸 Video 美国B-解锁
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -548,76 +529,77 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - HK08
-      - 🇭🇰 Lv3 香港 03 [2.0]
-      - 🇭🇰 HK-8.217.93.104-1228
+      - 🇭🇰 Lv3 香港 01 [2.0]
       - 🇭🇰 Game 香港03-标准
-      - 🇭🇰 Lv3 香港 08 [2.0]
+      - HK01
+      - 🇭🇰 Lv3 香港 04 [2.0]
+      - 🇭🇰 Game 香港04-国际
+      - HK05
+      - 🇭🇰 Lv3 香港 05 [2.0]
+      - HK03
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 Lv3 日本 03 [2.0]
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇳🇬 Web 尼日利亚I-原生
-      - 🇯🇵 JP-185.172.113.182-0823
-      - 🇯🇵 Game 日本04-原生
-      - 🇯🇵 JP-185.172.113.182-0821
+      - 🇯🇵 Video 日本C-原生
+      - 🇯🇵 Game 日本05-原生
+      - 🇯🇵 日本05
+      - 🇯🇵 Lv3 日本 04 [2.0]
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 _US_美国
-      - 🇺🇸 US-38.107.226.49-0850
-      - 🇺🇸 Game 美国03-标准
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 US-38.107.226.146-0855
-      - 🇺🇸 US-205.134.180.137-0665
-      - 🇺🇸 US-38.107.226.146-7292
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 US-38.14.107.229-1162
+      - 🇺🇸 TG频道:@hkaa0▓美国_7
+      - 🇺🇸 US-192.9.134.82-3449
+      - 🇺🇸 Lv3 美国 01 [2.0]
+      - 🇺🇸 US-38.107.226.146-7153
       - 🇺🇸 US-38.107.226.49-7327
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 美国 麻省理工学院
-      - 🇺🇸 US-38.107.226.49-0847
-      - 🇺🇸 Lv3 美国 03 [2.0]
-      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 US-38.107.226.49-7840
+      - 🇺🇸 _US_美国
+      - 🇺🇸 Video 美国B-解锁
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 United States 01 @nodpai
+      - 🇺🇸 美国 CloudFlare节点
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Lv3 台湾 06 [2.0]
-      - 🇨🇳 TW-板桥1-2(Trojan)
-      - 🇨🇳 TW-114.37.131.113-0068
+      - 🇨🇳 Video 台湾B-原生
+      - 🇨🇳 TW-板桥2-2(Trojan)
+      - 🇨🇳 TG频道:@hkaa0▓台湾
+      - 🇨🇳 Game 台湾04-标准
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 SG-202.79.171.239-1225
-      - SG05
-      - 🇸🇬 Game 新加坡01-标准
-      - 🇸🇬 SG-103.172.116.79-0786
+      - 🇸🇬 SG-103.172.116.103-0827
+      - 🇸🇬 Lv3 新加坡 06 [2.0]
+      - 🇸🇬 新加坡|@ripaojiedian
+      - SG01
+      - 🇸🇬 Lv3 新加坡 03 [2.0]
+      - 🇸🇬 SG-103.172.116.103-0813
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 Game 韩国05-标准
-      - 🇰🇷 Game 韩国01-标准
-      - 🇰🇷 KR-152.67.218.38-0773
-      - 🇰🇷 Game 韩国04-标准
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇸 Video 美国B-解锁
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
