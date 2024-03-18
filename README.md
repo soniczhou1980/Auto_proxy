@@ -21,39 +21,39 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`节点总数: 377`
+`节点总数: 206`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
-`合并节点总数: 48`
+`合并节点总数: 26`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2`
-`合并节点总数: 48`
+`合并节点总数: 26`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3`
-`合并节点总数: 48`
+`合并节点总数: 26`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4`
-`合并节点总数: 48`
+`合并节点总数: 26`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5`
-`合并节点总数: 48`
+`合并节点总数: 26`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6`
-`合并节点总数: 48`
+`合并节点总数: 26`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7`
-`合并节点总数: 48`
+`合并节点总数: 26`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`合并节点总数: 41`
+`合并节点总数: 24`
 
 - [clash订阅](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,8 +68,8 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 </details>
 
-### 试用高速订阅数量: `7`
-更新时间：`2024-03-18 20:42:22`
+### 试用高速订阅数量: `3`
+更新时间：`2024-03-18 22:30:52`
 
 
 <details>
@@ -32314,44 +32314,57 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=13b9add6f0d30b4bc0bb2fe744cb3d8b`
 
 
 
 
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=dfbb0df42d180eb737554f34667b0494`
 
 
 
 
->试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=45f9bf81852bff75191ef9e7e21b30c8`
 
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=12911c105a6cfabe35007ba981813e18`
+
+
+
 
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=84fa763ac239bdafd4a436241606794c`
-
-
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=bbbfcdac4a12c9b43668fadd20821afd`
-
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=18069301d8eead47d0b8563c62795abb`
 
 
 
 >试用订阅：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=d277e645c4902a469439b866be9ee9e8`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=18069301d8eead47d0b8563c62795abb`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=93ea3fc6f44bab7c095018e7fbd81cef`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=18069301d8eead47d0b8563c62795abb`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=93ea3fc6f44bab7c095018e7fbd81cef`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=93ea3fc6f44bab7c095018e7fbd81cef`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=d56d619626e6a543f0cacef5110f9372`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=d56d619626e6a543f0cacef5110f9372`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=d56d619626e6a543f0cacef5110f9372`
 
 
 
