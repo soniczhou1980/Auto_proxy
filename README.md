@@ -68,8 +68,8 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 </details>
 
-### 试用高速订阅数量: `0`
-更新时间：`2024-05-04 09:32:40`
+### 试用高速订阅数量: `1`
+更新时间：`2024-05-04 12:30:11`
 
 
 <details>
@@ -34895,6 +34895,27 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=b45932d2d8f9df49559d68ee614ff948`
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=b45932d2d8f9df49559d68ee614ff948`
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=b45932d2d8f9df49559d68ee614ff948`
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=b45932d2d8f9df49559d68ee614ff948`
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=b45932d2d8f9df49559d68ee614ff948`
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=b45932d2d8f9df49559d68ee614ff948`
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=b45932d2d8f9df49559d68ee614ff948`
 
 
 
