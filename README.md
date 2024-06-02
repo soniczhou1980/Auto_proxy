@@ -21,39 +21,39 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`节点总数: 1186`
+`节点总数: 1264`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
-`合并节点总数: 149`
+`合并节点总数: 159`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2`
-`合并节点总数: 149`
+`合并节点总数: 159`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3`
-`合并节点总数: 149`
+`合并节点总数: 159`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4`
-`合并节点总数: 149`
+`合并节点总数: 159`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5`
-`合并节点总数: 149`
+`合并节点总数: 159`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6`
-`合并节点总数: 149`
+`合并节点总数: 159`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7`
-`合并节点总数: 149`
+`合并节点总数: 159`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`合并节点总数: 143`
+`合并节点总数: 151`
 
 - [clash订阅](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -69,7 +69,7 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 </details>
 
 ### 试用高速订阅数量: `4`
-更新时间：`2024-06-03 04:27:02`
+更新时间：`2024-06-03 06:31:16`
 
 
 <details>
@@ -36273,38 +36273,46 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=a94bc91d1cb05771c8539130f5225401`
+
+
+
+
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=a94bc91d1cb05771c8539130f5225401`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=74b8cbe631a4e0c34d75b20de2a05b0c`
 
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=0710cbe12f1200c757e1b4d52eea72a9`
-
-
-
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=0710cbe12f1200c757e1b4d52eea72a9`
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=caee017c3a5d4a230b5b791dc6e07b4e`
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=caee017c3a5d4a230b5b791dc6e07b4e`
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b3d8fe7419849b942ed5bc386476c13f`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=74b8cbe631a4e0c34d75b20de2a05b0c`
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b3d8fe7419849b942ed5bc386476c13f`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=ca20ad11066553835adf0ea3c0bad43a`
+
+
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=ca20ad11066553835adf0ea3c0bad43a`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5e1c50685733d4a5fe198d324c2eae7a`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5e1c50685733d4a5fe198d324c2eae7a`
+
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=cae2149013d979b520509945173ea4d4`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=cae2149013d979b520509945173ea4d4`
 
 
 
