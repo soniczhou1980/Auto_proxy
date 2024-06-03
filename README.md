@@ -21,39 +21,39 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`节点总数: 1264`
+`节点总数: 1186`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
-`合并节点总数: 159`
+`合并节点总数: 149`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2`
-`合并节点总数: 159`
+`合并节点总数: 149`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3`
-`合并节点总数: 159`
+`合并节点总数: 149`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4`
-`合并节点总数: 159`
+`合并节点总数: 149`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5`
-`合并节点总数: 159`
+`合并节点总数: 149`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6`
-`合并节点总数: 159`
+`合并节点总数: 149`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7`
-`合并节点总数: 159`
+`合并节点总数: 149`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`合并节点总数: 151`
+`合并节点总数: 143`
 
 - [clash订阅](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -69,7 +69,7 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 </details>
 
 ### 试用高速订阅数量: `4`
-更新时间：`2024-06-03 06:31:16`
+更新时间：`2024-06-03 09:41:13`
 
 
 <details>
@@ -36281,38 +36281,46 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=74b8cbe631a4e0c34d75b20de2a05b0c`
+
+
+
+
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=74b8cbe631a4e0c34d75b20de2a05b0c`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=a0f52c1372d0248b8013f8a35651a614`
 
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=ca20ad11066553835adf0ea3c0bad43a`
-
-
-
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=ca20ad11066553835adf0ea3c0bad43a`
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5e1c50685733d4a5fe198d324c2eae7a`
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5e1c50685733d4a5fe198d324c2eae7a`
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=cae2149013d979b520509945173ea4d4`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=a0f52c1372d0248b8013f8a35651a614`
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=cae2149013d979b520509945173ea4d4`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=93a5524b6035497bdea05421dfc39df5`
+
+
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=93a5524b6035497bdea05421dfc39df5`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5c968857a96a38378fbf99561e121b97`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5c968857a96a38378fbf99561e121b97`
+
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=b2ed6851b442b602503d4f1ac4cc571a`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=b2ed6851b442b602503d4f1ac4cc571a`
 
 
 
