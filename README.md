@@ -69,7 +69,7 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 </details>
 
 ### 试用高速订阅数量: `1`
-更新时间：`2024-06-15 02:33:36`
+更新时间：`2024-06-15 04:27:16`
 
 
 <details>
@@ -37104,26 +37104,33 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=9c564a3f14d62b0fb5448f7cbae89472`
+
+
+
+
+
+
 
 >试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=9c564a3f14d62b0fb5448f7cbae89472`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=abe6a254d13090534ef4387acca2cfad`
 
 >试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=9c564a3f14d62b0fb5448f7cbae89472`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=abe6a254d13090534ef4387acca2cfad`
 
 >试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=9c564a3f14d62b0fb5448f7cbae89472`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=abe6a254d13090534ef4387acca2cfad`
 
 >试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=9c564a3f14d62b0fb5448f7cbae89472`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=abe6a254d13090534ef4387acca2cfad`
 
 >试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=9c564a3f14d62b0fb5448f7cbae89472`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=abe6a254d13090534ef4387acca2cfad`
 
 >试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=9c564a3f14d62b0fb5448f7cbae89472`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=abe6a254d13090534ef4387acca2cfad`
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=abe6a254d13090534ef4387acca2cfad`
 
 
 
