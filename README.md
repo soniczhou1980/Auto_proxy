@@ -21,39 +21,39 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`节点总数: 158`
+`节点总数: 36`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
-`合并节点总数: 20`
+`合并节点总数: 5`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2`
-`合并节点总数: 20`
+`合并节点总数: 5`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3`
-`合并节点总数: 20`
+`合并节点总数: 5`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4`
-`合并节点总数: 20`
+`合并节点总数: 5`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5`
-`合并节点总数: 20`
+`合并节点总数: 5`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6`
-`合并节点总数: 20`
+`合并节点总数: 5`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7`
-`合并节点总数: 20`
+`合并节点总数: 5`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`合并节点总数: 18`
+`合并节点总数: 1`
 
 - [clash订阅](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,8 +68,8 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 </details>
 
-### 试用高速订阅数量: `3`
-更新时间：`2024-09-06 06:42:07`
+### 试用高速订阅数量: `4`
+更新时间：`2024-09-06 09:57:57`
 
 
 <details>
@@ -40843,38 +40843,44 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=706bef517d9919ee6ff5940dca65653d`
+
+
+
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=706bef517d9919ee6ff5940dca65653d`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=e3aaa97f85a9a8282489caf6674b2068`
+
+
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=e4fc9dfa73202513a1813d5dd181cc16`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=e3aaa97f85a9a8282489caf6674b2068`
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=706bef517d9919ee6ff5940dca65653d`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=9c64ef7259551be4977869370a3d2373`
 
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=e4fc9dfa73202513a1813d5dd181cc16`
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=e4fc9dfa73202513a1813d5dd181cc16`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=9c64ef7259551be4977869370a3d2373`
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=ce9508139836b3d358afd4f2e4248527`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=b6c7c9af33b4d206e2900d283ba9761f`
+
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=ce9508139836b3d358afd4f2e4248527`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=b6c7c9af33b4d206e2900d283ba9761f`
+
+
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=ce9508139836b3d358afd4f2e4248527`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=d1c40606b33c370c06672277dcfba4ea`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=d1c40606b33c370c06672277dcfba4ea`
 
 
 
