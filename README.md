@@ -21,39 +21,39 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`节点总数: 243`
+`节点总数: 108`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
-`合并节点总数: 31`
+`合并节点总数: 14`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2`
-`合并节点总数: 31`
+`合并节点总数: 14`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3`
-`合并节点总数: 31`
+`合并节点总数: 14`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4`
-`合并节点总数: 31`
+`合并节点总数: 14`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5`
-`合并节点总数: 31`
+`合并节点总数: 14`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6`
-`合并节点总数: 31`
+`合并节点总数: 14`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7`
-`合并节点总数: 31`
+`合并节点总数: 14`
 
 - [多协议Base64编码](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`合并节点总数: 26`
+`合并节点总数: 10`
 
 - [clash订阅](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -69,7 +69,7 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 </details>
 
 ### 试用高速订阅数量: `4`
-更新时间：`2024-11-06 06:39:43`
+更新时间：`2024-11-12 16:45:10`
 
 
 <details>
@@ -41678,38 +41678,46 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=8fd273baa67270fef210d8486242cdb9`
+
+
+
+
 
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=8fd273baa67270fef210d8486242cdb9`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=43a6f22a434038db635402f4d5b167f7`
 
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=6600fc1a09cb8152a8ca4bf62b1624dd`
-
-
-
->试用订阅：
-`https://feiniaoyun.top/api/v1/client/subscribe?token=6600fc1a09cb8152a8ca4bf62b1624dd`
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b02f502bc9076bef52cb425f1213c1c3`
-
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=b02f502bc9076bef52cb425f1213c1c3`
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=cb0279df3074f1c4aa6d24280aebcd1b`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=43a6f22a434038db635402f4d5b167f7`
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=cb0279df3074f1c4aa6d24280aebcd1b`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=0542381cb75fd25a81cb1f3c88d28c4c`
+
+
+
+>试用订阅：
+`https://feiniaoyun.top/api/v1/client/subscribe?token=0542381cb75fd25a81cb1f3c88d28c4c`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5733593ee15f2eb28df9eacf36bb24ef`
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5733593ee15f2eb28df9eacf36bb24ef`
+
+
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9b5e183216606ac63c7b8df58829c35c`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=9b5e183216606ac63c7b8df58829c35c`
 
 
 
