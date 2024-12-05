@@ -68,8 +68,8 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
   
 </details>
 
-### 试用高速订阅数量: `3`
-更新时间：`2024-12-05 14:51:46`
+### 试用高速订阅数量: `4`
+更新时间：`2024-12-05 16:46:10`
 
 
 <details>
@@ -42789,38 +42789,44 @@ ps：增至8个订阅链接，每个大约150个左右（不确定）避免太�
 
 
 
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d748f233a6f2b2ae1467d62d2ba3f05`
+
+
+
 
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d748f233a6f2b2ae1467d62d2ba3f05`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5d503b9f99a05b5459533e04c6cede95`
+
+
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5b0345a7bce1ccef01d5904f42e6b11b`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=5d503b9f99a05b5459533e04c6cede95`
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d748f233a6f2b2ae1467d62d2ba3f05`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=398573b2d976f0021e94bb1f4b8981c2`
 
-
->试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5b0345a7bce1ccef01d5904f42e6b11b`
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5b0345a7bce1ccef01d5904f42e6b11b`
+`https://feiniaoyun.top/api/v1/client/subscribe?token=398573b2d976f0021e94bb1f4b8981c2`
 
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=1e6d4c6ae1e84d433eb93c03ec278237`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=f3c35812f7dd01bc38c315f3c14c02ed`
+
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=1e6d4c6ae1e84d433eb93c03ec278237`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=f3c35812f7dd01bc38c315f3c14c02ed`
+
+
 
 >试用订阅：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=1e6d4c6ae1e84d433eb93c03ec278237`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=c5bf6ca84a1a32526aab5927e3d0c9b1`
+
+>试用订阅：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=c5bf6ca84a1a32526aab5927e3d0c9b1`
 
 
 
